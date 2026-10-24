@@ -1,0 +1,48 @@
+{
+  "id": "g1-s2",
+  "kind": "speaking_task",
+  "part": 2,
+  "topic": "Helping a stranger",
+  "difficulty": 2,
+  "unlisted": true,
+  "cueCard": {
+    "prompt": "Describe a time when you helped someone you did not know.",
+    "bullets": ["who the person was", "where it happened", "what you did to help"],
+    "closing": "and explain how you felt after helping this person."
+  },
+  "questions": [
+    "Do you think people help strangers less than they used to?",
+    "Would you help a stranger in the same way again?"
+  ],
+  "tips": [
+    "Use the one minute to note one or two words per bullet, plus a word for your feelings. Do not write sentences.",
+    "Tell it as a story in the past: set the scene, describe the problem, explain what you did, then reflect.",
+    "Keep talking for the full two minutes. Add small details such as the weather, what the person said, or what you were doing before.",
+    "The closing line ('how you felt') is where you can show a wider range of vocabulary, so save some time for it."
+  ],
+  "usefulPhrases": [
+    "This happened a couple of years ago, when I was...",
+    "I noticed that she seemed a bit lost / confused / upset.",
+    "Without really thinking about it, I offered to...",
+    "It turned out that...",
+    "Looking back, what stays with me is...",
+    "It made me realise how much a small gesture can matter."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "OK, I want to talk about a time I helped an old man at the train station. It was maybe two years ago, in winter. I was waiting for my train to go to university, and I saw an old man who looked very confused. He had a big bag and he was looking at the screen many times.\n\nSo I asked him if he needs help. He told me that he wanted to go to his daughter's house in another city, but his train was cancelled and he didn't understand the announcement. The announcement was very fast, so I understand why it was difficult for him. I checked on my phone and I found another train, but it was from a different platform. So I helped him to carry his bag and we walked to the platform together. Also I told the staff to help him when he needed to change train.\n\nAfter that I felt very happy, because he said thank you many times and he was very kind. I think it is important to help old people, because sometimes the technology and the stations are difficult for them. Actually I nearly missed my own train, but it was OK. I felt good for the whole day.",
+      "commentary": "Fluency and Coherence: covers all the bullets and keeps going, with a clear sequence ('So', 'After that'), though linking is repetitive and some ideas are simply added with 'Also'. Lexical Resource: sufficient for the story ('cancelled', 'announcement', 'platform'), but the feeling at the end is expressed only with 'very happy' and 'felt good'. Grammatical Range and Accuracy: a mix of past tenses, with errors in reported speech and tense ('asked him if he needs help', 'I understand why', 'change train'). Pronunciation: assumed generally clear. Overall Band 6."
+    },
+    {
+      "band": 7,
+      "text": "I'd like to talk about an elderly man I helped at a railway station a couple of winters ago. I was waiting for my train to university, and I noticed him standing under the departures board, looking really confused and checking his ticket over and over again.\n\nI went over and asked whether he was all right, and it turned out that his train had been cancelled. The announcement had been made very quickly, and he hadn't caught where he was supposed to go instead. He was trying to get to his daughter's house for her birthday, so he was quite anxious about arriving late.\n\nSo I looked up the alternatives on my phone and found a replacement service leaving from a platform on the other side of the station. His suitcase was really heavy, so I carried it for him, and while we were walking he told me all about his grandchildren. Before I left, I explained the situation to a member of staff, who promised to make sure he got on the right connection.\n\nAs for how I felt, I was genuinely pleased, even though I almost missed my own train. It wasn't a big thing to do, but he was so grateful that it put me in a good mood for the rest of the day. It also made me realise that stations can be quite intimidating for older people, especially now that so much information is only on screens or apps.",
+      "commentary": "Fluency and Coherence: speaks at length with a clearly organised story, natural signposting ('it turned out that', 'As for how I felt') and little hesitation. Lexical Resource: good range with some less common items ('departures board', 'replacement service', 'connection', 'intimidating'). Grammatical Range and Accuracy: past perfect, reported questions and relative clauses used accurately; complex sentences are frequent and largely error-free. Pronunciation: assumed clear throughout. It is below Band 8 because the reflection, though relevant, uses fairly safe language and the story contains few vivid or precise details."
+    },
+    {
+      "band": 8,
+      "text": "The person I'd like to describe is an elderly gentleman I met at Leeds station one freezing January morning, maybe two years ago. I was on my way to an exam, so I'd got there early, and I couldn't help noticing him standing completely still in the middle of the concourse while everyone streamed past him. He kept glancing from his ticket to the departures board as if one of them must be lying.\n\nWhen I asked if he needed a hand, he explained that his train had been cancelled and that he'd missed whatever the announcement had said about alternatives, which, to be fair, was delivered at about a hundred miles an hour. He was heading to his daughter's for her fiftieth birthday and was clearly worried about letting her down.\n\nSo I dug out my phone, found a replacement service from a platform on the far side of the station, and wheeled his rather enormous suitcase over there while he told me, in great detail, about each of his five grandchildren. Before I left him, I had a quick word with one of the platform staff, who agreed to keep an eye on him at his change.\n\nAs for how I felt, it was a strange mixture. Partly I was just quietly pleased with myself, because he was so touchingly grateful. But it also left me a bit uneasy, because it struck me how easily someone perfectly capable can be left stranded once all the information moves onto screens and apps. It's made me much more inclined to stop when someone looks lost, even when I'm in a rush.",
+      "commentary": "Fluency and Coherence: fluent and well paced, with the story developed coherently and a reflective final section that goes beyond the obvious. Lexical Resource: wide and precise vocabulary used with flexibility and humour ('streamed past him', 'as if one of them must be lying', 'touchingly grateful', 'left stranded', 'more inclined to'). Grammatical Range and Accuracy: a wide range of structures (past perfect, reported speech, 'as if' clauses, relative clauses) produced naturally, with errors rare. Pronunciation: assumed easy to follow, with intonation used to convey humour and attitude. It is not Band 9 because a few phrases are slightly over-elaborated and there is occasional reliance on familiar idioms."
+    }
+  ]
+}

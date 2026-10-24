@@ -1,0 +1,139 @@
+{
+  "id": "g1-l3",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 3,
+  "title": "Planning a Presentation on Community Energy",
+  "difficulty": 2,
+  "minutes": 8,
+  "tags": ["education", "energy", "environment"],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Come in, both of you, have a seat. So, you're presenting on the twenty-first, is that right?" },
+      { "speaker": "Priya", "voice": "female", "accent": "en-US", "text": "Actually, it got moved to the twenty-eighth. The module leader emailed everyone on Monday." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Oh good, that gives you an extra week. So remind me, what's your topic?" },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "We're looking at community energy schemes. Basically, projects where local residents own the wind turbines or solar panels themselves, rather than a big energy company. We were going to use a village in Scotland as our case study, but there wasn't enough published data, so now we're focusing on a town in Denmark instead." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Denmark's a sensible choice, there's a lot written about it. But what made you choose community ownership, rather than, say, simply comparing wind and solar power?" },
+      { "speaker": "Priya", "voice": "female", "accent": "en-US", "text": "Well, honestly, at first we were going to compare the costs of the different technologies. But when we started reading, we realised the technical side is already really well covered. What we found much more interesting was why local people actually support these projects when they own a share in them. There's quite a bit of evidence that opposition to turbines drops when residents get part of the profit." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Yes, that's a fair point. And how have you divided up the work?" },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "I've been doing the background: the history of the scheme and how it's financed. Priya's been working on the survey data." },
+      { "speaker": "Priya", "voice": "female", "accent": "en-US", "text": "Right. We found a survey of about six hundred residents from 2019. I was planning to show all the figures in one big table, but I'm worried it'll be too much." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "I think you're right to be worried. A table that size on a slide, nobody at the back will be able to read it. I'd choose the three or four most striking results and put those in a simple bar chart. If you want people to see everything, you can put the full table in a handout." },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "OK. The other thing we weren't sure about was timing. We've got fifteen minutes. Does that include questions?" },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "No, fifteen minutes is for the presentation itself, and then there are five minutes for questions. But in my experience students always run over on the day, so when you rehearse, aim for about thirteen minutes." },
+      { "speaker": "Priya", "voice": "female", "accent": "en-US", "text": "Thirteen, OK. And we wanted to ask about the opening. We had the idea of starting with a short video clip of the turbines." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Hmm. Videos can work, but they often go wrong technically, the sound doesn't play or the link fails, and they eat into your time. Why not open with a question to the audience instead? Something like, 'Would you accept a wind turbine near your home if you owned part of it?' Ask them to put their hands up. It gets people involved straight away." },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "I like that. It links directly to our main argument." },
+      { "speaker": "Priya", "voice": "female", "accent": "en-US", "text": "What about our sources? We've used quite a lot of newspaper articles." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Newspapers are fine for background and for a few vivid quotes, but your main claims have to be supported by academic research. They can't be your only evidence. Have you looked at the journal Energy Policy? There are several studies of Danish schemes in there." },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "We found one article there, but we haven't read it properly yet." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Do. Now, let's go through your outline. You've got the history section first." },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "Yes, the history of the scheme, from when it started in 1997." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "At the moment that's six slides, and most of the detail isn't central to your argument. I'd cut it down to a single slide with a simple timeline." },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "Fair enough. Then the financing, how the residents bought shares in the turbines." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "This is actually the most original part. I haven't seen many students explain the share model this clearly. I was going to say keep it exactly as it is, but there's one thing: some of your classmates won't know what a cooperative is, so define that term at the start." },
+      { "speaker": "Priya", "voice": "female", "accent": "en-US", "text": "OK. Then my survey section, which we've talked about. After that we've got a short section comparing Denmark with the UK." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "That's interesting, but you've only got two sentences on it. You could drop it, but I think it's worth keeping. Since you're short of time, I'd move it to the very end and use it as a point for discussion during the questions." },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "That makes sense. And then there's a section on the problems, like the disputes between shareholders." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Good, that's important for balance. But at the moment you just list the problems. Pick one dispute and describe it in detail, how it started and how the town resolved it. A concrete case will be far more convincing than a list." },
+      { "speaker": "Priya", "voice": "female", "accent": "en-US", "text": "Right. And finally, the conclusion." },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Your conclusion summarises your points, which is fine, but finish with a recommendation. What could other towns learn from the Danish example? That will give it much more impact." },
+      { "speaker": "Tom", "voice": "male", "accent": "en-IE", "text": "Great, that's really helpful." },
+      { "speaker": "Priya", "voice": "female", "accent": "en-US", "text": "Thank you. Could we come back next week once we've rehearsed it?" },
+      { "speaker": "Dr Okafor", "voice": "male", "accent": "en-GB", "text": "Of course. Email me and we'll find a time." }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 21,
+          "prompt": "Why did the students decide to focus on community ownership?",
+          "options": [
+            { "key": "A", "text": "They had found more data on it than on technology costs." },
+            { "key": "B", "text": "They thought public support was a more interesting question than technology." },
+            { "key": "C", "text": "Their tutor had recommended the topic to them." }
+          ],
+          "answer": "B",
+          "evidence": "line 6",
+          "explanation": "Priya says the technical side is already well covered and they found 'why local people actually support these projects' more interesting. Data was a reason for changing the case study, not the topic."
+        },
+        {
+          "n": 22,
+          "prompt": "What does the tutor advise about the survey results?",
+          "options": [
+            { "key": "A", "text": "Show only the most important findings in a chart." },
+            { "key": "B", "text": "Leave the survey out of the presentation." },
+            { "key": "C", "text": "Read the main figures aloud to the audience." }
+          ],
+          "answer": "A",
+          "evidence": "line 10",
+          "explanation": "He suggests choosing 'the three or four most striking results' and putting them in a simple bar chart, with the full table in a handout."
+        },
+        {
+          "n": 23,
+          "prompt": "How long should the students' presentation last when they rehearse it?",
+          "options": [
+            { "key": "A", "text": "about 13 minutes" },
+            { "key": "B", "text": "about 15 minutes" },
+            { "key": "C", "text": "about 20 minutes" }
+          ],
+          "answer": "A",
+          "evidence": "line 12",
+          "explanation": "The slot is 15 minutes plus 5 for questions, but because students run over he says 'aim for about thirteen minutes'."
+        },
+        {
+          "n": 24,
+          "prompt": "The tutor suggests that the students should begin the presentation by",
+          "options": [
+            { "key": "A", "text": "playing a short video." },
+            { "key": "B", "text": "asking the audience a question." },
+            { "key": "C", "text": "presenting a striking statistic." }
+          ],
+          "answer": "B",
+          "evidence": "line 14",
+          "explanation": "He warns that videos often fail and proposes opening 'with a question to the audience instead'."
+        },
+        {
+          "n": 25,
+          "prompt": "What does the tutor say about the students' newspaper sources?",
+          "options": [
+            { "key": "A", "text": "They should not be the main support for the argument." },
+            { "key": "B", "text": "They should be removed from the reference list." },
+            { "key": "C", "text": "They are more up to date than journal articles." }
+          ],
+          "answer": "A",
+          "evidence": "line 17",
+          "explanation": "Newspapers are 'fine for background', but the main claims 'have to be supported by academic research'."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "What does the tutor suggest the students should do with each section of the presentation? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+      "options": [
+        { "key": "A", "text": "explain a term" },
+        { "key": "B", "text": "add a suggestion for other places" },
+        { "key": "C", "text": "keep it unchanged" },
+        { "key": "D", "text": "reduce its length" },
+        { "key": "E", "text": "describe one case in detail" },
+        { "key": "F", "text": "move it to a different position" },
+        { "key": "G", "text": "remove it completely" }
+      ],
+      "allowReuse": false,
+      "questions": [
+        { "n": 26, "prompt": "History of the scheme", "answer": "D", "evidence": "line 21", "explanation": "Six slides should be cut 'down to a single slide with a simple timeline'." },
+        { "n": 27, "prompt": "Financing", "answer": "A", "evidence": "line 23", "explanation": "He almost says keep it unchanged (C is a distractor), but adds that they should define the term 'cooperative'." },
+        { "n": 28, "prompt": "Comparison with the UK", "answer": "F", "evidence": "line 25", "explanation": "Dropping it is mentioned but rejected (G is a distractor); he advises moving it 'to the very end'." },
+        { "n": 29, "prompt": "Problems", "answer": "E", "evidence": "line 27", "explanation": "Instead of a list, they should 'pick one dispute and describe it in detail'." },
+        { "n": 30, "prompt": "Conclusion", "answer": "B", "evidence": "line 29", "explanation": "They should 'finish with a recommendation' about what other towns could learn." }
+      ]
+    }
+  ]
+}

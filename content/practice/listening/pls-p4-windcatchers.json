@@ -1,0 +1,213 @@
+{
+  "id": "pls-p4-windcatchers",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 4,
+  "title": "Windcatchers: Ancient Cooling Towers",
+  "difficulty": 3,
+  "minutes": 11,
+  "tags": [
+    "architecture",
+    "sustainability",
+    "lecture"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "Good afternoon, everyone. In this session of our sustainable architecture series, I want to talk about a technology that is very old but is attracting a great deal of new interest: the windcatcher. A windcatcher is a tall tower on top of a building, designed to bring cooler air down into the rooms below without any machinery."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "Windcatchers are most closely associated with Iran and the countries around the Persian Gulf, although similar structures appear in Egypt and Pakistan. Exactly how old they are is debated. Some of the surviving towers are only a few hundred years old, but ancient Egyptian paintings show something very similar, which suggests the idea goes back more than three thousand years."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "So how do they work? There are really two mechanisms. The first is simple. The openings at the top of the tower face the direction of the prevailing wind, that is, the wind that blows most often in that location. Air enters the tower, is forced downwards, and flows through the house."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "The second mechanism works even when there's no wind at all. During the day, the tower is heated by the sun. Warm air inside the building rises up the tower and escapes at the top, and this draws in cooler air from lower openings, often from a shaded courtyard. Engineers call this the stack effect, and it's the same principle that makes a chimney work."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "In the city of Yazd, in central Iran, builders went a step further. In some houses, before entering the rooms, the air was led over an underground water channel called a qanat. The water cooled the air further, and the result was something surprisingly close to modern air conditioning. Some of these houses even had cool rooms for storing food in summer."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "Why are architects interested in windcatchers today? Mostly because conventional air conditioning uses huge amounts of electricity, and in hot countries it can account for over half of a building's energy use. A windcatcher, by contrast, needs no electricity at all. And it has no moving parts to break down."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "That's not to say they're perfect. There are some real drawbacks. They're less effective in humid climates, where cooling the air doesn't make people feel much more comfortable. And because they're open at the top, dust and insects can get into the building. Traditional builders sometimes hung damp cloths in the tower to catch the dust, but insects remain a problem, especially in summer."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "Now, let's look at how modern designers have adapted the idea, with three recent examples. I'll go through them quite quickly, so you may want to take notes."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "The first is a primary school. Many people assume that projects like this are all in the Middle East, but this one is in Portugal, in the south of the country, where summers are now regularly above forty degrees."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "The school has twin towers, and the clever part is that they're fitted with automatic louvres, small angled panels that open and close depending on the temperature and wind speed. Teachers report that classrooms are now about four degrees cooler on the hottest days."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "The second example is a shopping centre in England. Here the designers used rotating cowls on top of the towers. These turn like weather vanes so that the opening always faces into the wind. The centre's managers originally predicted they would save around twenty per cent of the energy used for cooling, but the actual figure turned out to be higher, at thirty per cent."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "The final example is a housing estate in Australia, next to a very busy main road. Residents there were worried that windcatchers would let in traffic fumes, but the air quality inside has actually been fine. What surprised the architects was a different benefit. Because the towers are fitted with an acoustic lining, the homes don't need windows facing the road to be opened, and residents report far less noise from the street."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "male",
+        "accent": "en-US",
+        "text": "So, I hope that gives you a sense of how an ancient technology is being reinvented. Next week, we'll look at the computer modelling that engineers use to design these towers."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "sentence_completion",
+      "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Evidence from paintings suggests windcatchers may be over {{1}} years old.",
+          "answers": [
+            "3000",
+            "3,000",
+            "three thousand"
+          ],
+          "evidence": "line 2",
+          "explanation": "Surviving towers are a few hundred years old, but Egyptian paintings suggest more than three thousand years."
+        },
+        {
+          "n": 2,
+          "prompt": "The openings at the top of the tower face the {{2}}.",
+          "answers": [
+            "prevailing wind",
+            "wind"
+          ],
+          "evidence": "line 3",
+          "explanation": "The openings face the direction of the prevailing wind."
+        },
+        {
+          "n": 3,
+          "prompt": "When there is no wind, the tower still works because of the {{3}}.",
+          "answers": [
+            "stack effect"
+          ],
+          "evidence": "line 4",
+          "explanation": "Warm air rising and escaping draws cooler air in: the stack effect."
+        },
+        {
+          "n": 4,
+          "prompt": "In Yazd, air sometimes passed over a {{4}} before entering the rooms.",
+          "answers": [
+            "qanat",
+            "water channel",
+            "underground channel"
+          ],
+          "evidence": "line 5",
+          "explanation": "The air was led over an underground water channel called a qanat."
+        },
+        {
+          "n": 5,
+          "prompt": "Unlike conventional air conditioning, a windcatcher uses no {{5}}.",
+          "answers": [
+            "electricity"
+          ],
+          "evidence": "line 6",
+          "explanation": "A windcatcher needs no electricity at all."
+        },
+        {
+          "n": 6,
+          "prompt": "Because they are open at the top, windcatchers can let dust and {{6}} into a building.",
+          "answers": [
+            "insects"
+          ],
+          "evidence": "line 7",
+          "explanation": "Dust and insects can get in."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "table_completion",
+      "instructions": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "| Building | Location | Design feature | Result |\n|---|---|---|---|\n| Primary school | {{7}} | Twin towers with automatic {{8}} | Classrooms 4°C cooler |\n| Shopping centre | England | Rotating cowls | Cooling energy reduced by {{9}}% |\n| Housing estate | Australia | Acoustic lining | Less {{10}} from the street |",
+      "questions": [
+        {
+          "n": 7,
+          "answers": [
+            "Portugal"
+          ],
+          "evidence": "line 9",
+          "explanation": "Not the Middle East: the school is in southern Portugal."
+        },
+        {
+          "n": 8,
+          "answers": [
+            "louvres",
+            "louvers",
+            "louvre",
+            "louver"
+          ],
+          "evidence": "line 10",
+          "explanation": "The towers have automatic louvres (US spelling: louvers)."
+        },
+        {
+          "n": 9,
+          "answers": [
+            "30",
+            "thirty"
+          ],
+          "evidence": "line 11",
+          "explanation": "Twenty per cent was the prediction; the actual figure was thirty."
+        },
+        {
+          "n": 10,
+          "answers": [
+            "noise"
+          ],
+          "evidence": "line 12",
+          "explanation": "Fumes were the worry, but the surprise benefit was less noise."
+        }
+      ]
+    }
+  ]
+}

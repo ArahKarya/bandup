@@ -1,0 +1,16 @@
+import path from "node:path";
+import { defineConfig } from "vitest/config";
+
+export default defineConfig({
+  resolve: { alias: { "@": path.resolve(__dirname) } },
+  test: {
+    include: ["tests/unit/**/*.test.ts"],
+    environment: "node",
+    coverage: {
+      provider: "v8",
+      include: ["lib/**/*.ts"],
+      exclude: ["lib/server/**", "lib/ai/providers.ts", "lib/content/load.ts"],
+      thresholds: { lines: 80, functions: 80, branches: 75 },
+    },
+  },
+});

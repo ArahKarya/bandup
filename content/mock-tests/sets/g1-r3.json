@@ -1,0 +1,121 @@
+{
+  "id": "g1-r3",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "general",
+  "part": 3,
+  "title": "The Return of the Night Train",
+  "difficulty": 3,
+  "minutes": 20,
+  "tags": ["travel", "transport", "environment"],
+  "unlisted": true,
+  "passage": {
+    "title": "The Return of the Night Train",
+    "subtitle": "Europe's sleeper services were almost gone. Then travellers started to come back.",
+    "paragraphs": [
+      { "label": "A", "text": "For much of the twentieth century, falling asleep in one country and waking up in another was an ordinary part of European travel. Sleeper trains linked Paris with Rome, London with the Scottish Highlands and Amsterdam with Copenhagen. Passengers boarded after dinner, were shown to a compartment by an attendant, and stepped out the next morning in the centre of a distant city. By the early 2000s, however, many of these services were disappearing. Between 2000 and 2016, dozens of international night routes were withdrawn, and in 2016 Germany's national railway announced that it would stop running sleeper trains of its own altogether." },
+      { "label": "B", "text": "The reasons for the decline were largely economic. Night trains are expensive to operate. A sleeping car carries far fewer passengers than an ordinary carriage, perhaps thirty people in beds compared with eighty in seats, yet it requires staff throughout the night, as well as cleaning and fresh bedding after every journey. Because each train makes only one trip every twenty-four hours, the carriages spend much of the day standing idle in sidings, earning nothing. At the same time, budget airlines were offering flights between major cities for a fraction of the price, and new high-speed lines meant that journeys which once required an overnight trip could be completed in a single afternoon." },
+      { "label": "C", "text": "Yet just as the night train seemed to be heading for extinction, its fortunes changed. Austria's state railway took over several of the routes that Germany had abandoned, buying second-hand carriages and relaunching the service under a new brand. Many in the industry expected the venture to fail. Instead, within three years it was carrying more than a million passengers annually and, according to the company, making a modest profit. Other operators followed. A Swedish company restarted a connection between Stockholm and Berlin, a Dutch start-up began selling tickets for a train to Prague before it had even obtained any carriages, and France reopened a Paris to Nice service that had been cancelled only a few years earlier." },
+      { "label": "D", "text": "Concern about climate change explains much of this revival. A passenger travelling several hundred kilometres by rail typically produces a small fraction of the carbon emissions of the same journey by air, and a growing number of travellers, particularly younger ones, say that this matters to them when they plan their trips. In Sweden, the word flygskam, or 'flight shame', entered everyday language around 2018 to describe the guilt some people felt about flying. Governments have also taken notice: several European countries now offer subsidies to night train operators, and the European Union has made the expansion of cross-border rail part of its wider climate strategy." },
+      { "label": "E", "text": "Environmental arguments alone, though, would probably not have been enough. Supporters point out that the night train offers something a plane cannot: it turns travel time into sleeping time. A business traveller who boards in Vienna at ten in the evening can arrive in Hamburg early the next morning, ready for a meeting, without paying for a hotel room. Seen this way, a sleeper ticket that costs more than a flight may actually represent better value. Night trains also carry passengers from one city centre to another, avoiding the long journeys to and from airports, the security queues and the strict limits on luggage." },
+      { "label": "F", "text": "The revival has not been without problems. Demand has, at times, been greater than supply: on popular routes, compartments can sell out months in advance, and the shortage of suitable carriages has proved hard to solve, since only a handful of manufacturers build them and new orders can take years to deliver. Reliability is another concern. International services must pass through several national rail networks, each with its own rules, and a delay or a strike in one country can disrupt the entire journey. Some passengers have complained of broken air conditioning, missed connections and compartments that looked nothing like the photographs on the booking website. The Dutch start-up mentioned earlier was forced to postpone its first departure twice while it searched for locomotives and drivers." },
+      { "label": "G", "text": "Whether the night train can become more than a niche product remains uncertain. Rail experts note that sleeper services will probably never compete with aviation on price without significant public support, and some economists argue that the money would be better spent on daytime high-speed lines, which carry far more passengers. Others believe the comparison is unfair, since airlines benefit from tax-free fuel on international flights. What seems clear is that the image of the night train has changed. Once regarded as old-fashioned, it is now marketed as modern, comfortable and responsible. New carriages with small private 'pods', designed for solo travellers who would rather not share a compartment with strangers, have begun to enter service. For a growing number of Europeans, the journey itself has become part of the holiday." }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_information",
+      "instructions": "The passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G.",
+      "options": [
+        { "key": "A", "text": "Paragraph A" },
+        { "key": "B", "text": "Paragraph B" },
+        { "key": "C", "text": "Paragraph C" },
+        { "key": "D", "text": "Paragraph D" },
+        { "key": "E", "text": "Paragraph E" },
+        { "key": "F", "text": "Paragraph F" },
+        { "key": "G", "text": "Paragraph G" }
+      ],
+      "allowReuse": false,
+      "questions": [
+        { "n": 28, "prompt": "an explanation of how a passenger could save the cost of accommodation", "answer": "E", "evidence": "E", "explanation": "The Vienna–Hamburg traveller arrives ready for a meeting 'without paying for a hotel room'." },
+        { "n": 29, "prompt": "an example of a new word connected with people's attitudes to travel", "answer": "D", "evidence": "D", "explanation": "The Swedish word flygskam ('flight shame') entered everyday language around 2018." },
+        { "n": 30, "prompt": "a reason why night train carriages are used inefficiently", "answer": "B", "evidence": "B", "explanation": "Each train makes one trip a day, so carriages spend much of the day 'standing idle in sidings'." },
+        { "n": 31, "prompt": "a reference to a business offering a service before it had the equipment to run it", "answer": "C", "evidence": "C", "explanation": "The Dutch start-up 'began selling tickets... before it had even obtained any carriages'. Paragraph F mentions the same company, but only its delays." },
+        { "n": 32, "prompt": "a design feature aimed at people travelling alone", "answer": "G", "evidence": "G", "explanation": "New carriages have private 'pods' designed for solo travellers." }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "n": 33,
+          "prompt": "According to paragraph A, what happened in 2016?",
+          "options": [
+            { "key": "A", "text": "Several new international night routes were launched." },
+            { "key": "B", "text": "Germany's national railway said it would end its own sleeper services." },
+            { "key": "C", "text": "The Paris to Rome sleeper was withdrawn." },
+            { "key": "D", "text": "Austria bought all of Germany's sleeper carriages." }
+          ],
+          "answer": "B",
+          "evidence": "A",
+          "explanation": "In 2016 'Germany's national railway announced that it would stop running sleeper trains of its own'. Austria took over some routes later (paragraph C) and bought second-hand carriages, not all of Germany's."
+        },
+        {
+          "n": 34,
+          "prompt": "How did people in the rail industry first react to Austria's new service?",
+          "options": [
+            { "key": "A", "text": "They believed it would be unsuccessful." },
+            { "key": "B", "text": "They tried to copy it immediately." },
+            { "key": "C", "text": "They criticised its use of second-hand carriages." },
+            { "key": "D", "text": "They predicted it would carry a million passengers." }
+          ],
+          "answer": "A",
+          "evidence": "C",
+          "explanation": "'Many in the industry expected the venture to fail.' The million passengers was the actual result, not a prediction."
+        },
+        {
+          "n": 35,
+          "prompt": "According to paragraph D, which group of travellers is especially likely to care about carbon emissions?",
+          "options": [
+            { "key": "A", "text": "business travellers" },
+            { "key": "B", "text": "Swedish travellers" },
+            { "key": "C", "text": "younger travellers" },
+            { "key": "D", "text": "long-distance travellers" }
+          ],
+          "answer": "C",
+          "evidence": "D",
+          "explanation": "A growing number of travellers, 'particularly younger ones', say emissions matter to them. Sweden is mentioned only as the origin of a word."
+        },
+        {
+          "n": 36,
+          "prompt": "What do some economists argue in paragraph G?",
+          "options": [
+            { "key": "A", "text": "Night trains will soon be cheaper than flights." },
+            { "key": "B", "text": "Public money should support daytime high-speed rail instead." },
+            { "key": "C", "text": "Airlines should pay tax on their fuel." },
+            { "key": "D", "text": "Sleeper trains no longer need government help." }
+          ],
+          "answer": "B",
+          "evidence": "G",
+          "explanation": "Some economists say 'the money would be better spent on daytime high-speed lines'. The point about fuel tax is made by 'others', not by these economists."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "short_answer",
+      "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "maxWords": 3,
+      "allowNumber": false,
+      "questions": [
+        { "n": 37, "prompt": "According to supporters, what does a night train turn travel time into? {{37}}", "answers": ["sleeping time"], "evidence": "E", "explanation": "'It turns travel time into sleeping time.'" },
+        { "n": 38, "prompt": "Apart from journeys to airports and security queues, what airport restriction do night train passengers avoid? {{38}}", "answers": ["limits on luggage", "luggage limits", "luggage"], "evidence": "E", "explanation": "Night trains avoid 'the strict limits on luggage'. The full phrase is four words, so 'limits on luggage' is the best answer within the limit." },
+        { "n": 39, "prompt": "How long can it take for new orders of carriages to be delivered? {{39}}", "answers": ["years"], "evidence": "F", "explanation": "Only a few manufacturers build them and 'new orders can take years to deliver'." },
+        { "n": 40, "prompt": "What advantage do airlines have on international flights, according to some people? {{40}}", "answers": ["tax-free fuel", "tax free fuel"], "evidence": "G", "explanation": "'Airlines benefit from tax-free fuel on international flights.'" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" width="640" height="500" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Riverlights Festival site, Kelby Park</title>
+  <desc id="d">Map of the festival site. The river runs along the north edge with a footbridge in the middle. The main entrance is in the middle of the south edge on Mill Road. A central path runs north from the main entrance to the footbridge. A cross path runs east to west between the West Gate and the East Gate, meeting the central path at the bandstand. Letters: A is by the river west of the footbridge; B is by the river east of the footbridge; C is north of the cross path and west of the central path, next to the bandstand; D is north of the cross path and east of the central path; E is south of the cross path and west of the central path; F is south of the cross path and east of the central path; G is just inside the main entrance on the west side; H is just inside the main entrance on the east side.</desc>
+  <rect x="0" y="0" width="640" height="500" fill="#ffffff"/>
+
+  <!-- Compass -->
+  <g transform="translate(600,120)" fill="#222" font-size="14" text-anchor="middle">
+    <polygon points="0,-28 7,-8 -7,-8"/>
+    <line x1="0" y1="-8" x2="0" y2="20" stroke="#222" stroke-width="2"/>
+    <text x="0" y="-34">N</text>
+  </g>
+
+  <!-- River -->
+  <rect x="0" y="10" width="640" height="46" fill="#dbe9f6" stroke="#7aa6cf"/>
+  <text x="120" y="39" text-anchor="middle" font-size="15" fill="#2c5d8a">RIVER KEL</text>
+  <text x="520" y="39" text-anchor="middle" font-size="15" fill="#2c5d8a">RIVER KEL</text>
+
+  <!-- Footbridge -->
+  <rect x="300" y="6" width="40" height="56" fill="#c9a77a" stroke="#6b4f2a" stroke-width="2"/>
+  <text x="320" y="80" text-anchor="middle" font-size="12" fill="#333">Footbridge</text>
+
+  <!-- Park boundary -->
+  <rect x="40" y="60" width="520" height="390" fill="#eef5e9" stroke="#3d6b35" stroke-width="3"/>
+
+  <!-- Paths -->
+  <g fill="#e2d8c3" stroke="#a08f6a" stroke-width="1.5">
+    <rect x="305" y="60" width="30" height="390"/>
+    <rect x="40" y="245" width="520" height="30"/>
+  </g>
+
+  <!-- Bandstand -->
+  <circle cx="320" cy="260" r="26" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+  <text x="320" y="264" text-anchor="middle" font-size="11" fill="#222">Bandstand</text>
+
+  <!-- Gates and entrance -->
+  <g font-size="13" fill="#222" text-anchor="middle">
+    <rect x="290" y="444" width="60" height="12" fill="#222"/>
+    <text x="320" y="476">MAIN ENTRANCE</text>
+    <text x="320" y="493">Mill Road</text>
+    <rect x="34" y="240" width="12" height="40" fill="#222"/>
+    <text x="20" y="300" text-anchor="start">West Gate</text>
+    <rect x="554" y="240" width="12" height="40" fill="#222"/>
+    <text x="620" y="300" text-anchor="end">East Gate</text>
+  </g>
+
+  <!-- Area markers -->
+  <g fill="#ffffff" stroke="#222" stroke-width="2">
+    <rect x="130" y="85" width="100" height="60" rx="4"/>
+    <rect x="410" y="85" width="100" height="60" rx="4"/>
+    <rect x="200" y="170" width="90" height="60" rx="4"/>
+    <rect x="350" y="170" width="90" height="60" rx="4"/>
+    <rect x="200" y="290" width="90" height="60" rx="4"/>
+    <rect x="350" y="290" width="90" height="60" rx="4"/>
+    <rect x="200" y="375" width="90" height="55" rx="4"/>
+    <rect x="350" y="375" width="90" height="55" rx="4"/>
+  </g>
+  <g font-size="30" font-weight="bold" text-anchor="middle" fill="#111">
+    <text x="180" y="126">A</text>
+    <text x="460" y="126">B</text>
+    <text x="245" y="211">C</text>
+    <text x="395" y="211">D</text>
+    <text x="245" y="331">E</text>
+    <text x="395" y="331">F</text>
+    <text x="245" y="413">G</text>
+    <text x="395" y="413">H</text>
+  </g>
+</svg>

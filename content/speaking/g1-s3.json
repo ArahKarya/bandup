@@ -1,0 +1,46 @@
+{
+  "id": "g1-s3",
+  "kind": "speaking_task",
+  "part": 3,
+  "topic": "Helping others and community life",
+  "difficulty": 3,
+  "unlisted": true,
+  "questions": [
+    "Why do you think some people are more willing to help strangers than others?",
+    "Do people in cities help each other less than people in small towns?",
+    "Should schools require students to do volunteer work?",
+    "Who should be responsible for helping people in need: governments, charities or individuals?",
+    "How might technology change the way people help each other in the future?"
+  ],
+  "tips": [
+    "Part 3 is about ideas, not personal stories. Move from a direct answer to a reason, then an example, and add a contrast or qualification if you can.",
+    "Talk about people in general ('many people', 'in my country') and compare groups, places or time periods.",
+    "It is fine to take a balanced view, but make your own position clear by the end of the answer.",
+    "If a question is difficult, buy time naturally ('That's a tricky one...') rather than going silent."
+  ],
+  "usefulPhrases": [
+    "I think it largely depends on...",
+    "One possible explanation is that...",
+    "That's not to say that..., but...",
+    "On the whole, I'd argue that...",
+    "A good example of this would be...",
+    "In the long run, this could lead to..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "Q: Do people in cities help each other less than people in small towns?\nA: Yes, I think so. In a small town everybody knows each other, so if someone has a problem, the neighbours will help them. But in the city people are very busy and they don't know their neighbours, so they don't help. For example, in my city people live in apartments and they don't talk in the lift. But maybe in an emergency they will help, I'm not sure.\n\nQ: Should schools require students to do volunteer work?\nA: I think it is a good idea, because students can learn many things, like how to work in a team and how to be responsible. But if it is required, maybe some students don't like it and they do it only because they must. So I think schools should encourage it but not force it.",
+      "commentary": "Fluency and Coherence: answers are relevant and extended with reasons and a simple example, but the linking is basic ('so', 'but', 'maybe') and the ideas stay general. Lexical Resource: adequate for the discussion ('emergency', 'responsible', 'encourage... force'), with limited range for abstract ideas. Grammatical Range and Accuracy: mostly simple and compound sentences with some errors ('maybe some students don't like it' for a hypothetical, 'because they must'). Pronunciation: assumed generally clear. Band 6: the speaker communicates opinions but cannot yet develop them in depth."
+    },
+    {
+      "band": 7,
+      "text": "Q: Do people in cities help each other less than people in small towns?\nA: To some extent, yes. In small towns people tend to know each other, so there's a stronger sense of obligation, because if you don't help, everyone will hear about it. In big cities, people are surrounded by strangers and they're often in a hurry, so it's easier to assume someone else will step in. That said, I don't think city people are less kind. When there's a real emergency, like a flood, you often see people in cities organising themselves very quickly online.\n\nQ: Should schools require students to do volunteer work?\nA: I'm in two minds about it. On the one hand, a lot of teenagers would never try volunteering unless they were made to, and some of them discover they really enjoy it. On the other hand, if it becomes compulsory, there's a risk that students just treat it as another box to tick. I think the best approach would be to require a small number of hours but let students choose the organisation, so they feel some ownership.",
+      "commentary": "Fluency and Coherence: speaks at length with well-developed answers, using a range of discourse markers ('To some extent', 'That said', 'I'm in two minds', 'On the one hand') naturally. Lexical Resource: good range for abstract topics ('sense of obligation', 'step in', 'compulsory', 'a box to tick', 'ownership'). Grammatical Range and Accuracy: frequent complex structures, including conditionals with 'unless' and 'if it becomes', mostly accurate. Pronunciation: assumed clear. It falls short of Band 8 because the ideas, though well argued, are fairly predictable and the vocabulary is good rather than precise or sophisticated."
+    },
+    {
+      "band": 8,
+      "text": "Q: Do people in cities help each other less than people in small towns?\nA: I'd be wary of saying they're less helpful, but they certainly help in different ways. In a small town, help tends to be personal and almost automatic: you know the person, you know their family, and there's a degree of social pressure as well. In a city, the sheer number of strangers creates what psychologists call the bystander effect, where everyone assumes somebody else will deal with it. But cities compensate in other ways. They have far more formal structures, such as food banks and neighbourhood apps, so help is perhaps less spontaneous but more organised.\n\nQ: Who should be responsible for helping people in need: governments, charities or individuals?\nA: I don't think it can rest with any one of them. Governments are the only ones with the resources to provide a reliable safety net, things like healthcare and housing support, and it would be unrealistic to expect charities to fill that gap. Where charities and individuals really make a difference is in the areas the state is too slow or too clumsy to reach, for instance befriending isolated elderly people. So, ideally, the government guarantees the basics and the community adds the human element on top.",
+      "commentary": "Fluency and Coherence: fluent, well-structured answers that qualify the question's assumption and develop a nuanced position with clear examples. Lexical Resource: wide and precise vocabulary used naturally ('wary of', 'the sheer number', 'bystander effect', 'compensate', 'safety net', 'befriending'). Grammatical Range and Accuracy: a wide range of complex structures, including relative and cleft-like clauses ('Where charities... really make a difference is...'), with only rare slips. Pronunciation: assumed easy to understand throughout. Not quite Band 9 because some points are expressed with familiar phrasing and the second answer could explore counter-arguments further."
+    }
+  ]
+}

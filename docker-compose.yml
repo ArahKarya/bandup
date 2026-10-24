@@ -1,0 +1,45 @@
+# Self-host BandUp: `docker compose up -d`, then open http://localhost:3000.
+# The first account you register becomes the admin.
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: bandup
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-bandup}
+      POSTGRES_DB: bandup
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bandup"]
+      interval: 5s
+      retries: 10
+
+  setup:
+    build: { context: ., target: setup }
+    environment:
+      DATABASE_URL: postgresql://bandup:${POSTGRES_PASSWORD:-bandup}@db:5432/bandup
+    depends_on:
+      db: { condition: service_healthy }
+    restart: "no"
+
+  app:
+    build: { context: ., target: runner }
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      DATABASE_URL: postgresql://bandup:${POSTGRES_PASSWORD:-bandup}@db:5432/bandup
+      # Required. Generate with: openssl rand -base64 32
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY:?Set APP_ENCRYPTION_KEY in .env}
+      AI_ALLOW_PRIVATE_BASE_URL: ${AI_ALLOW_PRIVATE_BASE_URL:-false}
+      APP_TIMEZONE: ${APP_TIMEZONE:-Asia/Jakarta}
+      REGISTRATION: ${REGISTRATION:-open}
+      TRUSTED_PROXY_HOPS: ${TRUSTED_PROXY_HOPS:-0}
+    volumes:
+      - uploads:/data
+    depends_on:
+      setup: { condition: service_completed_successfully }
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  uploads:

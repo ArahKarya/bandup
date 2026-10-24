@@ -1,0 +1,27 @@
+{
+  "id": "mock-academic-1",
+  "kind": "mock_test",
+  "module": "academic",
+  "title": "Academic Mock Test 1",
+  "description": "A full Academic IELTS test. Listening: a community garden booking, a maritime museum tour, a marine biology project tutorial and a lecture on the history of glass. Reading: ancient Iranian qanats, sleep and memory research, and an argument about urban rewilding. Writing: a line graph on home heating and an essay on practical skills at school. Speaking: where you live, music, and places to relax.",
+  "listening": [
+    "m1-l1",
+    "m1-l2",
+    "m1-l3",
+    "m1-l4"
+  ],
+  "reading": [
+    "m1-r1",
+    "m1-r2",
+    "m1-r3"
+  ],
+  "writing": [
+    "m1-w1",
+    "m1-w2"
+  ],
+  "speaking": [
+    "m1-s1",
+    "m1-s2",
+    "m1-s3"
+  ]
+}

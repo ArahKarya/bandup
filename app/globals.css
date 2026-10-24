@@ -1,26 +1,179 @@
 @import "tailwindcss";
 
+/*
+ * Design tokens. Small 4px corners everywhere — no pill-shaped controls.
+ * Light and dark follow the OS; `data-theme` on <html> overrides it.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface-2: #f1f1ee;
+  --border: #e2e2dc;
+  --text: #1b1d1f;
+  --text-muted: #5f6368;
+  --accent: #0f6e66;
+  --accent-hover: #0b5a53;
+  --accent-soft: #e3f1ef;
+  --accent-fg: #ffffff;
+  --success: #1f7a3a;
+  --success-soft: #e5f4e9;
+  --danger: #b42318;
+  --danger-soft: #fdecea;
+  --warning: #9a6700;
+  --warning-soft: #fff4d6;
+  --chart-1: #0f6e66;
+  --chart-2: #c2572b;
+  --chart-3: #4c5fd5;
+  --chart-4: #9b6b00;
+  color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --bg: #111314;
+    --surface: #191c1d;
+    --surface-2: #212526;
+    --border: #2e3335;
+    --text: #e8eaeb;
+    --text-muted: #9aa1a5;
+    --accent: #3fb8ac;
+    --accent-hover: #5ccabf;
+    --accent-soft: #15302d;
+    --accent-fg: #0b1716;
+    --success: #4cc27a;
+    --success-soft: #15291c;
+    --danger: #f2766b;
+    --danger-soft: #34171a;
+    --warning: #e5b443;
+    --warning-soft: #2f2611;
+    --chart-1: #3fb8ac;
+    --chart-2: #ec8a5d;
+    --chart-3: #8b9cf7;
+    --chart-4: #e5b443;
+    color-scheme: dark;
   }
 }
 
+:root[data-theme="dark"] {
+  --bg: #111314;
+  --surface: #191c1d;
+  --surface-2: #212526;
+  --border: #2e3335;
+  --text: #e8eaeb;
+  --text-muted: #9aa1a5;
+  --accent: #3fb8ac;
+  --accent-hover: #5ccabf;
+  --accent-soft: #15302d;
+  --accent-fg: #0b1716;
+  --success: #4cc27a;
+  --success-soft: #15291c;
+  --danger: #f2766b;
+  --danger-soft: #34171a;
+  --warning: #e5b443;
+  --warning-soft: #2f2611;
+  --chart-1: #3fb8ac;
+  --chart-2: #ec8a5d;
+  --chart-3: #8b9cf7;
+  --chart-4: #e5b443;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-fg: var(--text);
+  --color-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-fg: var(--accent-fg);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
+  --radius-DEFAULT: 4px;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Reading passages and lessons. */
+.prose-content {
+  line-height: 1.7;
+}
+.prose-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.75rem;
+}
+.prose-content h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.25rem 0 0.5rem;
+}
+.prose-content p,
+.prose-content ul,
+.prose-content ol,
+.prose-content table,
+.prose-content blockquote {
+  margin: 0 0 1rem;
+}
+.prose-content ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.prose-content ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+.prose-content li {
+  margin: 0.25rem 0;
+}
+.prose-content table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95em;
+}
+.prose-content th,
+.prose-content td {
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-content th {
+  background: var(--surface-2);
+}
+.prose-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 0.9rem;
+  color: var(--text-muted);
+}
+.prose-content code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--surface-2);
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+.prose-content strong {
+  font-weight: 600;
+}
+.prose-content a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }

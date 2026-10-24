@@ -1,0 +1,76 @@
+{
+  "id": "prd-roman-concrete",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "The Secret of Roman Concrete",
+  "difficulty": 3,
+  "minutes": 20,
+  "tags": ["history", "science", "engineering"],
+  "passage": {
+    "title": "The Secret of Roman Concrete",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Many of the concrete structures built in the twentieth century are already crumbling. Bridges and car parks that were expected to last a hundred years have needed expensive repairs within forty or fifty. By contrast, a number of Roman buildings, harbour walls and aqueducts have survived for close to two thousand years, some of them in seawater, one of the most hostile environments for any building material. This contrast has puzzled engineers for generations, and only recently have laboratory techniques become precise enough to explain it."
+      },
+      {
+        "label": "B",
+        "text": "Roman concrete was made in a different way from its modern equivalent. Today's concrete is based on Portland cement, which is produced by heating limestone and clay to around 1,450 degrees Celsius and then grinding the result to a fine powder. Roman builders, by contrast, mixed lime with a volcanic ash found near the Bay of Naples, which they called pulvis puteolanus. Instead of fine sand and gravel, they often added fist-sized lumps of rock or broken brick. The mixture was then packed into wooden frames by hand, rather than poured as a liquid."
+      },
+      {
+        "label": "C",
+        "text": "For a long time, researchers assumed that the strength of Roman concrete lay mainly in the volcanic ash. When ash reacts with lime and water, it forms minerals that bind the mixture tightly together. In marine structures, something even more surprising happens. Seawater slowly seeping through the concrete dissolves parts of the ash, and new crystals grow in the spaces that are left. Rather than being weakened by the sea, as modern concrete is, the Roman material actually becomes stronger over time."
+      },
+      {
+        "label": "D",
+        "text": "A further clue came from small white lumps of lime, a few millimetres across, that are scattered through many samples of Roman concrete. These had generally been dismissed as evidence of careless mixing or poor-quality ingredients. A closer study suggested otherwise. The lumps, it appears, were formed because the Romans mixed their lime with the other ingredients while it was still extremely hot, a technique now known as hot mixing. This produced chemical compounds that would not form at normal temperatures and also shortened the time the concrete needed to set."
+      },
+      {
+        "label": "E",
+        "text": "The lumps also seem to give the concrete a remarkable ability to repair itself. When a fine crack forms and water enters it, the water reaches the lime lumps and dissolves some of the calcium they contain. This calcium-rich water then reacts with carbon dioxide and forms calcium carbonate, which gradually fills the crack before it can spread. In laboratory tests, cracked samples made using the hot-mixing method sealed themselves within about two weeks, while samples made without lime lumps remained cracked."
+      },
+      {
+        "label": "F",
+        "text": "None of this means that modern builders should simply return to Roman recipes. Roman concrete is considerably weaker under compression than modern concrete, and it cannot be combined with the steel bars that allow today's engineers to construct tall towers and long bridges. Moreover, the particular ash used by the Romans is found in only a limited number of places. However, some engineers believe that the principles behind the Roman material, especially the idea of building self-repairing properties into concrete from the start, could be adapted for modern use."
+      },
+      {
+        "label": "G",
+        "text": "The environmental argument for doing so is strong. Producing cement requires enormous amounts of energy and releases large quantities of carbon dioxide; the industry is responsible for around eight per cent of global emissions. Because the Roman process used lower temperatures, it required far less fuel. If modern concrete could be made to last two or three times longer, fewer structures would need to be demolished and rebuilt, reducing the demand for new cement."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "sentence_completion",
+      "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "questions": [
+        { "n": 1, "prompt": "Some modern bridges have required repairs after only forty or {{1}} years.", "answers": ["fifty", "50"], "evidence": "A", "explanation": "Structures 'have needed expensive repairs within forty or fifty'." },
+        { "n": 2, "prompt": "Modern cement is made by heating limestone and {{2}} to a very high temperature.", "answers": ["clay"], "evidence": "B", "explanation": "Portland cement 'is produced by heating limestone and clay'." },
+        { "n": 3, "prompt": "Roman builders used a {{3}} from the area around the Bay of Naples.", "answers": ["volcanic ash", "ash"], "evidence": "B", "explanation": "They 'mixed lime with a volcanic ash found near the Bay of Naples'." },
+        { "n": 4, "prompt": "Roman concrete was pressed into {{4}} by hand.", "answers": ["wooden frames", "frames"], "evidence": "B", "explanation": "'The mixture was then packed into wooden frames by hand'." },
+        { "n": 5, "prompt": "The white lumps in Roman concrete were once thought to show {{5}}.", "answers": ["careless mixing", "poor-quality ingredients"], "evidence": "D", "explanation": "They 'had generally been dismissed as evidence of careless mixing or poor-quality ingredients'." },
+        { "n": 6, "prompt": "Roman concrete cannot be used together with {{6}}, which are needed for tall modern structures.", "answers": ["steel bars", "steel"], "evidence": "F", "explanation": "It 'cannot be combined with the steel bars' used for towers and long bridges." }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "summary_completion",
+      "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "template": "**How Roman concrete repairs itself**\n\nResearchers discovered that Roman builders used a method called hot mixing, which left small lumps of {{7}} in the concrete. When a crack appears, {{8}} enters it and dissolves some of the {{9}} from the lumps. This then reacts with carbon dioxide to form calcium carbonate, which fills the crack. In tests, cracked samples sealed themselves in about two {{10}}. Engineers hope to copy this idea because cement production uses a great deal of {{11}} and causes about eight per cent of global {{12}}.",
+      "questions": [
+        { "n": 7, "answers": ["lime"], "evidence": "D", "explanation": "The 'small white lumps of lime' formed because of hot mixing." },
+        { "n": 8, "answers": ["water"], "evidence": "E", "explanation": "'When a fine crack forms and water enters it'." },
+        { "n": 9, "answers": ["calcium"], "evidence": "E", "explanation": "The water 'dissolves some of the calcium they contain'." },
+        { "n": 10, "answers": ["weeks"], "evidence": "E", "explanation": "Samples 'sealed themselves within about two weeks'." },
+        { "n": 11, "answers": ["energy", "fuel"], "evidence": "G", "explanation": "'Producing cement requires enormous amounts of energy'." },
+        { "n": 12, "answers": ["emissions"], "evidence": "G", "explanation": "The industry is responsible 'for around eight per cent of global emissions'." }
+      ]
+    }
+  ]
+}

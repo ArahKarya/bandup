@@ -1,0 +1,104 @@
+{
+  "id": "m1-w1",
+  "kind": "writing_task",
+  "module": "academic",
+  "task": 1,
+  "taskType": "line_graph",
+  "title": "Main sources of home heating, 1990–2020",
+  "difficulty": 2,
+  "unlisted": true,
+  "prompt": "The graph below shows the percentage of households in one country that used four different sources as their main form of heating between 1990 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Main source of home heating, 1990–2020",
+      "unit": "%",
+      "xLabel": "Year",
+      "yLabel": "Percentage of households",
+      "categories": [
+        "1990",
+        "1995",
+        "2000",
+        "2005",
+        "2010",
+        "2015",
+        "2020"
+      ],
+      "series": [
+        {
+          "name": "Gas",
+          "values": [
+            38,
+            45,
+            52,
+            58,
+            61,
+            57,
+            50
+          ]
+        },
+        {
+          "name": "Electricity",
+          "values": [
+            20,
+            19,
+            18,
+            18,
+            20,
+            24,
+            30
+          ]
+        },
+        {
+          "name": "Oil",
+          "values": [
+            30,
+            26,
+            21,
+            16,
+            11,
+            8,
+            5
+          ]
+        },
+        {
+          "name": "Heat pumps",
+          "values": [
+            0,
+            0,
+            1,
+            2,
+            4,
+            9,
+            15
+          ]
+        }
+      ]
+    }
+  ],
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "Write the overview first: gas leads throughout, oil collapses, electricity and heat pumps grow after 2010.",
+    "Group the lines by behaviour rather than describing all four year by year.",
+    "Report peaks and end points (gas 61% in 2010, heat pumps overtaking oil) instead of every value.",
+    "Do not explain causes such as climate policy; the data does not show them."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "The graph show the percentage of households which use four different energy for heating their home from 1990 to 2020.\n\nOverall, gas was the most popular source of heating in all the period, and heat pumps increased a lot.\n\nIn 1990, 38% of households used gas and it go up steadily to 61% in 2010. After that it fell to 50% in 2020. Oil was 30% in 1990 which was the second highest, but it decreased every year and it was only 5% at the end of the period.\n\nElectricity was quite stable. It was around 20% from 1990 to 2010, for example 19% in 1995 and 18% in 2000 and 2005. Then it rose to 30% in 2020. Heat pumps was not used in 1990 and 1995, but after that they become more popular and reached 15% in 2020, which is more than oil.\n\nIn conclusion, gas was the main heating source but the other sources have changed a lot, especially oil which decrease and heat pumps which increase.",
+      "commentary": "Band 6 overall.\nTask Achievement (6): All four sources are covered and the key figures are mostly accurate. There is an overview, but it is thin: it does not mention the decline of oil or the late rise in electricity, and the conclusion simply repeats it. Some details are listed rather than selected (19% in 1995, 18% in 2000 and 2005).\nCoherence and Cohesion (6): Paragraphing is logical, one source after another, but comparisons between sources are rare, and linking relies on 'and', 'but' and 'after that'.\nLexical Resource (6): Adequate for the task ('steadily', 'stable', 'popular') with frequent repetition of 'increase/decrease'. 'Four different energy' is missing a noun ('sources').\nGrammatical Range and Accuracy (6): Mostly simple and compound sentences with one relative clause. Errors in verb forms ('The graph show', 'it go up', 'they become', 'which decrease') and agreement ('Heat pumps was') are noticeable but do not block meaning."
+    },
+    {
+      "band": 7,
+      "text": "The line graph illustrates how the proportion of households in one country relying on gas, electricity, oil and heat pumps as their main source of heating changed between 1990 and 2020.\n\nOverall, gas remained the dominant heating fuel throughout the period, although its share peaked in 2010 and then declined. Oil, by contrast, fell sharply, while electricity and especially heat pumps became more common towards the end of the period.\n\nIn 1990, 38% of households heated their homes with gas, and this figure climbed steadily to a high of 61% in 2010 before dropping back to 50% by 2020. Oil started as the second most common source, at 30%, but its use fell continuously, reaching just 5% in the final year.\n\nElectricity was used by roughly a fifth of households for the first two decades, fluctuating between 18% and 20%. From 2010, however, it rose noticeably, to 30% in 2020. Heat pumps were virtually unknown until 2000, when they accounted for only 1% of households, but their share grew rapidly after 2010 and reached 15% by 2020, three times the figure for oil.",
+      "commentary": "Band 7 overall.\nTask Achievement (7): A clear overview identifies the main trends (gas dominant but peaking, oil falling, electricity and heat pumps rising late). Key features are selected and supported with accurate figures. Comparisons could be developed further, for example between the fall of gas and the rise of heat pumps after 2010.\nCoherence and Cohesion (7): Logical grouping (gas and oil, then electricity and heat pumps) with a range of linkers ('by contrast', 'however', 'before dropping back'). Referencing is clear.\nLexical Resource (7): Good range of trend language ('climbed steadily', 'peaked', 'fluctuating', 'virtually unknown') and some less common items ('dominant', 'accounted for'), used accurately.\nGrammatical Range and Accuracy (7): A mix of complex structures (participle clauses, relative clauses) with good control and no significant errors. A Band 8 answer would show a little more flexibility and precision."
+    },
+    {
+      "band": 8,
+      "text": "The graph compares the percentage of households in a country that used each of four sources as their main form of heating over a thirty-year period from 1990.\n\nThe most striking feature is the steady replacement of oil by other sources. Gas was the leading fuel throughout, but its share began to fall after 2010, a period in which electricity and heat pumps both gained ground rapidly.\n\nAt the start of the period, gas and oil together heated more than two thirds of homes, at 38% and 30% respectively. Over the next two decades, their fortunes diverged: gas rose almost without interruption to a peak of 61% in 2010, whereas oil dwindled to 11% and continued to fall, to a mere 5% by 2020. Gas, too, lost ground in the final decade, ending the period at 50%.\n\nMeanwhile, electricity remained remarkably stable at around 18–20% until 2010, after which it climbed to 30%. The most dramatic growth, however, was in heat pumps. Negligible before 2000, they were used by 4% of households in 2010 and by 15% in 2020, overtaking oil in 2015 and arguably taking over much of the market that gas was beginning to lose.",
+      "commentary": "Band 8 overall.\nTask Achievement (8): The overview is insightful, identifying both the replacement of oil and the post-2010 shift away from gas. Features are well selected and accurately reported, including a precise comparison (heat pumps overtaking oil in 2015). The final clause, 'arguably taking over much of the market', is slight interpretation; it is hedged, but at Band 9 this would be avoided or tied more strictly to the data.\nCoherence and Cohesion (8): Information is sequenced skilfully around contrasts ('their fortunes diverged', 'Meanwhile', 'however'), with cohesion that feels natural rather than mechanical.\nLexical Resource (8): Wide, precise vocabulary ('diverged', 'dwindled', 'gained ground', 'negligible', 'lost ground') with natural collocation and no errors.\nGrammatical Range and Accuracy (8): Wide range of structures (participle phrases, reduced relative clauses, 'after which'), almost entirely error-free."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sp-p3-learning-skills",
+  "kind": "speaking_task",
+  "part": 3,
+  "topic": "Learning and skills",
+  "difficulty": 3,
+  "questions": [
+    "Is it better to learn practical skills at school or at home?",
+    "Why do some adults stop learning new things?",
+    "Do you think it is easier for children to learn new skills than adults?",
+    "How important are practical skills compared with academic qualifications?",
+    "Will online courses eventually replace traditional classroom learning?",
+    "What skills will be most valuable in the future?"
+  ],
+  "tips": [
+    "Compare groups (children and adults, school and home, online and face-to-face) and say who benefits more and why.",
+    "Use cautious language when predicting: 'I doubt...', 'It's unlikely that... completely...', 'In some fields, perhaps'.",
+    "Give a specific skill as an example to anchor general claims."
+  ],
+  "usefulPhrases": [
+    "Children tend to pick things up more quickly because...",
+    "There's a lot to be said for...",
+    "It's not so much a question of... as...",
+    "People get stuck in their comfort zone.",
+    "Hands-on experience is hard to replace.",
+    "I doubt it will ever fully replace...",
+    "Adaptability is likely to be key."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Why do some adults stop learning new things?]\nI think because adults are very busy with work and family, so they don't have time. And also they feel tired after work, so they want to relax, not to learn. Some adults also think they are too old for learning, and they afraid to make mistake in front of other people.\n\n[Do you think it is easier for children to learn new skills than adults?]\nYes, I think children is more easy to learn, especially language. Because their brain is still develop, and they are not shy. For example my nephew, he is five years old, and he can speak English from watching YouTube. But adults have more discipline, so maybe in some skill adults can learn better.\n\n[Will online courses replace traditional classroom learning?]\nI don't think so. Online course is good because it is flexible and cheap, but students need teacher to motivate them, and they need friends. So I think in the future both will be used.",
+      "commentary": "Fluency & Coherence: the candidate responds relevantly and gives some balance, but reasons are listed rather than developed, and 'so' and 'also' recur. Lexical Resource: adequate for the topic ('flexible', 'discipline', 'motivate') but with limited range and some errors in word form ('still develop'). Grammatical Range & Accuracy: complex sentences are attempted, but errors are frequent ('children is more easy', 'they afraid', 'make mistake'). Pronunciation: the frequent restart patterns ('my nephew, he is...') suggest delivery that is generally understandable but broken into short segments."
+    },
+    {
+      "band": 7,
+      "text": "[Why do some adults stop learning new things?]\nI think time is the obvious reason; once people have a full-time job and children, it's hard to find space for anything else. But I also think there's a psychological factor. Adults are used to being competent, so going back to being a beginner, and looking a bit foolish, can be quite uncomfortable. It's easier to stick to what you already know.\n\n[Do you think it is easier for children to learn new skills than adults?]\nIn some areas, definitely. Children seem to pick up languages and physical skills like swimming much more naturally, partly because they're less self-conscious about making mistakes. On the other hand, adults have advantages too: they can concentrate for longer and they understand why they're learning something, which can make them more efficient learners if they're motivated.\n\n[What skills will be most valuable in the future?]\nProbably things that machines can't easily do, such as communication, problem-solving and being able to adapt. If routine tasks become automated, people who can learn quickly and work well with others will have a real advantage.",
+      "commentary": "Fluency & Coherence: the answers are extended and coherent, with balanced arguments and appropriate signposting ('But I also think', 'On the other hand'). Lexical Resource: a good range of vocabulary ('competent', 'self-conscious', 'automated', 'stick to what you already know'), used appropriately. Grammatical Range & Accuracy: complex sentences, including conditionals and gerund phrases, are used accurately for the most part. Pronunciation: the inserted clause 'and looking a bit foolish' implies effective use of pausing and intonation, although the answers are slightly less nuanced in delivery than at band 8."
+    },
+    {
+      "band": 8,
+      "text": "[How important are practical skills compared with academic qualifications?]\nI think the gap between them has been somewhat exaggerated. Qualifications are essentially a signal to employers that you can master a body of knowledge and see something through, and that still matters. But in a lot of fields, a qualification only gets you through the door; what keeps you there is whether you can actually do the job. And in the trades, an experienced electrician or mechanic is often in far higher demand than a graduate with a generic degree.\n\n[Will online courses eventually replace traditional classroom learning?]\nI doubt they'll replace it outright. Online courses are brilliant for content delivery, you can pause a lecture, rewatch it, learn at three in the morning, but completion rates are notoriously low, which suggests that what classrooms really provide is structure and accountability. My guess is that we'll end up with a hybrid model, where the theory moves online and face-to-face time is reserved for discussion and hands-on work.\n\n[What skills will be most valuable in the future?]\nArguably the meta-skill of learning itself. If the shelf life of technical knowledge keeps shrinking, being able to unlearn and relearn quickly matters more than any single competence.",
+      "commentary": "Fluency & Coherence: the candidate argues fluently and persuasively, using evidence ('completion rates are notoriously low') to support a nuanced conclusion. Lexical Resource: sophisticated and precise vocabulary ('a signal to employers', 'see something through', 'shelf life', 'meta-skill', 'unlearn and relearn') used naturally. Grammatical Range & Accuracy: a wide range of complex forms, including nominal relative clauses ('what keeps you there is...') and embedded examples, all accurate. Pronunciation: the extended parenthetical list implies the speaker uses pausing and pitch change confidently, sustaining clear chunking throughout long turns."
+    }
+  ]
+}

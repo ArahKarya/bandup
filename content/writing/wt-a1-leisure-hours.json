@@ -1,0 +1,49 @@
+{
+  "id": "wt-a1-leisure-hours",
+  "kind": "writing_task",
+  "module": "academic",
+  "task": 1,
+  "taskType": "bar_chart",
+  "title": "Weekly leisure time by age group",
+  "difficulty": 2,
+  "prompt": "The bar chart below shows the average number of hours per week that people in four age groups in one country spent on four leisure activities in 2024.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Average weekly hours on leisure activities, 2024",
+      "unit": "hours",
+      "yLabel": "Hours per week",
+      "categories": ["Screen viewing", "Sport and exercise", "Reading", "Socialising"],
+      "series": [
+        { "name": "16–24", "values": [9, 5, 2, 10] },
+        { "name": "25–44", "values": [11, 3, 2, 7] },
+        { "name": "45–64", "values": [14, 3, 4, 6] },
+        { "name": "65+", "values": [19, 2, 7, 8] }
+      ]
+    }
+  ],
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "Look for patterns across age: screen viewing and reading rise with age, while sport falls.",
+    "Note the exception: the youngest group socialised more than they watched screens, unlike every other group.",
+    "Organise body paragraphs by trend (activities that rise with age vs. those that fall) rather than describing each bar."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "The bar chart shows how many hours per week people in four age groups spent on four leisure activities in 2024. The activities are screen viewing, sport and exercise, reading and socialising.\n\nOverall, screen viewing was the most popular activity for most age groups and older people spent more time on it.\n\nFor screen viewing, people aged 16–24 spent 9 hours, 25–44 spent 11 hours, 45–64 spent 14 hours and people over 65 spent 19 hours. So the time is increase when people are older. Reading is also similar, the oldest group read 7 hours but the young groups only read 2 hours.\n\nIn sport and exercise, the young people did the most with 5 hours. The other groups did 3 hours or 2 hours, it is not much.\n\nSocialising was 10 hours for 16–24 year olds, which is more than they spent on screen viewing. The 25–44 group spent 7 hours and 45–64 spent 6 hours. The 65+ group spent 8 hours, so it is a little more than the middle groups.\n\nTo sum up, older people watch more screens and read more but young people do more sport and socialising.",
+      "commentary": "Task Achievement: the main trends are reported with accurate figures, and the overview is relevant, though the second half of it is vague. Some data is listed rather than compared, and the conclusion slips into the present tense. Coherence and Cohesion: there is clear paragraphing by activity, but the linking is limited ('So', 'also') and reference is sometimes unclear ('it is not much'). Lexical Resource: adequate but repetitive ('spent' throughout), and 'watch more screens' is unidiomatic. Grammatical Range and Accuracy: mostly simple sentences, with errors such as 'the time is increase' and comma splices. Band 6."
+    },
+    {
+      "band": 7,
+      "text": "The chart illustrates the average weekly time that four age groups in one country devoted to four types of leisure activity in 2024.\n\nOverall, screen viewing took up more time than any other activity for every group except the youngest, and the amount of time spent on it rose steadily with age. Older people also read more, whereas sport and exercise was most common among the young.\n\nThe time spent on screens increased from 9 hours a week among 16–24-year-olds to 11 and 14 hours in the two middle groups, before peaking at 19 hours for those aged 65 and over. Reading followed a similar, if smaller, upward trend: the two younger groups read for just 2 hours a week, compared with 4 hours for 45–64-year-olds and 7 hours for the oldest group.\n\nSport showed the opposite pattern. The youngest group exercised for 5 hours a week, while the figure dropped to 3 hours for the middle groups and only 2 hours for people over 65.\n\nSocialising was the main exception to these age-related trends. At 10 hours a week, it was the most time-consuming activity for 16–24-year-olds, and although it fell to 6–7 hours in middle age, it rose again slightly to 8 hours among the over-65s.",
+      "commentary": "Task Achievement: the overview captures the main trends and the key exception, and data is selected and compared rather than listed. Coherence and Cohesion: the body is organised by trend, which makes comparisons clear, and cohesive devices ('the opposite pattern', 'the main exception') link paragraphs naturally. Lexical Resource: good range ('devoted to', 'peaking at', 'time-consuming') with accurate collocations. Grammatical Range and Accuracy: a range of complex sentences ('similar, if smaller, upward trend'; concessive 'although' clauses) with few errors. To reach band 8 the final paragraph could interpret the U-shaped socialising pattern more explicitly."
+    },
+    {
+      "band": 8,
+      "text": "The chart compares how people in four age brackets in one country divided their leisure time between four activities in 2024, measured in average hours per week.\n\nTwo opposing age-related patterns stand out: screen viewing and reading occupied progressively more time as people got older, while sport and exercise declined. Socialising, in contrast, followed a U-shaped curve and was the only activity that outranked screen time for any group, namely the 16–24-year-olds.\n\nScreen viewing was by far the largest single use of leisure time for the three older groups. Young adults spent 9 hours a week in front of a screen, a figure that rose by two or three hours with each successive age group before jumping to 19 hours among the over-65s, more than double the youngest group's total. Reading, although a far less time-consuming pursuit, grew in a comparable way, from just 2 hours for the under-45s to 7 hours for retirees.\n\nPhysical activity moved in the opposite direction, falling from 5 hours a week among the youngest respondents to 3 hours in the two middle brackets and a mere 2 hours for the oldest. Socialising, meanwhile, was highest in youth at 10 hours, dipped to a low of 6 hours among 45–64-year-olds, and then recovered to 8 hours after 65, perhaps reflecting the greater free time that retirement brings.",
+      "commentary": "Task Achievement: a precise overview identifies the opposing trends and the single exception, and the body supports it with well-chosen, accurately compared data. The brief interpretation in the final sentence is cautious and relevant. Coherence and Cohesion: paragraphs are logically grouped by pattern and cohesion is seamless ('a figure that', 'meanwhile', 'in a comparable way'). Lexical Resource: sophisticated and precise ('age brackets', 'outranked', 'U-shaped curve', 'successive'), with natural paraphrasing of 'hours'. Grammatical Range and Accuracy: a wide range of structures, including appositive phrases and reduced relative clauses, used with full control. The term 'retirees' slightly over-assumes that everyone over 65 has retired."
+    }
+  ]
+}

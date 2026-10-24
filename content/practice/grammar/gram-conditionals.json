@@ -1,0 +1,139 @@
+{
+  "id": "gram-conditionals",
+  "kind": "question_set",
+  "skill": "grammar",
+  "module": "both",
+  "title": "Conditionals for Arguments and Predictions",
+  "difficulty": 2,
+  "minutes": 12,
+  "tags": ["grammar", "conditionals", "writing task 2"],
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "grammar",
+      "instructions": "Choose the correct option to complete each sentence.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "If you heat ice, it ______.",
+          "options": [
+            { "key": "A", "text": "would melt" },
+            { "key": "B", "text": "melts" },
+            { "key": "C", "text": "melted" },
+            { "key": "D", "text": "will have melted" }
+          ],
+          "answer": "B",
+          "explanation": "General truths use the zero conditional: if + present simple, present simple."
+        },
+        {
+          "n": 2,
+          "prompt": "If the council builds more cycle lanes, more people ______ to work by bike.",
+          "options": [
+            { "key": "A", "text": "will travel" },
+            { "key": "B", "text": "travelled" },
+            { "key": "C", "text": "would have travelled" },
+            { "key": "D", "text": "travelling" }
+          ],
+          "answer": "A",
+          "explanation": "A real, likely future result uses the first conditional: if + present, will + verb."
+        },
+        {
+          "n": 3,
+          "prompt": "If governments ______ fast food advertising, childhood obesity might decrease.",
+          "options": [
+            { "key": "A", "text": "ban" },
+            { "key": "B", "text": "banned" },
+            { "key": "C", "text": "will ban" },
+            { "key": "D", "text": "had been banning" }
+          ],
+          "answer": "B",
+          "explanation": "A hypothetical present or future idea uses the second conditional: if + past simple, would/might + verb."
+        },
+        {
+          "n": 4,
+          "prompt": "If the bridge had been inspected regularly, the accident ______.",
+          "options": [
+            { "key": "A", "text": "would not happen" },
+            { "key": "B", "text": "will not happen" },
+            { "key": "C", "text": "would not have happened" },
+            { "key": "D", "text": "did not happen" }
+          ],
+          "answer": "C",
+          "explanation": "An imagined different past uses the third conditional: if + past perfect, would have + past participle."
+        },
+        {
+          "n": 5,
+          "prompt": "If I ______ you, I would apply for the scholarship.",
+          "options": [
+            { "key": "A", "text": "am" },
+            { "key": "B", "text": "had been" },
+            { "key": "C", "text": "were" },
+            { "key": "D", "text": "would be" }
+          ],
+          "answer": "C",
+          "explanation": "In formal English, 'were' is used for all persons in the second conditional, especially in 'If I were you'."
+        },
+        {
+          "n": 6,
+          "prompt": "______ the internet existed, people relied on libraries for information.",
+          "options": [
+            { "key": "A", "text": "Unless" },
+            { "key": "B", "text": "If" },
+            { "key": "C", "text": "Before" },
+            { "key": "D", "text": "Provided" }
+          ],
+          "answer": "C",
+          "explanation": "This is a time clause, not a condition. 'Unless', 'if' and 'provided' express conditions and do not make sense here."
+        },
+        {
+          "n": 7,
+          "prompt": "You will not be allowed into the exam ______ you bring your passport.",
+          "options": [
+            { "key": "A", "text": "if" },
+            { "key": "B", "text": "unless" },
+            { "key": "C", "text": "provided that" },
+            { "key": "D", "text": "as long as" }
+          ],
+          "answer": "B",
+          "explanation": "'Unless' means 'if ... not': you will not be allowed in if you do not bring your passport."
+        },
+        {
+          "n": 8,
+          "prompt": "If she had studied medicine, she ______ a doctor now.",
+          "options": [
+            { "key": "A", "text": "would be" },
+            { "key": "B", "text": "would have been" },
+            { "key": "C", "text": "will be" },
+            { "key": "D", "text": "had been" }
+          ],
+          "answer": "A",
+          "explanation": "A mixed conditional links a past condition (had studied) to a present result (would be ... now)."
+        },
+        {
+          "n": 9,
+          "prompt": "______ the government invest more in research, new treatments could be developed sooner.",
+          "options": [
+            { "key": "A", "text": "Were" },
+            { "key": "B", "text": "Had" },
+            { "key": "C", "text": "Should" },
+            { "key": "D", "text": "Would" }
+          ],
+          "answer": "C",
+          "explanation": "Inverted 'Should + subject + base verb' is a formal way of saying 'If the government invests ...'. 'Were' would need 'to invest'."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "grammar",
+      "instructions": "Complete each sentence with the correct form of the verb in brackets. Write NO MORE THAN THREE WORDS.",
+      "maxWords": 3,
+      "allowNumber": false,
+      "questions": [
+        { "n": 10, "prompt": "If taxes on fuel rose, people {{10}} (drive) less.", "answers": ["would drive", "might drive", "could drive"], "explanation": "Second conditional: if + past simple, would + base verb." },
+        { "n": 11, "prompt": "If more trees {{11}} (plant) in the past, the floods would have been less severe.", "answers": ["had been planted"], "explanation": "Third conditional in the passive: if + had been + past participle." },
+        { "n": 12, "prompt": "Unless action {{12}} (take) soon, many species will disappear.", "answers": ["is taken"], "explanation": "In first-conditional clauses (if/unless), use the present tense even for the future, here in the passive: is taken." }
+      ]
+    }
+  ]
+}

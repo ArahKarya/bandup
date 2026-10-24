@@ -1,0 +1,321 @@
+{
+  "id": "pls-p1-community-classes",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 1,
+  "title": "Evening Classes at a Community Centre",
+  "difficulty": 2,
+  "minutes": 9,
+  "tags": [
+    "leisure",
+    "education",
+    "table"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Hello, Ashgrove Community Centre, Siobhan speaking."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Hi there. I picked up your autumn brochure, but it's a bit out of date, I think, and I wanted to check some details about the evening classes."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Yes, sorry about that. A few things have changed since it was printed. Which classes are you interested in?"
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Three, possibly. Pottery, Spanish and photography. Let's start with pottery. It's on Mondays, right?"
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "That's right, Monday evenings from seven. It used to be held in Room 9, but we've had a new kiln put in, so it's moved to Room 14, at the back of the building."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Room 14. And the brochure says it's eighty pounds?"
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "That was last year's price, I'm afraid. It's now ninety-five pounds for the eight weeks, but that includes all the clay and the firing."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "OK. Do I need to bring anything?"
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Tools are provided, but it does get messy. The tutor asks everyone to bring an apron. Old clothes are fine too, but an apron is the main thing."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Got it. Now, Spanish. The brochure has it on Tuesday nights."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Ah, that's one of the changes. The tutor couldn't do Tuesdays this term, so it's on Wednesday now. Same time, half past six, in the library upstairs."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Wednesday. That actually suits me better. Is it sixty pounds?"
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Yes, sixty is correct for Spanish."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "And what level is it? I did a little at school, but honestly I've forgotten nearly everything."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "We had an intermediate group last year, but there weren't enough people this time, so this term it's only for beginners. It sounds like that would suit you."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Perfect. And finally, photography."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Photography is Thursday, in the main hall. The price has gone up a bit because we've added two trips, one to the coast and one to the botanical gardens. It's now a hundred and twenty pounds, including the coach. Not a hundred and ten as it says in the brochure."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "That still sounds like good value. Is there any kind of discount available? I'm doing more than one class."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "We don't do a discount for multiple classes, unfortunately. We used to give ten per cent off for that, but it stopped last year. What we do have is a discount for anyone who lives in the town. That's fifteen per cent off every class."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Oh, I live on Mill Street, so that should be fine. Fifteen per cent, great."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Lovely. Is there anything else I can help with?"
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Yes, parking. Is there a car park at the centre?"
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "There is, but it's pay and display, and it fills up quickly in the evenings. Most of our students leave their cars at the supermarket across the road. It's free after six, and it's only a two-minute walk."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Great tip. And how do I enrol? Can I do it online?"
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "You can fill in the form online, but you do need to come in once before the course starts so we can check you're a local resident for the discount. Just bring proof of address, like a council tax letter. You don't need a photo or anything like that."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Proof of address. Fine. And the brochure mentioned an open evening where you can meet the tutors?"
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Yes, that's moved as well, I'm afraid. It was going to be on the second of September, but the hall is being painted that week. It's now on the fourth of September, from six until eight."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "The fourth. I'll put it in my diary. Thanks, Siobhan, you've been really helpful."
+      },
+      {
+        "speaker": "Officer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Not at all. We'll see you on the fourth, then."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "table_completion",
+      "instructions": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Ashgrove Community Centre: Evening Classes**\n\n| Class | Day | Place | Cost | Notes |\n|---|---|---|---|---|\n| Pottery | Monday | Room {{1}} | £{{2}} | Bring an {{3}} |\n| Spanish | {{4}} | Library | £60 | Only for {{5}} this term |\n| Photography | Thursday | Main hall | £{{6}} | Includes two trips |",
+      "questions": [
+        {
+          "n": 1,
+          "answers": [
+            "14",
+            "fourteen"
+          ],
+          "evidence": "line 5",
+          "explanation": "Pottery moved from Room 9 to Room 14."
+        },
+        {
+          "n": 2,
+          "answers": [
+            "95",
+            "95.00"
+          ],
+          "evidence": "line 7",
+          "explanation": "£80 was last year's price; it is now £95."
+        },
+        {
+          "n": 3,
+          "answers": [
+            "apron"
+          ],
+          "evidence": "line 9",
+          "explanation": "Tools are provided, but students must bring an apron."
+        },
+        {
+          "n": 4,
+          "answers": [
+            "Wednesday",
+            "Wednesdays"
+          ],
+          "evidence": "line 11",
+          "explanation": "The brochure says Tuesday, but the class has moved to Wednesday."
+        },
+        {
+          "n": 5,
+          "answers": [
+            "beginners",
+            "beginner"
+          ],
+          "evidence": "line 15",
+          "explanation": "There is no intermediate group this term; it is only for beginners."
+        },
+        {
+          "n": 6,
+          "answers": [
+            "120",
+            "120.00"
+          ],
+          "evidence": "line 17",
+          "explanation": "The price rose to £120, not £110 as printed."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "short_answer",
+      "instructions": "Answer the questions below. Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+      "maxWords": 3,
+      "allowNumber": true,
+      "questions": [
+        {
+          "n": 7,
+          "prompt": "What percentage discount do people who live in the town receive? {{7}}",
+          "answers": [
+            "15",
+            "15%",
+            "15 per cent",
+            "15 percent",
+            "fifteen per cent",
+            "fifteen percent",
+            "fifteen"
+          ],
+          "evidence": "line 19",
+          "explanation": "The 10% multiple-class discount has ended; local residents get 15%."
+        },
+        {
+          "n": 8,
+          "prompt": "Where do most students park? {{8}}",
+          "answers": [
+            "supermarket",
+            "the supermarket",
+            "at the supermarket",
+            "supermarket car park"
+          ],
+          "evidence": "line 23",
+          "explanation": "The centre's car park is pay and display, so most park free at the supermarket."
+        },
+        {
+          "n": 9,
+          "prompt": "What must the caller bring when he comes in to enrol? {{9}}",
+          "answers": [
+            "proof of address",
+            "council tax letter"
+          ],
+          "evidence": "line 25",
+          "explanation": "He needs proof of address to show he is a resident; a photo is not needed."
+        },
+        {
+          "n": 10,
+          "prompt": "On what date is the open evening? {{10}}",
+          "answers": [
+            "4 September",
+            "4th September",
+            "September 4",
+            "September 4th",
+            "4th of September",
+            "fourth of September",
+            "the fourth",
+            "4th",
+            "4"
+          ],
+          "evidence": "line 27",
+          "explanation": "It moved from 2 September to 4 September because the hall is being painted."
+        }
+      ]
+    }
+  ]
+}

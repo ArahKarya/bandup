@@ -1,0 +1,140 @@
+{
+  "id": "gram-relative-clauses",
+  "kind": "question_set",
+  "skill": "grammar",
+  "module": "both",
+  "title": "Complex Sentences and Relative Clauses",
+  "difficulty": 3,
+  "minutes": 14,
+  "tags": ["grammar", "relative clauses", "complex sentences"],
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "grammar",
+      "instructions": "Choose the correct option to complete each sentence.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Students ______ live far from campus often find it hard to join evening activities.",
+          "options": [
+            { "key": "A", "text": "which" },
+            { "key": "B", "text": "who" },
+            { "key": "C", "text": "whose" },
+            { "key": "D", "text": "where" }
+          ],
+          "answer": "B",
+          "explanation": "'Who' introduces a relative clause about people when it is the subject of the clause."
+        },
+        {
+          "n": 2,
+          "prompt": "The government introduced a sugar tax, ______ led to a fall in soft drink sales.",
+          "options": [
+            { "key": "A", "text": "that" },
+            { "key": "B", "text": "what" },
+            { "key": "C", "text": "which" },
+            { "key": "D", "text": "it" }
+          ],
+          "answer": "C",
+          "explanation": "After a comma, a non-defining clause about a whole idea uses 'which'. 'That' cannot follow a comma in a relative clause."
+        },
+        {
+          "n": 3,
+          "prompt": "This is the town ______ my grandparents first met.",
+          "options": [
+            { "key": "A", "text": "which" },
+            { "key": "B", "text": "where" },
+            { "key": "C", "text": "who" },
+            { "key": "D", "text": "whom" }
+          ],
+          "answer": "B",
+          "explanation": "'Where' replaces 'in which' for places: the town where (= in which) they met."
+        },
+        {
+          "n": 4,
+          "prompt": "Workers ______ jobs are at risk from automation may need retraining.",
+          "options": [
+            { "key": "A", "text": "who" },
+            { "key": "B", "text": "whom" },
+            { "key": "C", "text": "whose" },
+            { "key": "D", "text": "which" }
+          ],
+          "answer": "C",
+          "explanation": "'Whose' shows possession: the workers' jobs."
+        },
+        {
+          "n": 5,
+          "prompt": "______ the city has excellent public transport, many residents still drive to work.",
+          "options": [
+            { "key": "A", "text": "Despite" },
+            { "key": "B", "text": "Although" },
+            { "key": "C", "text": "However" },
+            { "key": "D", "text": "Because" }
+          ],
+          "answer": "B",
+          "explanation": "'Although' is followed by a full clause (subject + verb). 'Despite' needs a noun or -ing form, and 'However' joins two sentences, not clauses."
+        },
+        {
+          "n": 6,
+          "prompt": "The researcher to ______ I sent my questionnaire never replied.",
+          "options": [
+            { "key": "A", "text": "who" },
+            { "key": "B", "text": "whom" },
+            { "key": "C", "text": "that" },
+            { "key": "D", "text": "which" }
+          ],
+          "answer": "B",
+          "explanation": "After a preposition, use 'whom' for people and 'which' for things. 'Who' and 'that' cannot follow a preposition."
+        },
+        {
+          "n": 7,
+          "prompt": "Which sentence is punctuated correctly?",
+          "options": [
+            { "key": "A", "text": "My sister who lives in Dubai, is a nurse." },
+            { "key": "B", "text": "My sister, who lives in Dubai, is a nurse." },
+            { "key": "C", "text": "My sister, that lives in Dubai, is a nurse." },
+            { "key": "D", "text": "My sister, who lives in Dubai is a nurse." }
+          ],
+          "answer": "B",
+          "explanation": "A non-defining clause (extra information) needs a comma at both ends and cannot use 'that'."
+        },
+        {
+          "n": 8,
+          "prompt": "______ more people work from home, demand for office space has fallen.",
+          "options": [
+            { "key": "A", "text": "As" },
+            { "key": "B", "text": "Due to" },
+            { "key": "C", "text": "So" },
+            { "key": "D", "text": "Therefore" }
+          ],
+          "answer": "A",
+          "explanation": "'As' can mean 'because' and introduces a clause. 'Due to' needs a noun phrase."
+        },
+        {
+          "n": 9,
+          "prompt": "The data, most of ______ was collected in 2023, shows a clear upward trend.",
+          "options": [
+            { "key": "A", "text": "that" },
+            { "key": "B", "text": "it" },
+            { "key": "C", "text": "which" },
+            { "key": "D", "text": "what" }
+          ],
+          "answer": "C",
+          "explanation": "Quantifier + of + which/whom: most of which, some of whom."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "grammar",
+      "instructions": "Complete each sentence with ONE WORD ONLY.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "questions": [
+        { "n": 10, "prompt": "Not only did prices rise, {{10}} wages also fell.", "answers": ["but"], "explanation": "The pattern is 'Not only ... but (also) ...'." },
+        { "n": 11, "prompt": "The year {{11}} the factory closed was a difficult one for the town.", "answers": ["when", "that"], "explanation": "'When' (or 'that') introduces a relative clause after a time noun." },
+        { "n": 12, "prompt": "{{12}} having a degree, she struggled to find a job in her field.", "answers": ["despite"], "explanation": "'Despite' is followed by a noun or -ing form: despite having." },
+        { "n": 13, "prompt": "The reason {{13}} many students fail is poor time management.", "answers": ["why", "that"], "explanation": "'The reason why/that' introduces the explanation." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": "m2-r2",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "part": 2,
+  "title": "The Hidden Plastic Beneath Our Feet",
+  "difficulty": 2,
+  "minutes": 20,
+  "tags": [
+    "mock",
+    "environment",
+    "science",
+    "agriculture"
+  ],
+  "unlisted": true,
+  "passage": {
+    "title": "The Hidden Plastic Beneath Our Feet",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "When people picture plastic pollution, they usually imagine the ocean: bottles washed up on beaches, turtles tangled in fishing nets, a swirling mass of debris in the middle of the Pacific. Yet a growing body of research suggests that the land may hold far more plastic than the sea. Some estimates put the amount of microplastic, meaning fragments smaller than five millimetres, in agricultural soils at between four and twenty-three times the quantity found in the oceans. Despite this, soil has received only a small fraction of the scientific attention. One reason is visibility: plastic floating on water is easy to photograph and collect, whereas particles mixed into the earth are hidden from view. Another is technical. Separating tiny fragments of plastic from seawater is relatively straightforward, but soil is a complex mixture of minerals, organic matter and living organisms, and extracting plastic from it without destroying or missing the smallest particles is remarkably difficult."
+      },
+      {
+        "label": "B",
+        "text": "Plastic reaches farmland by several routes. Some arrives through the air or in floodwater, and some comes from litter that breaks down where it is dropped. But the largest sources are linked to farming itself. In many countries, sewage sludge, the solid material left over after wastewater has been treated, is spread on fields as a cheap fertiliser. Because wastewater contains fibres from washing machines and particles from cosmetics and car tyres, the sludge is rich in microplastics, and farmers who apply it regularly may be adding millions of fragments to every hectare each year. Compost made from household food waste can also contain plastic, usually from packaging that was not removed before processing. A third route, and perhaps the most visible, is plastic mulch film."
+      },
+      {
+        "label": "C",
+        "text": "Mulch film is a thin sheet of polyethylene laid over the soil around crops. It keeps moisture in, warms the ground in spring and stops weeds from growing, and it can raise yields considerably. Its use has expanded enormously, particularly in East Asia, where millions of hectares are covered each year. The difficulty comes at the end of the season. The film is so thin that it tears easily, and removing every piece is slow and costly. Fragments left behind are ploughed into the soil, where they gradually break into smaller and smaller pieces. Dr Lena Hartmann, a soil chemist, points out that because these residues accumulate year after year, fields that have been covered for several decades can contain very high concentrations of plastic. One proposed solution is biodegradable film, designed to break down in the soil after harvest, although critics note that it does not always decompose fully in cooler climates."
+      },
+      {
+        "label": "D",
+        "text": "What does all this plastic actually do? The answer appears to depend on the type, shape and amount of plastic involved. Professor Kwame Osei, who studies soil physics, has found that fibres and films can sometimes make soil looser and allow water to drain through it more quickly, an effect that might initially seem beneficial in heavy clay soils. Over time, however, he warns that the same changes can cause soil to dry out faster, which is bad news for crops in drought-prone regions. Other studies have found that microplastics can alter the communities of bacteria and fungi that break down organic matter and release nutrients, although whether these changes are harmful in the long run is not yet clear."
+      },
+      {
+        "label": "E",
+        "text": "The effects on soil animals are better documented. Earthworms, which are essential for mixing soil and creating channels for air and water, readily swallow small plastic particles. In laboratory experiments, worms exposed to high concentrations of microplastic grew more slowly, and some changed their behaviour, burrowing less deeply than worms kept in clean soil. Since earthworm burrows play an important part in drainage, this could have knock-on effects for a whole field. The worms may also move plastic particles downwards, carrying them to depths from which they could eventually reach groundwater."
+      },
+      {
+        "label": "F",
+        "text": "A further concern is the possibility that plastic, or the chemicals associated with it, could enter the food chain. Dr Sofia Ruiz, a plant scientist, has shown in experiments with lettuce and wheat that the very smallest particles, known as nanoplastics, can be taken up by roots and travel into stems and leaves. She stresses that the quantities involved are small. What concerns her more is that plastic fragments act as carriers: their surfaces attract pesticides, heavy metals and other pollutants, which may then be released into the soil around plant roots and absorbed by crops. How significant this is for human health remains, for now, an open question."
+      },
+      {
+        "label": "G",
+        "text": "Answering such questions will require better data, and that, according to Dr Martin Clarke, an environmental statistician, is where the field faces its greatest obstacle. Laboratories currently use different methods to extract and count particles, define 'microplastic' in different ways and report their results in different units, some by number of particles and others by weight. As a result, Clarke argues, the figures from different studies simply cannot be compared, and estimates of global soil contamination vary enormously. He is calling for an internationally agreed standard method. On the policy side, opinions are divided. Some environmental groups favour an outright ban on non-biodegradable mulch film, but Hartmann believes this would be unfair on small-scale farmers, for whom mulch can make the difference between profit and loss, and argues instead for schemes that pay farmers to collect and recycle used film."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_information",
+      "instructions": "Reading Passage 2 has seven paragraphs, A–G. Which paragraph contains the following information? NB You may use any letter more than once.",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        },
+        {
+          "key": "E",
+          "text": "E"
+        },
+        {
+          "key": "F",
+          "text": "F"
+        },
+        {
+          "key": "G",
+          "text": "G"
+        }
+      ],
+      "allowReuse": true,
+      "questions": [
+        {
+          "n": 14,
+          "prompt": "a source of plastic that farmers deliberately put on their land as fertiliser",
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "Sewage sludge, which contains microplastics, is spread on fields as fertiliser."
+        },
+        {
+          "n": 15,
+          "prompt": "reasons why soil has been studied less than the sea",
+          "answer": "A",
+          "evidence": "A",
+          "explanation": "Paragraph A gives two reasons: visibility and the technical difficulty of extraction."
+        },
+        {
+          "n": 16,
+          "prompt": "an example of an animal whose behaviour is altered by plastic",
+          "answer": "E",
+          "evidence": "E",
+          "explanation": "Earthworms exposed to microplastic burrowed less deeply."
+        },
+        {
+          "n": 17,
+          "prompt": "a reference to laboratories measuring plastic in inconsistent ways",
+          "answer": "G",
+          "evidence": "G",
+          "explanation": "Clarke notes that labs use different methods, definitions and units."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "Look at the following statements and the list of researchers below. Match each statement with the correct researcher, A–D. NB You may use any letter more than once.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lena Hartmann"
+        },
+        {
+          "key": "B",
+          "text": "Kwame Osei"
+        },
+        {
+          "key": "C",
+          "text": "Sofia Ruiz"
+        },
+        {
+          "key": "D",
+          "text": "Martin Clarke"
+        }
+      ],
+      "allowReuse": true,
+      "questions": [
+        {
+          "n": 18,
+          "prompt": "Plastic fragments may transport other harmful substances into crops.",
+          "answer": "C",
+          "evidence": "F",
+          "explanation": "Ruiz says fragments attract pesticides and heavy metals that may be absorbed by crops."
+        },
+        {
+          "n": 19,
+          "prompt": "Plastic can improve drainage at first but cause problems later.",
+          "answer": "B",
+          "evidence": "D",
+          "explanation": "Osei found faster drainage that might seem beneficial, but warns soil then dries out faster."
+        },
+        {
+          "n": 20,
+          "prompt": "The results of existing studies cannot be meaningfully compared.",
+          "answer": "D",
+          "evidence": "G",
+          "explanation": "Clarke argues the figures from different studies cannot be compared."
+        },
+        {
+          "n": 21,
+          "prompt": "A complete ban on conventional mulch film would harm small farmers.",
+          "answer": "A",
+          "evidence": "G",
+          "explanation": "Hartmann opposes an outright ban because it would be unfair on small-scale farmers."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A–H, below. Write the correct letter, A–H.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "template": "**Plastic mulch film**\n\nFarmers use mulch film because it holds {{22}} in the soil, warms the ground and prevents weeds. However, the film is very difficult to remove completely because it is so {{23}}. The pieces left behind are ploughed in each year, so in fields covered for decades the plastic becomes highly {{24}}.",
+      "wordBank": [
+        {
+          "key": "A",
+          "text": "moisture"
+        },
+        {
+          "key": "B",
+          "text": "nutrients"
+        },
+        {
+          "key": "C",
+          "text": "thin"
+        },
+        {
+          "key": "D",
+          "text": "heavy"
+        },
+        {
+          "key": "E",
+          "text": "concentrated"
+        },
+        {
+          "key": "F",
+          "text": "expensive"
+        },
+        {
+          "key": "G",
+          "text": "scattered"
+        },
+        {
+          "key": "H",
+          "text": "warmth"
+        }
+      ],
+      "questions": [
+        {
+          "n": 22,
+          "answers": [
+            "A"
+          ],
+          "evidence": "C",
+          "explanation": "Mulch film 'keeps moisture in'."
+        },
+        {
+          "n": 23,
+          "answers": [
+            "C"
+          ],
+          "evidence": "C",
+          "explanation": "It is so thin that it tears, which makes removal difficult."
+        },
+        {
+          "n": 24,
+          "answers": [
+            "E"
+          ],
+          "evidence": "C",
+          "explanation": "Residues accumulate, so long-covered fields contain very high concentrations."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "short_answer",
+      "instructions": "Answer the questions below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "maxWords": 2,
+      "allowNumber": false,
+      "questions": [
+        {
+          "n": 25,
+          "prompt": "What kind of film has been suggested as an alternative to conventional mulch? {{25}}",
+          "answers": [
+            "biodegradable",
+            "biodegradable film"
+          ],
+          "evidence": "C",
+          "explanation": "Biodegradable film is designed to break down after harvest."
+        },
+        {
+          "n": 26,
+          "prompt": "Which underground water source could earthworms eventually help plastic to reach? {{26}}",
+          "answers": [
+            "groundwater",
+            "the groundwater"
+          ],
+          "evidence": "E",
+          "explanation": "Worms carry particles to depths from which they could reach groundwater."
+        }
+      ]
+    }
+  ]
+}

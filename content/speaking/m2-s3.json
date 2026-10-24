@@ -1,0 +1,45 @@
+{
+  "id": "m2-s3",
+  "kind": "speaking_task",
+  "part": 3,
+  "topic": "Patience in modern life",
+  "difficulty": 3,
+  "unlisted": true,
+  "questions": [
+    "Why do you think people today seem less patient than in the past?",
+    "Are there situations where being impatient can be a good thing?",
+    "How have businesses changed to reduce the time customers spend waiting?",
+    "Should children be taught to be patient? How?",
+    "Do you think technology will make people even less patient in the future?"
+  ],
+  "tips": [
+    "Part 3 is about society, not just you: move from personal examples to general trends.",
+    "It's fine to question the premise ('I'm not sure we're less patient; I think...').",
+    "Develop each answer: a view, a reason, an example and a qualification.",
+    "Use the right word forms: 'patience' and 'impatience' are nouns; 'patient' and 'impatient' are adjectives."
+  ],
+  "usefulPhrases": [
+    "I'm not entirely convinced that...",
+    "It's less that... and more that...",
+    "I'd go so far as to say...",
+    "The key, I suppose, is whether...",
+    "It's probably caught more than taught."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Why do you think people today seem less patient than in the past?] I think the main reason is technology. Now everything is very fast, we can order food and it comes in thirty minutes, we can watch any film immediately. So people are used to get everything quickly and when they have to wait, they feel angry. In the past people had to wait for letters for weeks, so they were more patient.\n\n[Are there situations where being impatient can be a good thing?] Yes, maybe. For example, if a government is very slow to fix a problem, like pollution, people who are impatient can push them to do something faster. So in this case impatient is good. But in normal life I think patient is better.\n\n[Should children be taught to be patient?] Yes, I think parents should teach them. For example, they can make the children wait before they get a present or sweets. Also in school, teachers can give long projects so children learn that good results need time.",
+      "commentary": "Fluency & Coherence 6: willing to give extended answers with examples, though ideas are fairly obvious and links are simple. Lexical Resource 6: adequate for the abstract topic, but word forms are confused ('impatient is good', 'patient is better' instead of 'impatience' and 'patience'). Grammatical Range & Accuracy 6: some complex sentences, with errors such as 'are used to get' and run-on sentences. Pronunciation cannot be judged from text."
+    },
+    {
+      "band": 7,
+      "text": "[Why do you think people today seem less patient than in the past?] I think it's largely because so many services are now instant. You can stream a film, order a taxi or get an answer to almost any question in seconds, so we've come to expect immediate results. When something doesn't happen straight away, like a slow website or a queue at the bank, it feels unusual, almost unacceptable, whereas a generation ago that kind of wait was just part of life.\n\n[Are there situations where being impatient can be a good thing?] Definitely. A lot of social progress has come from people who simply refused to wait. If campaigners had accepted being told 'change takes time', many reforms would have taken much longer. The same applies at work: an impatient manager might push a team to solve a problem rather than just discussing it endlessly. I suppose the key is whether the impatience is directed at something worthwhile.\n\n[Should children be taught to be patient?] Yes, but I don't think you can just tell them to be patient. They learn it through experience, things like growing a plant from a seed or saving up pocket money for something they really want. Those activities show them that waiting can actually lead to something better.",
+      "commentary": "Fluency & Coherence 7: answers are developed with reasons, examples and a qualifying point ('I suppose the key is...'). Lexical Resource 7: suitable abstract vocabulary ('social progress', 'reforms', 'directed at something worthwhile'). Grammatical Range & Accuracy 7: good use of conditionals ('If campaigners had accepted...') and complex clauses, mostly error-free. More nuanced speculation would raise it to 8. Pronunciation cannot be judged from text."
+    },
+    {
+      "band": 8,
+      "text": "[Why do you think people today seem less patient than in the past?] I'm not entirely convinced we're inherently less patient; I think our expectations have been recalibrated. When almost everything, from shopping to entertainment, is available on demand, any delay stands out in a way it wouldn't have done before. So it's less that our character has changed and more that the baseline has shifted. Put someone in a situation where waiting is clearly unavoidable, like a long-haul flight, and most people cope perfectly well.\n\n[Are there situations where being impatient can be a good thing?] Absolutely, and I'd go so far as to say that a certain amount of impatience is a driving force behind innovation. Many inventions came about because someone was frustrated that a task took too long and decided there had to be a better way. Politically, too, impatience with injustice has driven a great deal of reform. The danger is when it turns into a reluctance to tolerate any process that requires time, like scientific research, which can't simply be rushed.\n\n[Should children be taught to be patient?] I think so, though it's probably caught more than taught. Children pick up on how the adults around them react to delays, so a parent who shouts at the traffic is giving a lesson of sorts. Beyond modelling, I'd say long-term activities like learning an instrument are invaluable, because the reward comes only after months of effort, and that teaches persistence in a way no lecture could.",
+      "commentary": "Fluency & Coherence 8: challenges the premise of the first question and builds a reasoned argument, with fluent hedging ('I'm not entirely convinced', 'I'd go so far as to say'). Lexical Resource 8: precise and sophisticated ('recalibrated', 'the baseline has shifted', 'caught more than taught'). Grammatical Range & Accuracy 8: a wide range of structures with full control. Pronunciation cannot be judged from text."
+    }
+  ]
+}

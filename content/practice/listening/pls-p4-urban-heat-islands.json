@@ -1,0 +1,196 @@
+{
+  "id": "pls-p4-urban-heat-islands",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 4,
+  "title": "Urban Heat Islands",
+  "difficulty": 2,
+  "minutes": 11,
+  "tags": [
+    "environment",
+    "cities",
+    "lecture"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Good morning. Today's lecture is about a phenomenon that affects almost every large city in the world: the urban heat island. Simply put, this is when a city is noticeably warmer than the countryside around it. I'll look at what causes it, what effects it has, and finally what cities are doing about it."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "First, a word on how we know this. The effect was first described in the early nineteenth century by a scientist who compared thermometer readings in central London with those in nearby villages. Today, researchers use networks of weather stations, and increasingly satellite images, which show surface temperatures across a whole city in a single picture. On those images, the hottest areas are almost always industrial zones and large shopping centres, while parks and rivers show up as cool patches."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Let's begin with the causes. The first and most important is the surfaces we build with. Roads, car parks and roofs are mostly dark materials such as asphalt and tar. Dark surfaces absorb a great deal of sunlight during the day, and they store it as heat. You'll know this if you've ever walked barefoot on a road in summer."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "The second cause is the lack of vegetation. Now, you might assume the main benefit of trees is shade, and shade certainly helps. But the bigger cooling effect comes from a process called transpiration. Plants draw water up from the soil and release it through their leaves as vapour, and this uses energy from the surrounding air, cooling it down. In a city with few trees, this natural cooling largely disappears."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Third, cities produce a lot of heat themselves. Vehicles are an obvious source, and so are factories, which in some industrial cities release enormous amounts of waste heat. Air-conditioning units also pump heat out of buildings into the street, which is rather ironic."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "And the fourth cause is the shape of the city itself. When tall buildings stand close together along narrow streets, they form what we call urban canyons. Heat gets trapped between the buildings, and, importantly, they reduce the wind, which would otherwise carry warm air away."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "So what are the effects? During the day, a large city may be about three degrees warmer than its surroundings. But the difference is often greatest at night, because all those roads and buildings slowly release the heat they've stored. Night-time temperatures in some cities can be up to seven degrees higher than in nearby rural areas."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "This has a number of consequences. Warmer cities mean more people switch on air conditioning, so there is a much greater demand for electricity during hot weather. That, in turn, can lead to power cuts, and if the electricity comes from fossil fuels, more emissions."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "There are also serious risks to health. Heat waves cause heat stroke and make heart and breathing problems worse. While young children are vulnerable, the group most at risk is elderly people, particularly those who live alone and may not notice they are becoming dangerously hot."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "So, finally, what can be done? One of the simplest and cheapest solutions is the so-called cool roof. Instead of black tar, roofs are covered in a reflective material or simply painted white, so that they reflect sunlight back into the sky. Studies show a white roof can be up to thirty degrees cooler on a sunny afternoon than a dark one."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Many cities are also planting trees along streets and creating green roofs. And another approach is to change the paving. Some cities are replacing the surfaces of car parks and pavements with permeable paving, which allows rainwater to soak through into the ground. As this water evaporates, it cools the surface, rather like the trees do."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "These measures sound straightforward, so why aren't all cities using them? Interestingly, the initial cost is not usually the problem, because many of these solutions are fairly cheap to install. And there's generally strong public support. The main obstacle, according to most city planners, is the cost of maintenance. Trees need watering and pruning for decades, white roofs need repainting every few years, and permeable paving must be cleaned regularly or it becomes blocked."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "In the next lecture, we'll look at a case study of one city that has tried to tackle all four causes at once."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Urban heat islands**\n\n**Causes**\n- Dark surfaces absorb {{1}} and store it as heat\n- Few trees: less cooling through {{2}}\n- Heat produced by vehicles, {{3}} and air-conditioning units\n- Tall buildings trap heat and reduce {{4}}\n\n**Effects**\n- Night-time temperatures up to {{5}} degrees higher than rural areas\n- Greater demand for {{6}}\n- Health risks, especially for {{7}} people\n\n**Solutions**\n- Cool roofs: reflective or painted {{8}}\n- Car parks and pavements with {{9}} paving\n- Main obstacle: the cost of {{10}}",
+      "questions": [
+        {
+          "n": 1,
+          "answers": [
+            "sunlight"
+          ],
+          "evidence": "line 3",
+          "explanation": "Dark surfaces absorb a great deal of sunlight and store it as heat."
+        },
+        {
+          "n": 2,
+          "answers": [
+            "transpiration",
+            "evapotranspiration"
+          ],
+          "evidence": "line 4",
+          "explanation": "Shade helps, but the bigger cooling effect comes from transpiration."
+        },
+        {
+          "n": 3,
+          "answers": [
+            "factories"
+          ],
+          "evidence": "line 5",
+          "explanation": "Vehicles and factories are named as heat sources, along with air-conditioning units."
+        },
+        {
+          "n": 4,
+          "answers": [
+            "wind",
+            "winds"
+          ],
+          "evidence": "line 6",
+          "explanation": "Urban canyons trap heat and reduce the wind."
+        },
+        {
+          "n": 5,
+          "answers": [
+            "7",
+            "seven"
+          ],
+          "evidence": "line 7",
+          "explanation": "Three degrees is the daytime figure; at night the difference can reach seven."
+        },
+        {
+          "n": 6,
+          "answers": [
+            "electricity",
+            "power"
+          ],
+          "evidence": "line 8",
+          "explanation": "More air conditioning means greater demand for electricity."
+        },
+        {
+          "n": 7,
+          "answers": [
+            "elderly",
+            "older",
+            "old"
+          ],
+          "evidence": "line 9",
+          "explanation": "Children are vulnerable, but elderly people are most at risk."
+        },
+        {
+          "n": 8,
+          "answers": [
+            "white"
+          ],
+          "evidence": "line 10",
+          "explanation": "Roofs are covered in reflective material or painted white."
+        },
+        {
+          "n": 9,
+          "answers": [
+            "permeable"
+          ],
+          "evidence": "line 11",
+          "explanation": "Permeable paving lets rainwater soak through and cool the surface."
+        },
+        {
+          "n": 10,
+          "answers": [
+            "maintenance",
+            "maintaining"
+          ],
+          "evidence": "line 12",
+          "explanation": "Initial cost and public support are not the problem; maintenance cost is."
+        }
+      ]
+    }
+  ]
+}

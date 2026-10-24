@@ -1,0 +1,73 @@
+{
+  "id": "g1-r2",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "general",
+  "part": 2,
+  "title": "Staff Leave Policy and First Aid Training",
+  "difficulty": 2,
+  "minutes": 20,
+  "tags": ["work", "policy", "training"],
+  "unlisted": true,
+  "passage": {
+    "title": "Corran Logistics: Staff Information",
+    "subtitle": "Text 1 is an extract from the staff handbook. Text 2 is information about a training course (sections A–F).",
+    "paragraphs": [
+      { "label": "Text 1", "text": "**Staff Handbook, Section 4: Leave and Absence. Annual leave.** Full-time employees are entitled to 25 days of paid annual leave per year, in addition to public holidays. The leave year runs from 1 April to 31 March. Part-time staff receive a proportional amount, calculated according to the number of hours in their contract. Up to five unused days may be carried over into the next leave year, but these must be taken by the end of June or they will be lost." },
+      { "text": "**Requesting leave.** All requests should be made through the online staff portal. Requests for one week or longer must be submitted at least four weeks in advance; shorter requests require two weeks' notice. Your line manager will normally respond within five working days. Please note that during our peak season, from mid-November to early January, no more than two members of any team may be on leave at the same time, and requests are granted in the order in which they are received." },
+      { "text": "**Sickness absence.** If you are unable to come to work because of illness, you must telephone your line manager before your shift begins. Text messages and emails are not acceptable. For absences of up to seven calendar days, you can complete a self-certification form when you return. For longer absences, a fit note from a doctor is required. After any absence, you will have a short return-to-work meeting with your manager." },
+      { "text": "**Other leave.** Employees may take up to three days of paid compassionate leave following the death of a close relative. Staff who are called for jury service will continue to receive their normal pay for up to ten working days; beyond this, they should claim an allowance from the court. Requests for unpaid leave for other reasons are considered individually by the HR department." },
+      { "label": "Text 2", "text": "**Workplace First Aid: Course Information**" },
+      { "label": "A", "text": "This three-day course is designed for employees who have agreed to act as first aiders in their workplace. No previous medical knowledge is required. Under company policy, every site must have at least one qualified first aider for every 50 employees on each shift, so managers are encouraged to nominate staff from both day and night teams." },
+      { "label": "B", "text": "Over the three days, participants learn how to assess an emergency calmly, perform CPR, use a defibrillator, and treat burns, bleeding and broken bones. They also learn what to do when someone faints, has an allergic reaction or is choking. Much of the course is hands-on: participants practise on training mannequins and take part in realistic role-plays based on accidents that have actually occurred in warehouses." },
+      { "label": "C", "text": "There is no written examination. Instead, trainers observe each participant throughout the course and carry out two short practical assessments on the final afternoon. In each one, the participant must deal with a simulated casualty while explaining what they are doing and why. Trainers look for safe technique and clear communication rather than speed." },
+      { "label": "D", "text": "Successful participants receive a certificate that is valid for three years. To remain qualified, first aiders must complete a one-day refresher course before their certificate expires; otherwise they will have to repeat the full three-day course. HR will send a reminder three months before the expiry date, but it remains the employee's responsibility to book the refresher in time." },
+      { "label": "E", "text": "Courses take place at the training centre in Building 3, and lunch and refreshments are provided each day. Because participants spend a good deal of time kneeling on the floor, comfortable, loose clothing is recommended. Anyone with back or knee problems should tell the trainer before the course starts so that the activities can be adapted." },
+      { "label": "F", "text": "Places must be booked by your line manager rather than by individual employees. Time spent on the course counts as normal working hours, and staff who usually work night shifts will be released from the shift before each course day. Once qualified, first aiders receive an additional payment of £20 per month in recognition of their extra responsibility." }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Read Text 1. Complete the notes below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the text for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "template": "**Leave and absence: key points**\n\n- The leave year starts on {{15}}.\n- Up to five days can be carried over, but they are lost if not used by the end of {{16}}.\n- Leave must be requested using the {{17}}.\n- Requests for a week or more need {{18}} weeks' notice.\n- In peak season, a maximum of {{19}} people from the same team can be on leave together.\n- Staff who are ill must {{20}} their line manager before their shift starts.\n- Absences of more than seven days require a {{21}} from a doctor.",
+      "questions": [
+        { "n": 15, "answers": ["1 April", "April 1", "1st April", "April 1st"], "evidence": "Text 1, Annual leave", "explanation": "'The leave year runs from 1 April to 31 March.'" },
+        { "n": 16, "answers": ["June"], "evidence": "Text 1, Annual leave", "explanation": "Carried-over days 'must be taken by the end of June or they will be lost'." },
+        { "n": 17, "answers": ["staff portal", "portal"], "evidence": "Text 1, Requesting leave", "explanation": "'All requests should be made through the online staff portal.' The full phrase is three words, so 'staff portal' fits the limit." },
+        { "n": 18, "answers": ["4", "four"], "evidence": "Text 1, Requesting leave", "explanation": "Requests of a week or longer need at least four weeks' notice; two weeks is for shorter requests." },
+        { "n": 19, "answers": ["2", "two"], "evidence": "Text 1, Requesting leave", "explanation": "'No more than two members of any team may be on leave at the same time.'" },
+        { "n": 20, "answers": ["telephone", "phone"], "evidence": "Text 1, Sickness absence", "explanation": "'You must telephone your line manager'; texts and emails are not acceptable." },
+        { "n": 21, "answers": ["fit note"], "evidence": "Text 1, Sickness absence", "explanation": "Self-certification covers up to seven days; 'for longer absences, a fit note from a doctor is required'." }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_headings",
+      "instructions": "Read Text 2, which has six sections, A–F. Choose the correct heading for each section from the list of headings below.",
+      "options": [
+        { "key": "i", "text": "Practical arrangements for course days" },
+        { "key": "ii", "text": "Who the course is intended for" },
+        { "key": "iii", "text": "The cost of the course to the company" },
+        { "key": "iv", "text": "Keeping a qualification valid" },
+        { "key": "v", "text": "The skills covered" },
+        { "key": "vi", "text": "How performance is judged" },
+        { "key": "vii", "text": "Arranging a place and the rewards involved" },
+        { "key": "viii", "text": "Why accidents happen in warehouses" },
+        { "key": "ix", "text": "Comments from previous participants" }
+      ],
+      "allowReuse": false,
+      "questions": [
+        { "n": 22, "prompt": "Section A", "answer": "ii", "evidence": "A", "explanation": "The section describes the intended participants: employees who have agreed to act as first aiders, with no medical knowledge needed." },
+        { "n": 23, "prompt": "Section B", "answer": "v", "evidence": "B", "explanation": "It lists what participants learn to do: CPR, using a defibrillator, treating burns and so on. Warehouse accidents are only the basis for role-plays, so viii does not fit." },
+        { "n": 24, "prompt": "Section C", "answer": "vi", "evidence": "C", "explanation": "It explains the assessment: observation and two practical tests judged on technique and communication." },
+        { "n": 25, "prompt": "Section D", "answer": "iv", "evidence": "D", "explanation": "It explains that the certificate lasts three years and must be renewed with a refresher course." },
+        { "n": 26, "prompt": "Section E", "answer": "i", "evidence": "E", "explanation": "It covers the location, meals, clothing and adapting activities: the arrangements on the day." },
+        { "n": 27, "prompt": "Section F", "answer": "vii", "evidence": "F", "explanation": "It explains who books places and mentions the £20 monthly payment for qualified first aiders." }
+      ]
+    }
+  ]
+}

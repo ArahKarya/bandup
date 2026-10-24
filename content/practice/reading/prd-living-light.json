@@ -1,0 +1,76 @@
+{
+  "id": "prd-living-light",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "Living Light",
+  "difficulty": 1,
+  "minutes": 18,
+  "tags": ["science", "nature", "oceans"],
+  "passage": {
+    "title": "Living Light",
+    "subtitle": "The many uses of bioluminescence",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Bioluminescence is the production of light by living things. On land it is fairly rare, the best-known examples being fireflies and a few types of mushroom, but in the ocean it is remarkably common. Scientists estimate that around three-quarters of the animals living in the open sea at depths between 200 and 1,000 metres can produce light of some kind. In this dim zone, where sunlight fades to almost nothing, the ability to make light can be a matter of life and death."
+      },
+      {
+        "label": "B",
+        "text": "The light is created by a chemical reaction. A molecule called luciferin combines with oxygen, and the reaction is controlled by an enzyme known as luciferase. The process produces almost no heat, which is why bioluminescence is sometimes called 'cold light'. Most marine light is blue or green, because these colours travel furthest through seawater. A few species, however, produce red light, which most other deep-sea animals cannot see."
+      },
+      {
+        "label": "C",
+        "text": "Animals use their light for several purposes. One of the most common is defence. Some shrimps, when attacked, release a cloud of glowing liquid into the water, confusing the predator while they escape. Certain jellyfish use a strategy that biologists call a 'burglar alarm': when caught, they flash brightly, which may attract a larger animal that will attack the original predator."
+      },
+      {
+        "label": "D",
+        "text": "Light is also used to find food. The anglerfish is the most famous example. A long spine growing from its head ends in a glowing lure that attracts smaller fish close enough to be swallowed. The light in the lure is not made by the fish itself but by bacteria that live inside it. Other predators use their red light like a searchlight, illuminating prey that cannot detect the beam."
+      },
+      {
+        "label": "E",
+        "text": "A third use is camouflage. Many animals in the middle depths have light-producing organs on their undersides. When seen from below, a fish would normally appear as a dark shape against the faint light coming from the surface. By producing a soft glow that matches the brightness above, the fish effectively erases its own shadow. This technique is known as counter-illumination, and some squid can adjust the strength of their glow as the light from above changes."
+      },
+      {
+        "label": "F",
+        "text": "Finally, light can help animals communicate. On land, male and female fireflies flash in patterns that are specific to their species, which helps them find suitable partners. Similar signalling is thought to occur in the deep sea, although it is much harder to observe. Researchers studying deep-sea animals face considerable difficulties, since many species are damaged when they are brought to the surface, and the bright lamps on underwater vehicles can disturb the behaviour being studied."
+      },
+      {
+        "label": "G",
+        "text": "Bioluminescence has also proved valuable to humans. The genes responsible for producing light have been inserted into cells in laboratories, so that scientists can see when particular genes are active. Light-producing bacteria are used in tests that detect pollution in water, since their glow fades when toxic substances are present. Some designers have even proposed using glowing organisms for street lighting, although such ideas remain at an early stage."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "template": "**Bioluminescence**\n\n*How the light is made*\n- luciferin reacts with {{1}}\n- produces very little {{2}}, so is called 'cold light'\n- blue or green light is most common in the sea\n\n*Uses*\n- defence: some shrimps release a glowing {{3}}\n- hunting: the anglerfish has a lure containing {{4}}\n- camouflage: lights on the underside hide the animal's {{5}}\n- communication: fireflies use flashes to find {{6}}\n\n*Human uses*\n- glowing bacteria can show the presence of {{7}} in water",
+      "questions": [
+        { "n": 1, "answers": ["oxygen"], "evidence": "B", "explanation": "'A molecule called luciferin combines with oxygen'." },
+        { "n": 2, "answers": ["heat"], "evidence": "B", "explanation": "'The process produces almost no heat'." },
+        { "n": 3, "answers": ["liquid"], "evidence": "C", "explanation": "Some shrimps 'release a cloud of glowing liquid'." },
+        { "n": 4, "answers": ["bacteria"], "evidence": "D", "explanation": "The light in the lure is made 'by bacteria that live inside it'." },
+        { "n": 5, "answers": ["shadow"], "evidence": "E", "explanation": "The fish 'effectively erases its own shadow'." },
+        { "n": 6, "answers": ["partners"], "evidence": "F", "explanation": "Flash patterns help fireflies 'find suitable partners'." },
+        { "n": 7, "answers": ["pollution"], "evidence": "G", "explanation": "Light-producing bacteria are used in tests 'that detect pollution in water'." }
+      ]
+    },
+    {
+      "type": "tfng",
+      "variant": "tfng",
+      "category": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        { "n": 8, "statement": "Bioluminescence is more common in the ocean than on land.", "answer": "TRUE", "evidence": "A", "explanation": "On land it is 'fairly rare', but in the ocean it is 'remarkably common'." },
+        { "n": 9, "statement": "Most deep-sea animals are able to see red light.", "answer": "FALSE", "evidence": "B", "explanation": "Red light is something 'most other deep-sea animals cannot see'." },
+        { "n": 10, "statement": "The anglerfish produces the light in its lure by itself.", "answer": "FALSE", "evidence": "D", "explanation": "The light 'is not made by the fish itself but by bacteria'." },
+        { "n": 11, "statement": "Some squid can change how brightly they glow.", "answer": "TRUE", "evidence": "E", "explanation": "'some squid can adjust the strength of their glow'." },
+        { "n": 12, "statement": "The flash patterns of fireflies were first recorded by scientists in the nineteenth century.", "answer": "NOT GIVEN", "evidence": "F", "explanation": "The passage says flash patterns are specific to each species but says nothing about when they were first recorded." }
+      ]
+    }
+  ]
+}

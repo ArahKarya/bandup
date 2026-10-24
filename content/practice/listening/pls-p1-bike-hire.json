@@ -1,0 +1,337 @@
+{
+  "id": "pls-p1-bike-hire",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 1,
+  "title": "Hiring Bicycles for a Weekend",
+  "difficulty": 1,
+  "minutes": 8,
+  "tags": [
+    "travel",
+    "booking",
+    "form"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Good morning, Fernwell Cycle Hire, Jenny speaking. How can I help you?"
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Oh, hi. I'm visiting the area with my wife next month, and we'd like to hire a couple of bikes for a weekend. Is that something I can book over the phone?"
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Yes, of course. I'll just take a few details and fill in a booking form for you. Could I have your name first, please?"
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Sure. It's Marcus. Marcus Talbridge."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Could you spell the surname for me?"
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Yep, it's T-A-L-B-R-I-D-G-E."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Lovely, thank you. Now, what kind of bikes were you thinking of? We have road bikes, mountain bikes and hybrids."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Well, I did think about mountain bikes, because I've heard there are some hills around here. But we'll mostly be on country lanes and the old railway path, so I think a mountain bike would be a bit heavy for that."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "That's right. Most people doing the lanes go for a hybrid. They're light, but the tyres are a bit wider than on a road bike, so they cope with gravel."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "OK, then let's go for hybrids. Two of them, please."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Two hybrids. And which weekend would that be?"
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "We arrive on Friday the nineteenth of June, so we'd want them on the Saturday, the twentieth. Oh, hang on, no. Sorry, I'm looking at the wrong week on my calendar. We get there on the twentieth, so it's Saturday the twenty-first. And we'd bring them back on the Sunday evening."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "So the twenty-first and twenty-second. No problem. What time would you like to collect them on the Saturday? We open at eight."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Could we say eight o'clock? Actually, no, we'll need breakfast first. Let's make it half past eight."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Eight thirty, fine. Now, do you need any extras? We have helmets, which are free, and you can add bags, locks and so on."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "We'll bring our own helmets. But we'll be carrying a picnic and some spare clothes. Do you have baskets?"
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "We normally do, but I'm afraid all our baskets are booked for that weekend. What I can offer instead is panniers. They're the bags that clip on to a rack at the back of the bike."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Oh, panniers would be even better, actually. Can we have one on each bike?"
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Yes, I'll put down two panniers. Do you know which route you'll be taking? We give out free route maps."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Someone at our hotel mentioned the Heron Trail along the river."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Ah, I'm sorry to say part of the Heron Trail is closed at the moment, because the river bank collapsed in the winter. Most people are doing the Kestrel Trail instead. It goes up through the woods and comes back past the lake."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "The Kestrel Trail. Is that K-E-S-T-R-E-L?"
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "That's it. I'll put a Kestrel Trail map in with your booking."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Great. So, how much is all of this going to cost?"
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Let me see. Hybrids are twenty-five pounds a day, so two bikes for two days would be a hundred. Oh, no, wait. For a whole weekend we have a special rate, which is forty pounds per bike. So that's eighty for the two bikes."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "And the panniers?"
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Panniers are three pounds each, so six pounds altogether. That brings the total to eighty-six pounds."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "That sounds reasonable. Do I pay now?"
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "You pay the hire charge when you collect the bikes, but we do ask for a deposit of twenty pounds to hold the booking. We can't take cash for the deposit, I'm afraid, so it would need to be by credit card."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "No problem. I'll give you the card details at the end."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Thanks. Just a couple more questions. We like to know how customers hear about us. Was it our website, or perhaps a leaflet?"
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Neither, actually. There's a cycling podcast I listen to, and the presenter mentioned you in an episode about the region."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Oh, how nice! I'll make a note of that. And lastly, when you come to collect the bikes, you'll need to show some photo ID. We don't accept bank statements or bills any more, so it has to be a driving licence or a passport."
+      },
+      {
+        "speaker": "Caller",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Well, my licence is Australian, so I'll just bring my passport. That's easier."
+      },
+      {
+        "speaker": "Receptionist",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Perfect. Right, if you can read me the card number now, I'll take the deposit."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "form_completion",
+      "instructions": "Complete the form below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "template": "**Fernwell Cycle Hire: Booking Form**\n\n- Customer name: Marcus {{1}}\n- Type of bikes: two {{2}} bikes\n- Date of hire: Saturday {{3}} June and Sunday\n- Collection time: {{4}}\n- Extras: two {{5}}\n- Free route map: the {{6}} Trail\n- Total cost: £{{7}}\n- Deposit of £20 paid by {{8}}\n- Heard about company through a {{9}}\n- ID to bring on collection: {{10}}",
+      "questions": [
+        {
+          "n": 1,
+          "answers": [
+            "Talbridge"
+          ],
+          "evidence": "line 6",
+          "explanation": "The caller spells his surname T-A-L-B-R-I-D-G-E."
+        },
+        {
+          "n": 2,
+          "answers": [
+            "hybrid",
+            "hybrids"
+          ],
+          "evidence": "line 10",
+          "explanation": "He considers mountain bikes but decides they are too heavy and chooses hybrids."
+        },
+        {
+          "n": 3,
+          "answers": [
+            "21",
+            "21st",
+            "twenty-first",
+            "twenty first"
+          ],
+          "evidence": "line 12",
+          "explanation": "He first says the 20th, then corrects himself: Saturday the twenty-first."
+        },
+        {
+          "n": 4,
+          "answers": [
+            "8.30",
+            "8:30",
+            "8.30 am",
+            "8:30 am",
+            "8.30am",
+            "8:30am"
+          ],
+          "evidence": "line 14",
+          "explanation": "Eight o'clock is rejected because of breakfast; he chooses half past eight."
+        },
+        {
+          "n": 5,
+          "answers": [
+            "panniers",
+            "pannier bags",
+            "pannier"
+          ],
+          "evidence": "line 18",
+          "explanation": "Baskets are all booked, so he takes panniers, one per bike."
+        },
+        {
+          "n": 6,
+          "answers": [
+            "Kestrel"
+          ],
+          "evidence": "line 23",
+          "explanation": "The Heron Trail is partly closed, so the map is for the Kestrel Trail."
+        },
+        {
+          "n": 7,
+          "answers": [
+            "86",
+            "86.00"
+          ],
+          "evidence": "line 27",
+          "explanation": "The weekend rate gives £80 for two bikes, plus £6 for panniers: £86. The first figure of £100 is corrected."
+        },
+        {
+          "n": 8,
+          "answers": [
+            "credit card",
+            "card"
+          ],
+          "evidence": "line 30",
+          "explanation": "Cash is not accepted for the deposit; it must be paid by credit card."
+        },
+        {
+          "n": 9,
+          "answers": [
+            "podcast",
+            "cycling podcast"
+          ],
+          "evidence": "line 32",
+          "explanation": "Not the website or a leaflet, but a cycling podcast."
+        },
+        {
+          "n": 10,
+          "answers": [
+            "passport",
+            "his passport",
+            "a passport"
+          ],
+          "evidence": "line 34",
+          "explanation": "Bills are not accepted; he decides to bring his passport rather than his licence."
+        }
+      ]
+    }
+  ]
+}

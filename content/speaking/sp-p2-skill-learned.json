@@ -1,0 +1,51 @@
+{
+  "id": "sp-p2-skill-learned",
+  "kind": "speaking_task",
+  "part": 2,
+  "topic": "A skill you learned",
+  "difficulty": 2,
+  "cueCard": {
+    "prompt": "Describe a skill that took you a long time to learn.",
+    "bullets": [
+      "what the skill is",
+      "when and how you learned it",
+      "what difficulties you had"
+    ],
+    "closing": "and explain how you feel about this skill now."
+  },
+  "questions": [
+    "Is there another skill you would like to learn?",
+    "Do you think you learn better on your own or with a teacher?"
+  ],
+  "tips": [
+    "Practical skills (swimming, driving, cooking, playing an instrument) give you lots of concrete detail to describe.",
+    "Use the 'difficulties' point to show a range of past tenses: 'I kept making the same mistake', 'I had never done anything like it before'.",
+    "Finish by linking the skill to the present with present perfect: 'Since then I've...'"
+  ],
+  "usefulPhrases": [
+    "I'd like to talk about learning to...",
+    "It took me ages to get the hang of it.",
+    "I was on the verge of giving up.",
+    "It was a case of trial and error.",
+    "Things finally clicked when...",
+    "Practice makes perfect, as they say.",
+    "Now it's become second nature."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "I want to talk about swimming. I learned swimming when I was quite old, maybe nineteen years old, because when I was child my parents never teach me and in my school there is no swimming lesson.\n\nI learned it at a public swimming pool near my campus. I joined a course, it was every Saturday morning, and the teacher was a young man, he was very patient with us. There were maybe eight student in the class and most of them were children, so I was a little bit shy.\n\nThe difficulty was, I was very scared of the water. Especially in the deep part, I always panicked and I drank a lot of water. And also the breathing was very difficult, I cannot breathe and move my arm at the same time. I almost give up after one month, but my friend said to me don't give up.\n\nFinally after about six months I can swim. Not very fast, but I can swim from one side to the other side. Now I feel very proud of myself, because it was very difficult for me. And now I go swimming every week, it is good for my health.",
+      "commentary": "Fluency & Coherence: the talk is relevant, follows the bullets and includes a personal angle, but relies on 'and also', 'finally' and 'very', and some sections are underdeveloped. Lexical Resource: sufficient for the task ('panicked', 'deep part', 'patient'), but with limited precision and collocation ('drank a lot of water'). Grammatical Range & Accuracy: some complex sentences are attempted, but errors with tenses and plurals are frequent ('never teach me', 'there is no', 'eight student', 'I can swim' for the past). Pronunciation: the reported speech without restructuring ('my friend said to me don't give up') suggests a speaker who manages but whose rhythm may be uneven when speaking spontaneously."
+    },
+    {
+      "band": 7,
+      "text": "I'm going to talk about swimming, which I didn't learn until I was nineteen. My parents never had the chance to learn themselves, and my school didn't have a pool, so it just never happened when I was a child.\n\nIn my first year at university, a friend persuaded me to sign up for adult beginner lessons at the public pool near campus. They were on Saturday mornings, and to my embarrassment, most of the other learners were about eight years old.\n\nThe hardest part by far was getting over my fear of the water. Whenever my feet couldn't touch the bottom, I'd panic and start thrashing about. The breathing was another problem; I just couldn't coordinate turning my head with my arm strokes, so I kept swallowing water. After about a month I was seriously thinking about quitting, but my instructor suggested I spend a few sessions just floating and getting comfortable before worrying about technique, and that really helped.\n\nIt took around six months before I could swim a full length without stopping. Now I go once or twice a week, and I genuinely enjoy it. I'm actually quite proud of it, because it's probably the first time I stuck with something that I found really difficult, and it's given me more confidence to try other things that scare me.",
+      "commentary": "Fluency & Coherence: the candidate produces an extended, well-organised talk with clear progression and a thoughtful conclusion. Lexical Resource: good range of vocabulary, including less common items ('thrashing about', 'coordinate', 'stuck with something'), used appropriately. Grammatical Range & Accuracy: a mix of past simple, 'would' for repeated past actions, reported suggestions ('suggested I spend') and present perfect, with very few errors. Pronunciation: phrases like 'to my embarrassment' and 'by far' suggest the speaker uses chunking and stress effectively, although intonation is likely less varied than at the highest bands."
+    },
+    {
+      "band": 8,
+      "text": "The skill I'd pick is swimming, which, a little embarrassingly, I only learned at nineteen. Neither of my parents can swim, and my school had no pool, so it was simply one of those gaps that never got filled.\n\nIt was a university friend who finally talked me into it. She'd signed up for adult beginner classes at the municipal pool and more or less dragged me along. The first Saturday was mortifying: I was a head taller than everyone else in the shallow end, and most of my classmates were primary-school kids who could already do a passable doggy paddle.\n\nThe real obstacle, though, wasn't technique; it was fear. The moment my feet lost contact with the bottom, my body would go rigid and I'd start flailing. On top of that, I couldn't for the life of me synchronise my breathing with my strokes, so every length ended with a mouthful of chlorinated water. About a month in, I was ready to throw in the towel, quite literally. What turned it around was my instructor telling me to forget swimming altogether for a while and just practise floating. Once I trusted the water to hold me up, everything else gradually fell into place.\n\nIt was six months before I managed a full length unaided, but these days I swim twice a week and find it oddly meditative. More than the skill itself, I value what it proved to me: that being a late starter isn't the same as being incapable.",
+      "commentary": "Fluency & Coherence: the talk is fluent and fully coherent, with a clear narrative arc and a reflective, well-judged conclusion. Lexical Resource: wide-ranging, idiomatic and precise ('mortifying', 'go rigid', 'for the life of me', 'throw in the towel, quite literally', 'fell into place'), including humorous wordplay. Grammatical Range & Accuracy: complex structures are used flexibly and accurately, including cleft sentences ('It was a university friend who...'), participle phrases and contrastive structures. Pronunciation: the inserted comment 'a little embarrassingly' and the punchline 'quite literally' imply skilful pausing and intonation that would hold a listener's attention."
+    }
+  ]
+}

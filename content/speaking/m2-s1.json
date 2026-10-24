@@ -1,0 +1,44 @@
+{
+  "id": "m2-s1",
+  "kind": "speaking_task",
+  "part": 1,
+  "topic": "Handwriting",
+  "difficulty": 1,
+  "unlisted": true,
+  "questions": [
+    "Do you write by hand much these days?",
+    "When you were a child, how did you learn to write?",
+    "Do you think handwriting is still important for children to learn?",
+    "Is your handwriting easy for other people to read?",
+    "Would you prefer to receive a handwritten card or a digital message? Why?"
+  ],
+  "tips": [
+    "Answer in two to four sentences: a direct answer, a reason, then an example or contrast.",
+    "Compare past and present where you can ('I used to... but now...').",
+    "Don't memorise answers; examiners notice rehearsed language."
+  ],
+  "usefulPhrases": [
+    "Much less than I used to, to be honest.",
+    "The only time I really... is when...",
+    "I'd say so, yes, because...",
+    "Without a doubt.",
+    "Having said that, ..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Do you write by hand much these days?] Not really, no. Mostly I use my phone or my laptop for everything, like messages and study notes. Sometimes I write a shopping list by hand, but that's all, I think.\n\n[Do you think handwriting is still important for children to learn?] Yes, I think it's important. Because if children don't learn, they will have problem in the future when they need to sign documents or write something quickly. Also I read that writing by hand help to remember things better, so it's good for study.\n\n[Would you prefer to receive a handwritten card or a digital message?] Handwritten card, definitely. It's more special, because the person spend time to write it. A digital message is easy, everyone can send it in one second.",
+      "commentary": "Fluency & Coherence 6: answers are relevant and extended a little, with simple linking ('because', 'also'), though 'I think' is used to fill. Lexical Resource 6: enough vocabulary for familiar topics, with little idiomatic language. Grammatical Range & Accuracy 6: mostly simple sentences, with errors that do not block meaning ('have problem', 'writing by hand help', 'the person spend time'). Pronunciation is assumed to be generally clear; it cannot be judged from text."
+    },
+    {
+      "band": 7,
+      "text": "[Do you write by hand much these days?] Much less than I used to, to be honest. At school I filled notebook after notebook, but now almost everything I write is typed, emails, assignments, even my to-do lists are on my phone. The only time I really pick up a pen is when I'm brainstorming, because I find it easier to think on paper.\n\n[Do you think handwriting is still important for children to learn?] I'd say so, yes. It's not just about being able to write a birthday card. There's quite a lot of research suggesting that writing by hand helps children remember letters and words better than typing does. So I think schools should keep teaching it, even if they also teach keyboard skills.\n\n[Would you prefer to receive a handwritten card or a digital message?] Oh, a handwritten card, without a doubt. When someone takes the trouble to buy a card and write in it, it shows they've really thought about you. I've actually kept a few cards from my grandmother for years, whereas I couldn't tell you a single text message I received last month.",
+      "commentary": "Fluency & Coherence 7: answers are extended naturally, with reasons and a personal example (the grandmother's cards). Lexical Resource 7: some less common items used appropriately ('filled notebook after notebook', 'takes the trouble', 'without a doubt'). Grammatical Range & Accuracy 7: a range of complex structures ('whereas I couldn't tell you...'), mostly accurate; a run-on list ('typed, emails, assignments...') is slightly loose. Pronunciation cannot be judged from text."
+    },
+    {
+      "band": 8,
+      "text": "[Do you write by hand much these days?] Hardly at all, which is a bit of a shame, really. My work is entirely screen-based, so the most I tend to handwrite is the odd note on a sticky pad. Having said that, I've recently started keeping a paper diary, partly because I'd noticed that I was spending my whole day staring at screens.\n\n[Do you think handwriting is still important for children to learn?] I think it is, though perhaps not for the reasons people usually give. It's not so much that adults need neat handwriting any more; it's that the physical act of forming letters seems to anchor them in children's memory. So I'd keep it in the curriculum, but I wouldn't penalise a child whose writing is a bit messy, as long as it's legible.\n\n[Would you prefer to receive a handwritten card or a digital message?] A card, every time. A message is gone the moment you've scrolled past it, whereas a card is something you can hold on to. I suppose it's the effort it represents: someone has gone out of their way, chosen it, written in it and posted it, and that says far more than the words themselves.",
+      "commentary": "Fluency & Coherence 8: fluent and well developed, with natural discourse markers ('Having said that', 'I suppose'). Lexical Resource 8: precise, idiomatic choices ('the odd note', 'anchor them in memory', 'gone out of their way'). Grammatical Range & Accuracy 8: flexible structures ('It's not so much that... it's that...') with no noticeable errors. The answers are slightly long for Part 1, but every sentence stays relevant. Pronunciation cannot be judged from text."
+    }
+  ]
+}

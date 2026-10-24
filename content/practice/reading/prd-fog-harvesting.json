@@ -1,0 +1,72 @@
+{
+  "id": "prd-fog-harvesting",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "Catching Water from the Clouds",
+  "difficulty": 1,
+  "minutes": 18,
+  "tags": ["technology", "environment", "water"],
+  "passage": {
+    "title": "Catching Water from the Clouds",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In some of the driest places on Earth, rain may fall only once every few years, yet the air is often thick with moisture. Along certain coastlines and mountain ridges, cool ocean currents produce banks of fog that roll inland almost every morning. For centuries, people living in these regions noticed that trees standing in the fog dripped water onto the ground beneath them. A simple device known as a fog collector copies this natural effect, and in recent decades it has supplied drinking water to villages that once depended on deliveries by truck."
+      },
+      {
+        "label": "B",
+        "text": "A typical collector is surprisingly basic. Its main part is a large rectangle of fine plastic netting, usually hung in a double layer so that droplets missed by the front sheet can be caught by the one behind. The net is stretched between two upright posts, which may be made of local eucalyptus wood or, where budgets allow, steel. Because the net acts rather like a sail, strong winds put it under great strain, so the posts are held in place by steel cables fixed to anchors in the ground. Along the bottom edge of the net runs a gutter, which catches the water as it drips down. From there, a pipe carries the water to a covered tank, where it is kept away from sunlight and animals until it is needed."
+      },
+      {
+        "label": "C",
+        "text": "The process by which the net gathers water begins when the wind pushes fog towards the collector. Fog consists of droplets so tiny that they float in the air rather than falling. As the fog passes through the net, some of these droplets strike the fibres of the mesh and stick to them. Gradually, neighbouring droplets join together. Once a drop becomes too heavy to remain on the fibre, gravity pulls it downwards, and it runs down the net into the gutter. The water then passes through a filter, which removes insects, leaves and dust, before it flows into the tank."
+      },
+      {
+        "label": "D",
+        "text": "Choosing the right location is essential. Engineers usually spend at least a year measuring fog with small test collectors, about one square metre in size, before building full-sized ones. The best sites are ridges facing the prevailing wind, typically at heights of between 400 and 1,200 metres, where the fog is densest. On a good site, each square metre of net can yield several litres a day, and a row of large collectors can provide enough for a small community."
+      },
+      {
+        "label": "E",
+        "text": "Water quality is generally high, since fog droplets form from evaporated seawater and contain few impurities. Even so, most projects test the stored water every month for bacteria, which can enter the tank through damaged covers or dirty pipes. In most villages the water is used for drinking and cooking, while any surplus is used for irrigation, allowing families to grow vegetables in soil that was previously too dry."
+      },
+      {
+        "label": "F",
+        "text": "Fog collection has its limitations. It works only where fog is frequent and windy conditions push it through the net, and nets must be repaired regularly after storms. Some early projects failed not for technical reasons but because no one in the community had been trained to maintain the equipment. Modern projects therefore place great emphasis on local ownership, with residents taking responsibility for cleaning, repairs and record-keeping."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "diagram_labelling",
+      "instructions": "Label the diagram below. Choose ONE WORD ONLY from the passage for each answer.",
+      "image": "assets/prd-fog-collector.svg",
+      "maxWords": 1,
+      "allowNumber": false,
+      "template": "**A fog collector**\n\n1. Double layer of fine plastic {{1}}\n2. Upright {{2}} made of eucalyptus or steel\n3. Steel {{3}} attached to anchors in the ground\n4. A {{4}} that catches dripping water\n5. A covered {{5}} for storing water",
+      "questions": [
+        { "n": 1, "answers": ["netting", "net", "mesh"], "evidence": "B", "explanation": "'a large rectangle of fine plastic netting, usually hung in a double layer'." },
+        { "n": 2, "answers": ["posts"], "evidence": "B", "explanation": "'The net is stretched between two upright posts'." },
+        { "n": 3, "answers": ["cables"], "evidence": "B", "explanation": "The posts are held in place 'by steel cables fixed to anchors in the ground'." },
+        { "n": 4, "answers": ["gutter"], "evidence": "B", "explanation": "'Along the bottom edge of the net runs a gutter, which catches the water'." },
+        { "n": 5, "answers": ["tank"], "evidence": "B", "explanation": "'a pipe carries the water to a covered tank'." }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "flow_chart_completion",
+      "instructions": "Complete the flow-chart below. Choose ONE WORD ONLY from the passage for each answer.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "template": "**How a fog collector gathers water**\n\nThe {{6}} pushes fog towards the collector\n\n↓\n\nTiny droplets hit the {{7}} of the mesh and stick to them\n\n↓\n\nDroplets join together until each drop is too {{8}} to stay in place\n\n↓\n\nWater runs down into the gutter and passes through a {{9}}\n\n↓\n\nWater is stored and tested monthly for {{10}}",
+      "questions": [
+        { "n": 6, "answers": ["wind"], "evidence": "C", "explanation": "'the wind pushes fog towards the collector'." },
+        { "n": 7, "answers": ["fibres", "fibers"], "evidence": "C", "explanation": "Droplets 'strike the fibres of the mesh and stick to them'." },
+        { "n": 8, "answers": ["heavy"], "evidence": "C", "explanation": "'Once a drop becomes too heavy to remain on the fibre, gravity pulls it downwards'." },
+        { "n": 9, "answers": ["filter"], "evidence": "C", "explanation": "'The water then passes through a filter'." },
+        { "n": 10, "answers": ["bacteria"], "evidence": "E", "explanation": "Projects 'test the stored water every month for bacteria'." }
+      ]
+    }
+  ]
+}

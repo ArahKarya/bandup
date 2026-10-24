@@ -1,0 +1,46 @@
+{
+  "id": "sp-p1-food",
+  "kind": "speaking_task",
+  "part": 1,
+  "topic": "Food and cooking",
+  "difficulty": 1,
+  "questions": [
+    "What kind of food do you like to eat?",
+    "Do you often cook at home?",
+    "Who taught you to cook?",
+    "Is there any food you disliked as a child but enjoy now?",
+    "Do you prefer eating at home or eating out?",
+    "Has the way people in your country eat changed in recent years?"
+  ],
+  "tips": [
+    "Name specific dishes and briefly explain what they are; the examiner may not know local food.",
+    "Use sensory adjectives (crispy, tangy, rich, mild) instead of repeating 'delicious'.",
+    "For questions about the past, 'used to' and 'would' sound natural for repeated habits."
+  ],
+  "usefulPhrases": [
+    "I'm a big fan of...",
+    "It's a kind of... made with...",
+    "I'm not much of a cook, to be honest.",
+    "I couldn't stand it when I was younger.",
+    "These days I've really developed a taste for...",
+    "It depends on the occasion.",
+    "Eating out has become far more common."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[What kind of food do you like to eat?]\nI like spicy food very much, like Padang food. Padang food is from West Sumatra and it is very spicy and have a lot of coconut milk. My favourite is rendang, it is beef which is cook for many hours. It is very delicious.\n\n[Do you often cook at home?]\nNot so often, because I am busy with my work. Maybe one or two times in a week I cook, usually simple food like fried rice or noodle. In weekend sometimes I cook with my mother, and she teach me how to make some traditional food.\n\n[Do you prefer eating at home or eating out?]\nI prefer eating at home because it is more healthy and more cheap. But sometimes I eat out with my friends, because it is fun.",
+      "commentary": "Fluency & Coherence: the candidate keeps talking and answers are relevant, but ideas are linked with simple connectors and 'very' and 'delicious' are relied on. Lexical Resource: enough vocabulary to discuss the topic, including some specific items ('coconut milk', 'rendang'), but comparatives are wrongly formed ('more cheap', 'more healthy'). Grammatical Range & Accuracy: subject-verb agreement and passive errors ('have a lot of', 'which is cook') recur, though meaning is clear. Pronunciation: the repetitive 'it is...' sentence frames suggest an even, syllable-timed rhythm with limited chunking, though this would generally be intelligible."
+    },
+    {
+      "band": 7,
+      "text": "[What kind of food do you like to eat?]\nI'm a big fan of anything spicy, particularly Padang cooking from West Sumatra. My all-time favourite is rendang, which is beef slow-cooked in coconut milk and spices until it's almost dry. It takes hours to make, which is why it's usually served at special occasions.\n\n[Do you often cook at home?]\nNot as much as I'd like. During the week I tend to grab something quick on the way home, but at weekends I sometimes help my mum in the kitchen. She's been trying to teach me her version of rendang, although I haven't quite mastered it yet.\n\n[Is there any food you disliked as a child but enjoy now?]\nBitter gourd, definitely. I used to refuse to eat it, but now I actually quite like the bitterness, especially when it's stir-fried with egg.",
+      "commentary": "Fluency & Coherence: answers are extended fluently, with clear explanation and appropriate use of connectives ('which is why', 'although'). Lexical Resource: precise, topic-specific vocabulary ('slow-cooked', 'stir-fried', 'bitter gourd') and idiomatic phrases ('all-time favourite', 'grab something quick') are used appropriately. Grammatical Range & Accuracy: a good mix of relative clauses, present perfect continuous and 'used to', largely error-free. Pronunciation: the phrasing suggests natural chunking ('slow-cooked in coconut milk and spices'), although the answers are slightly more predictable in rhythm than those at band 8."
+    },
+    {
+      "band": 8,
+      "text": "[Is there any food you disliked as a child but enjoy now?]\nBitter gourd, without a doubt. As a kid I'd do anything to avoid it; I used to hide it under my rice. But somewhere along the way I developed a taste for that sharp, almost medicinal bitterness, and now I'll actually order it if I see it on a menu.\n\n[Do you prefer eating at home or eating out?]\nIt really depends on what I'm after. If I want comfort food, nothing beats my mother's cooking. But eating out is more of a social thing for me, a chance to catch up with friends, so the food itself is almost secondary.\n\n[Has the way people in your country eat changed in recent years?]\nEnormously. Food delivery apps have made it almost effortless to order in, so a lot of younger people in the cities barely cook at all. There's also been a noticeable shift towards international food. Korean and Japanese restaurants have popped up everywhere, which would have been unthinkable twenty years ago.",
+      "commentary": "Fluency & Coherence: the candidate speaks effortlessly and develops each answer with relevant, well-organised detail. Lexical Resource: sophisticated, idiomatic choices ('developed a taste for', 'almost medicinal bitterness', 'nothing beats', 'popped up everywhere') are used naturally and precisely. Grammatical Range & Accuracy: wide range, including 'would' for past habits, conditionals and complex noun phrases, with no evident errors. Pronunciation: short emphatic answers ('Enormously.', 'Bitter gourd, without a doubt.') followed by longer explanations show control of rhythm and stress that would make the speech engaging to listen to."
+    }
+  ]
+}

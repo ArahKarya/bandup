@@ -1,0 +1,397 @@
+{
+  "id": "m2-l1",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 1,
+  "title": "Hiring Bicycles for a Day Out",
+  "difficulty": 1,
+  "minutes": 8,
+  "tags": [
+    "mock",
+    "everyday",
+    "form",
+    "travel"
+  ],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Good morning, Harbourside Cycle Hire, Joanne speaking. How can I help you?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Oh, hi there. I'm ringing because my family and I are coming to stay in the area next week, and we'd like to hire some bikes for a day. Could I make a booking?"
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Of course, I can sort that out for you now. Can I take your name first?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Yeah, it's Tom Fenwick."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Is that F-E-N-N...?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "No, just the one N. F-E-N-W-I-C-K."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Lovely, thank you. And where will you be staying while you're here?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "We've rented a cottage. The address is 14 Marlow Street. That's M-A-R-L-O-W."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "And which day were you thinking of?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "We arrive on the twenty-first, so I was going to say the twenty-second, the Saturday... actually, hang on, my wife's just reminded me we've got a boat trip booked that day. So let's make it the twenty-third, the Sunday."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "The twenty-third. How many bikes will you need?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Two adults and one child. Our daughter's nine."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Okay. For the adults, we have three main types. There are road bikes, which are light and quick but not very comfortable for a whole day; there are mountain bikes; and there are hybrids, which are somewhere in between."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "I was thinking mountain bikes, actually, because I'd heard some of the trails round here are a bit rough."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Well, they're good on the forest tracks, but most of our customers stick to the paved paths and the canal, and mountain bikes are quite heavy for that. I'd honestly suggest hybrids. They've got wider tyres than a road bike, so they cope with gravel, but they're much easier to pedal."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Right, that makes sense. Let's go with hybrids, then."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Great. And for your daughter we've got a whole range of children's bikes. If you let me know her height when you come in, we'll fit her properly. Helmets and locks are included for everyone, by the way. Do you need anything else?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Oh, good. Is there anything for carrying stuff? We'll want to take a picnic."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "We can fit a basket on the front of one of the adult bikes, no charge. Some people ask for panniers, the bags that go on the back, but we've stopped hiring those, I'm afraid. Too many came back damaged."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "A basket would be fine."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "I'll put that down. Now, prices. A full day on a hybrid is eighteen pounds per adult."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Eighteen. Is that the same for the electric bikes? I saw them on your website."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "No, the electric ones are thirty-two for the day. And a half-day on a hybrid is twelve, but you'd have to bring it back by one o'clock."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "No, I think we want the whole day. And how much for my daughter's bike?"
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Children's bikes are ten pounds a day."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Fine. Do you need a deposit?"
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "We don't take a cash deposit, but we do need to see some identification for each adult when you collect the bikes, and we keep a copy. It has to be a passport."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Not a driving licence? That's what I usually carry."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "I'm afraid not. We used to accept them, but our insurance company changed the rules this year, so it's passports only now."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Okay, I'll make sure we bring them. Now, where do we pick the bikes up? Is it the shop on the harbour front?"
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "That's our main shop, yes, but on Sundays it doesn't open until eleven. Most people collect from our kiosk at the railway station instead, which opens at half past eight. Or we can deliver to your cottage, but there's a fifteen-pound charge for that."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Hmm, I don't think we need delivery. The station's only ten minutes' walk from us. We'll get them from there; we want an early start."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Good idea. Have you thought about where you'll ride?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "I was looking at the coastal path on the map. It looks beautiful."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "It is, normally, but part of it's closed for repairs after the storms last month, so you'd have to turn back halfway. Then there's the forest trail, but there's a long, steep climb at the start, which might be hard for a nine-year-old. What I'd recommend is the canal towpath. It's completely flat, there's a lovely café at the lock about eight miles along, and you can usually see herons."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "That sounds perfect for us, actually. We'll do the canal."
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "One last thing. Our closing time on Sundays in summer is half past six, but we ask that all bikes are back at the kiosk by six, so the mechanic has time to check them over."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Six o'clock, got it. Do I need to pay anything now?"
+      },
+      {
+        "speaker": "Assistant",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "No, you pay when you collect. I'll email you a confirmation this afternoon."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "form_completion",
+      "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Harbourside Cycle Hire: booking form**\n\n- Customer name: Tom {{1}}\n- Local address: 14 {{2}} Street\n- Date of hire: Sunday the {{3}}\n- Adult bikes: 2 × {{4}} bikes\n- Child's bike: 1 (age 9; fit on arrival)\n- Extra equipment: a {{5}} on the front of one bike\n- Cost per adult for a full day: £{{6}}\n- Identification required: a {{7}} for each adult",
+      "questions": [
+        {
+          "n": 1,
+          "answers": [
+            "Fenwick"
+          ],
+          "evidence": "line 6",
+          "explanation": "Tom corrects the double N: the name is spelled F-E-N-W-I-C-K."
+        },
+        {
+          "n": 2,
+          "answers": [
+            "Marlow"
+          ],
+          "evidence": "line 8",
+          "explanation": "The cottage is at 14 Marlow Street, which Tom spells out."
+        },
+        {
+          "n": 3,
+          "answers": [
+            "23",
+            "23rd",
+            "twenty-third"
+          ],
+          "evidence": "line 10",
+          "explanation": "He first says the twenty-second but changes it because of a boat trip, so the hire is on Sunday the twenty-third."
+        },
+        {
+          "n": 4,
+          "answers": [
+            "hybrid",
+            "hybrids"
+          ],
+          "evidence": "line 16",
+          "explanation": "Tom considers mountain bikes but accepts the suggestion of hybrids."
+        },
+        {
+          "n": 5,
+          "answers": [
+            "basket"
+          ],
+          "evidence": "line 20",
+          "explanation": "Panniers are no longer hired, so a basket is fitted on the front."
+        },
+        {
+          "n": 6,
+          "answers": [
+            "18",
+            "eighteen"
+          ],
+          "evidence": "line 21",
+          "explanation": "A full day on a hybrid costs £18; £32 is for electric bikes and £12 for a half-day."
+        },
+        {
+          "n": 7,
+          "answers": [
+            "passport"
+          ],
+          "evidence": "line 27",
+          "explanation": "Driving licences are no longer accepted; only passports."
+        }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 8,
+          "prompt": "Where will Tom's family collect the bikes?",
+          "options": [
+            {
+              "key": "A",
+              "text": "at the main shop on the harbour front"
+            },
+            {
+              "key": "B",
+              "text": "at the kiosk at the railway station"
+            },
+            {
+              "key": "C",
+              "text": "at their cottage"
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 32",
+          "explanation": "The main shop opens late on Sundays and delivery costs extra, so Tom chooses the station kiosk."
+        },
+        {
+          "n": 9,
+          "prompt": "Which route does the assistant recommend?",
+          "options": [
+            {
+              "key": "A",
+              "text": "the coastal path"
+            },
+            {
+              "key": "B",
+              "text": "the forest trail"
+            },
+            {
+              "key": "C",
+              "text": "the canal towpath"
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 35",
+          "explanation": "The coastal path is partly closed and the forest trail is steep, so she recommends the flat canal towpath."
+        },
+        {
+          "n": 10,
+          "prompt": "By what time must the bikes be returned?",
+          "options": [
+            {
+              "key": "A",
+              "text": "5.30 pm"
+            },
+            {
+              "key": "B",
+              "text": "6.00 pm"
+            },
+            {
+              "key": "C",
+              "text": "6.30 pm"
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 37",
+          "explanation": "The kiosk closes at 6.30, but bikes must be back by six so they can be checked."
+        }
+      ]
+    }
+  ]
+}

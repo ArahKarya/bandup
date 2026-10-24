@@ -1,0 +1,115 @@
+{
+  "id": "prd-lone-inventor",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "The Myth of the Lone Inventor",
+  "difficulty": 3,
+  "minutes": 20,
+  "tags": ["history", "technology", "society"],
+  "passage": {
+    "title": "The Myth of the Lone Inventor",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Popular history loves a solitary genius. We picture a figure working late in a cluttered workshop who, in a single moment of insight, produces something the world has never seen. The story is satisfying because it has a clear hero and a clear turning point. It is also, in my view, almost always misleading. When historians look closely at the origins of almost any major invention, they find not one mind but a crowd: rivals, assistants, suppliers, earlier experimenters whose failures pointed the way, and customers whose demands shaped the final design."
+      },
+      {
+        "label": "B",
+        "text": "The clearest evidence comes from what is known as simultaneous invention. Again and again, two or more people working independently have arrived at the same breakthrough within months of one another. Calculus was developed separately by Newton and by Leibniz; the question of who was first provoked a bitter quarrel, but that dispute need not concern us here. What matters is that the idea was, in a sense, ready to be found. Two applications for a telephone patent reached the same office on the same day. Such coincidences are far more frequent than the heroic version of history allows, and they suggest that once the necessary knowledge and materials exist, an invention becomes likely regardless of which particular individual completes it."
+      },
+      {
+        "label": "C",
+        "text": "Why, then, does the myth survive? Part of the answer lies in the patent system itself. A patent must name an inventor, and the legal process rewards whoever files the most convincing claim first. The many contributors whose work made that claim possible rarely appear in the paperwork, and over time the document becomes the official record. Historians who rely too heavily on patents therefore inherit a distorted picture, one in which the final step is credited with the whole journey."
+      },
+      {
+        "label": "D",
+        "text": "It would be easy to blame journalists for simplifying the story, but I think that would be unfair. Readers themselves prefer narratives built around a single character, and writers who offer a more complicated account often find that it is less widely read. Companies, too, have an interest in the myth, since a celebrated founder makes a memorable advertisement. The tale of the lone genius is therefore sustained by many hands, rather like the inventions it misrepresents."
+      },
+      {
+        "label": "E",
+        "text": "None of this means that individuals do not matter. Skill, persistence and imagination clearly influence how quickly an idea is realised and how well it works. The theorist Stuart Kauffman's phrase 'the adjacent possible' is useful here: at any moment, only a limited range of new things can be built from what already exists. Talented people explore that range faster and more cleverly than others, but they cannot leap far beyond it. A steam engine could not have been invented before metalworkers could produce cylinders accurate enough to hold the pressure."
+      },
+      {
+        "label": "F",
+        "text": "The way we tell these stories has practical consequences. If students learn that innovation depends on rare geniuses, those who do not see themselves as exceptional may conclude that invention is not for them. A more honest account, one that stresses teamwork, borrowing and gradual improvement, would show that ordinary contributors are essential. It would also encourage policies that support networks of collaboration, such as shared laboratories and open publication, rather than prizes that celebrate a single winner. The workshop of the lone inventor, I suspect, was always more crowded than it looked."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "tfng",
+      "variant": "ynng",
+      "category": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in the passage? Write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        { "n": 1, "statement": "Cases of simultaneous invention happen more often than the popular view of history suggests.", "answer": "YES", "evidence": "B", "explanation": "The writer says such coincidences 'are far more frequent than the heroic version of history allows'." },
+        { "n": 2, "statement": "Patent records give a reliable account of everyone who contributed to an invention.", "answer": "NO", "evidence": "C", "explanation": "The writer says many contributors 'rarely appear in the paperwork' and patents give 'a distorted picture'." },
+        { "n": 3, "statement": "Newton deserves more credit for calculus than Leibniz.", "answer": "NOT GIVEN", "evidence": "B", "explanation": "The writer mentions the quarrel but says it 'need not concern us', giving no view on who deserves more credit." },
+        { "n": 4, "statement": "Journalists are mainly responsible for the survival of the lone-inventor myth.", "answer": "NO", "evidence": "D", "explanation": "The writer says blaming journalists 'would be unfair' and that readers and companies also keep the myth alive." },
+        { "n": 5, "statement": "Individual talent has no real effect on the development of new technology.", "answer": "NO", "evidence": "E", "explanation": "The writer says 'None of this means that individuals do not matter' and that skill affects speed and quality." },
+        { "n": 6, "statement": "Science museums teach the history of invention more accurately than school textbooks do.", "answer": "NOT GIVEN", "evidence": "F", "explanation": "Neither museums nor textbooks are compared anywhere in the passage." },
+        { "n": 7, "statement": "The lone-inventor story may discourage some students from thinking of themselves as inventors.", "answer": "YES", "evidence": "F", "explanation": "Students who do not see themselves as exceptional 'may conclude that invention is not for them'." }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "n": 8,
+          "prompt": "The writer mentions the two telephone patent applications in order to",
+          "options": [
+            { "key": "A", "text": "show how unfair the patent office was." },
+            { "key": "B", "text": "support the idea that inventions are likely once conditions allow them." },
+            { "key": "C", "text": "explain why the telephone took so long to develop." },
+            { "key": "D", "text": "prove that one inventor copied the other." }
+          ],
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "The example illustrates that 'once the necessary knowledge and materials exist, an invention becomes likely'."
+        },
+        {
+          "n": 9,
+          "prompt": "According to paragraph C, the patent system strengthens the myth because",
+          "options": [
+            { "key": "A", "text": "it only rewards inventions that make money." },
+            { "key": "B", "text": "historians are not allowed to examine patent files." },
+            { "key": "C", "text": "it records the person who makes the claim and ignores earlier helpers." },
+            { "key": "D", "text": "patents are often granted to the wrong person by mistake." }
+          ],
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "A patent must name an inventor, and other contributors 'rarely appear in the paperwork'."
+        },
+        {
+          "n": 10,
+          "prompt": "The example of the steam engine in paragraph E illustrates that",
+          "options": [
+            { "key": "A", "text": "inventors depend on the technology available at the time." },
+            { "key": "B", "text": "metalworkers were the true inventors of the steam engine." },
+            { "key": "C", "text": "talented people can always overcome technical limits." },
+            { "key": "D", "text": "early engines were dangerous because of high pressure." }
+          ],
+          "answer": "A",
+          "evidence": "E",
+          "explanation": "The engine could not exist until accurate cylinders could be made, showing that inventors 'cannot leap far beyond' what already exists."
+        },
+        {
+          "n": 11,
+          "prompt": "What is the writer's main purpose in the passage?",
+          "options": [
+            { "key": "A", "text": "To describe the life of a famous inventor" },
+            { "key": "B", "text": "To argue that patents should be abolished" },
+            { "key": "C", "text": "To challenge a common belief about how inventions happen" },
+            { "key": "D", "text": "To compare inventions from different centuries" }
+          ],
+          "answer": "C",
+          "evidence": "A, F",
+          "explanation": "The writer calls the lone-genius story 'almost always misleading' and argues for a more collaborative account throughout."
+        }
+      ]
+    }
+  ]
+}

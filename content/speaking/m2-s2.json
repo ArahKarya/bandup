@@ -1,0 +1,51 @@
+{
+  "id": "m2-s2",
+  "kind": "speaking_task",
+  "part": 2,
+  "topic": "Waiting for something special",
+  "difficulty": 2,
+  "unlisted": true,
+  "cueCard": {
+    "prompt": "Describe a time when you had to wait for something special to happen.",
+    "bullets": [
+      "what you were waiting for",
+      "how long you had to wait",
+      "what you did while you were waiting"
+    ],
+    "closing": "and explain why it was so special to you."
+  },
+  "questions": [
+    "Are you generally a patient person?",
+    "Do you think waiting makes good things feel more valuable?"
+  ],
+  "tips": [
+    "Use the minute of preparation to note one or two words per bullet, plus one detail that makes the story vivid.",
+    "Set the scene quickly (when, where), then tell the story in order.",
+    "Narrative tenses help: past continuous for background, past perfect for earlier events.",
+    "Finish with reflection ('Looking back...') to cover the 'explain why' part fully."
+  ],
+  "usefulPhrases": [
+    "I'd like to talk about...",
+    "To an eleven-year-old, that feels like a lifetime.",
+    "I tried not to think about it, with very limited success.",
+    "What made it so special was...",
+    "Looking back, I think it taught me..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "I want to talk about a time when I waited for my exam results after I finished high school. It was about three years ago. We took the national exam in May and the results came out in the end of June, so I had to wait around six weeks.\n\nDuring this time I tried to do normal things. I helped my parents in their shop and I met my friends, but always the exam was in my mind. Some days I checked the website many times even I knew the results were not ready. My mother told me to relax but it was very difficult for me.\n\nThe reason it was special is because the result decided which university I can go. I wanted to study engineering and I needed a high score for it. When finally the day came, I opened the website with my father next to me, and I got a good score, so I was very happy and also relieved. We went to a restaurant to celebrate.\n\nI think I learned that waiting is very hard, but worrying doesn't change anything. So now I try to be more calm when I wait for something.",
+      "commentary": "Fluency & Coherence 6: covers all the points in order and talks for the full time, but linking is basic ('The reason it was special is because'). Lexical Resource 6: adequate ('relieved', 'celebrate'), with limited range. Grammatical Range & Accuracy 6: mixes simple and complex forms with noticeable errors ('in the end of June', 'even I knew', 'which university I can go', 'more calm'). Meaning stays clear throughout. Pronunciation cannot be judged from text."
+    },
+    {
+      "band": 7,
+      "text": "I'd like to describe the wait for my younger sister to be born, which happened when I was about eleven. My parents told me in the spring that we'd be getting a new baby at the end of the year, and to an eleven-year-old, nine months feels like a lifetime.\n\nAt first I didn't really know what to do with the news, but as the months went by I got more and more involved. I helped my dad paint the spare room yellow, and I spent ages choosing a soft toy for her with my own pocket money. I also remember I kept a calendar on my bedroom wall and crossed off the days, which probably made the wait feel even longer!\n\nWhat made it so special was that I'd been an only child for a long time, and I was both excited and a little bit nervous. I worried that my parents wouldn't have time for me any more. In the end she arrived about two weeks early, in the middle of the night, and my grandmother woke me up to tell me.\n\nLooking back, I think that wait taught me that the build-up to something can be almost as meaningful as the event itself. And as it turned out, my worries were completely unfounded. We're incredibly close now.",
+      "commentary": "Fluency & Coherence 7: a well-sequenced, engaging story that covers every prompt, with clear signposting ('At first', 'In the end', 'Looking back'). Lexical Resource 7: good range, including some idiomatic language ('feels like a lifetime', 'completely unfounded'). Grammatical Range & Accuracy 7: frequent complex sentences with only minor slips ('I remember I kept'). It would need more precise vocabulary for 8. Pronunciation cannot be judged from text."
+    },
+    {
+      "band": 8,
+      "text": "I'm going to talk about waiting for a letter from a university abroad that I'd applied to for a scholarship, which was easily the most nerve-racking few months of my life. I'd sent off the application in January, and they'd said decisions would be made 'by the end of April', which, as it turned out, meant the very last day of April.\n\nWhat I mostly did during that time was try not to think about it, with very limited success. I threw myself into my final-year project, partly to distract myself, and I made a deal with myself that I'd only check my email twice a day, a rule I broke more or less constantly. I also had a fallback plan, a place at a local university, which took a bit of the pressure off, but not much.\n\nThe reason it felt so significant was that it wasn't only about where I'd study. The scholarship would cover everything, so it was the difference between going abroad and not going at all, and my whole family was invested in it. When the email finally arrived, I actually couldn't bring myself to open it for a good ten minutes. I got it, as it happens, and the relief was almost physical.\n\nLooking back, I'd say the wait taught me a lot about my own patience, or lack of it, and about the value of having a plan B, which I now always try to have.",
+      "commentary": "Fluency & Coherence 8: long turns are sustained effortlessly, with humour and reflection woven into the narrative. Lexical Resource 8: wide and precise ('nerve-racking', 'threw myself into', 'fallback plan', 'the relief was almost physical'). Grammatical Range & Accuracy 8: sophisticated structures (embedded clauses, 'couldn't bring myself to') used accurately. A band 9 would show slightly more varied intonation and pacing, which text cannot show. Pronunciation cannot be judged from text."
+    }
+  ]
+}

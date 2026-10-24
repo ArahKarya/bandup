@@ -1,0 +1,111 @@
+{
+  "id": "place-listening",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 1,
+  "title": "Placement Test: Listening",
+  "difficulty": 2,
+  "minutes": 5,
+  "tags": ["placement", "everyday life", "sport"],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "Hello, Riverside University Climbing Club, Hannah speaking." },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Oh, hi. I saw your poster in the library, and I was wondering if I could join the club this term." },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "Of course, we're always happy to have new members. I'll just fill in a membership form for you. Can I start with your name?" },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Sure. It's Daniel Okafor. That's O-K-A-F-O-R." },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "Thanks, Daniel. And are you an undergraduate?" },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "No, I'm actually a postgraduate. I started a master's in geography in September. I did economics for my first degree, but that was somewhere else." },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "Lovely. Could I have your student number as well?" },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Yes, it's S, then four, seven, two, nine, one, five. Oh, hang on, sorry. The last number's an eight, not a five. So it's S-4-7-2-9-1-8." },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "No problem. Have you done any climbing before?" },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "A bit. I've been going to an indoor wall for about two years, but I've never climbed outdoors on real rock." },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "That's a good start. Now, about the fee. Membership is normally forty-five pounds a year, but postgraduates pay a reduced rate of thirty." },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Oh, that's better than I expected. And when do you meet?" },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "We use the wall at the sports centre twice a week, on Mondays and Thursdays. Mondays are really aimed at complete beginners, so with your experience you'd probably prefer Thursdays, from six till eight." },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Thursday suits me fine. Do I need to bring my own equipment?" },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "The club lends out harnesses and ropes, so don't worry about those. But you'll need your own climbing shoes, because we can't share those for hygiene reasons." },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Right, I've got a pair already. What about outdoor trips? The poster mentioned them." },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "Yes, once a month we go out to the cliffs. We usually go to Harrow Point, but this term we're going to Stonebeck Quarry instead, because Harrow Point is closed while birds are nesting there." },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Makes sense. And is there anything I need to do before I can go on a trip?" },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "Everyone has to attend our outdoor safety course first. It's just one evening and it's free. You don't have to pass a test or anything, you just need to be there." },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Great. I'll sign up for that, then. Is there anything else I should know?" },
+      { "speaker": "Hannah", "voice": "female", "accent": "en-AU", "text": "Just that the minibus for trips costs eight pounds each, and you'll need to bring your own lunch. I'll email you the form now so you can check the details." },
+      { "speaker": "Daniel", "voice": "male", "accent": "en-GB", "text": "Perfect. Thanks so much for your help, Hannah." }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "form_completion",
+      "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Climbing Club membership form**\n\n- Name: Daniel {{1}}\n- Course: master's in {{2}}\n- Student number: {{3}}\n- Annual fee: £{{4}}\n- Preferred session: {{5}}, 6–8 pm\n- Must bring own climbing {{6}}",
+      "questions": [
+        { "n": 1, "answers": ["Okafor"], "evidence": "line 4", "explanation": "Daniel spells his surname O-K-A-F-O-R." },
+        { "n": 2, "answers": ["geography"], "evidence": "line 6", "explanation": "He is doing a master's in geography; economics was his first degree." },
+        { "n": 3, "answers": ["S472918"], "evidence": "line 8", "explanation": "He corrects the last digit from five to eight: S-4-7-2-9-1-8." },
+        { "n": 4, "answers": ["30", "thirty"], "evidence": "line 11", "explanation": "The normal fee is £45, but postgraduates pay £30." },
+        { "n": 5, "answers": ["Thursday", "Thursdays"], "evidence": "lines 13–14", "explanation": "Mondays are for beginners, so Daniel chooses Thursday." },
+        { "n": 6, "answers": ["shoes"], "evidence": "line 15", "explanation": "Harnesses and ropes are lent, but members need their own climbing shoes." }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 7,
+          "prompt": "What climbing experience does Daniel have?",
+          "options": [
+            { "key": "A", "text": "He has never climbed before." },
+            { "key": "B", "text": "He has climbed indoors for about two years." },
+            { "key": "C", "text": "He has climbed on outdoor cliffs." }
+          ],
+          "answer": "B",
+          "evidence": "line 10",
+          "explanation": "He has used 'an indoor wall for about two years' but has 'never climbed outdoors'."
+        },
+        {
+          "n": 8,
+          "prompt": "Where will this term's outdoor trips take place?",
+          "options": [
+            { "key": "A", "text": "Harrow Point" },
+            { "key": "B", "text": "Stonebeck Quarry" },
+            { "key": "C", "text": "the sports centre" }
+          ],
+          "answer": "B",
+          "evidence": "line 17",
+          "explanation": "The club usually goes to Harrow Point, but 'this term we're going to Stonebeck Quarry instead'."
+        },
+        {
+          "n": 9,
+          "prompt": "Why has the usual trip location changed?",
+          "options": [
+            { "key": "A", "text": "Repairs are being carried out." },
+            { "key": "B", "text": "Birds are nesting there." },
+            { "key": "C", "text": "It has become too expensive." }
+          ],
+          "answer": "B",
+          "evidence": "line 17",
+          "explanation": "'Harrow Point is closed while birds are nesting there.'"
+        },
+        {
+          "n": 10,
+          "prompt": "What must new members do before going on a trip?",
+          "options": [
+            { "key": "A", "text": "pass a climbing test" },
+            { "key": "B", "text": "attend a safety course" },
+            { "key": "C", "text": "buy a harness" }
+          ],
+          "answer": "B",
+          "evidence": "line 19",
+          "explanation": "'Everyone has to attend our outdoor safety course first.' There is no test, and harnesses are lent."
+        }
+      ]
+    }
+  ]
+}

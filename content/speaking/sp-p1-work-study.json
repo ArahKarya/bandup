@@ -1,0 +1,46 @@
+{
+  "id": "sp-p1-work-study",
+  "kind": "speaking_task",
+  "part": 1,
+  "topic": "Work or study",
+  "difficulty": 1,
+  "questions": [
+    "Do you work or are you a student?",
+    "Why did you choose that job or subject?",
+    "What is a typical day like for you?",
+    "What do you find most challenging about your work or studies?",
+    "Would you like to change anything about your job or course?",
+    "Do you prefer working alone or with other people?"
+  ],
+  "tips": [
+    "Choose either work or study and stay consistent. You do not need to explain your whole career history.",
+    "Use present simple for routines and present continuous for temporary situations ('I'm currently doing an internship').",
+    "If you are unemployed or between jobs, say so honestly and talk about what you are doing now."
+  ],
+  "usefulPhrases": [
+    "At the moment I'm in my final year of...",
+    "I ended up choosing it because...",
+    "A typical day kicks off with...",
+    "The trickiest part is probably...",
+    "It can be quite demanding at times.",
+    "If I could change one thing, it would be...",
+    "I'd say I'm more of a team player."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Do you work or are you a student?]\nI am working now. I work in a bank as customer service, so my job is to help the customer when they have problem with their account or they want to open new account.\n\n[Why did you choose that job?]\nActually, I study accounting in university, so I think bank is suitable for me. Also the salary is good and, um, my parents also want me to work in the bank because it is a stable job.\n\n[What do you find most challenging about your work?]\nThe most challenging is when the customer is angry. Sometimes they are angry because the system is error and it is not my fault, but I must still be polite and smile. It is very tiring, especially when many customer come at the same time.",
+      "commentary": "Fluency & Coherence: the candidate answers each question at length and is willing to speak, but linking is mechanical ('also' is used repeatedly) and ideas are not always well sequenced. Lexical Resource: sufficient for the topic ('stable job', 'customer service'), though some word forms are wrong ('the system is error'). Grammatical Range & Accuracy: simple structures dominate, with frequent article and plural omissions ('have problem', 'many customer'); a few complex sentences are attempted successfully. Pronunciation: the hesitation marker 'um' and short clause units suggest a generally clear but somewhat flat delivery."
+    },
+    {
+      "band": 7,
+      "text": "[Do you work or are you a student?]\nI work full-time at a bank. I'm in customer service, so I deal with anything from people who've forgotten their PIN to small businesses wanting to open a loan account.\n\n[Why did you choose that job?]\nTo be honest, it was partly practical. I'd studied accounting, so banking seemed like a natural fit, and it's a fairly secure job, which my parents were quite keen on. But I've found I actually enjoy the people side of it more than I expected.\n\n[What do you find most challenging about your work?]\nDefinitely handling frustrated customers. Often the problem is something technical that I can't fix on the spot, so the challenge is keeping them calm while I find someone who can. It takes a lot of patience, especially on Mondays, when it's always packed.",
+      "commentary": "Fluency & Coherence: speaks at length without effort, using a range of connectives and discourse markers ('To be honest', 'But', 'Definitely') to organise ideas. Lexical Resource: flexible and accurate, with idiomatic chunks such as 'a natural fit', 'on the spot', 'the people side of it'. Grammatical Range & Accuracy: complex sentences with relative clauses and past perfect ('I'd studied') are produced accurately; errors are rare. Pronunciation: phrases like 'anything from... to...' suggest controlled chunking and intonation, although the transcript shows less variety in emphasis than a band 8 speaker would use."
+    },
+    {
+      "band": 8,
+      "text": "[Why did you choose that job?]\nIf I'm completely honest, it was a pragmatic decision at first. I had an accounting degree and banking felt like the obvious route, plus my parents were very reassured by the idea of a secure position. What I didn't anticipate was how much I'd enjoy the interpersonal side, which has turned out to be the most rewarding part.\n\n[What do you find most challenging about your work?]\nManaging people's expectations, mainly. Customers often come in assuming I can override the system, and I have to explain, without sounding dismissive, that some things simply have to go through head office. Striking that balance between being sympathetic and being realistic takes a fair bit of tact.\n\n[Do you prefer working alone or with other people?]\nI'd say I thrive on a bit of both. I like bouncing ideas off colleagues, but when I'm reconciling accounts at the end of the day, I really need to shut myself away and concentrate.",
+      "commentary": "Fluency & Coherence: answers are developed coherently and effortlessly, with any hesitation sounding content-related rather than linguistic. Lexical Resource: wide, precise vocabulary used with ease ('pragmatic decision', 'override the system', 'striking that balance', 'bouncing ideas off colleagues'). Grammatical Range & Accuracy: a variety of structures, including cleft sentences ('What I didn't anticipate was...') and embedded clauses, all handled accurately. Pronunciation: the phrasing implies natural chunking and the use of stress to contrast ideas ('sympathetic and... realistic'), so the speaker would be easy to follow throughout."
+    }
+  ]
+}

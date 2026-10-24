@@ -1,0 +1,45 @@
+{
+  "id": "sp-p3-food-culture",
+  "kind": "speaking_task",
+  "part": 3,
+  "topic": "Food, culture and family meals",
+  "difficulty": 2,
+  "questions": [
+    "Why is food such an important part of celebrations in many cultures?",
+    "Do families in your country eat together less often than they used to?",
+    "What are the effects of fast food becoming more popular?",
+    "Should governments do more to encourage healthy eating?",
+    "Is it important to preserve traditional recipes?"
+  ],
+  "tips": [
+    "Talk about trends and causes: 'One reason for this is...', 'This has led to...'.",
+    "Compare past and present, and your country with others, to show range.",
+    "When asked about government action, suggest specific measures (taxes, labelling, school meals) rather than a general 'they should do more'."
+  ],
+  "usefulPhrases": [
+    "Food brings people together in a way that...",
+    "It's deeply rooted in...",
+    "One knock-on effect of this is...",
+    "There's been a marked shift towards...",
+    "It's partly down to...",
+    "A more effective approach might be to...",
+    "It would be a real shame if..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Why is food such an important part of celebrations?]\nBecause when we celebrate something, we want to share with other people, and food is the easiest way to share. In my country, every celebration there is special food, for example in Eid we eat ketupat and opor ayam. If there is no food, the celebration is not complete.\n\n[Do families in your country eat together less often than they used to?]\nYes, I think so. In the past, the mother is at home and she cook for all family, and everybody eat together in the evening. But now many mother is also working, and children are busy with school and course, so they eat in different time. Some people also eat while watching their phone.\n\n[What are the effects of fast food becoming more popular?]\nThe effect is bad for health. Many children now are fat because they eat fast food too often, like fried chicken and burger. And also traditional food become less popular.",
+      "commentary": "Fluency & Coherence: answers are relevant and include examples, but the third answer is brief and ideas are not always developed beyond a single point. Lexical Resource: adequate everyday vocabulary with culturally specific items ('ketupat', 'opor ayam'); some word choices are imprecise or inappropriate in tone ('fat'). Grammatical Range & Accuracy: errors in tense, agreement and plurals are frequent ('the mother is at home and she cook', 'many mother is'), though the candidate attempts conditional and contrastive structures. Pronunciation: short, list-like answers suggest intelligible speech with limited variation in stress and pausing."
+    },
+    {
+      "band": 7,
+      "text": "[Why is food such an important part of celebrations in many cultures?]\nI think it's because sharing food is one of the most basic ways of showing that people belong together. When you invite someone to eat with you, you're saying they're part of the group. In Indonesia, for example, every major festival has its own dishes, and preparing them is often a family event in itself, with grandparents passing on recipes to the younger generation.\n\n[Do families in your country eat together less often than they used to?]\nDefinitely, especially in the cities. Long working hours and commuting mean that parents often get home late, and teenagers have tutoring or activities in the evenings. On top of that, food delivery has made it very easy for everyone to just order what they want at different times. A lot of families now make a point of eating together at weekends instead.\n\n[Should governments do more to encourage healthy eating?]\nI think they could do more, particularly with children. Improving school meals would probably have a bigger impact than advertising campaigns, because it shapes habits early. Clearer labelling on packaged food would help as well.",
+      "commentary": "Fluency & Coherence: responses are fluent and well developed, with logical sequencing and markers such as 'On top of that' and 'for example'. Lexical Resource: a good range of vocabulary ('passing on recipes', 'make a point of', 'labelling'), used with flexibility and accuracy. Grammatical Range & Accuracy: complex structures, including gerund subjects ('Improving school meals would...') and comparative forms, are mostly error-free. Pronunciation: the progression from general claim to example suggests natural chunking and appropriate sentence stress, though the final answer is a little short of the expressive range shown at band 8."
+    },
+    {
+      "band": 8,
+      "text": "[What are the effects of fast food becoming more popular?]\nThe health consequences are the obvious ones: diets that are higher in salt, sugar and processed fat, and the rise in obesity and diabetes that tends to follow. But there's a subtler cultural cost as well. When a cheap burger is more convenient than a dish that takes two hours to prepare, those traditional skills gradually fall out of use, and within a generation or two you can lose recipes that have been handed down for centuries.\n\n[Is it important to preserve traditional recipes?]\nI'd say so, though not in a museum sense. Recipes are a kind of living record of a region's history, what grew there, who traded there, even which foreign influences arrived and when. Indonesian food, for instance, is full of traces of Indian, Chinese and Dutch contact. So preserving them is partly about identity. At the same time, cuisines have always evolved, so I don't think we should be too precious about every dish staying exactly the same.\n\n[Should governments do more to encourage healthy eating?]\nTo a point. Measures like a sugar tax or better school meals have a decent track record, but there's a fine line between helpful policy and lecturing people about what's on their plates.",
+      "commentary": "Fluency & Coherence: the candidate develops abstract ideas fluently, moving from obvious to subtle points and balancing positions skilfully. Lexical Resource: precise, sophisticated vocabulary and idiom ('subtler cultural cost', 'fall out of use', 'a living record', 'too precious about', 'a fine line between') used naturally. Grammatical Range & Accuracy: a wide range of structures, including embedded clauses within lists and conditional time clauses, used accurately. Pronunciation: the measured qualifications ('I'd say so, though not in a museum sense') imply confident intonation and pausing, with chunking that would make complex ideas easy to process."
+    }
+  ]
+}

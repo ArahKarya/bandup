@@ -1,0 +1,307 @@
+{
+  "id": "pls-p3-museum-placement",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 3,
+  "title": "Reviewing a Museum Work Placement",
+  "difficulty": 2,
+  "minutes": 9,
+  "tags": [
+    "work experience",
+    "museums",
+    "tutorial"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Hello, Chloe, have a seat. So, this is your review of the work placement at the city museum. How did it go overall?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Really well, thanks. I learned much more than I expected."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Good. Let's start with the basics for the report. You applied for the education department, didn't you?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "I did, but they had too many students already, so I was placed in the conservation department instead. And honestly, I'm glad, because that's where I'd like to work eventually."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "And the placement was eight weeks?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "It was supposed to be eight, but the museum closed for two weeks in the middle for building work, so it ended up being six weeks altogether."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Six, OK. And what were you working on most of the time?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "They'd just been given a big private collection, mostly pottery and some jewellery. But my main job was cataloguing the coins. There were over two thousand Roman coins, and each one needed to be photographed and described."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Impressive. What did your supervisor say in her feedback?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "She was very positive about my research skills. She said my written work was fine too. The thing she wants me to develop is public speaking. I get very nervous in front of groups."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "That's a common one. Now, the report also asks you to reflect on the different activities you did. Let's go through them. You gave some gallery tours, I think?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Yes, three or four. I'd assumed it would be easy, because I know the collection well. But it was so much harder than I thought. People ask questions you'd never expect, and you have to keep a group interested for forty minutes."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "What about writing the labels for the new display?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Oh, I loved that. You have to explain something really complicated in about fifty words. I'd definitely like to do more of that kind of writing."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "And data entry? I imagine there was a lot of that."
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "So much. And to be honest, I don't think it taught me anything. It was typing numbers from one system into another, and the new software could have done it automatically. I felt it was a waste of my time."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Fair enough, you can say that diplomatically in the report. Handling the objects?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "That was tricky. I thought it would just be a matter of wearing gloves, but there are rules for everything: how you lift a pot, where you put it down, how many objects you can carry. It was much more demanding than I'd expected."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "And the staff meetings?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Hmm. There was a two-hour meeting every Monday, and most of it was about budgets and staffing, nothing to do with my work. I didn't really get anything out of them."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Finally, the school workshop. You helped run one?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Yes, with a class of ten-year-olds. We let them handle some replica objects. I was worried it would be chaos, but it went brilliantly. I'd really like to run more of those if I go back next summer."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Interesting, because that's public speaking too, in a way."
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "I suppose it is! Children are less frightening than adults, though."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "One more section. The report asks whether you'd recommend the placement to next year's students, and why."
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Oh, definitely. Though I'd tell them to ask for a clear timetable at the start. For the first week nobody was quite sure what I was supposed to be doing, and I spent a lot of time just waiting around for someone to give me a task."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "That's useful feedback. I'll pass it on to the museum, because we want to keep working with them. Anything else they should know?"
+      },
+      {
+        "speaker": "Chloe",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "That the staff are incredibly generous with their time once you get to know them. My supervisor even let me sit in while she repaired a damaged painting, which wasn't part of the plan at all. That was probably the best afternoon of the whole six weeks."
+      },
+      {
+        "speaker": "Tutor",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Well, it sounds like a very valuable experience. Get the first draft to me by the end of the month."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "short_answer",
+      "instructions": "Answer the questions below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Which department was Chloe placed in? {{1}}",
+          "answers": [
+            "conservation",
+            "conservation department"
+          ],
+          "evidence": "line 4",
+          "explanation": "She applied for education but was placed in conservation."
+        },
+        {
+          "n": 2,
+          "prompt": "How many weeks did the placement last in the end? {{2}}",
+          "answers": [
+            "6",
+            "six"
+          ],
+          "evidence": "line 6",
+          "explanation": "It was planned as eight weeks, but a two-week closure made it six."
+        },
+        {
+          "n": 3,
+          "prompt": "What type of objects did Chloe mainly catalogue? {{3}}",
+          "answers": [
+            "coins",
+            "Roman coins"
+          ],
+          "evidence": "line 8",
+          "explanation": "The collection included pottery and jewellery, but her main job was the Roman coins."
+        },
+        {
+          "n": 4,
+          "prompt": "Which skill does her supervisor want her to develop? {{4}}",
+          "answers": [
+            "public speaking"
+          ],
+          "evidence": "line 10",
+          "explanation": "Research and writing were praised; public speaking needs work."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "What is Chloe's opinion of each activity? Choose the correct letter, A, B or C. You may use any letter more than once.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It was more difficult than she expected."
+        },
+        {
+          "key": "B",
+          "text": "She would like to do more of it."
+        },
+        {
+          "key": "C",
+          "text": "She felt it was not useful to her."
+        }
+      ],
+      "allowReuse": true,
+      "questions": [
+        {
+          "n": 5,
+          "prompt": "giving gallery tours",
+          "answer": "A",
+          "evidence": "line 12",
+          "explanation": "She assumed it would be easy, but it was much harder than she thought."
+        },
+        {
+          "n": 6,
+          "prompt": "writing labels",
+          "answer": "B",
+          "evidence": "line 14",
+          "explanation": "She would definitely like to do more of that kind of writing."
+        },
+        {
+          "n": 7,
+          "prompt": "data entry",
+          "answer": "C",
+          "evidence": "line 16",
+          "explanation": "She felt it was a waste of her time."
+        },
+        {
+          "n": 8,
+          "prompt": "handling objects",
+          "answer": "A",
+          "evidence": "line 18",
+          "explanation": "It was much more demanding than she had expected."
+        },
+        {
+          "n": 9,
+          "prompt": "attending staff meetings",
+          "answer": "C",
+          "evidence": "line 20",
+          "explanation": "She did not get anything out of them."
+        },
+        {
+          "n": 10,
+          "prompt": "running a school workshop",
+          "answer": "B",
+          "evidence": "line 22",
+          "explanation": "She feared chaos, but it went well and she would like to run more."
+        }
+      ]
+    }
+  ]
+}

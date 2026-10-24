@@ -1,0 +1,96 @@
+{
+  "id": "prd-sleep-memory",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "How Sleep Shapes Memory",
+  "difficulty": 2,
+  "minutes": 20,
+  "tags": ["health", "science", "psychology"],
+  "passage": {
+    "title": "How Sleep Shapes Memory",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For much of the twentieth century, sleep was regarded by many scientists as a period of passive rest. Early laboratory studies did show that people who slept after learning a list of nonsense words remembered more of them the next morning than people who stayed awake for the same number of hours. The explanation offered at the time was a modest one: sleep simply protected new memories from interference. While we are awake, the argument went, a stream of fresh information competes with what we have just learnt and gradually pushes it aside. Asleep, we take in nothing new, so the original material survives."
+      },
+      {
+        "label": "B",
+        "text": "Today most researchers believe that sleep plays a far more active role. Central to this view is the hippocampus, a small curved structure deep in the brain that records the events of the day. In a series of experiments, scientists recorded the activity of individual nerve cells in rats as the animals learnt to find their way through a maze. When the rats later fell asleep, the same cells fired again in the same order, as if the route were being rehearsed, and sometimes the sequence was replayed several times faster than the original journey. This replay is thought to help transfer memories from the hippocampus to the outer layers of the brain, where they can be stored for the long term."
+      },
+      {
+        "label": "C",
+        "text": "Not all sleep is alike. During slow-wave sleep, the deepest stage, which dominates the early part of the night, the brain appears to strengthen memories of facts and events. Rapid eye movement, or REM, sleep, which becomes longer towards morning, is more closely associated with emotional memories and with making unexpected connections between ideas. Researchers have also paid attention to sleep spindles, brief bursts of electrical activity lasting a second or two. In several studies, the number of spindles a person produced during a night was closely related to how much their performance on a learning task improved."
+      },
+      {
+        "label": "D",
+        "text": "One striking experiment tested whether sleep can do more than preserve information. Volunteers were trained on a number puzzle that could be solved step by step, slowly and laboriously. Unknown to them, the puzzle also contained a hidden rule that allowed it to be solved almost instantly. When they were tested again later, those who had slept in between were more than twice as likely to discover the shortcut as those who had spent the same period awake. Sleep, it seemed, had helped them reorganise what they knew and spot a pattern they had missed."
+      },
+      {
+        "label": "E",
+        "text": "These findings have obvious implications for students. Staying up all night to revise may feel productive, but it works against the very process that makes learning stick. In one study, young adults who were deprived of a night's sleep and then asked to memorise a set of pictures showed reduced activity in the hippocampus and recalled roughly 40 per cent less than a well-rested group. Sleep before learning, in other words, seems to prepare the brain to take in new material, while sleep afterwards helps to secure it."
+      },
+      {
+        "label": "F",
+        "text": "The amount of deep sleep we get declines steadily with age, and some scientists suspect that this contributes to the memory difficulties many older people experience. This has led to attempts to boost slow-wave sleep artificially. In one approach, sleepers wear headphones that play soft clicks precisely timed to match the rhythm of their brain waves. Early trials suggest that this can lengthen periods of deep sleep and produce small improvements in memory the following day, although it is not yet clear whether the benefits last."
+      },
+      {
+        "label": "G",
+        "text": "A word of caution is needed. Daytime naps of an hour or so can bring some of the same benefits, but they are not a full substitute for a regular night's sleep. More importantly, sleep can only consolidate what has been learnt in the first place. Material that was read once, distractedly, will not be transformed into lasting knowledge simply because the reader then went to bed. Sleep is a partner to careful study, not a replacement for it."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_information",
+      "instructions": "Reading Passage has seven paragraphs, A–G. Which paragraph contains the following information? NB You may use any letter more than once.",
+      "options": [
+        { "key": "A", "text": "Paragraph A" },
+        { "key": "B", "text": "Paragraph B" },
+        { "key": "C", "text": "Paragraph C" },
+        { "key": "D", "text": "Paragraph D" },
+        { "key": "E", "text": "Paragraph E" },
+        { "key": "F", "text": "Paragraph F" },
+        { "key": "G", "text": "Paragraph G" }
+      ],
+      "allowReuse": true,
+      "questions": [
+        { "n": 1, "prompt": "a description of a technique for improving sleep artificially", "answer": "F", "evidence": "F", "explanation": "Headphones play clicks timed to brain waves to lengthen deep sleep." },
+        { "n": 2, "prompt": "an early explanation of why sleep helps people remember", "answer": "A", "evidence": "A", "explanation": "The early view was that sleep 'simply protected new memories from interference'." },
+        { "n": 3, "prompt": "an example of sleep helping people find a better way to solve a problem", "answer": "D", "evidence": "D", "explanation": "Sleepers were more than twice as likely to discover the hidden shortcut in the puzzle." },
+        { "n": 4, "prompt": "a reference to research involving animals", "answer": "B", "evidence": "B", "explanation": "Scientists recorded nerve cells in rats learning a maze." },
+        { "n": 5, "prompt": "a warning that sleep cannot make up for poor study habits", "answer": "G", "evidence": "G", "explanation": "'Sleep can only consolidate what has been learnt in the first place.'" },
+        { "n": 6, "prompt": "the effect of missing sleep before trying to learn something", "answer": "E", "evidence": "E", "explanation": "Sleep-deprived adults recalled roughly 40 per cent less of the pictures." }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "summary_completion",
+      "instructions": "Complete the summary using the list of words, A–J, below. Write the correct letter, A–J.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "wordBank": [
+        { "key": "A", "text": "replays" },
+        { "key": "B", "text": "ignores" },
+        { "key": "C", "text": "facts" },
+        { "key": "D", "text": "emotional" },
+        { "key": "E", "text": "related to" },
+        { "key": "F", "text": "retained" },
+        { "key": "G", "text": "decline" },
+        { "key": "H", "text": "increase" },
+        { "key": "I", "text": "physical skills" },
+        { "key": "J", "text": "unaffected by" }
+      ],
+      "template": "Scientists now believe that during sleep the brain actively {{7}} the experiences of the day. Different stages of sleep appear to have different roles: slow-wave sleep strengthens memory for {{8}} and events, whereas REM sleep is linked to {{9}} memories and to creative connections. Short bursts of electrical activity known as spindles seem to be closely {{10}} improvements in learning. A night without sleep reduces how much new material is {{11}}, and in older adults a {{12}} in deep sleep may contribute to memory problems.",
+      "questions": [
+        { "n": 7, "answers": ["A"], "evidence": "B", "explanation": "Rat nerve cells fired 'in the same order' during sleep, so the brain replays the day's events." },
+        { "n": 8, "answers": ["C"], "evidence": "C", "explanation": "Slow-wave sleep 'strengthens memories of facts and events'." },
+        { "n": 9, "answers": ["D"], "evidence": "C", "explanation": "REM sleep 'is more closely associated with emotional memories'." },
+        { "n": 10, "answers": ["E"], "evidence": "C", "explanation": "The number of spindles 'was closely related to' improvements in performance." },
+        { "n": 11, "answers": ["F"], "evidence": "E", "explanation": "Sleep-deprived people recalled 40 per cent less, so less material was retained." },
+        { "n": 12, "answers": ["G"], "evidence": "F", "explanation": "'The amount of deep sleep we get declines steadily with age.'" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "wt-a1-fishing-village-map",
+  "kind": "writing_task",
+  "module": "academic",
+  "task": 1,
+  "taskType": "map",
+  "title": "Changes to a coastal village, 1995–2025",
+  "difficulty": 3,
+  "prompt": "The maps below show the coastal village of Penmarrow in 1995 and in 2025. The main features of each map are listed below.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+  "steps": [
+    "1995: A main road runs north to south through the centre of the village, ending at a harbour on the southern coast.",
+    "1995: The harbour has a fish market beside it, and a row of about ten fishermen's cottages lines the coast to the east of the harbour.",
+    "1995: West of the main road there is a large area of farmland; east of the road there is a small primary school and a post office.",
+    "1995: The northern edge of the village is woodland, and there is no beach access west of the harbour because of cliffs.",
+    "2025: The main road is unchanged, but a roundabout has been added at the northern entrance, with a new road branching west.",
+    "2025: The fish market has been converted into a seafood restaurant, and the harbour now holds a marina for small leisure boats.",
+    "2025: The fishermen's cottages remain but are now holiday rentals; a hotel has been built at the eastern end of the row.",
+    "2025: Half of the farmland has been replaced by a housing estate of about 60 homes reached by the new western road; the rest is still farmland.",
+    "2025: The school has been extended, the post office has become a café, and a car park has been built next to the harbour.",
+    "2025: Part of the woodland in the north has been cleared for a caravan park, and steps have been cut into the western cliffs to give access to a new beach."
+  ],
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "The overview should identify the big picture: the village has changed from a fishing and farming community into a tourist and residential area.",
+    "Use the present perfect passive ('has been converted', 'have been built') or the past passive with 'by 2025'.",
+    "Organise by area (north, centre, coast) or by type of change (tourism, housing, services). Do not jump around the map.",
+    "Use location language accurately: 'to the west of', 'at the northern entrance', 'alongside', 'adjacent to'."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "The maps show the village of Penmarrow in 1995 and 2025. There are many changes in this time.\n\nOverall, the village became more for tourists and there are more buildings in 2025.\n\nIn 1995 there was a main road from north to south and a harbour in the south. Next to the harbour there was a fish market and there were fishermen cottages in the east. In 2025 the main road is the same but there is a roundabout in the north and a new road go to the west. The fish market changed to a seafood restaurant and there is a marina in the harbour. The cottages are now holiday rentals and there is a new hotel near them. Also a car park was built near the harbour.\n\nIn the west there was farmland in 1995. In 2025 half of it became a housing estate with 60 houses. In the north some trees were cut and there is a caravan park now. The school is bigger and the post office became a café. Finally, there are steps to a new beach in the west.",
+      "commentary": "Task Achievement: most changes are reported accurately, but the overview is vague ('more for tourists') and the shift away from fishing and farming is not made explicit. Coherence and Cohesion: the organisation is partly logical, but the second paragraph mixes 1995 and 2025 details for several areas, and the last paragraph jumps between locations. Lexical Resource: adequate but simple ('changed to', 'became', 'near'), with few precise location phrases. Grammatical Range and Accuracy: tenses are inconsistent (present and past mixed), and there are errors such as 'a new road go to the west' and 'fishermen cottages'. Band 6."
+    },
+    {
+      "band": 7,
+      "text": "The two maps compare the coastal village of Penmarrow in 1995 and 2025.\n\nOverall, the village has been transformed from a small fishing and farming community into a tourist destination with more housing. While the main road and the coastline have stayed the same, many buildings have changed their function and several new facilities have been added.\n\nThe most significant changes have taken place around the harbour. The fish market has been turned into a seafood restaurant, and the harbour itself now contains a marina for leisure boats. A car park has also been built next to it. To the east, the fishermen's cottages are still standing but now serve as holiday rentals, and a hotel has been constructed at the end of the row.\n\nInland, half of the farmland to the west of the main road has made way for a housing estate of around 60 homes, which is reached by a new road leading from a roundabout at the northern entrance to the village. On the other side of the road, the school has been extended, and the post office has been converted into a café.\n\nFinally, part of the northern woodland has been cleared to make room for a caravan park, and steps have been cut into the western cliffs to provide access to a new beach.",
+      "commentary": "Task Achievement: a clear overview identifies the shift from fishing and farming to tourism and housing, and all key changes are covered. Coherence and Cohesion: logical organisation by area (harbour, inland, edges of the village) with clear referencing ('it', 'On the other side of the road'). Lexical Resource: a good range of expressions for change ('has made way for', 'converted into', 'cleared to make room for'). Grammatical Range and Accuracy: the present perfect passive is used accurately and consistently, alongside relative clauses. Some sentences follow the same 'has been + past participle' pattern, which keeps the grammar from band 8."
+    },
+    {
+      "band": 8,
+      "text": "The maps depict Penmarrow, a coastal village, as it was in 1995 and as it appears in 2025.\n\nOver the thirty years, Penmarrow has evolved from a working village built around fishing and agriculture into a leisure and residential settlement. Its basic layout, a single north–south road ending at the harbour, is intact, but almost every other feature has been either repurposed or added to serve visitors and new residents.\n\nThe waterfront illustrates this shift most clearly. Where fish were once traded, a seafood restaurant now operates, and the harbour, formerly used by fishing boats, has been turned into a marina for pleasure craft, served by an adjacent car park. The row of fishermen's cottages to the east survives, though as holiday lets, and is now capped by a hotel at its far end. West of the harbour, the cliffs that previously cut the village off from the shore have been fitted with steps leading down to a newly accessible beach.\n\nFurther inland, residential growth has come at the expense of open land. Half the farmland west of the main road has given way to an estate of roughly 60 houses, linked to the village by a new road off a roundabout at the northern entrance, and part of the woodland to the north has been cleared for a caravan park. Community facilities have also adapted: the school has been enlarged, while the post office has reopened as a café.",
+      "commentary": "Task Achievement: the overview captures the essential transformation and notes what has stayed the same; all key features are presented and interpreted with precision. Coherence and Cohesion: the response is skilfully organised by zone, and each paragraph opens with a sentence that summarises its theme. Lexical Resource: sophisticated and natural ('repurposed', 'pleasure craft', 'holiday lets', 'at the expense of open land', 'given way to'). Grammatical Range and Accuracy: a wide range of structures, including fronted clauses ('Where fish were once traded'), passive forms and contrastive 'though' phrases, with no noticeable errors. Occasional density in long sentences is the only limitation."
+    }
+  ]
+}

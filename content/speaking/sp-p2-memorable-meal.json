@@ -1,0 +1,51 @@
+{
+  "id": "sp-p2-memorable-meal",
+  "kind": "speaking_task",
+  "part": 2,
+  "topic": "A memorable meal",
+  "difficulty": 1,
+  "cueCard": {
+    "prompt": "Describe a meal you remember well.",
+    "bullets": [
+      "where you had it",
+      "who you were with",
+      "what you ate"
+    ],
+    "closing": "and explain why this meal was memorable."
+  },
+  "questions": [
+    "Do you like trying new food?",
+    "Do people in your country usually eat together as a family?"
+  ],
+  "tips": [
+    "Describe the setting with your senses: the sounds, smells and atmosphere make a talk vivid and easy to extend.",
+    "The meal does not need to be expensive. A simple meal with a good story behind it is often easier to talk about.",
+    "Keep the food description specific, but do not spend the whole two minutes listing dishes; save time for why it was memorable."
+  ],
+  "usefulPhrases": [
+    "The meal that really stands out is...",
+    "It was a bit of a special occasion because...",
+    "The place itself was nothing fancy, but...",
+    "The highlight was definitely...",
+    "It was cooked to perfection.",
+    "What made it so memorable wasn't the food so much as...",
+    "We ended up staying until..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "I want to talk about a meal when I graduated from senior high school. It was at a seafood restaurant near the beach in my city.\n\nI was with my family, my parents, my two brothers and also my grandmother. It was the first time my grandmother come to the restaurant, because usually she don't like to go out, so it was special.\n\nWe ate many kind of seafood, like grilled fish, crab with chilli sauce, and shrimp. And also we drank young coconut. The crab was very, very delicious, it was spicy and a little bit sweet. My father ordered too many food, so we cannot finish it, and we bring the rest home.\n\nWhy it is memorable? Because it was my graduation, and all my family was together. Also, um, my grandmother passed away one year after that, so this was one of the last time we eat together with her. So when I remember this meal I feel happy but also a little bit sad.",
+      "commentary": "Fluency & Coherence: the talk covers all the points in order and has a meaningful ending, but it is somewhat short, and ideas are joined mostly with 'and also' and 'so'. Lexical Resource: adequate food vocabulary ('grilled fish', 'young coconut'), though description relies on 'very, very delicious'. Grammatical Range & Accuracy: frequent errors with tenses, agreement and countability ('my grandmother come', 'she don't', 'too many food', 'one of the last time') alongside some accurate complex sentences. Pronunciation: the repetition 'very, very' and the hesitation 'um' suggest a generally intelligible delivery with some uneven pacing."
+    },
+    {
+      "band": 7,
+      "text": "The meal I remember best was the dinner we had to celebrate my high-school graduation. We went to a seafood restaurant built on stilts over the water, just outside my city.\n\nIt was my whole family: my parents, my two younger brothers and, unusually, my grandmother, who almost never went out to eat. She'd always said restaurants were a waste of money, so the fact that she agreed to come made it feel like a big occasion.\n\nWe sat at a long table right by the edge, so you could hear the waves underneath. My dad got a bit carried away and ordered half the menu: grilled snapper, mussels, prawns in garlic butter and, the star of the show, crab in a sweet and spicy chilli sauce. We had fresh coconut to drink, and we ended up taking about three boxes of leftovers home.\n\nLooking back, it's memorable for more than just the food. It was one of the last times the whole family ate together with my grandmother, as she passed away the following year. I remember her laughing at my dad trying to crack the crab claws with a spoon. So when I think about that evening now, I feel quite nostalgic. It's a happy memory, but there's a bit of sadness attached to it as well.",
+      "commentary": "Fluency & Coherence: the candidate speaks at length with a clear, engaging structure, using linking phrases such as 'Looking back' and 'So when I think about'. Lexical Resource: a good range of vocabulary and idiom ('built on stilts', 'got a bit carried away', 'the star of the show', 'nostalgic') used appropriately. Grammatical Range & Accuracy: complex sentences with relative clauses, past perfect ('She'd always said') and gerund phrases are generally accurate. Pronunciation: the list of dishes and the parenthetical 'unusually' suggest controlled pausing and intonation, although the delivery may be a little less varied than at band 8."
+    },
+    {
+      "band": 8,
+      "text": "The meal that really stands out is the dinner my family had the night I finished high school. My father had booked a table at a seafood place perched on stilts over the bay, the kind of restaurant where you choose your fish from a tank and they grill it right in front of you.\n\nWhat made the evening unusual was the guest list. As well as my parents and brothers, my grandmother came along, and she was notorious for refusing to eat anywhere she couldn't see the kitchen. I think she only agreed because it was my graduation, and she spent the first ten minutes inspecting the cutlery before she relaxed.\n\nAs for the food, my father completely overdid it. Platters kept arriving: smoky grilled snapper, mussels swimming in garlic butter, and a crab in a sticky, fiery chilli sauce that had all of us reaching for our coconuts. Half of it went home in boxes.\n\nBut what's made it so memorable isn't really the food. My grandmother died about a year later, and that turned out to be the last time we were all together around one table. My clearest memory is of her, this tiny, rather stern woman, absolutely crying with laughter as my father wrestled with a crab claw. So it's become one of those bittersweet memories: I can almost smell the charcoal when I think of it, but it also reminds me how little we realise at the time which moments are going to matter.",
+      "commentary": "Fluency & Coherence: the talk is fluent, extended and skilfully organised, with a reflective conclusion that goes beyond the prompt. Lexical Resource: vivid, precise language ('perched on stilts', 'notorious for', 'mussels swimming in garlic butter', 'bittersweet') used naturally and with stylistic control. Grammatical Range & Accuracy: a wide range of structures, including a pseudo-cleft, appositive phrases ('this tiny, rather stern woman') and embedded questions, all used accurately. Pronunciation: the long, layered sentences imply confident chunking and pausing, while emphatic choices like 'absolutely crying with laughter' suggest effective use of stress and intonation."
+    }
+  ]
+}

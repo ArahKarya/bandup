@@ -1,0 +1,385 @@
+{
+  "id": "pls-p1-homestay-booking",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 1,
+  "title": "Arranging a Homestay",
+  "difficulty": 1,
+  "minutes": 8,
+  "tags": [
+    "accommodation",
+    "study abroad",
+    "notes"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Kia ora, Southern Lights Homestay Network, this is Tom. How can I help?"
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Hi, good afternoon. I'm starting an English course in Wellington soon, and my college told me to contact you about staying with a host family."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Great, you've come to the right place. Let me open a new request. Can I take your name?"
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Yes, it's Lena Okafor. That's O-K-A-F-O-R."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Thanks, Lena. And when does your course start?"
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "There's an orientation day on the first of February, but that's optional. The actual classes begin on the third."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "So you'd want to move in a day or two before the third?"
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Yes, I'm arriving on the first, so that works."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "And how long will you need the homestay for? Most courses here are twelve weeks."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Mine is twelve weeks, yes, but a friend of mine is coming over in April and we're planning to rent a flat together. So I'll only need the homestay for ten weeks."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Ten weeks, got it. Now, food. Do you have any dietary requirements?"
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "I eat pretty much everything. Meat, dairy, all that's fine. The only thing is I'm allergic to seafood, so no prawns or fish at all."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "I'll make that very clear to the family. Any other allergies? Some of our hosts have pets."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Dogs are totally fine, I grew up with two. But I can't be around cats. My eyes swell up."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Right, no cats. And how far would you be happy to travel to college each day?"
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Ideally about thirty minutes. But if the family is really nice, I don't mind up to forty minutes. Not more than that, though."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "OK. Now, there are a few choices to make. First, the room. We have a standard single room with a shared bathroom, a single with its own ensuite bathroom, or a shared twin room, which is cheaper."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "What's the difference in price for the ensuite?"
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "It's an extra sixty dollars a week."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Oh, that's quite a lot over ten weeks. And I don't really want to share a bedroom with a stranger. I'll take the standard single with the shared bathroom."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Sensible choice. The weekly fee is three hundred and twenty dollars, and that covers your meals."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "All meals?"
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Not quite. Some years ago we did include lunch, but students found it hard to come home in the middle of the day. So now it's breakfast and an evening meal, every day of the week, weekends included."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "That's fine. I can buy lunch near college."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Now, getting from the airport. What time does your flight land?"
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Er, it's an awful time. Two in the morning."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Ah. Normally hosts can collect students, but there's a charge for that, and to be honest, at two a.m. many hosts would rather not drive. A taxi at that hour is very expensive too. What most students do is take the airport shuttle bus. It runs all night and it'll drop you right at the door."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Oh, the shuttle sounds perfect. Let's do that."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "I'll book it for you. Last thing. To finalise the placement, we need some documents. Have you already sent us a copy of your passport?"
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Yes, I uploaded that last week with my application."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Good, I can see it here. Then the only thing missing is your letter of enrolment from the college. We need that by this Friday, otherwise we can't confirm the family."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "And the deposit?"
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "Don't worry about the deposit yet. You can pay that once we've matched you with a family. So just the enrolment letter by Friday, please."
+      },
+      {
+        "speaker": "Student",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "No problem. I'll email it tonight. Thanks so much, Tom."
+      },
+      {
+        "speaker": "Adviser",
+        "voice": "male",
+        "accent": "en-NZ",
+        "text": "My pleasure, Lena. You'll hear from us about your family within the next ten days."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Homestay request**\n\n- Student's name: Lena {{1}}\n- Course start date: {{2}} February\n- Homestay needed for: {{3}} weeks\n- Diet: cannot eat {{4}}\n- Family must not have {{5}}\n- Maximum travel time to college: {{6}} minutes",
+      "questions": [
+        {
+          "n": 1,
+          "answers": [
+            "Okafor"
+          ],
+          "evidence": "line 4",
+          "explanation": "She spells her surname O-K-A-F-O-R."
+        },
+        {
+          "n": 2,
+          "answers": [
+            "3",
+            "3rd",
+            "third"
+          ],
+          "evidence": "line 6",
+          "explanation": "The 1st is only an optional orientation day; classes begin on the third."
+        },
+        {
+          "n": 3,
+          "answers": [
+            "10",
+            "ten"
+          ],
+          "evidence": "line 10",
+          "explanation": "The course is twelve weeks, but she will move into a flat after ten weeks."
+        },
+        {
+          "n": 4,
+          "answers": [
+            "seafood"
+          ],
+          "evidence": "line 12",
+          "explanation": "She eats meat and dairy but is allergic to seafood."
+        },
+        {
+          "n": 5,
+          "answers": [
+            "cats",
+            "cat"
+          ],
+          "evidence": "line 14",
+          "explanation": "Dogs are fine, but she cannot be around cats."
+        },
+        {
+          "n": 6,
+          "answers": [
+            "40",
+            "forty"
+          ],
+          "evidence": "line 16",
+          "explanation": "Thirty minutes is ideal, but she accepts up to forty and no more."
+        }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 7,
+          "prompt": "Which type of room does Lena choose?",
+          "options": [
+            {
+              "key": "A",
+              "text": "a single room with a shared bathroom"
+            },
+            {
+              "key": "B",
+              "text": "a single room with an ensuite bathroom"
+            },
+            {
+              "key": "C",
+              "text": "a shared twin room"
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 20",
+          "explanation": "The ensuite is too expensive and she does not want to share a bedroom."
+        },
+        {
+          "n": 8,
+          "prompt": "The weekly fee includes",
+          "options": [
+            {
+              "key": "A",
+              "text": "breakfast and an evening meal every day."
+            },
+            {
+              "key": "B",
+              "text": "all meals every day."
+            },
+            {
+              "key": "C",
+              "text": "breakfast only on weekdays."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 23",
+          "explanation": "Lunch used to be included but no longer is; breakfast and dinner are provided seven days a week."
+        },
+        {
+          "n": 9,
+          "prompt": "How will Lena travel from the airport?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Her host will collect her."
+            },
+            {
+              "key": "B",
+              "text": "She will take a shuttle bus."
+            },
+            {
+              "key": "C",
+              "text": "She will take a taxi."
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 28",
+          "explanation": "A host pick-up costs extra and a taxi is expensive at 2 a.m., so she chooses the all-night shuttle."
+        },
+        {
+          "n": 10,
+          "prompt": "What must Lena send before Friday?",
+          "options": [
+            {
+              "key": "A",
+              "text": "a copy of her passport"
+            },
+            {
+              "key": "B",
+              "text": "a letter from her college"
+            },
+            {
+              "key": "C",
+              "text": "a deposit"
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 33",
+          "explanation": "The passport was already sent and the deposit can wait; only the enrolment letter is needed by Friday."
+        }
+      ]
+    }
+  ]
+}

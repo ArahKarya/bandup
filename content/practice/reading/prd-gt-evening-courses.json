@@ -1,0 +1,82 @@
+{
+  "id": "prd-gt-evening-courses",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "general",
+  "title": "Evening Courses at Millbrook Community Centre",
+  "difficulty": 1,
+  "minutes": 15,
+  "tags": ["everyday life", "education", "community"],
+  "passage": {
+    "title": "Millbrook Community Centre: Autumn Evening Courses",
+    "subtitle": "Courses run for ten weeks from the second week of September. Book at reception or on our website.",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Beginners' Spanish. Learn the basics of everyday conversation, from ordering food to asking for directions. Our tutor, who grew up in Valencia, uses games and role-plays rather than textbooks, so you will be speaking from the very first lesson. No previous knowledge is needed. Tuesdays, 7–9 pm. £85 for the full course. Please bring a notebook; all other materials are provided."
+      },
+      {
+        "label": "B",
+        "text": "Digital Photography. Get more out of your camera, whether it is an expensive digital model or the one on your phone. The course covers lighting, composition and simple editing. Two sessions take place outdoors, so warm clothing is recommended. Participants must bring their own camera or smartphone. Wednesdays, 6.30–8.30 pm. £95. At the end of the course, students' best images will be displayed in the centre's café for a month."
+      },
+      {
+        "label": "C",
+        "text": "Home Repairs for Everyone. Fix a dripping tap, hang a shelf safely and deal with small electrical problems such as changing a plug. All tools are supplied, and safety glasses must be worn at all times in the workshop. Numbers are limited to eight people per group so that everyone gets individual attention. Thursdays, 7–9 pm. £110, which includes a basic toolkit that you can take home at the end of the course."
+      },
+      {
+        "label": "D",
+        "text": "Cooking on a Budget. Discover how to prepare healthy, tasty meals for under £2 a portion. Each week you will cook a complete dish and take it home to share, so please bring a container with a lid. Recipes are suitable for vegetarians, and other dietary needs can be catered for if you let us know when booking. Mondays, 6–8 pm. £120, including all ingredients."
+      },
+      {
+        "label": "E",
+        "text": "Creative Writing. Whether you dream of writing a novel or simply want to record family stories, this friendly group will help you find your voice. Each week includes short exercises and an opportunity to share your work, although nobody is ever required to read aloud. The course is led by a local author whose first novel was published last year. Mondays, 7.30–9.30 pm. £75."
+      },
+      {
+        "label": "F",
+        "text": "Yoga for Stress Relief. Gentle stretching and breathing techniques suitable for all ages and fitness levels. Please wear loose clothing and bring a mat if you have one; a small number are available to borrow. If you have a back or joint problem, you are advised to speak to your doctor before joining. Fridays, 6–7 pm. £60. Those who attend all ten sessions receive a free pass for one week at the centre's gym."
+      },
+      {
+        "label": "G",
+        "text": "Booking and payment. Courses must be paid for in full at the time of booking. A 15 per cent discount is available to people aged over 65 and to full-time students on production of a valid card. If a course is cancelled because too few people have enrolled, you will receive a full refund. Refunds cannot be given if you decide to leave a course after the second week."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_information",
+      "instructions": "Look at the six course descriptions, A–F. For which course are the following statements true? NB You may use any letter more than once.",
+      "options": [
+        { "key": "A", "text": "Beginners' Spanish" },
+        { "key": "B", "text": "Digital Photography" },
+        { "key": "C", "text": "Home Repairs for Everyone" },
+        { "key": "D", "text": "Cooking on a Budget" },
+        { "key": "E", "text": "Creative Writing" },
+        { "key": "F", "text": "Yoga for Stress Relief" }
+      ],
+      "allowReuse": true,
+      "questions": [
+        { "n": 1, "prompt": "Participants' work will be put on public display.", "answer": "B", "evidence": "B", "explanation": "Students' best images 'will be displayed in the centre's café for a month'." },
+        { "n": 2, "prompt": "Some lessons do not take place indoors.", "answer": "B", "evidence": "B", "explanation": "'Two sessions take place outdoors'." },
+        { "n": 3, "prompt": "Participants receive equipment to keep.", "answer": "C", "evidence": "C", "explanation": "The fee 'includes a basic toolkit that you can take home'." },
+        { "n": 4, "prompt": "Some people should get medical advice before starting.", "answer": "F", "evidence": "F", "explanation": "People with back or joint problems should 'speak to your doctor before joining'." },
+        { "n": 5, "prompt": "The teacher does not use course books.", "answer": "A", "evidence": "A", "explanation": "The tutor 'uses games and role-plays rather than textbooks'." },
+        { "n": 6, "prompt": "Participants do not have to share their work with the group.", "answer": "E", "evidence": "E", "explanation": "'nobody is ever required to read aloud'." },
+        { "n": 7, "prompt": "Students should tell the centre about special food requirements.", "answer": "D", "evidence": "D", "explanation": "'other dietary needs can be catered for if you let us know when booking'." }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "short_answer",
+      "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the text for each answer.",
+      "maxWords": 3,
+      "allowNumber": true,
+      "questions": [
+        { "n": 8, "prompt": "What must people wear in the home repairs workshop? {{8}}", "answers": ["safety glasses"], "evidence": "C", "explanation": "'safety glasses must be worn at all times in the workshop'." },
+        { "n": 9, "prompt": "What should students bring to the cooking class? {{9}}", "answers": ["a container", "container", "container with lid", "a lidded container"], "evidence": "D", "explanation": "'please bring a container with a lid'." },
+        { "n": 10, "prompt": "What do people who attend every yoga session receive? {{10}}", "answers": ["a free pass", "free pass", "free gym pass"], "evidence": "F", "explanation": "They 'receive a free pass for one week at the centre's gym'." },
+        { "n": 11, "prompt": "What discount do full-time students receive? {{11}}", "answers": ["15 per cent", "15 percent", "15%", "15"], "evidence": "G", "explanation": "'A 15 per cent discount is available to people aged over 65 and to full-time students'." }
+      ]
+    }
+  ]
+}

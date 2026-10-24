@@ -1,0 +1,365 @@
+{
+  "id": "m2-l2",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 2,
+  "title": "A Radio Preview of a Riverside Festival",
+  "difficulty": 2,
+  "minutes": 8,
+  "tags": [
+    "mock",
+    "everyday",
+    "events",
+    "map"
+  ],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Good afternoon, and welcome back to Kelby Community Radio. With the Riverlights Festival only a fortnight away, I've got the festival director, Hana Walker, in the studio to tell us what's in store. Welcome, Hana."
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Thanks for having me. It's always lovely to be on the show."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Now, the first thing people have noticed is that the festival's grown. It's running for four days this year instead of three. Why's that?"
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Well, a lot of people assume it's because local businesses were pushing for it, and certainly the cafés and shops along the river did very well last year. And some people have joked that we were just trying to make sure at least one day had decent weather! But the real reason is financial. The regional arts council doubled our grant this year, and that meant we could afford to pay performers for an extra day."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Excellent. And the lantern parade is always the highlight. Is that changing at all?"
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "It's still on the Saturday night, and it still finishes at the river, where all the lanterns are lined up along the bank. But the starting point is different. For the last ten years it's set off from the town hall, but with the roadworks on the high street, we've moved it to the old mill on Station Lane. It means the route's a bit shorter, but it actually passes more houses, so more people can watch from their doorsteps."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Now, a question we've had from several listeners: what about tickets?"
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Most of the festival is completely free: the daytime music, the market, the children's activities. The evening concerts in the park are ticketed, as they were last year, but there's one important change. Last year we kept some tickets back for sale at the gate, and it caused enormous queues. So this year there'll be no sales on the night at all; you'll need to book online beforehand. Tickets are twelve pounds, and under-sixteens pay half price, the same as before."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "And I gather you're looking for volunteers?"
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "We always are! We've actually got plenty of people for stewarding and the car park. The rugby club has offered to take that on again, which is wonderful. And the litter-picking team is pretty much full, too. Where we're really short is the lantern workshops. Every evening in the week before the parade, we run sessions in the library where families make their lanterns, and we need people to help with the cutting and gluing. You don't need to be artistic, just patient!"
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Sounds fun. So what's new this year?"
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "A couple of things I'm very excited about. Lots of people have asked whether the fireworks are back, and yes, they are, but of course that's not new; we've had them every year apart from the year of the drought. Something we did look into was a silent disco, but when we consulted residents near the park, they were worried about crowds late at night, so we dropped it. What we have added is a free shuttle bus, running every twenty minutes from the station car park to the festival site, which should take a lot of pressure off the roads. And the other new thing is a storytelling tent, with local authors reading for children and adults every afternoon. We'd also hoped to have a vintage clothing fair, but we couldn't find enough stallholders in time, so that'll have to wait until next year."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Now, the site itself is laid out a bit differently this time, isn't it?"
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "It is, so let me talk you through it. Imagine you're coming in through the main entrance on Mill Road, at the south side of the park. The central path runs straight ahead of you, north, right up to the footbridge over the river, and halfway along it you'll see the bandstand, where the cross path meets it. That cross path runs from east to west, between the two side gates."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Got it."
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "So, as you come in through the main entrance, on your left you'll see the information tent, where you can pick up a programme. And the first-aid post is right opposite that, on your right, so it's the first thing you'll pass on that side. Very easy to find if anyone needs it."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "And the craft market? That's always popular."
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Yes. For that, walk up the central path towards the bandstand. Just before you reach it, turn right onto the cross path, and the craft market is immediately on your right, so it's in the corner between the cross path and the central path. Opposite it, on the other side of the cross path, there's a quiet area with deckchairs for anyone who needs a rest."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "What about families with young children?"
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "The children's activity zone is down by the water this year. Head right to the far end of the central path, and just before you reach the footbridge, turn left. It's along the riverbank, to the west of the footbridge. On the other side of the bridge, the east side, we've got the dog show ring."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "And finally, the most important question: food!"
+      },
+      {
+        "speaker": "Hana Walker",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Ha! The food village is in a new spot. Go past the bandstand, carrying on along the central path towards the river, and it's on your left straight after the bandstand. So it's not down by the water, that's the children's zone; it's right next to the cross path. It should be lovely in the evenings, because you can hear the bands while you eat."
+      },
+      {
+        "speaker": "Presenter",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Wonderful. Hana Walker, thank you so much. Full details of the Riverlights Festival are on the website, and we'll be back after the news."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 11,
+          "prompt": "Why is the festival longer this year?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Local businesses asked for an extra day."
+            },
+            {
+              "key": "B",
+              "text": "The organisers wanted more chance of good weather."
+            },
+            {
+              "key": "C",
+              "text": "More funding became available."
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 4",
+          "explanation": "Hana says the real reason is financial: the arts council doubled the grant. Businesses and weather are mentioned as what people assume."
+        },
+        {
+          "n": 12,
+          "prompt": "This year the lantern parade will start at",
+          "options": [
+            {
+              "key": "A",
+              "text": "the town hall."
+            },
+            {
+              "key": "B",
+              "text": "the old mill."
+            },
+            {
+              "key": "C",
+              "text": "the riverbank."
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 6",
+          "explanation": "It used to start at the town hall, but roadworks mean it now starts at the old mill. It finishes at the river."
+        },
+        {
+          "n": 13,
+          "prompt": "What is different about tickets for the evening concerts this year?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They must be bought in advance."
+            },
+            {
+              "key": "B",
+              "text": "Children can attend free."
+            },
+            {
+              "key": "C",
+              "text": "They are on sale at the gate."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 8",
+          "explanation": "Gate sales have been stopped, so tickets must be booked online beforehand. The half-price rate for under-sixteens is unchanged."
+        },
+        {
+          "n": 14,
+          "prompt": "Volunteers are most needed to",
+          "options": [
+            {
+              "key": "A",
+              "text": "manage the car park."
+            },
+            {
+              "key": "B",
+              "text": "collect litter."
+            },
+            {
+              "key": "C",
+              "text": "help at lantern-making sessions."
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 10",
+          "explanation": "Stewarding and litter picking are covered; the shortage is at the lantern workshops in the library."
+        }
+      ]
+    },
+    {
+      "type": "mcq_multi",
+      "category": "multiple_choice",
+      "instructions": "Choose TWO letters, A–E.",
+      "questions": [
+        {
+          "numbers": [
+            15,
+            16
+          ],
+          "prompt": "Which TWO things are new at the festival this year?",
+          "options": [
+            {
+              "key": "A",
+              "text": "fireworks"
+            },
+            {
+              "key": "B",
+              "text": "a silent disco"
+            },
+            {
+              "key": "C",
+              "text": "a free shuttle bus"
+            },
+            {
+              "key": "D",
+              "text": "a storytelling tent"
+            },
+            {
+              "key": "E",
+              "text": "a vintage clothing fair"
+            }
+          ],
+          "answers": [
+            "C",
+            "D"
+          ],
+          "evidence": "line 12",
+          "explanation": "The shuttle bus and storytelling tent have been added. Fireworks are not new, the silent disco was dropped and the vintage fair is postponed."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "map_labelling",
+      "instructions": "Label the map below. Write the correct letter, A–H, next to Questions 17–20.",
+      "image": "m2-diagram.svg",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        },
+        {
+          "key": "E",
+          "text": "E"
+        },
+        {
+          "key": "F",
+          "text": "F"
+        },
+        {
+          "key": "G",
+          "text": "G"
+        },
+        {
+          "key": "H",
+          "text": "H"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 17,
+          "prompt": "First-aid post",
+          "answer": "H",
+          "evidence": "line 16",
+          "explanation": "The information tent is on the left of the main entrance (G); the first-aid post is opposite it on the right (H)."
+        },
+        {
+          "n": 18,
+          "prompt": "Craft market",
+          "answer": "F",
+          "evidence": "line 18",
+          "explanation": "Turning right (east) onto the cross path just before the bandstand, the market is on the right: the south-east corner of the crossing (F). D opposite is the quiet area."
+        },
+        {
+          "n": 19,
+          "prompt": "Children's activity zone",
+          "answer": "A",
+          "evidence": "line 20",
+          "explanation": "It is on the riverbank, to the west of the footbridge (A). B, east of the bridge, is the dog show ring."
+        },
+        {
+          "n": 20,
+          "prompt": "Food village",
+          "answer": "C",
+          "evidence": "line 22",
+          "explanation": "Walking north past the bandstand, it is on the left next to the cross path (C), not by the water."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "id": "m1-l3",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 3,
+  "title": "A Marine Biology Field Project",
+  "difficulty": 2,
+  "minutes": 8,
+  "tags": [
+    "mock",
+    "academic",
+    "science"
+  ],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Come in, both of you. So, this is the rock pool project. How did the fieldwork go in the end?"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Mostly well, I think. We managed to survey both shores, the sheltered bay at Kelso and the exposed headland at Point Morran, and we did twenty quadrats at each."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Though it wasn't exactly smooth. Our second visit to the headland had to be called off completely. There was a storm warning, and the coastguard advised people to stay off the rocks, so we lost almost a week."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "And the other big headache was the seaweeds. We were fine with the obvious ones, the wracks and the kelp, but there were several small red seaweeds that we just couldn't put a name to, even with the field guide."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "That's very common. What did you do with them?"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "We photographed them and recorded them as 'red algae, unidentified', so at least they're in the counts."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Sensible. And no problems with equipment?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Well, we nearly lost a quadrat. A wave picked it up, but I managed to grab it before it went in. And the camera battery died on the first morning, but luckily Priya had brought a spare, so that didn't cost us anything."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "I'd half expected the tide times to be a problem too. I'd downloaded a new app and I didn't really trust it, but it turned out to be completely accurate."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Good. So, results. Was there anything you didn't expect?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Yes, one thing really surprised us. We predicted that limpets would be more common in the sheltered bay, because there's less wave action to knock them off. But in fact the density of limpets at the exposed site was much higher, nearly double."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "The barnacles were about what we expected, and we hardly saw any crabs at either site, so nothing to compare there."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Interesting. And how are you planning to deal with the limpet result in your discussion?"
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Well, we wondered about going back to collect more data, to check it wasn't a fluke."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "I wouldn't, honestly. You haven't got time before the deadline, and the weather's unpredictable. And you could look at published studies, but the literature on limpets and exposure is quite mixed, so it won't settle anything. I think the most valuable thing is to be upfront about the limitations of your sampling method. You placed your quadrats at only one height on the shore, didn't you?"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Yes, just the mid-shore."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Then explain how that might have produced the result. That shows real scientific thinking, and examiners like that."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Okay, that makes sense."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "And how are you presenting the species counts?"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "We started doing a bar chart for every species, but there are twenty-three species, so it got ridiculous."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "We've now decided to put all the counts into one table, with the two sites side by side. It's much easier to compare at a glance."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Good decision. Now, I've read through your draft, so let me go through it section by section. The introduction is generally accurate, but it goes on for three pages. You've included a lot of general background about oceans that isn't really needed, so it's simply too long. Aim for one page."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Okay, we'll cut it right down."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Your description of the two sites is clear, but it's very hard to picture where your transects were. I'd like to see a diagram of each site, showing the shoreline and where you laid each line."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "We could draw that from our field notes."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Then the methods. Now, the basic idea is fine, but someone reading this couldn't repeat your study. How big were the quadrats? How did you choose where to put them? You need to add a lot more detail there."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Right, we sort of assumed people would know."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Never assume that. Now, the raw data. You've put all twenty pages of tally sheets in the middle of the report. They're useful evidence, but they break up the flow, so they should go in an appendix at the end."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Fine, that's easy."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "And finally your reference list. The sources themselves are good, but you've used a mixture of styles. The department requires the author-date system, so you'll need to change them all to match that."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Oh, I didn't realise there was a set system."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "It's in the handbook. Oh, and I should say the discussion section is very well organised. I made a note that I thought there was a factual error in your introduction about tidal ranges, but when I checked, you were right, so ignore that."
+      },
+      {
+        "speaker": "Tom",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "That's a relief. Thanks, Dr Hale."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_multi",
+      "category": "multiple_choice",
+      "instructions": "Questions 21–22. Choose TWO letters, A–E.",
+      "questions": [
+        {
+          "numbers": [
+            21,
+            22
+          ],
+          "prompt": "Which TWO problems did the students have during their fieldwork?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The tide times they used were wrong."
+            },
+            {
+              "key": "B",
+              "text": "A piece of equipment was washed away."
+            },
+            {
+              "key": "C",
+              "text": "They could not identify some species."
+            },
+            {
+              "key": "D",
+              "text": "Bad weather prevented a planned visit."
+            },
+            {
+              "key": "E",
+              "text": "Their camera stopped working for a day."
+            }
+          ],
+          "answers": [
+            "C",
+            "D"
+          ],
+          "evidence": "line 3; line 4",
+          "explanation": "The headland visit was cancelled because of a storm warning, and some red seaweeds could not be identified. The quadrat was saved, a spare battery was used, and the tide app was accurate."
+        }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Questions 23–25. Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 23,
+          "prompt": "What surprised the students about the exposed shore?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It had more limpets than the sheltered shore."
+            },
+            {
+              "key": "B",
+              "text": "It had fewer crabs than the sheltered shore."
+            },
+            {
+              "key": "C",
+              "text": "Its barnacles were larger than expected."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 11",
+          "explanation": "They predicted more limpets in the sheltered bay, but the exposed site had nearly double. Barnacles were as expected and crabs were rare at both sites."
+        },
+        {
+          "n": 24,
+          "prompt": "Dr Hale advises them to deal with the unexpected result by",
+          "options": [
+            {
+              "key": "A",
+              "text": "collecting further data."
+            },
+            {
+              "key": "B",
+              "text": "comparing it with published research."
+            },
+            {
+              "key": "C",
+              "text": "discussing weaknesses in how they sampled."
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 15",
+          "explanation": "He rejects more fieldwork (no time) and says the literature is mixed; the most valuable step is to explain the limitations of their sampling."
+        },
+        {
+          "n": 25,
+          "prompt": "How have the students decided to present their species counts?",
+          "options": [
+            {
+              "key": "A",
+              "text": "as a separate bar chart for each species"
+            },
+            {
+              "key": "B",
+              "text": "in a single table comparing both sites"
+            },
+            {
+              "key": "C",
+              "text": "on a map of each site"
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 21",
+          "explanation": "They abandoned the bar charts because there were 23 species and chose one table with the sites side by side."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "Questions 26–30. What comment does Dr Hale make about each section of the students' draft report? Choose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+      "options": [
+        {
+          "key": "A",
+          "text": "needs more detail"
+        },
+        {
+          "key": "B",
+          "text": "is too long"
+        },
+        {
+          "key": "C",
+          "text": "should include a diagram"
+        },
+        {
+          "key": "D",
+          "text": "does not follow the required format"
+        },
+        {
+          "key": "E",
+          "text": "is well organised"
+        },
+        {
+          "key": "F",
+          "text": "should be moved to the end"
+        },
+        {
+          "key": "G",
+          "text": "contains a factual error"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 26,
+          "prompt": "Introduction",
+          "answer": "B",
+          "evidence": "line 22",
+          "explanation": "He says it goes on for three pages and is simply too long. The suspected factual error turned out not to be one."
+        },
+        {
+          "n": 27,
+          "prompt": "Site description",
+          "answer": "C",
+          "evidence": "line 24",
+          "explanation": "The tutor wants a diagram of each site showing the transects."
+        },
+        {
+          "n": 28,
+          "prompt": "Methods",
+          "answer": "A",
+          "evidence": "line 26",
+          "explanation": "Readers could not repeat the study, so more detail is needed."
+        },
+        {
+          "n": 29,
+          "prompt": "Raw data",
+          "answer": "F",
+          "evidence": "line 28",
+          "explanation": "The tally sheets break up the flow and should go in an appendix."
+        },
+        {
+          "n": 30,
+          "prompt": "Reference list",
+          "answer": "D",
+          "evidence": "line 30",
+          "explanation": "The sources are good but the styles are mixed; they must follow the author-date system."
+        }
+      ]
+    }
+  ]
+}

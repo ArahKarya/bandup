@@ -1,0 +1,51 @@
+{
+  "id": "sp-p2-useful-app",
+  "kind": "speaking_task",
+  "part": 2,
+  "topic": "A useful app or website",
+  "difficulty": 2,
+  "cueCard": {
+    "prompt": "Describe an app or website that you find useful.",
+    "bullets": [
+      "what it is",
+      "how you found out about it",
+      "what you use it for",
+      "how often you use it"
+    ],
+    "closing": "and explain why you find it so useful."
+  },
+  "questions": [
+    "Would you recommend it to older people?"
+  ],
+  "tips": [
+    "Pick something you genuinely use so you have real details: features, a recent example of using it, a problem it solved.",
+    "Avoid turning the talk into an advert. Mention one or two drawbacks; it makes your answer more natural and shows a wider range of language.",
+    "You can describe the app without naming a brand, for example 'a language-learning app' or 'a public transport app'."
+  ],
+  "usefulPhrases": [
+    "It's basically a... that lets you...",
+    "I first came across it when...",
+    "A friend of mine put me onto it.",
+    "I use it on a daily basis, mainly for...",
+    "It's saved me a lot of time and hassle.",
+    "The only drawback is...",
+    "It's become second nature to me."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "I want to talk about an app for public transport in my city. It is an app that show you the bus and the train, and what time they will come.\n\nI found out about it from my friend in university. He use it every day and he told me it is very helpful, so I download it, maybe one year ago.\n\nI use it for checking when the bus will come, so I don't need to wait too long in the bus stop. Also I can see the route, which bus I must take to go to some place, and how long is the journey. And I can top up my card in the app, so I don't need to queue in the station.\n\nI use it almost every day, because I go to campus by bus. Sometimes in weekend I use it also when I go to the mall.\n\nWhy is it useful? Because it save my time. Before I have this app, sometimes I waited thirty minutes in the bus stop, and it is very hot. Now I can stay at home and go out when the bus is near. So it is very useful for me.",
+      "commentary": "Fluency & Coherence: the talk follows the cue card point by point and is easy to follow, but it is somewhat mechanical and the candidate repeats 'useful' and 'so'. Lexical Resource: enough vocabulary for the topic ('route', 'top up my card', 'queue'), though there are preposition errors ('in the bus stop', 'in weekend'). Grammatical Range & Accuracy: many sentences are simple, and there are repeated errors with verb endings and tenses ('it show', 'He use', 'I download it', 'Before I have'). Pronunciation: the rhetorical question 'Why is it useful?' suggests an attempt to vary intonation, but short sentences imply a choppy rhythm overall."
+    },
+    {
+      "band": 7,
+      "text": "I'm going to talk about a public transport app that covers the buses and the commuter trains in my city. Basically, it shows you in real time where every vehicle is and how long it'll take to reach your stop.\n\nI found out about it in my first year at university. A friend of mine was always leaving the library at exactly the right moment to catch his bus, and when I asked how he did it, he showed me the app. I downloaded it that same evening.\n\nI mainly use it to plan my journey to campus. As well as live arrival times, it suggests the quickest route and tells you if there are any delays or diversions. You can also top up your travel card through it, which means I haven't had to queue at a ticket machine for ages.\n\nI'd say I open it at least twice a day during term time, and more at weekends if I'm heading somewhere unfamiliar.\n\nThe main reason it's so useful is that it gives me back time I used to waste. Before, I'd sometimes stand at a stop in the heat for half an hour; now I can wait indoors until the bus is a couple of minutes away. The only downside is that it drains my battery quite quickly, but that's a small price to pay.",
+      "commentary": "Fluency & Coherence: the response is fluent and well organised, with the bullets woven into a natural story rather than listed mechanically. Lexical Resource: a good range of topic vocabulary ('real time', 'delays or diversions', 'drains my battery') and idiom ('a small price to pay'). Grammatical Range & Accuracy: varied structures, including relative clauses, 'used to' and present perfect for experience, with only minor slips. Pronunciation: the anecdote about the friend implies natural narrative intonation, and phrasing is chunked logically, though the speech is a little less varied in emphasis than at band 8."
+    },
+    {
+      "band": 8,
+      "text": "The one I'd single out is a transit app for my city, which pulls together live data for the buses and the commuter rail network. On the surface it's just a map with moving dots, but it's quietly transformed how I get around.\n\nI stumbled across it in my first term at university. There was a guy in my seminar group who always seemed to stroll out of the library at precisely the right moment and catch his bus without breaking into a run, and eventually curiosity got the better of me and I asked him how he managed it. He held up his phone, and that was that.\n\nThese days I'd say I check it at least twice a day, mostly for the trip to campus. It flags delays and diversions before they happen, suggests alternatives if a line's disrupted, and lets me top up my travel card, so I can't remember the last time I queued at a ticket machine.\n\nWhy it matters so much to me comes down to predictability. Our buses used to be notoriously unreliable, and you'd routinely find yourself standing at a stop in thirty-degree heat with no idea whether the next bus was two minutes or forty minutes away. Taking away that uncertainty has made a surprisingly big difference to my stress levels. If I had one criticism, it would be that it eats through my battery, but honestly, I'd put up with far worse for what it gives me.",
+      "commentary": "Fluency & Coherence: the talk is fluent, cohesive and fully developed, moving from description to anecdote to a reflective explanation without any sign of strain. Lexical Resource: sophisticated and idiomatic language is used precisely ('stumbled across', 'curiosity got the better of me', 'notoriously unreliable', 'eats through my battery'). Grammatical Range & Accuracy: a wide range of structures, including a nominal clause as subject ('Why it matters... comes down to'), second conditionals and 'would' for habits, all accurate. Pronunciation: phrases like 'and that was that' imply a confident, natural rhythm, and the contrasting time spans suggest purposeful stress."
+    }
+  ]
+}
