@@ -328,13 +328,31 @@ function Matching({ group, answers, onAnswer, results, labels }: GroupProps & { 
   );
 }
 
-function Blank({ n, value, onAnswer, item, wordBank }: { n: number; value: string; onAnswer?: GroupProps["onAnswer"]; item?: GradedItem; wordBank?: { key: string }[] }) {
+function Blank({
+  n,
+  value,
+  onAnswer,
+  item,
+  wordBank,
+  withActions = false,
+}: {
+  n: number;
+  value: string;
+  onAnswer?: GroupProps["onAnswer"];
+  item?: GradedItem;
+  wordBank?: { key: string }[];
+  /** Template blanks have no number badge, so they carry the question actions themselves. */
+  withActions?: boolean;
+}) {
+  const { actions } = useContext(QuestionExtrasContext);
+  const extra = withActions ? actions?.(n) : null;
   const tone = item ? (item.correct ? "border-success bg-success-soft" : "border-danger bg-danger-soft") : "border-border bg-surface";
   if (wordBank) {
     return (
       <span className="mx-0.5 inline-flex items-center gap-1 align-middle" id={`q-${n}`}>
         <strong className="text-xs text-muted">{n}</strong>
         <LetterSelect n={n} options={wordBank} value={value} onAnswer={onAnswer} item={item} />
+        {extra}
       </span>
     );
   }
@@ -353,6 +371,7 @@ function Blank({ n, value, onAnswer, item, wordBank }: { n: number; value: strin
         className={`h-8 w-36 rounded border px-2 text-sm ${tone}`}
       />
       {item && !item.correct && <span className="text-xs font-medium text-success">({item.expected})</span>}
+      {extra}
     </span>
   );
 }
@@ -370,8 +389,28 @@ function withBlanks(text: string, render: (n: number) => ReactNode): ReactNode[]
   return parts;
 }
 
+/** Renders the blank for question n; provided per group so the markdown renderer can stay static. */
+const BlankContext = createContext<(n: number) => ReactNode>(() => null);
+
+/**
+ * Module-level (stable) renderer for inline code in templates. An inline arrow here would be a
+ * new component type on every render, so React would remount every blank — and the input
+ * being typed in would lose focus.
+ */
+function TemplateCode({ children }: { children?: ReactNode }) {
+  const render = useContext(BlankContext);
+  const m = /^__BLANK_(\d+)__$/.exec(String(children));
+  return m ? <>{render(Number(m[1]))}</> : <code>{children}</code>;
+}
+
+const MARKDOWN_COMPONENTS = { code: TemplateCode };
+const REMARK_PLUGINS = [remarkGfm];
+
 function Completion({ group, answers, onAnswer, results, labels }: GroupProps & { group: Of<"completion"> }) {
-  const blank = (n: number) => <Blank n={n} value={String(answers[n] ?? "")} onAnswer={onAnswer} item={results?.get(n)} wordBank={group.wordBank} />;
+  const blank = (n: number, withActions = false) => (
+    <Blank n={n} value={String(answers[n] ?? "")} onAnswer={onAnswer} item={results?.get(n)} wordBank={group.wordBank} withActions={withActions} />
+  );
+  const templateBlank = (n: number) => blank(n, true);
   const explained = group.questions.map((q) => results?.get(q.n)).filter((i): i is GradedItem => Boolean(i?.explanation || i?.evidence));
 
   return (
@@ -379,25 +418,19 @@ function Completion({ group, answers, onAnswer, results, labels }: GroupProps & 
       {group.wordBank && <OptionsBox options={group.wordBank} />}
       {group.template ? (
         <div className="prose-content rounded border border-border bg-surface p-4">
-          <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            components={{
-              // Blanks are turned into inline code before parsing so they survive inside tables and lists.
-              code: ({ children }) => {
-                const m = /^__BLANK_(\d+)__$/.exec(String(children));
-                return m ? blank(Number(m[1])) : <code>{children}</code>;
-              },
-            }}
-          >
-            {group.template.replace(BLANK, (_, n: string) => `\`__BLANK_${n}__\``)}
-          </ReactMarkdown>
+          {/* Blanks are turned into inline code before parsing so they survive inside tables and lists. */}
+          <BlankContext.Provider value={templateBlank}>
+            <ReactMarkdown remarkPlugins={REMARK_PLUGINS} components={MARKDOWN_COMPONENTS}>
+              {group.template.replace(BLANK, (_, n: string) => `\`__BLANK_${n}__\``)}
+            </ReactMarkdown>
+          </BlankContext.Provider>
         </div>
       ) : (
         <ol className="flex flex-col gap-3">
           {group.questions.map((q) => (
             <li key={q.n} className="flex gap-3 leading-9">
               <Num n={q.n} item={results?.get(q.n)} />
-              <p className="flex-1">{withBlanks(q.prompt ?? `{{${q.n}}}`, blank)}</p>
+              <p className="flex-1">{withBlanks(q.prompt ?? `{{${q.n}}}`, (n) => blank(n))}</p>
             </li>
           ))}
         </ol>

@@ -11,6 +11,7 @@ import { Badge, Card, LinkButton } from "@/components/ui";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { Lesson } from "@/lib/content/schema";
 import { LessonActivity, type LessonActivityLabels } from "./lesson-activity";
+import { LessonBookmark } from "@/components/mistakes/lesson-bookmark";
 
 export async function generateMetadata({ params }: PageProps<"/learn/[id]">): Promise<Metadata> {
   const { id } = await params;
@@ -49,6 +50,7 @@ export default async function LessonPage({ params }: PageProps<"/learn/[id]">) {
             {lesson.minutes} {t.common.minutes}
           </span>
           {progress && <Badge tone="success">✓ {t.learn.completed}</Badge>}
+          <LessonBookmark lessonId={lesson.id} />
         </div>
       </header>
 

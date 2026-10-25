@@ -5,6 +5,7 @@ import { requireLearner } from "@/lib/server/auth";
 import { getContent } from "@/lib/server/content";
 import { db } from "@/lib/server/db";
 import { logStudy } from "@/lib/server/attempts";
+import { awardAchievements } from "@/lib/server/achievements";
 import { newCard, review, type Grade } from "@/lib/srs/sm2";
 import { DAY_MS } from "@/lib/stats/dates";
 
@@ -52,6 +53,7 @@ export async function reviewWordAction(raw: unknown): Promise<ReviewResult> {
   // Credit one minute for every fourth word touched in the last day (~15 s per review).
   const recent = await db.vocabReview.count({ where: { userId: user.id, lastReviewedAt: { gte: new Date(now.getTime() - DAY_MS) } } });
   if (recent % REVIEWS_PER_MINUTE === 1) await logStudy(user.id, "vocab", 1);
+  await awardAchievements(user.id);
 
   return { ok: true, due: next.due.toISOString() };
 }

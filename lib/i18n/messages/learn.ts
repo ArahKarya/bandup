@@ -23,6 +23,9 @@ export const en = {
     saved: "Lesson marked as complete.",
     lastDone: "Last result",
     lastOfSkill: "This is the last lesson for this skill.",
+    upNext: "Up next",
+    continueLesson: "Continue learning",
+    allDone: "You have completed every lesson. Great work — keep practising!",
   },
   vocab: {
     title: "Vocabulary",
@@ -51,6 +54,14 @@ export const en = {
     totalWords: "Words",
     totalLearned: "Learned",
     totalDue: "Due now",
+    search: "Look up a word",
+    searchPlaceholder: "Search 300 IELTS words or their meaning…",
+    searchResults: "{n} results for “{q}”",
+    noResults: "No words match “{q}”.",
+    stageNew: "New",
+    stageLearning: "Learning",
+    stageLearned: "Learned",
+    reviewAll: "Review all due words",
   },
 };
 
@@ -77,6 +88,9 @@ export const id: typeof en = {
     saved: "Materi ditandai selesai.",
     lastDone: "Hasil terakhir",
     lastOfSkill: "Ini materi terakhir untuk keterampilan ini.",
+    upNext: "Berikutnya",
+    continueLesson: "Lanjutkan belajar",
+    allDone: "Semua materi sudah selesai. Kerja bagus — terus berlatih!",
   },
   vocab: {
     title: "Kosakata",
@@ -105,5 +119,13 @@ export const id: typeof en = {
     totalWords: "Kata",
     totalLearned: "Dikuasai",
     totalDue: "Jatuh tempo",
+    search: "Cari kata",
+    searchPlaceholder: "Cari 300 kosakata IELTS atau artinya…",
+    searchResults: "{n} hasil untuk “{q}”",
+    noResults: "Tidak ada kata yang cocok dengan “{q}”.",
+    stageNew: "Baru",
+    stageLearning: "Dipelajari",
+    stageLearned: "Dikuasai",
+    reviewAll: "Ulangi semua kata jatuh tempo",
   },
 };

@@ -6,6 +6,7 @@ import { logStudy } from "@/lib/server/attempts";
 import { audioPath, saveFile } from "@/lib/server/storage";
 import { AUDIO_TYPES, MAX_AUDIO_BYTES, bodyTooLarge, json, looksLikeAudio, sameOrigin } from "@/lib/server/request";
 import { hit } from "@/lib/server/rate-limit";
+import { awardAchievements } from "@/lib/server/achievements";
 
 /** Per-learner cap on kept recordings (~15 MB each at most). */
 const MAX_STORED_RECORDINGS = Number(process.env.MAX_STORED_RECORDINGS ?? 100);
@@ -77,5 +78,6 @@ export async function POST(req: Request) {
   }
 
   await logStudy(user.id, "speaking", Math.max(2, parsed.data.durationSec / 60 + 2));
+  await awardAchievements(user.id);
   return json({ id: sub.id, attemptId: attempt?.id ?? null });
 }

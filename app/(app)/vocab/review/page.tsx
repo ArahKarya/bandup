@@ -4,7 +4,7 @@ import { requireLearner } from "@/lib/server/auth";
 import { getDictionary } from "@/lib/i18n/server";
 import { listContent } from "@/lib/server/content";
 import { db } from "@/lib/server/db";
-import { Empty, LinkButton, PageHeader } from "@/components/ui";
+import { EmptyState, LinkButton, PageHeader } from "@/components/ui";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import type { VocabWord } from "@/lib/content/schema";
 import { Flashcards, type FlashcardItem, type FlashcardLabels } from "./flashcards";
@@ -36,11 +36,11 @@ export default async function VocabReviewPage({ searchParams }: PageProps<"/voca
     where: { userId: user.id, due: { lte: new Date() }, ...(deck ? { deckId: deck.id } : {}) },
     orderBy: { due: "asc" },
     take: MAX_DUE,
-    select: { wordId: true },
+    select: { wordId: true, ease: true, interval: true, reps: true, lapses: true },
   });
   const dueItems = due.flatMap((r) => {
     const hit = words.get(r.wordId);
-    return hit ? [toItem(hit.deckId, hit.word)] : [];
+    return hit ? [{ ...toItem(hit.deckId, hit.word), srs: { ease: r.ease, interval: r.interval, reps: r.reps, lapses: r.lapses } }] : [];
   });
 
   const newItems = wantNew && deck ? await unseenWords(user.id, deck.id, deck.payload.words) : [];
@@ -93,9 +93,11 @@ function toItem(deckId: string, w: VocabWord): FlashcardItem {
 
 function AllCaughtUp({ deckId, t }: { deckId?: string; t: Dictionary }) {
   return (
-    <Empty>
-      <p>{t.vocab.done}</p>
-      <div className="mt-4 flex flex-wrap justify-center gap-2">
+    <EmptyState
+      illustration="trophy"
+      title={t.vocab.done}
+      action={
+      <div className="flex flex-wrap justify-center gap-2">
         {deckId && (
           <LinkButton href={`/vocab/review?deck=${encodeURIComponent(deckId)}&new=1`} size="sm">
             {t.vocab.learnMore}
@@ -105,7 +107,8 @@ function AllCaughtUp({ deckId, t }: { deckId?: string; t: Dictionary }) {
           {t.vocab.backToDecks}
         </LinkButton>
       </div>
-    </Empty>
+      }
+    />
   );
 }
 

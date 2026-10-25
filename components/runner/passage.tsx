@@ -20,12 +20,14 @@ interface PassageProps {
   annotations?: Annotation[];
   /** Renders a paragraph's text; the runner swaps in an annotation-aware renderer. */
   renderText?: (text: string, index: number) => ReactNode;
+  /** Exam setting: the paper-booklet serif (default) or a sans-serif face. */
+  font?: "serif" | "sans";
 }
 
 /** A reading passage, set in a serif like the paper booklet, with paragraph letters. */
-export function Passage({ passage, setId = "set", renderText }: PassageProps) {
+export function Passage({ passage, setId = "set", renderText, font = "serif" }: PassageProps) {
   return (
-    <article className="font-serif text-[1.05em] leading-relaxed">
+    <article className={`${font === "sans" ? "font-sans" : "font-serif"} text-[1.05em] leading-relaxed`} data-passage-font={font}>
       <h2 className="font-sans text-xl font-semibold">{passage.title}</h2>
       {passage.subtitle && <p className="mt-1 font-sans text-sm italic text-muted">{passage.subtitle}</p>}
       <div className="mt-5 flex flex-col gap-4">

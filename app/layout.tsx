@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
 import { getLocale } from "@/lib/i18n/server";
 import { getTheme, readFlash } from "@/lib/server/ui-prefs";
 import { FlashToasts, ToastProvider } from "@/components/ui/toast";
+import { ServiceWorkerRegister } from "@/components/pwa/service-worker-register";
 import "./globals.css";
 
 const sans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
   title: { default: "BandUp — Open-source IELTS preparation", template: "%s · BandUp" },
   description: "Lessons, full mock tests, vocabulary and a progress tracker for IELTS Academic and General Training.",
   applicationName: "BandUp",
+  icons: { icon: "/icons/icon.svg", apple: "/icons/apple-touch-icon.png" },
 };
 
 export const viewport: Viewport = {
@@ -35,6 +37,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
         <ToastProvider>
           {children}
           <FlashToasts messages={flash} />
+          <ServiceWorkerRegister />
         </ToastProvider>
       </body>
     </html>

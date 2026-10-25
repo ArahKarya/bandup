@@ -40,7 +40,7 @@ test("mock test answers survive a reload (autosave)", async ({ page, baseURL }) 
 test("a writing task can be submitted and self-assessed", async ({ page, baseURL }) => {
   await newLearner(page, baseURL);
   await page.goto("/practice?skill=writing");
-  await page.getByRole("link", { name: "Start" }).first().click();
+  await page.getByRole("link", { name: "Start", exact: true }).first().click();
   await expect(page).toHaveURL(/\/practice\/writing\//);
 
   await page.getByPlaceholder("Write your answer here…").fill("The chart shows a clear upward trend over the period. ".repeat(20));
@@ -59,8 +59,8 @@ test("a mock test moves from Listening to Reading when the section is closed", a
   await page.getByRole("button", { name: "Start test" }).first().click();
   await expect(page.getByText(/Listening · 1\/4/)).toBeVisible();
 
-  await page.getByRole("button", { name: "Next" }).click();
-  await page.getByRole("button", { name: "Next" }).last().click();
+  await page.getByRole("button", { name: "Next", exact: true }).click();
+  await page.getByRole("button", { name: "Next", exact: true }).last().click();
   await expect(page.getByText(/Reading · 2\/4/)).toBeVisible({ timeout: 15_000 });
   await expect(page.getByRole("button", { name: "Passage 1" })).toBeVisible();
 });
@@ -71,8 +71,8 @@ test("the placement test runs to the end and estimates a band", async ({ page, b
   for (const section of ["Grammar · 1/3", "Reading · 2/3", "Listening · 3/3"]) {
     await expect(page.getByText(section)).toBeVisible({ timeout: 15_000 });
     const name = section.startsWith("Listening") ? "Submit answers" : "Next";
-    await page.getByRole("button", { name }).click();
-    await page.getByRole("button", { name }).last().click();
+    await page.getByRole("button", { name, exact: true }).click();
+    await page.getByRole("button", { name, exact: true }).last().click();
   }
   await expect(page.getByRole("heading", { name: /Results/ })).toBeVisible({ timeout: 15_000 });
   await expect(page.getByText("Estimated band")).toBeVisible();

@@ -304,3 +304,18 @@ describe("calendarToday", () => {
     expect(calendarToday(now, "America/New_York").toISOString()).toBe("2026-10-24T00:00:00.000Z");
   });
 });
+
+import { nextIntervalLabel } from "@/lib/srs/format";
+
+describe("nextIntervalLabel", () => {
+  const now = new Date("2026-01-05T08:00:00Z");
+  it("previews a new card's next review per grade", () => {
+    expect(nextIntervalLabel({}, "again", now)).toBe("10m");
+    expect(nextIntervalLabel({}, "good", now)).toBe("1d");
+    expect(nextIntervalLabel({}, "easy", now)).toBe("4d");
+  });
+  it("uses weeks and months for mature cards", () => {
+    expect(nextIntervalLabel({ srs: { ease: 2.5, interval: 10, reps: 3, lapses: 0 } }, "good", now)).toBe("4w");
+    expect(nextIntervalLabel({ srs: { ease: 2.6, interval: 40, reps: 5, lapses: 0 } }, "easy", now)).toBe("5mo");
+  });
+});

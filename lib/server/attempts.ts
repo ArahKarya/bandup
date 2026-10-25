@@ -158,6 +158,7 @@ async function recordMistakes(tx: Tx, attempt: Attempt, result: SectionResult): 
           attemptId: attempt.id,
           correctStreak: 0,
           mastered: false,
+          masteredAt: null,
           timesWrong: { increment: 1 },
           ...(drilling ? { lastDrilledAt: now } : {}),
         },
@@ -166,7 +167,7 @@ async function recordMistakes(tx: Tx, attempt: Attempt, result: SectionResult): 
     if (right.length) {
       const where = { userId, setId: set.setId, n: { in: right }, mastered: false };
       await tx.mistakeItem.updateMany({ where, data: { correctStreak: { increment: 1 }, ...(drilling ? { lastDrilledAt: now } : {}) } });
-      await tx.mistakeItem.updateMany({ where: { ...where, correctStreak: { gte: 2 } }, data: { mastered: true } });
+      await tx.mistakeItem.updateMany({ where: { ...where, correctStreak: { gte: 2 } }, data: { mastered: true, masteredAt: now } });
     }
   }
 }

@@ -18,7 +18,7 @@ export function StudyTimeChart({ rows, minutesLabel, description }: { rows: Week
           <XAxis dataKey="label" {...axisProps} interval="preserveStartEnd" />
           <YAxis {...axisProps} width={40} allowDecimals={false} />
           <Tooltip contentStyle={tooltipStyle} cursor={{ fill: "var(--surface-2)" }} formatter={(v) => [String(v), minutesLabel]} />
-          <Bar dataKey="minutes" name={minutesLabel} fill="var(--chart-1)" radius={[4, 4, 0, 0]} isAnimationActive={false} />
+          <Bar dataKey="minutes" name={minutesLabel} fill="var(--accent)" radius={[4, 4, 0, 0]} isAnimationActive={false} />
         </BarChart>
       </ResponsiveContainer>
     </div>

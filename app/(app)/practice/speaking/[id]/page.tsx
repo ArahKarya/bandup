@@ -5,7 +5,7 @@ import { getDictionary } from "@/lib/i18n/server";
 import { getContent } from "@/lib/server/content";
 import { db } from "@/lib/server/db";
 import { SpeakingTaskView } from "@/components/assess/speaking-task-view";
-import { SpeakingRecorder } from "@/components/assess/speaking-recorder";
+import { SpeakingPractice } from "@/components/speaking/speaking-practice";
 import { Card, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Speaking practice" };
@@ -38,12 +38,12 @@ export default async function SpeakingPracticePage({ params, searchParams }: Pag
           </details>
         )}
         <Card className="p-5">
-          <SpeakingRecorder
-            taskId={task.id}
-            part={task.part}
+          <SpeakingPractice
+            task={task}
             attemptId={attemptId}
             canTranscribe={cred?.provider === "openai"}
             labels={{ ...t.speaking, error: t.common.error }}
+            exam={t.exam}
           />
         </Card>
       </div>

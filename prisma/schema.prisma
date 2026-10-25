@@ -346,6 +346,7 @@ model MistakeItem {
   /// Consecutive correct answers in drills; two means mastered.
   correctStreak Int       @default(0)
   mastered      Boolean   @default(false)
+  masteredAt    DateTime?
   timesWrong    Int       @default(1)
   lastDrilledAt DateTime?
   createdAt     DateTime  @default(now())

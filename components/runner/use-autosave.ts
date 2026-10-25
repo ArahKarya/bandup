@@ -11,6 +11,10 @@ interface Payload {
   section: number;
   answers?: Record<string, unknown>;
   essays?: Record<string, unknown>;
+  /** Whole highlight/note list per set. */
+  annotations?: Record<string, unknown>;
+  /** Flagged question numbers per set. */
+  flags?: Record<string, unknown>;
 }
 
 /**
