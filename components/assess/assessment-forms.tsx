@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState, useState } from "react";
+import { startTransition, useActionState, useState } from "react";
 import type { AssessState } from "@/app/actions/assess";
 import type { CriterionGuide } from "@/lib/scoring/rubric";
 import { Alert, Button, Textarea } from "@/components/ui";
@@ -13,15 +13,26 @@ interface SelfFormProps {
   criteriaLabels: Record<string, string>;
   action: (s: AssessState, f: FormData) => Promise<AssessState>;
   labels: { title: string; save: string; notes: string; saved: string };
+  /** The learner's previous self-assessment, so the form opens where they left it. */
+  initial?: Record<string, number>;
 }
 
 /** Self-assessment: pick a band per criterion while reading what that band looks like. */
-export function SelfAssessForm({ submissionId, rubric, criteriaLabels, action, labels }: SelfFormProps) {
+export function SelfAssessForm({ submissionId, rubric, criteriaLabels, action, labels, initial }: SelfFormProps) {
   const [state, formAction, pending] = useActionState(action, {});
-  const [values, setValues] = useState<Record<string, number>>(() => Object.fromEntries(rubric.map((c) => [c.key, 6])));
+  const [values, setValues] = useState<Record<string, number>>(() => Object.fromEntries(rubric.map((c) => [c.key, initial?.[c.key] ?? 6])));
 
+  // `onSubmit` + preventDefault keeps React 19 from resetting the (controlled) selects after the
+  // action, which used to snap every criterion back to the first option.
   return (
-    <form action={formAction} className="flex flex-col gap-5">
+    <form
+      onSubmit={(e) => {
+        e.preventDefault();
+        const data = new FormData(e.currentTarget);
+        startTransition(() => formAction(data));
+      }}
+      className="flex flex-col gap-5"
+    >
       <input type="hidden" name="submissionId" value={submissionId} />
       <h3 className="font-semibold">{labels.title}</h3>
       {state.error && <Alert tone="danger">{state.error}</Alert>}

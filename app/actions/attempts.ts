@@ -37,6 +37,8 @@ const payload = z.object({
   section: z.number().int().min(0).max(10),
   answers: z.record(z.string(), z.unknown()).optional(),
   essays: z.record(z.string(), z.unknown()).optional(),
+  annotations: z.record(z.string(), z.unknown()).optional(),
+  flags: z.record(z.string(), z.unknown()).optional(),
 });
 
 export interface SaveResult {

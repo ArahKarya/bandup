@@ -41,7 +41,8 @@ export function ScorePanel(props: ScorePanelProps) {
       </div>
 
       <dl className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-        {Object.entries(props.criteria).map(([k, v]) => (
+        {/* jsonb does not keep key order, so follow the rubric order of the labels. */}
+        {Object.keys(props.criteriaLabels).filter((k) => k in props.criteria).map((k) => [k, props.criteria[k]] as const).map(([k, v]) => (
           <div key={k} className="rounded bg-surface-2 p-2">
             <dt className="text-xs text-muted">{props.criteriaLabels[k] ?? k}</dt>
             <dd className="font-semibold tabular-nums">{Number(v).toFixed(1)}</dd>

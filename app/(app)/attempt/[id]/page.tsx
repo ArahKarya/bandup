@@ -8,6 +8,7 @@ import { getContent } from "@/lib/server/content";
 import { closeIfExpired, findOwnAttempt, sectionsOf } from "@/lib/server/attempts";
 import { parseState } from "@/lib/attempt/sections";
 import { redactSet } from "@/lib/content/redact";
+import { buildDrillSet } from "@/lib/content/drill";
 import { finishAttemptAction } from "@/app/actions/attempts";
 import { AttemptRunner, type RunnerSection } from "@/components/runner/attempt-runner";
 import { AttemptReview } from "@/components/review/attempt-review";
@@ -36,7 +37,8 @@ export default async function AttemptPage({ params }: PageProps<"/attempt/[id]">
   const section = sections[state.section];
   if (!section) redirect("/dashboard");
 
-  const title = attempt.mode === "placement" ? t.onboarding.placementTitle : await titleOf(attempt.mode, attempt.contentId);
+  const title =
+    attempt.mode === "placement" ? t.onboarding.placementTitle : attempt.mode === "drill" ? t.mistakes.drillTitle : await titleOf(attempt.mode, attempt.contentId);
 
   if (section.kind === "speaking") {
     return <SpeakingSection attemptId={attempt.id} taskIds={section.taskIds} title={title} />;
@@ -45,7 +47,8 @@ export default async function AttemptPage({ params }: PageProps<"/attempt/[id]">
   let runnerSection: RunnerSection;
   if (section.kind === "sets") {
     const sets = (await Promise.all(section.setIds.map((sid) => getContent("question_set", sid)))).filter((s): s is QuestionSet => s !== null);
-    runnerSection = { kind: "sets", skill: section.skill, sets: sets.map((s) => redactSet(s)), minutes: section.minutes };
+    const asked = sets.map((s) => (section.drill?.[s.id] ? buildDrillSet(s, section.drill[s.id]) : s));
+    runnerSection = { kind: "sets", skill: section.skill, sets: asked.map((s) => redactSet(s)), minutes: section.minutes };
   } else {
     const tasks = (await Promise.all(section.taskIds.map((tid) => getContent("writing_task", tid)))).filter((w): w is WritingTask => w !== null);
     // Sample answers stay on the server until the essay has been written.

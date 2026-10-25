@@ -63,7 +63,8 @@ export default async function SpeakingSubmissionPage({ params }: PageProps<"/spe
             )}
           </Card>
           <Card className="p-5">
-            <SelfAssessForm submissionId={sub.id} rubric={SPEAKING_RUBRIC} criteriaLabels={criteriaLabels} action={selfScoreSpeakingAction}
+            <SelfAssessForm submissionId={sub.id} rubric={SPEAKING_RUBRIC}
+              initial={(sub.scores.find((x) => x.source === "self")?.criteria as Record<string, number> | undefined) ?? undefined} criteriaLabels={criteriaLabels} action={selfScoreSpeakingAction}
               labels={{ title: t.writing.selfAssess, save: t.writing.saveScore, notes: t.writing.improvements, saved: t.settings.saved }} />
           </Card>
           <SampleAnswers samples={task.samples} title={t.writing.samples} />

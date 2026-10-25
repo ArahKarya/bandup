@@ -37,7 +37,7 @@ export function LinkButton({ variant = "primary", size = "md", className = "", .
 }
 
 export function Card({ className = "", ...props }: ComponentProps<"div">) {
-  return <div className={`rounded border border-border bg-surface ${className}`} {...props} />;
+  return <div className={`rounded border border-border bg-surface shadow-card ${className}`} {...props} />;
 }
 
 type Tone = "neutral" | "accent" | "success" | "danger" | "warning";
@@ -57,12 +57,15 @@ export function Badge({ tone = "neutral", children, className = "" }: { tone?: T
   );
 }
 
-export function PageHeader({ title, sub, actions }: { title: string; sub?: string; actions?: ReactNode }) {
+export function PageHeader({ title, sub, actions, icon }: { title: string; sub?: string; actions?: ReactNode; icon?: ReactNode }) {
   return (
     <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
-      <div>
+      <div className="flex items-start gap-3">
+        {icon && <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded bg-accent-soft text-accent">{icon}</span>}
+        <div>
         <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
         {sub && <p className="mt-1 max-w-2xl text-muted">{sub}</p>}
+        </div>
       </div>
       {actions && <div className="flex flex-wrap gap-2">{actions}</div>}
     </div>

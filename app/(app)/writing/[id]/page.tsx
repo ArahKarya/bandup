@@ -89,6 +89,7 @@ export default async function WritingSubmissionPage({ params }: PageProps<"/writ
             <SelfAssessForm
               submissionId={sub.id}
               rubric={WRITING_RUBRIC}
+              initial={(sub.scores.find((x) => x.source === "self")?.criteria as Record<string, number> | undefined) ?? undefined}
               criteriaLabels={criteriaLabels}
               action={selfScoreWritingAction}
               labels={{ title: t.writing.selfAssess, save: t.writing.saveScore, notes: t.writing.improvements, saved: t.settings.saved }}
