@@ -7,6 +7,11 @@ export function passageBlockId(setId: string, index: number): string {
   return `p-${setId}-${index}`;
 }
 
+/** DOM id of a listening script line; `index` is 0-based (evidence "line 7" is index 6). */
+export function scriptLineId(setId: string, index: number): string {
+  return `l-${setId}-${index}`;
+}
+
 interface PassageProps {
   passage: NonNullable<QuestionSet["passage"]>;
   /** Set id, used to give each paragraph a stable DOM id. */
