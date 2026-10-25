@@ -1,0 +1,352 @@
+{
+  "id": "pls-p3-coastal-erosion-project",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 3,
+  "title": "Planning a Coastal Erosion Project",
+  "difficulty": 2,
+  "minutes": 10,
+  "tags": [
+    "geography",
+    "research",
+    "tutorial"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Come in, both of you. So, you've chosen your site for the coastal erosion project. Tell me about it."
+      },
+      {
+        "speaker": "Jack",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "We've gone for Pebble Bay, just north of the harbour. We looked at a few places, actually. Redcliff Point is eroding faster, by all accounts."
+      },
+      {
+        "speaker": "Amira",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "And Pebble Bay isn't exactly easy to get to. There's no train, so it's two buses. But the main reason we picked it is that the geography department surveyed it every year from 2005 to 2015, so there's a decade of data we can compare our measurements with."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "That's a very good reason. Previous data makes a huge difference. Now, your research question. You wrote: 'How is climate change affecting the coastline of the region?'"
+      },
+      {
+        "speaker": "Jack",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "We thought it sounded important."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "It is important, but it's far too broad for an eight-week project. You'd need data from dozens of sites. It's not too technical, and it's original enough, but I'd narrow it down to one stretch of cliff and one specific question."
+      },
+      {
+        "speaker": "Amira",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Maybe something like, 'How fast is the cliff at Pebble Bay retreating, and has the rate changed since 2015?'"
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Much better. So how will you actually measure that?"
+      },
+      {
+        "speaker": "Jack",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Well, we first thought about measuring the height of the cliff, but that doesn't really change much. The cliff gets shorter only very slowly."
+      },
+      {
+        "speaker": "Amira",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "So instead, we'll use the fixed metal markers the department put in the ground back in 2005. We measure the distance from each marker to the cliff edge. If the distance is getting smaller, the cliff is retreating."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Exactly what I'd do. Some students look at sand or pebble size on the beach, but that tells you about the beach, not the cliff. Now, any practical problems you can foresee?"
+      },
+      {
+        "speaker": "Jack",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "We were worried about getting permission, because some of the cliff top is farmland."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "The department already has an agreement with the farmer, so that's fine."
+      },
+      {
+        "speaker": "Amira",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Weather could be a problem, but we can always go another day. The real issue is the tide. The markers at the bottom of the cliff can only be reached for about two hours around low tide, so we'll have to plan every visit around the tide tables."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Yes, and please don't take any risks with that. Now, for background reading, have you found anything useful?"
+      },
+      {
+        "speaker": "Jack",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "There's a survey from the nineteen seventies that someone mentioned."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "I'd be careful with that one. Their methods weren't very reliable. Interviews with local residents could be interesting, but they're quite subjective. What I'd really recommend is the report the local council published three years ago on coastal defences. It's got excellent maps and recent figures."
+      },
+      {
+        "speaker": "Amira",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Great, we'll get hold of it. Shall we talk about who's doing what?"
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Please do. I'd like to see a clear division of work."
+      },
+      {
+        "speaker": "Jack",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Well, for the fieldwork, someone needs to contact the coastguard to tell them when we'll be on the beach. Amira, you said you'd do that?"
+      },
+      {
+        "speaker": "Amira",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Yes, I'll call them. My uncle actually works for them, so I know who to ask."
+      },
+      {
+        "speaker": "Amira",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Jack's got the better camera, so he's taking all the photographs of the cliff face."
+      },
+      {
+        "speaker": "Jack",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "That's fine. And the statistics. I thought I'd do it all myself at first, but there's a lot of data, so we've agreed to split it and do the analysis together."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Sensible. What about the literature review?"
+      },
+      {
+        "speaker": "Jack",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "I was originally going to write that, but Amira's read far more of the background material than me, so she's taken it over."
+      },
+      {
+        "speaker": "Amira",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "And in return, Jack's going to produce all the maps. He's done a course on mapping software, so he's much quicker than me."
+      },
+      {
+        "speaker": "Dr Hale",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "It sounds like you've got a good balance. Send me your revised research question by Friday, and we'll meet again in two weeks."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Why did the students choose Pebble Bay?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It is easy to reach by public transport."
+            },
+            {
+              "key": "B",
+              "text": "It is the fastest-eroding site in the region."
+            },
+            {
+              "key": "C",
+              "text": "Earlier measurements are available for it."
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 3",
+          "explanation": "Redcliff Point erodes faster and access is difficult; the decisive reason is ten years of departmental data."
+        },
+        {
+          "n": 2,
+          "prompt": "What does the tutor think of their first research question?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It is too wide in scope."
+            },
+            {
+              "key": "B",
+              "text": "It is too technical."
+            },
+            {
+              "key": "C",
+              "text": "It lacks originality."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 6",
+          "explanation": "She says it is far too broad, and explicitly not too technical or unoriginal."
+        },
+        {
+          "n": 3,
+          "prompt": "What will the students measure?",
+          "options": [
+            {
+              "key": "A",
+              "text": "the height of the cliff"
+            },
+            {
+              "key": "B",
+              "text": "the distance between markers and the cliff edge"
+            },
+            {
+              "key": "C",
+              "text": "the size of pebbles on the beach"
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 10",
+          "explanation": "Cliff height changes too slowly and pebble size tells you about the beach; they will measure from the fixed markers."
+        },
+        {
+          "n": 4,
+          "prompt": "Which practical problem is most serious for the fieldwork?",
+          "options": [
+            {
+              "key": "A",
+              "text": "the times of the tides"
+            },
+            {
+              "key": "B",
+              "text": "the weather"
+            },
+            {
+              "key": "C",
+              "text": "getting permission from a landowner"
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 14",
+          "explanation": "Permission is arranged and bad weather only means another day; the markers are reachable only around low tide."
+        },
+        {
+          "n": 5,
+          "prompt": "Which source does the tutor recommend?",
+          "options": [
+            {
+              "key": "A",
+              "text": "a council report"
+            },
+            {
+              "key": "B",
+              "text": "a survey from the 1970s"
+            },
+            {
+              "key": "C",
+              "text": "interviews with residents"
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 17",
+          "explanation": "The 1970s survey is unreliable and interviews are subjective; she recommends the council report on coastal defences."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "Who will be responsible for each task? Choose the correct letter, A, B or C. You may use any letter more than once.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Jack"
+        },
+        {
+          "key": "B",
+          "text": "Amira"
+        },
+        {
+          "key": "C",
+          "text": "both Jack and Amira"
+        }
+      ],
+      "allowReuse": true,
+      "questions": [
+        {
+          "n": 6,
+          "prompt": "contacting the coastguard",
+          "answer": "B",
+          "evidence": "line 21",
+          "explanation": "Amira agrees to call them."
+        },
+        {
+          "n": 7,
+          "prompt": "taking photographs",
+          "answer": "A",
+          "evidence": "line 22",
+          "explanation": "Jack has the better camera."
+        },
+        {
+          "n": 8,
+          "prompt": "analysing the statistics",
+          "answer": "C",
+          "evidence": "line 23",
+          "explanation": "Jack planned to do it alone but they agreed to do it together."
+        },
+        {
+          "n": 9,
+          "prompt": "writing the literature review",
+          "answer": "B",
+          "evidence": "line 25",
+          "explanation": "Jack was going to, but Amira has taken it over."
+        },
+        {
+          "n": 10,
+          "prompt": "producing maps",
+          "answer": "A",
+          "evidence": "line 26",
+          "explanation": "Jack will make the maps because he has done a mapping course."
+        }
+      ]
+    }
+  ]
+}

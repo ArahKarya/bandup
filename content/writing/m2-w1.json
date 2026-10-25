@@ -1,0 +1,48 @@
+{
+  "id": "m2-w1",
+  "kind": "writing_task",
+  "module": "academic",
+  "task": 1,
+  "taskType": "process",
+  "title": "Rainwater collection and treatment in a house",
+  "difficulty": 2,
+  "unlisted": true,
+  "prompt": "The diagram below shows how rainwater is collected, stored and treated for use in a house.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+  "steps": [
+    "Rain falls on the sloping roof of the house.",
+    "Water runs into gutters along the edge of the roof.",
+    "A mesh filter at the top of the downpipe removes leaves and debris.",
+    "A first-flush diverter discards the first few litres, which contain dust and bird droppings.",
+    "Water flows into an underground storage tank (capacity 5,000 litres); an overflow pipe takes excess water to a soakaway in the garden.",
+    "A pump draws water from the tank when it is needed.",
+    "Untreated water is piped directly to the toilets and garden taps.",
+    "Water for drinking and cooking passes through a sand filter and then an ultraviolet (UV) lamp, which kills bacteria.",
+    "Treated water is supplied to the kitchen tap."
+  ],
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "Count the stages and decide where the process naturally divides (here: collection, storage, distribution) before you write.",
+    "Your overview should name the main phases and the key contrast: some water is used untreated, some is purified.",
+    "Use the passive for actions with no clear agent: 'debris is removed', 'water is drawn up'.",
+    "Vary your sequencers: 'once', 'after which', 'before it reaches', not just 'first, then, next'.",
+    "Do not explain why the system exists or add information that is not in the diagram."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "The diagram shows the process of how rainwater is collect and used in a house. Overall, there are nine stages, from the rain falling on the roof to the water using in the house.\n\nFirst, rain falls on the roof and it goes to the gutters. Then the water go down a pipe which has a mesh filter at the top, this filter take out leaves and other rubbish. After that, there is a first-flush diverter. It removes the first few litres of water because they are dirty with dust and bird droppings.\n\nNext, the water is stored in a underground tank which can hold 5,000 litres. If the tank is full, extra water goes through overflow pipe to a soakaway in the garden. A pump is used to take the water out of the tank.\n\nFinally, some water goes to the toilets and the garden taps without any treatment. But the water for drinking and cooking is go through a sand filter and a UV lamp to kill the bacteria, and then it goes to the kitchen tap.",
+      "commentary": "Task Achievement 6: every stage is reported accurately and the two final uses are distinguished, but the overview only counts the stages ('there are nine stages') instead of identifying the main phases or the treated/untreated contrast. Coherence & Cohesion 6: logical paragraphs, but the sequencing is mechanical (First, Then, After that, Next, Finally) and 'it' is sometimes unclear. Lexical Resource 6: adequate and mostly copied from the diagram; 'goes' is repeated five times. Grammatical Range & Accuracy 6: some complex sentences, but frequent errors in passives and agreement ('is collect', 'the water using', 'the water go', 'this filter take', 'is go through'), a comma splice and 'a underground'. The errors rarely block meaning, which keeps it at 6."
+    },
+    {
+      "band": 7,
+      "text": "The diagram illustrates how rain is collected from the roof of a house, stored and, where necessary, treated before it is used.\n\nOverall, the process consists of collection, storage and distribution, and the key feature is that the water divides into two streams at the end: one that is used untreated and one that is purified for drinking.\n\nThe process begins when rain lands on the sloping roof and runs into the gutters. At the top of the downpipe, a mesh filter removes leaves and other debris, after which a first-flush diverter discards the first few litres of water, since these contains dust and bird droppings. The remaining water then flows into an underground tank with a capacity of 5,000 litres, and any excess water is carried away by an overflow pipe to a soakaway in the garden.\n\nWhen water is needed, a pump draws it from the tank. Water for the toilets and garden taps is supplied directly without treatment. In contrast, water for drinking and cooking first passes through a sand filter and then under a UV lamp, which kills bacteria, before it reaches the kitchen tap.",
+      "commentary": "Task Achievement 7: a clear overview names the three phases and the key point that the water divides into treated and untreated streams. All stages are covered accurately, and the 5,000-litre capacity is included. Coherence & Cohesion 7: well organised, with varied linking ('after which', 'when water is needed', 'in contrast'), though the second body paragraph is a little list-like. Lexical Resource 7: good process vocabulary ('discards', 'capacity', 'draws it from'), with some repetition of 'water'. Grammatical Range & Accuracy 7: passives and relative clauses are used well; there is one agreement error ('these contains'). To reach 8 it would need more flexible phrasing and no errors."
+    },
+    {
+      "band": 8,
+      "text": "The diagram outlines a domestic rainwater harvesting system, showing how water is gathered from a roof, cleaned in stages and then distributed for different purposes within the home.\n\nIn broad terms, the system involves three phases (collection, storage and distribution), and its most notable feature is that only the water destined for drinking and cooking undergoes full purification; the rest is used as it comes from the tank.\n\nRain falling on the pitched roof drains into gutters and then into a downpipe, where a mesh screen traps leaves and other debris. Before the water reaches storage, a first-flush diverter sends the initial few litres to waste, as this portion carries most of the dust and bird droppings washed off the roof. What remains is channelled into a 5,000-litre underground tank, which is fitted with an overflow pipe that carries any excess to a soakaway in the garden once the tank is full.\n\nFrom the tank, water is drawn up by a pump. Some is piped straight to the toilets and garden taps, whereas the supply for the kitchen tap is first passed through a sand filter and then exposed to ultraviolet light, which kills any remaining bacteria.",
+      "commentary": "Task Achievement 8: the overview is precise and highlights the most significant feature (only drinking water is fully purified). All stages are reported accurately without adding outside information. Coherence & Cohesion 8: cohesion is skilful and often comes from the sentences themselves ('Before the water reaches storage', 'What remains is channelled') rather than from list markers. Lexical Resource 8: precise and natural ('harvesting system', 'sends to waste', 'is fitted with', 'exposed to ultraviolet light'). Grammatical Range & Accuracy 8: a wide range of structures (cleft-like 'What remains...', reduced relatives, varied passives) with no noticeable errors. The sentence about the tank is rather long, which is why it is not a 9."
+    }
+  ]
+}

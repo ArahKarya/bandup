@@ -1,0 +1,212 @@
+{
+  "id": "m1-r1",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "part": 1,
+  "title": "Tunnels of Life: The Qanats of Iran",
+  "difficulty": 1,
+  "minutes": 20,
+  "tags": [
+    "mock",
+    "history",
+    "environment",
+    "engineering"
+  ],
+  "unlisted": true,
+  "passage": {
+    "title": "Tunnels of Life: The Qanats of Iran",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "On the high, dry plateau of central Iran, where summer temperatures regularly exceed forty degrees and rain may not fall for months, towns and farms have survived for well over two thousand years. Rivers are few, and most vanish in summer. The answer lies largely out of sight, beneath the fields: a network of hand-dug tunnels known as qanats, which carry groundwater from the foot of distant mountains to the places where people live. Tens of thousands of them were built in Iran alone, and the technique was later carried along trade routes to North Africa, Spain and even parts of South America, but it is in Iran that the system reached its fullest development."
+      },
+      {
+        "label": "B",
+        "text": "The principle behind a qanat is elegantly simple. At the base of a mountain range, rainwater and melted snow soak into layers of gravel and rock, forming an underground store of water known as an aquifer. A qanat taps this store by means of a long tunnel that slopes very gently downwards, often by no more than one or two metres in every kilometre, until it emerges at the surface many kilometres away. Because the tunnel always runs slightly downhill, the water flows along it entirely by gravity. No pumps, wheels or animals are needed to lift it, and once a qanat has been completed, it can deliver water day and night, year after year, with almost no running costs."
+      },
+      {
+        "label": "C",
+        "text": "Building one, however, was anything but simple. Work began with a skilled surveyor, who studied the landscape for signs of moisture, such as particular plants, before choosing a spot near the foot of the hills. There a trial well, known as the mother well, was dug to discover whether water was present and how deep it lay. If the results were promising, the surveyor marked out the route of the tunnel, and a line of vertical shafts was sunk along it at intervals of twenty to thirty-five metres. The tunnel itself was then dug, joining the bottoms of these shafts together. Surprisingly, the diggers started at the lower end, where the water would eventually come out, and worked their way uphill towards the mother well. This meant that any water entering the tunnel drained away behind them instead of flooding the workings. The excavated soil was hauled up through the shafts in leather buckets by means of a windlass, and piled in a ring around the top of each shaft. Seen from the air, these rings still look like a line of craters across the desert, and they serve a purpose: they stop flash floods from pouring down the shafts and blocking the tunnel below."
+      },
+      {
+        "label": "D",
+        "text": "The men who dug qanats, known in Persian as muqannis, practised a dangerous trade. Tunnels were often less than a metre wide and barely high enough to kneel in, and in loose or sandy soil the roof could collapse without warning. To reduce this risk, diggers sometimes lined weak sections with oval hoops of fired clay. A lamp carried into the tunnel served two purposes: if the flame began to fade, the air was becoming too poor to breathe, and by keeping it in line with the lamp at the previous shaft, a digger could check that he was still heading in the right direction. The knowledge required was rarely written down. Instead it was handed from father to son, and in some towns the same families maintained the local qanats for many generations, earning considerable respect in their communities."
+      },
+      {
+        "label": "E",
+        "text": "Once the water reached the surface, it had to be divided fairly, and here too the qanat communities developed sophisticated methods. Each farmer was entitled to a fixed share, measured not in volume but in time. In many villages the time was kept with a simple water clock: a small bowl with a hole in its base was floated in a larger vessel, and each time it filled and sank, one unit of time had passed. An official, chosen by the community, kept count and recorded each farmer's turn. These shares were treated as valuable property in their own right. In some regions they could be inherited, rented out or sold quite separately from the land they had originally been used to irrigate."
+      },
+      {
+        "label": "F",
+        "text": "For centuries this system proved remarkably sustainable. Because the water travels underground, very little is lost to evaporation, which is a serious problem for open canals in hot climates. More importantly, a qanat can only ever deliver as much water as naturally flows out of the aquifer; it cannot take more than nature replaces. This balance was upset from the 1960s onwards, when diesel and electric pumps became widely available. Deep wells fitted with motorised pumps could extract water far faster than it was replenished, and as the water table fell, many qanats that had flowed for centuries simply ran dry. Others were abandoned because younger people no longer wished to do the hard and dangerous work of keeping them clear."
+      },
+      {
+        "label": "G",
+        "text": "In recent years, however, attitudes have begun to change. In 2016 a group of Iranian qanats was added to UNESCO's World Heritage List, bringing international attention to the system, and several government and university projects are now repairing tunnels that had fallen into disuse. Some hydrologists argue that qanats offer more than historical interest. At a time when many regions are drawing on their groundwater faster than it can recover, they see in these ancient channels a working model of how a community can live within the limits of the water available to it. Whether that lesson can be applied to the vast cities and farms of the twenty-first century remains an open question, but it is one that is increasingly being asked."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_headings",
+      "instructions": "Questions 1–6. Reading Passage 1 has seven paragraphs, A–G. Choose the correct heading for paragraphs B–G from the list of headings below. Write the correct number, i–ix.",
+      "options": [
+        {
+          "key": "i",
+          "text": "A system powered by gravity alone"
+        },
+        {
+          "key": "ii",
+          "text": "The spread of the technique to other continents"
+        },
+        {
+          "key": "iii",
+          "text": "The step-by-step making of a tunnel"
+        },
+        {
+          "key": "iv",
+          "text": "Competing theories about who invented qanats"
+        },
+        {
+          "key": "v",
+          "text": "A hazardous skill kept within families"
+        },
+        {
+          "key": "vi",
+          "text": "Measuring and sharing a limited supply"
+        },
+        {
+          "key": "vii",
+          "text": "How a newer technology endangered an older one"
+        },
+        {
+          "key": "viii",
+          "text": "The high cost of maintaining the tunnels"
+        },
+        {
+          "key": "ix",
+          "text": "Fresh recognition for an ancient solution"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Paragraph B",
+          "answer": "i",
+          "evidence": "B",
+          "explanation": "The paragraph explains that water flows along the sloping tunnel entirely by gravity, with no pumps or animals."
+        },
+        {
+          "n": 2,
+          "prompt": "Paragraph C",
+          "answer": "iii",
+          "evidence": "C",
+          "explanation": "It describes construction in order: surveyor, mother well, shafts, tunnel, removal of soil."
+        },
+        {
+          "n": 3,
+          "prompt": "Paragraph D",
+          "answer": "v",
+          "evidence": "D",
+          "explanation": "It covers the dangers of digging and says knowledge was handed from father to son."
+        },
+        {
+          "n": 4,
+          "prompt": "Paragraph E",
+          "answer": "vi",
+          "evidence": "E",
+          "explanation": "It explains how water was divided by time using a water clock."
+        },
+        {
+          "n": 5,
+          "prompt": "Paragraph F",
+          "answer": "vii",
+          "evidence": "F",
+          "explanation": "Motorised pumps from the 1960s lowered the water table and dried up qanats."
+        },
+        {
+          "n": 6,
+          "prompt": "Paragraph G",
+          "answer": "ix",
+          "evidence": "G",
+          "explanation": "UNESCO listing, repair projects and hydrologists' interest show renewed recognition. The spread to other continents (ii) is only mentioned briefly in A."
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "variant": "tfng",
+      "category": "true_false_not_given",
+      "instructions": "Questions 7–10. Do the following statements agree with the information given in Reading Passage 1? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "questions": [
+        {
+          "n": 7,
+          "statement": "A completed qanat needs a mechanical device to raise water to the surface.",
+          "answer": "FALSE",
+          "evidence": "B",
+          "explanation": "The passage says no pumps, wheels or animals are needed because the water flows by gravity."
+        },
+        {
+          "n": 8,
+          "statement": "Diggers began the tunnel at the end where the water would come out.",
+          "answer": "TRUE",
+          "evidence": "C",
+          "explanation": "They started at the lower end, where the water would eventually come out, and worked uphill."
+        },
+        {
+          "n": 9,
+          "statement": "Muqannis were paid higher wages than most other workers in their towns.",
+          "answer": "NOT GIVEN",
+          "evidence": "D",
+          "explanation": "The passage says they earned considerable respect, but says nothing about their wages."
+        },
+        {
+          "n": 10,
+          "statement": "In some places, a farmer's share of qanat water could be sold without selling any land.",
+          "answer": "TRUE",
+          "evidence": "E",
+          "explanation": "Shares could be sold quite separately from the land they had been used to irrigate."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "flow_chart_completion",
+      "instructions": "Questions 11–13. Complete the flow-chart below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "maxWords": 2,
+      "allowNumber": false,
+      "template": "**Building a qanat**\n\n1. A surveyor looks for signs of moisture near the foot of the hills\n2. A {{11}} is dug to find out whether there is water and how deep it is\n3. Vertical shafts are sunk every 20–35 metres along the planned route\n4. The tunnel is dug uphill, starting from the outlet\n5. Soil is lifted up the shafts in buckets using a {{12}}\n6. The soil is piled around each shaft to keep out {{13}}",
+      "questions": [
+        {
+          "n": 11,
+          "answers": [
+            "mother well",
+            "trial well"
+          ],
+          "evidence": "C",
+          "explanation": "A trial well, known as the mother well, was dug to discover whether water was present and how deep it lay."
+        },
+        {
+          "n": 12,
+          "answers": [
+            "windlass"
+          ],
+          "evidence": "C",
+          "explanation": "Soil was hauled up in leather buckets by means of a windlass."
+        },
+        {
+          "n": 13,
+          "answers": [
+            "flash floods",
+            "floods"
+          ],
+          "evidence": "C",
+          "explanation": "The rings of soil stop flash floods from pouring down the shafts."
+        }
+      ]
+    }
+  ]
+}

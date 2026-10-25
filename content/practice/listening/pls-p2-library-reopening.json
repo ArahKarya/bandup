@@ -1,0 +1,287 @@
+{
+  "id": "pls-p2-library-reopening",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 2,
+  "title": "The Renovated Town Library",
+  "difficulty": 1,
+  "minutes": 8,
+  "tags": [
+    "community",
+    "buildings",
+    "plan"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Good evening, and thank you all for coming to this preview of the renovated Kelby Library. I'm Declan, the branch manager. I know many of you have been waiting a long time for us to reopen, so I'll start by explaining where everything is now, and then tell you about a few practical changes."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "If you look at the plan of the ground floor, you'll see the main entrance at the front, in the middle. When you come in, the reception desk is straight ahead of you."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Just inside the door, on your left, before you reach reception, there's the new self-service returns machine. You can drop your books there without queuing."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "And immediately on your right as you come in is the café. It has big windows onto the street, so it's nice and bright."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Now, beyond reception you'll see the courtyard in the centre of the building. It's open to the sky, and in summer you'll be able to sit out there and read."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "On the left-hand side of the courtyard, with windows looking out onto it, is the quiet study area. Some of you will remember that study desks used to be on the right of the courtyard. That space is now a staff room, so please don't go in there by mistake."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "The children's section has moved. It used to be by the entrance, which was noisy for everyone. Now it's in the far left-hand corner at the back of the building. That means children can enjoy themselves without disturbing anyone."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Along the right-hand wall, about halfway down the building, you'll find our new digital hub, with twenty computers and two 3D printers. It's where the old magazine area was. The magazines have moved across to the left-hand wall."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "And finally, the local history room. It's at the back, directly behind the courtyard, between the children's section and the lift. It holds old maps, photographs and newspapers going back two hundred years."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Adult fiction, non-fiction and the meeting rooms are all upstairs on the first floor, which isn't shown on your plan. You can reach them by the lift or the stairs, which are both in the back right-hand corner of the building. The old staircase near the entrance has been removed to make more space."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Right, a few practical points. People often ask why the work took eight months longer than planned. It wasn't money. Our funding was secure from the start. What happened was that when the builders opened up the roof, the water damage was far worse than anyone had expected, and the whole thing had to be replaced."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Next, opening hours. We'll be open later on weekdays, until eight. And for the first time, we'll open on Sundays. Not all day, as some people asked for, but from one until five in the afternoon."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "If you're already a member, you don't need to apply for a new card. Your old card will still work. But you do need to bring it to reception so we can put a new barcode sticker on it, because we've changed our computer system."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "And finally, events. I'm sorry to say the author talk we'd advertised for the opening weekend has had to be cancelled, as the writer is unwell. The coding club for teenagers will start in the spring. But on the opening weekend itself, we'll have an exhibition of photographs by local people in the courtyard, showing how the town has changed."
+      },
+      {
+        "speaker": "Librarian",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "So, I hope to see you all on the opening weekend. Thank you."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "diagram_labelling",
+      "instructions": "Label the plan below. Write the correct letter, A–H, next to Questions 1–6.",
+      "image": "pls-map-library-floor-plan.svg",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        },
+        {
+          "key": "E",
+          "text": "E"
+        },
+        {
+          "key": "F",
+          "text": "F"
+        },
+        {
+          "key": "G",
+          "text": "G"
+        },
+        {
+          "key": "H",
+          "text": "H"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Children's section",
+          "answer": "C",
+          "evidence": "line 7",
+          "explanation": "It moved from the entrance to the far left-hand corner at the back."
+        },
+        {
+          "n": 2,
+          "prompt": "Digital hub",
+          "answer": "E",
+          "evidence": "line 8",
+          "explanation": "Halfway down the right-hand wall, where magazines used to be."
+        },
+        {
+          "n": 3,
+          "prompt": "Café",
+          "answer": "F",
+          "evidence": "line 4",
+          "explanation": "Immediately on the right as you come in."
+        },
+        {
+          "n": 4,
+          "prompt": "Local history room",
+          "answer": "D",
+          "evidence": "line 9",
+          "explanation": "At the back, behind the courtyard, between the children's section and the lift."
+        },
+        {
+          "n": 5,
+          "prompt": "Quiet study area",
+          "answer": "G",
+          "evidence": "line 6",
+          "explanation": "On the left side of the courtyard. H, on the right, is now a staff room."
+        },
+        {
+          "n": 6,
+          "prompt": "Self-service returns machine",
+          "answer": "A",
+          "evidence": "line 3",
+          "explanation": "Just inside the door on the left, before reception."
+        }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 7,
+          "prompt": "Why did the renovation take longer than planned?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The roof was in worse condition than expected."
+            },
+            {
+              "key": "B",
+              "text": "There were delays in funding."
+            },
+            {
+              "key": "C",
+              "text": "The builders were changed."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 11",
+          "explanation": "Funding was secure; the water-damaged roof had to be replaced."
+        },
+        {
+          "n": 8,
+          "prompt": "On Sundays, the library will",
+          "options": [
+            {
+              "key": "A",
+              "text": "remain closed."
+            },
+            {
+              "key": "B",
+              "text": "open in the afternoon only."
+            },
+            {
+              "key": "C",
+              "text": "open all day."
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 12",
+          "explanation": "It will open from one until five, not all day."
+        },
+        {
+          "n": 9,
+          "prompt": "What should existing members do?",
+          "options": [
+            {
+              "key": "A",
+              "text": "apply for a new card"
+            },
+            {
+              "key": "B",
+              "text": "take their card to reception"
+            },
+            {
+              "key": "C",
+              "text": "register again online"
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 13",
+          "explanation": "Old cards still work but need a new barcode sticker at reception."
+        },
+        {
+          "n": 10,
+          "prompt": "What will take place on the opening weekend?",
+          "options": [
+            {
+              "key": "A",
+              "text": "a talk by an author"
+            },
+            {
+              "key": "B",
+              "text": "a coding club for teenagers"
+            },
+            {
+              "key": "C",
+              "text": "a photography exhibition"
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 14",
+          "explanation": "The author talk is cancelled and the coding club starts in spring; the photo exhibition is on the opening weekend."
+        }
+      ]
+    }
+  ]
+}

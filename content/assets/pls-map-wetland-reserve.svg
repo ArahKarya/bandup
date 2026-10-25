@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 480" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="title desc">
+  <title id="title">Marshgate Wetland Reserve map</title>
+  <desc id="desc">Map of a wetland reserve with a car park in the south-west, a path north to a loop around the Main Lake, woodland in the north-west, the River Mardle on the east side and reed beds in the south-east. Letters A to H mark locations.</desc>
+  <rect width="660" height="480" fill="#f4f1e6"/>
+
+  <!-- Woodland (north-west) -->
+  <g fill="#9cc58f" stroke="#5f8f55" stroke-width="1">
+    <circle cx="40" cy="60" r="18"/><circle cx="75" cy="45" r="16"/><circle cx="110" cy="62" r="17"/>
+    <circle cx="50" cy="100" r="16"/><circle cx="130" cy="100" r="15"/><circle cx="40" cy="145" r="15"/>
+    <circle cx="145" cy="40" r="14"/><circle cx="60" cy="180" r="13"/>
+  </g>
+  <text x="70" y="215" font-size="15" font-weight="bold" fill="#3d6b35" text-anchor="middle">WOODLAND</text>
+
+  <!-- River Mardle (east) -->
+  <path d="M600 0 C 590 80, 640 120, 610 200 S 600 360, 630 480" fill="none" stroke="#7fb3d9" stroke-width="30"/>
+  <text x="630" y="300" font-size="14" font-weight="bold" fill="#2f6b99" text-anchor="middle" transform="rotate(90 630 300)">RIVER MARDLE</text>
+
+  <!-- Reed beds (south-east) -->
+  <rect x="360" y="370" width="200" height="90" fill="#d9d39a" stroke="#a69f55" stroke-dasharray="4 3"/>
+  <g stroke="#8c8640" stroke-width="1.5">
+    <line x1="380" y1="450" x2="380" y2="430"/><line x1="410" y1="450" x2="410" y2="428"/><line x1="500" y1="450" x2="500" y2="430"/><line x1="530" y1="450" x2="530" y2="428"/>
+  </g>
+  <text x="460" y="455" font-size="13" font-weight="bold" fill="#6b6420" text-anchor="middle">REED BEDS</text>
+
+  <!-- Main Lake -->
+  <ellipse cx="330" cy="215" rx="150" ry="95" fill="#a9d1ee" stroke="#5a96c4" stroke-width="2"/>
+  <ellipse cx="330" cy="200" rx="30" ry="16" fill="#9cc58f" stroke="#5f8f55"/>
+  <text x="330" y="204" font-size="11" fill="#2f4f2a" text-anchor="middle">Island</text>
+  <text x="330" y="255" font-size="16" font-weight="bold" fill="#1f5580" text-anchor="middle">MAIN LAKE</text>
+
+  <!-- Paths -->
+  <ellipse cx="330" cy="215" rx="190" ry="130" fill="none" stroke="#8a6d4b" stroke-width="5" stroke-dasharray="10 6"/>
+  <polyline points="100,380 100,215 140,215" fill="none" stroke="#8a6d4b" stroke-width="5" stroke-dasharray="10 6"/>
+  <line x1="460" y1="330" x2="460" y2="380" stroke="#8a6d4b" stroke-width="5" stroke-dasharray="10 6"/>
+  <text x="300" y="368" font-size="11" fill="#5a4630" text-anchor="middle">lake path</text>
+
+  <!-- Car park and entrance -->
+  <rect x="40" y="380" width="120" height="60" fill="#d0d0d0" stroke="#777"/>
+  <text x="100" y="415" font-size="14" font-weight="bold" fill="#333" text-anchor="middle">CAR PARK</text>
+  <path d="M100 475 L100 445" stroke="#333" stroke-width="2"/>
+  <path d="M93 452 L100 442 L107 452 Z" fill="#333"/>
+  <text x="140" y="470" font-size="12" fill="#333" text-anchor="middle">Entrance</text>
+
+  <!-- Compass -->
+  <g transform="translate(560 40)">
+    <path d="M0 -22 L8 6 L0 0 L-8 6 Z" fill="#333"/>
+    <text x="0" y="22" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">N</text>
+  </g>
+
+  <!-- Letters A-H -->
+  <g font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    <circle cx="55" cy="330" r="14" fill="#c0392b"/><text x="55" y="336">A</text>
+    <circle cx="150" cy="330" r="14" fill="#c0392b"/><text x="150" y="336">B</text>
+    <circle cx="85" cy="125" r="14" fill="#c0392b"/><text x="85" y="131">C</text>
+    <circle cx="330" cy="62" r="14" fill="#c0392b"/><text x="330" y="68">D</text>
+    <circle cx="560" cy="120" r="14" fill="#c0392b"/><text x="560" y="126">E</text>
+    <circle cx="505" cy="320" r="14" fill="#c0392b"/><text x="505" y="326">F</text>
+    <circle cx="440" cy="405" r="14" fill="#c0392b"/><text x="440" y="411">G</text>
+    <circle cx="170" cy="262" r="14" fill="#c0392b"/><text x="170" y="268">H</text>
+  </g>
+</svg>

@@ -1,0 +1,174 @@
+{
+  "id": "m1-l4",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 4,
+  "title": "Lecture: A Short History of Glass",
+  "difficulty": 3,
+  "minutes": 9,
+  "tags": [
+    "mock",
+    "academic",
+    "history",
+    "lecture"
+  ],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Good morning, everyone. In today's lecture in our series on materials and society, I'm going to talk about glass. It's a material we take completely for granted. Most of you are probably within arm's reach of some right now, a window, a phone screen, a bottle of water. But its history is long and surprisingly eventful, and it tells us a lot about how technology spreads and how it's controlled."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Let's begin with the origins. Natural glass, such as obsidian, which forms when volcanic lava cools quickly, was used for tools for many thousands of years. But man-made glass appears much later, probably in Mesopotamia, somewhere around four and a half thousand years ago. Now, you might expect the first glass objects to be containers, cups or bottles. In fact they weren't. The earliest glass objects that archaeologists have found are small beads. They seem to have been treated as a kind of artificial gemstone, and they were valued just as highly as real stones."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "The basic recipe was, and still is, fairly simple. You need sand, which provides silica, and you need something to lower its melting point, because pure silica melts at an extremely high temperature, far beyond what early furnaces could reach. Early glassmakers discovered that if they mixed the sand with ash, specifically the ash from burning certain plants that grow in salty soil, the mixture would melt at a temperature they could actually achieve. Later on, in Egypt, a mineral called natron was often used instead, but the plant ash came first."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "So how did they make vessels before glassblowing was invented? They used a technique called core-forming. The craftsman would make a core, shaped like the inside of the vessel he wanted, out of a mixture of clay and animal dung, attached to a metal rod. Then he'd wind threads of molten glass around this core, or dip it into the glass, and smooth the surface. Once the glass had cooled, the core was scraped out. As you can imagine, this was slow, and the vessels were small. They were mostly used for perfume and expensive oils, and they were luxury items."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Everything changed with the invention of glassblowing. This happened sometime around fifty BCE, and the evidence points to the region along the eastern Mediterranean, in what is now Syria, Lebanon and Israel. By blowing air through a hollow pipe into a blob of molten glass, a worker could make a vessel in minutes rather than hours. And the Romans, who controlled that region soon afterwards, spread the technique throughout their empire. The result was that glass became cheap enough to replace pottery for everyday use. Ordinary Roman households had glass jars and bottles for storing food, and glass was even used, in a rough form, for windows."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Let's now jump forward to medieval Venice, which became the most important centre of glassmaking in Europe. In 1291 the city authorities ordered all the glass furnaces to be moved out of the city itself and onto the nearby island of Murano. The official reason was the risk of fire. Venice was a crowded city with many wooden buildings, and the furnaces burned day and night. But there was a second effect, which may not have been accidental. Concentrating all the glassmakers on one island made it far easier to protect their trade secrets."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "And the Venetians took those secrets very seriously. Glassmakers on Murano enjoyed a high social status, and their daughters were even allowed to marry into noble families. But they were forbidden to leave the Venetian Republic. A glassmaker who did run away to set up a workshop in another country could be pursued, and there are records of threats being made against the families of those who left."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Why was the knowledge so valuable? In the fifteenth century, a Murano glassmaker called Angelo Barovier developed a type of glass that the Venetians called cristallo. It was almost perfectly clear and colourless, which was a remarkable achievement at the time. To make it, the glassmakers used plant ash that had been carefully purified, and instead of ordinary sand, they used crushed quartz pebbles gathered from the beds of local rivers. The result was glass that was clear enough to be used for fine drinking glasses, and, importantly, for better lenses and mirrors."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Now, for most of history, flat glass for windows was difficult to make. It was either blown and then flattened, or cast and ground by hand, which was very labour intensive. The big breakthrough came in the 1950s, when the British engineer Alastair Pilkington developed what's called the float process. Molten glass is poured onto a bath of molten tin. Because the glass floats on the tin, it spreads out into a perfectly flat, even sheet, with no need for grinding or polishing. Today, almost all the flat glass in the world, in our windows and our car windscreens, is made this way."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Finally, a word about glass and the environment. One of glass's great advantages is that it can be recycled indefinitely without any loss of quality. A bottle can be melted down and made into a new bottle again and again. And using recycled glass also lowers the temperature needed in the furnace, which saves energy. Despite this, in many countries less than half of all glass containers are actually recycled. So in our next lecture, we'll be looking at why that is, and what some cities are doing about it."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Questions 31–40. Complete the notes below. Write ONE WORD ONLY for each answer.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "template": "**The history of glass**\n\n**Origins**\n- First man-made glass objects were {{31}}, treated like gemstones\n- Sand was melted with plant {{32}} to lower its melting point\n- Core-forming: hot glass was wound around a core made of clay and {{33}}\n\n**Glassblowing**\n- Invented around 50 BCE in the eastern {{34}} region\n- Glass became cheap enough to replace {{35}} in ordinary homes\n\n**Venice and Murano**\n- Furnaces moved to Murano in 1291 because of the danger of {{36}}\n- Glassmakers had high status but were not allowed to {{37}} the Republic\n- Cristallo was made using purified ash and crushed {{38}} pebbles\n\n**Modern glass**\n- Float process (1950s): molten glass is poured onto liquid {{39}}\n- Glass can be {{40}} indefinitely with no loss of quality",
+      "questions": [
+        {
+          "n": 31,
+          "answers": [
+            "beads"
+          ],
+          "evidence": "line 2",
+          "explanation": "The first objects were not containers but small beads valued like gemstones."
+        },
+        {
+          "n": 32,
+          "answers": [
+            "ash"
+          ],
+          "evidence": "line 3",
+          "explanation": "Ash from certain plants lowered the melting point; natron came later."
+        },
+        {
+          "n": 33,
+          "answers": [
+            "dung"
+          ],
+          "evidence": "line 4",
+          "explanation": "The core was made of clay and animal dung on a metal rod."
+        },
+        {
+          "n": 34,
+          "answers": [
+            "Mediterranean"
+          ],
+          "evidence": "line 5",
+          "explanation": "Glassblowing began around 50 BCE along the eastern Mediterranean."
+        },
+        {
+          "n": 35,
+          "answers": [
+            "pottery"
+          ],
+          "evidence": "line 5",
+          "explanation": "Blown glass became cheap enough to replace pottery for everyday use."
+        },
+        {
+          "n": 36,
+          "answers": [
+            "fire",
+            "fires"
+          ],
+          "evidence": "line 6",
+          "explanation": "The official reason was fire risk; protecting secrets was a second effect."
+        },
+        {
+          "n": 37,
+          "answers": [
+            "leave"
+          ],
+          "evidence": "line 7",
+          "explanation": "Despite their status, they were forbidden to leave the Republic."
+        },
+        {
+          "n": 38,
+          "answers": [
+            "quartz"
+          ],
+          "evidence": "line 8",
+          "explanation": "Instead of ordinary sand they used crushed quartz pebbles from river beds."
+        },
+        {
+          "n": 39,
+          "answers": [
+            "tin"
+          ],
+          "evidence": "line 9",
+          "explanation": "In the float process the glass is poured onto a bath of molten tin."
+        },
+        {
+          "n": 40,
+          "answers": [
+            "recycled"
+          ],
+          "evidence": "line 10",
+          "explanation": "Glass can be recycled indefinitely without losing quality."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sp-p1-weather",
+  "kind": "speaking_task",
+  "part": 1,
+  "topic": "Weather and seasons",
+  "difficulty": 1,
+  "questions": [
+    "What's the weather usually like where you live?",
+    "What kind of weather do you like best?",
+    "Does the weather affect your mood?",
+    "What do you like to do on rainy days?",
+    "Has the weather in your country changed in recent years?"
+  ],
+  "tips": [
+    "Learn a handful of precise weather words (humid, muggy, drizzle, downpour, scorching) so you don't repeat 'hot' and 'rain'.",
+    "Connect the weather to your daily life: what you wear, how you travel, how you feel.",
+    "If your country has wet and dry seasons rather than four seasons, say so and describe them."
+  ],
+  "usefulPhrases": [
+    "It's hot and humid pretty much all year round.",
+    "We've really got two seasons: the wet season and the dry season.",
+    "I'm much more of a cool-weather person.",
+    "It can put me in a bit of a bad mood.",
+    "There's nothing better than curling up with a book when it's pouring outside.",
+    "The rainy season seems to start later every year."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[What's the weather usually like where you live?]\nIn my city the weather is hot, very hot, and also humid. We only have two season, rainy season and dry season. In rainy season it is raining almost every day, usually in the afternoon, and sometimes there is flood in some area.\n\n[What kind of weather do you like best?]\nI like when the weather is cool, like after the rain. Because when it is too hot I am sweating and I don't feel comfortable. So I like the weather after the rain, it is fresh.\n\n[Does the weather affect your mood?]\nYes, I think yes. When it is too hot I become easy angry and I don't want to go outside. But when the weather is nice I feel more happy and I want to go out with my friends.",
+      "commentary": "Fluency & Coherence: answers are appropriately extended, but the candidate repeats ideas ('after the rain' twice) and relies on simple connectors. Lexical Resource: sufficient to discuss weather ('humid', 'flood'), but some phrasing is unidiomatic ('easy angry', 'I think yes'). Grammatical Range & Accuracy: mostly simple sentences with errors in plurals and comparatives ('two season', 'more happy'), though the candidate does attempt some subordinate clauses with 'when'. Pronunciation: the repetition 'hot, very hot' and short self-contained clauses suggest a speaker who is intelligible but makes limited use of stress and intonation to shape meaning."
+    },
+    {
+      "band": 7,
+      "text": "[What's the weather usually like where you live?]\nIt's hot and humid more or less all year round. We don't really have four seasons; it's more a wet season and a dry season. During the wet season you can almost set your watch by the afternoon downpour, and some low-lying parts of the city tend to flood.\n\n[What kind of weather do you like best?]\nI'm definitely a cool-weather person. My favourite time is just after a heavy rainstorm, when the air feels fresh and the temperature drops a few degrees. It doesn't last long, but it's lovely while it does.\n\n[Has the weather in your country changed in recent years?]\nI think so. My parents say the rainy season used to start at a fairly predictable time, but now it's much more erratic. Some years it's late, and when it does come, the storms seem more intense.",
+      "commentary": "Fluency & Coherence: the candidate develops responses with ease and links ideas logically, using a range of cohesive devices ('it's more...', 'when it does come'). Lexical Resource: uses less common items appropriately ('downpour', 'low-lying', 'erratic') and an idiom ('set your watch by'). Grammatical Range & Accuracy: complex sentences, emphatic 'does' and reported speech are used accurately; there are no significant errors. Pronunciation: the phrasing indicates clear chunking and natural intonation, for example the contrast in 'It doesn't last long, but it's lovely while it does', though there is limited evidence of a wider expressive range."
+    },
+    {
+      "band": 8,
+      "text": "[Does the weather affect your mood?]\nMore than I'd like to admit. When it's sweltering and there's not a breath of wind, I get irritable and sluggish, and I'll find any excuse to stay indoors with the air conditioning on. Whereas on those rare overcast days when it's a bit cooler, I'm far more productive and sociable.\n\n[What do you like to do on rainy days?]\nHonestly, a heavy downpour is the perfect excuse to do nothing. I'll make a pot of tea, put some music on and just watch it hammering down on the roof. There's something oddly calming about it, maybe because it forces everything to slow down.\n\n[Has the weather in your country changed in recent years?]\nNoticeably, yes. Older people talk about the rains arriving like clockwork in October, but now the timing's all over the place, and when the storms do hit, they're far more violent. Farmers in particular are finding it harder and harder to plan their planting.",
+      "commentary": "Fluency & Coherence: speech is fluent and cohesive, with answers that move naturally from a direct response to a reflection ('maybe because it forces everything to slow down'). Lexical Resource: vivid, precise vocabulary and idiom ('sweltering', 'not a breath of wind', 'hammering down', 'like clockwork', 'all over the place') used skilfully. Grammatical Range & Accuracy: a wide range of structures, including contrastive 'whereas', habitual 'will' and progressive comparatives ('harder and harder'), all accurate. Pronunciation: contractions ('the timing's') and emphatic structures imply connected speech with expressive stress, sustained effortlessly throughout."
+    }
+  ]
+}

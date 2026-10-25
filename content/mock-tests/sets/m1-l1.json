@@ -1,0 +1,391 @@
+{
+  "id": "m1-l1",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 1,
+  "title": "Renting a Community Garden Plot",
+  "difficulty": 1,
+  "minutes": 8,
+  "tags": [
+    "mock",
+    "everyday",
+    "form"
+  ],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Good afternoon, Greenway Community Garden, Helen speaking. How can I help?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Oh, hi. Um, I'm ringing about renting one of your plots. A friend said you might have a few free this year?"
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "We do, yes. A couple of people moved away over the winter, so we've got three plots available at the moment. Shall I take some details and start an application for you?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "That'd be great, thanks."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Lovely. Can I have your name first?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Sure. It's Martin, and the surname is Lindqvist."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Could you spell that for me?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Yep. L-I-N-D, then Q, V-I-S-T. People always want to put a U after the Q, but there isn't one."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "No U. Got it. And your address, Martin?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "It's 42 Harcourt Road. That's H-A-R-C-O-U-R-T."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Oh, that's just round the corner from us, isn't it? Near the old cinema?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "That's right, about five minutes' walk. That's partly why I'm interested, to be honest."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Well, that makes life easier. Now, the plots come in two sizes. A full plot is thirty square metres, and a half plot is fifteen. Do you know which you'd prefer?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Hmm. My first thought was a full one, but I work quite long hours, and thirty square metres sounds like a lot of digging. I think I'll go for the smaller one. Fifteen."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "That's what most first-timers choose, and you can always move up to a full plot the following year if you find you've got the time."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Good to know."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "And what are you mainly planning to grow? We ask because we try to put people with similar crops near each other. It helps with watering and pests."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Well, I'd been imagining rows of vegetables, potatoes, beans, that kind of thing. But realistically, with my job, it'll mostly be herbs. They're easier to look after, and I cook a lot, so I'll actually use them."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Herbs it is. We've got a couple of members who grow lavender and rosemary on the south side, so you'd be in good company. Next question: how did you hear about the garden? Was it your friend?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Partly. But what actually made me ring was the newsletter. The one the library sends out every month. There was a piece about the garden's tenth anniversary."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Oh, that's nice to hear. Most people tell us they saw the poster at the station, so it's good to know the newsletter works too."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "I did see the poster as well, now you mention it, but it was the article that got me."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Right. Now, before anyone can start on their plot, they have to come to an induction session. It's about an hour. We show you where everything is, explain the rules, the composting, that sort of thing. The next one is on Saturday the fourth of May."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "The fourth. Ah, I'm actually away that weekend. Is there another one?"
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "There is. We run a second one a week later, on the eleventh, also a Saturday, at ten in the morning."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "The eleventh is fine. Put me down for that."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Done. Now, let me tell you a bit about costs and the main rules, and you can decide whether you want to go ahead."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Sure."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "The standard annual fee for a half plot is forty-five pounds. But we do have a reduced rate for students, people over sixty-five, and anyone receiving benefits."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Actually, I'm doing a part-time course at the college at the moment. Does that count?"
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "It does, as long as you can show us your student card at the induction. That brings it down to thirty-eight pounds."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Thirty-eight. That's very reasonable."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "It covers your water, and the use of the shared tools in the shed. So you don't need to buy a spade or a fork or anything like that. The one thing we ask people to bring themselves is gloves. We used to provide them, but they kept disappearing."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Ha, fair enough. I've got some gardening gloves somewhere."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "As for the rules, they're mostly common sense. Dogs are allowed, but they must be kept on a lead. You can put up a small shed or a cold frame with permission from the committee. But there's one rule we're very strict about: no bonfires on the site, under any circumstances. We had a complaint from the neighbours a few years ago, and the council takes it very seriously."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "What do you do with all the garden waste, then?"
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "Everything goes in the compost bays, or there's a green waste collection every other Thursday."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Okay. And how do I actually get in? Is the gate locked?"
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "It is, yes. Once you've done the induction and paid, you'll get your own key. You'd normally collect it from the library, but they're closed for refurbishment until June, so for now keys are being kept at the pharmacy on the corner of Mill Street."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "The pharmacy. Okay, I know it."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "You just give them your name, and they'll have it in an envelope for you."
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Brilliant. I think that all sounds good. What happens next?"
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-GB",
+        "text": "I'll email you the application form with everything we've just discussed filled in. You check it, sign it, and bring it to the induction on the eleventh. Can I have your email address?"
+      },
+      {
+        "speaker": "Martin",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Of course. It's martin dot lindqvist at..."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "form_completion",
+      "instructions": "Questions 1–6. Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Greenway Community Garden — Plot application**\n\n- Name: Martin {{1}}\n- Address: 42 {{2}} Road\n- Plot size requested: {{3}} square metres\n- Will mainly grow: {{4}}\n- Heard about the garden through: the library {{5}}\n- Induction session: Saturday {{6}} May, 10 a.m.",
+      "questions": [
+        {
+          "n": 1,
+          "answers": [
+            "Lindqvist"
+          ],
+          "evidence": "line 8",
+          "explanation": "Martin spells the surname L-I-N-D-Q-V-I-S-T and stresses there is no U after the Q."
+        },
+        {
+          "n": 2,
+          "answers": [
+            "Harcourt"
+          ],
+          "evidence": "line 10",
+          "explanation": "He gives his address as 42 Harcourt Road and spells it."
+        },
+        {
+          "n": 3,
+          "answers": [
+            "15",
+            "fifteen"
+          ],
+          "evidence": "line 14",
+          "explanation": "He first considers the full 30 m² plot but chooses the smaller one: fifteen."
+        },
+        {
+          "n": 4,
+          "answers": [
+            "herbs"
+          ],
+          "evidence": "line 18",
+          "explanation": "Vegetables are a distractor; he says realistically it will mostly be herbs."
+        },
+        {
+          "n": 5,
+          "answers": [
+            "newsletter"
+          ],
+          "evidence": "line 20",
+          "explanation": "His friend and the poster are mentioned, but the library newsletter is what made him call."
+        },
+        {
+          "n": 6,
+          "answers": [
+            "11",
+            "11th",
+            "eleventh"
+          ],
+          "evidence": "line 25",
+          "explanation": "He cannot attend on the 4th, so he books the second session on the 11th."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Questions 7–10. Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Costs and rules**\n\n- Annual fee with student discount: £{{7}}\n- Shared tools are provided, but members must bring their own {{8}}\n- Dogs must be kept on a lead\n- {{9}} are not permitted on the site\n- Until June, collect your gate key from the {{10}} on Mill Street",
+      "questions": [
+        {
+          "n": 7,
+          "answers": [
+            "38",
+            "38.00"
+          ],
+          "evidence": "line 31",
+          "explanation": "The standard fee is £45, but as a part-time student he pays the reduced rate of £38."
+        },
+        {
+          "n": 8,
+          "answers": [
+            "gloves"
+          ],
+          "evidence": "line 33",
+          "explanation": "Tools are provided; gloves are the one thing members bring."
+        },
+        {
+          "n": 9,
+          "answers": [
+            "bonfires",
+            "bonfire"
+          ],
+          "evidence": "line 35",
+          "explanation": "Dogs are allowed on a lead and sheds with permission; bonfires are strictly banned."
+        },
+        {
+          "n": 10,
+          "answers": [
+            "pharmacy"
+          ],
+          "evidence": "line 39",
+          "explanation": "Keys are normally at the library, but it is closed until June, so they are at the pharmacy."
+        }
+      ]
+    }
+  ]
+}

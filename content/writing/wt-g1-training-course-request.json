@@ -1,0 +1,34 @@
+{
+  "id": "wt-g1-training-course-request",
+  "kind": "writing_task",
+  "module": "general",
+  "task": 1,
+  "taskType": "letter_semi_formal",
+  "title": "Asking your manager for time off for a course",
+  "difficulty": 2,
+  "prompt": "You would like to attend a short training course that takes place during working hours.\n\nWrite a letter to your manager. In your letter\n\n- describe the course you would like to attend\n- explain how the course would help you in your job\n- suggest how your work could be covered while you are away\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear ...,",
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "A semi-formal letter goes to someone you know in a professional way. Use their name ('Dear Ms Larsen'), be polite but not stiff, and close with 'Best regards' or 'Kind regards'.",
+    "Give practical details your manager needs: dates, length, cost (if any) and who runs the course.",
+    "The third bullet is about solving your manager's problem. A concrete plan (a named colleague, finishing tasks early) is much stronger than 'someone can do my work'."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "Dear Ms Larsen,\n\nI am writing to ask you about a training course which I want to attend next month.\n\nThe course is about data analysis with spreadsheets. It is three days from 14 to 16 May and it is in the city centre. It is organised by a training company called SkillPoint and the price is 350 euros.\n\nI think this course will help me very much in my job. In our department we use spreadsheets every day but I don't know many functions. After the course I can make reports more quickly and I can make charts for the monthly meeting. So it will save time for me and for the team.\n\nAbout my work, I will finish the weekly report before the course. My colleague Tomas can answer my emails and phone calls, I already asked him and he agreed. If there is something urgent he can call me in the evening.\n\nI hope you will agree. Please tell me if you need more information.\n\nBest regards,\nAna Ribeiro",
+      "commentary": "Task Achievement: all three bullet points are covered with relevant details and the tone is broadly appropriate, though the benefits are only partly developed. Coherence and Cohesion: clear paragraphing, but the letter relies on simple connectors ('So', 'About my work') and repeated sentence openings ('It is...'). Lexical Resource: sufficient for the task, with some workplace vocabulary, but repetition ('help', 'make') and limited precision. Grammatical Range and Accuracy: mainly simple sentences with a few errors, such as a comma splice and 'After the course I can make' where 'will be able to' is needed. Band 6."
+    },
+    {
+      "band": 7,
+      "text": "Dear Ms Larsen,\n\nI hope you are well. I am writing to ask whether I could have three days' leave next month to attend a training course in data analysis.\n\nThe course, which is run by SkillPoint, takes place at their city-centre training centre from 14 to 16 May. It covers advanced spreadsheet functions, data visualisation and automated reporting, and it costs €350, which I believe could come from our department's training budget.\n\nI am confident the course would make a real difference to my work. At the moment, preparing the monthly sales report takes me almost two full days, largely because I combine the data manually. After learning to automate this process, I expect to complete the report in a few hours, and I would also be able to produce clearer charts for our team meetings. I would be happy to share what I learn with the rest of the team afterwards.\n\nAs for my workload, I plan to finish the weekly report before I leave, and Tomas has kindly agreed to handle my emails and client calls during those three days. I will also be available by phone in an emergency.\n\nPlease let me know if you need any further information.\n\nKind regards,\nAna Ribeiro",
+      "commentary": "Task Achievement: all bullet points are clearly presented and extended, with a consistently appropriate semi-formal tone and useful extras (budget, sharing knowledge). Coherence and Cohesion: logical paragraphing with a good range of cohesive devices ('At the moment', 'As for my workload', 'afterwards'). Lexical Resource: a good range of workplace vocabulary ('training budget', 'automated reporting', 'workload'), used accurately. Grammatical Range and Accuracy: a mix of complex sentences, including relative and conditional structures, with good control and very few errors. The benefits paragraph is effective, though slightly generic in places, which keeps it at band 7."
+    },
+    {
+      "band": 8,
+      "text": "Dear Ms Larsen,\n\nI hope your week is going well. I wanted to ask whether you would be willing to release me for three days next month so that I can attend a data analysis course that I think would benefit both me and the team.\n\nThe course is a three-day intensive run by SkillPoint at their city-centre premises from 14 to 16 May. It focuses on advanced spreadsheet functions, building dashboards and automating routine reports. The fee is €350, and as far as I am aware there is still room in this year's training budget to cover it.\n\nThe main appeal for me is the section on automation. As you know, compiling the monthly sales report currently takes me the best part of two days, mostly because I have to merge figures from several sources by hand. If I could automate that step, the report would take a few hours at most, freeing me up for the client analysis we discussed at my last review. I would also be glad to run a short session for the team afterwards so that the whole department benefits.\n\nTo keep disruption to a minimum, I will submit the weekly report a day early, and Tomas has offered to look after my inbox and client calls while I am away. I will, of course, keep my phone on in case anything urgent comes up.\n\nThank you for considering this. I am happy to discuss it whenever suits you.\n\nKind regards,\nAna Ribeiro",
+      "commentary": "Task Achievement: all bullet points are fully and persuasively developed; the tone is judged precisely for a manager the writer knows well, warm but professional. Coherence and Cohesion: information is sequenced naturally, and cohesion is achieved through reference to shared knowledge ('As you know', 'we discussed at my last review'). Lexical Resource: natural, precise phrasing ('release me', 'three-day intensive', 'the best part of two days', 'keep disruption to a minimum'). Grammatical Range and Accuracy: a wide range of structures, including conditionals, purpose clauses and parenthetical phrases, all used accurately. The letter is notably fluent, with only the slightly long benefits paragraph as a minor weakness."
+    }
+  ]
+}

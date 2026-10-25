@@ -1,0 +1,47 @@
+{
+  "id": "g1-l4",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 4,
+  "title": "The Psychology of Habits",
+  "difficulty": 3,
+  "minutes": 8,
+  "tags": ["psychology", "science", "lecture"],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "Good morning, everyone. Today we're turning to a topic that affects every one of us, usually without our noticing: habits. Let's start with a definition. Psychologists describe a habit as a behaviour that is triggered automatically by a cue in our surroundings, rather than by a conscious decision. So the key feature isn't how often we do something. It's that we do it without thinking. You might go to the gym every day, but if you have to argue with yourself every morning about whether to go, that isn't a habit yet." },
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "How much of our behaviour works like this? In one well-known diary study, participants were asked to note down what they were doing once every hour, and whether they were thinking about it at the time. Around forty-three per cent of the actions they recorded were performed almost every day, in the same place, and usually while the person was thinking about something else entirely." },
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "So how do habits form? The basic mechanism is repetition in a stable context. Each time you perform an action in the same situation, the mental link between that situation and the action gets a little stronger. You may have heard that it takes twenty-one days to form a habit. That figure, it turns out, came from anecdote rather than data. When researchers actually tracked volunteers trying to adopt a new behaviour, things like eating a piece of fruit with lunch, they found the average was sixty-six days. And the range was enormous, from about eighteen days to well over two hundred. Behaviours that were simple, like drinking a glass of water after breakfast, became automatic far faster than complex ones, such as doing fifty sit-ups before dinner." },
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "Interestingly, the same study found that missing a single day didn't make any real difference to the process. That's encouraging, because people often give up after one slip, believing they've ruined their progress. In fact, what matters is consistency over weeks, not perfection." },
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "Now, what's happening in the brain? When we're learning a new behaviour, there's a lot of activity in the prefrontal cortex, the area associated with planning and decision-making. As the behaviour becomes a habit, control gradually shifts to a deeper set of structures called the basal ganglia. That's B, A, S, A, L. This shift is efficient, because it frees up the prefrontal cortex for other work. But it also helps to explain why habits are so hard to break: they're stored in a part of the brain that our conscious intentions don't easily reach." },
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "That brings me to breaking bad habits. The most common approach is willpower, simply trying harder to resist. Unfortunately, the evidence suggests this is one of the least effective strategies of all. Willpower is limited, and it tends to fail when we're tired or stressed, which is exactly when old habits come back." },
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "A far more successful approach is to change the environment, so that the cue disappears. One striking example comes from research on students who transferred to a new university. Those who had a habit of watching television in the evening found it much easier to change that habit after the move, because the cues in their old home simply weren't there any more. Exercise habits, by the way, showed a similar pattern. Psychologists sometimes call this a window of opportunity. Moving house, starting a new job, or other major life changes temporarily weaken our habits and give us a chance to build new ones." },
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "A third strategy is what's known as habit substitution. Rather than trying to stop a behaviour completely, you keep the cue but replace the response. For example, if you always reach for your phone as soon as you sit down on the train, you could keep a paperback in your bag and read that instead. The cue stays exactly the same. Only the response changes." },
+      { "speaker": "Lecturer", "voice": "male", "accent": "en-CA", "text": "Next week, we'll look at the other side of this: how companies deliberately design products, from apps to snacks, to become habit-forming, and whether that raises ethical questions." }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**The psychology of habits**\n\n**Definition**\n- A habit is a behaviour started automatically by a {{31}} in the environment, not by a conscious decision.\n- Diary study: participants recorded their actions every {{32}}; about 43% of actions were habitual.\n\n**How habits form**\n- Depends on repetition in a stable context.\n- The '21 days' figure is not based on data; one study found an average of {{33}} days.\n- Behaviours that are {{34}} become automatic faster.\n- Missing one {{35}} made no real difference.\n\n**The brain**\n- Control moves from the prefrontal cortex to the {{36}} ganglia.\n\n**Breaking habits**\n- Relying on {{37}} is one of the least effective methods.\n- Changing the environment: students who moved university found it easier to change the habit of watching {{38}}.\n- Life changes create a 'window of {{39}}'.\n- Habit substitution: keep the cue but replace the {{40}}.",
+      "questions": [
+        { "n": 31, "answers": ["cue"], "evidence": "line 1", "explanation": "A habit is 'triggered automatically by a cue in our surroundings, rather than by a conscious decision'." },
+        { "n": 32, "answers": ["hour"], "evidence": "line 2", "explanation": "Participants noted what they were doing 'once every hour'." },
+        { "n": 33, "answers": ["66", "sixty-six"], "evidence": "line 3", "explanation": "The real average was sixty-six days; 21 is the popular myth and 18 and 200 are the range." },
+        { "n": 34, "answers": ["simple"], "evidence": "line 3", "explanation": "'Behaviours that were simple... became automatic far faster than complex ones.'" },
+        { "n": 35, "answers": ["day"], "evidence": "line 4", "explanation": "'Missing a single day didn't make any real difference.'" },
+        { "n": 36, "answers": ["basal"], "evidence": "line 5", "explanation": "Control shifts to 'the basal ganglia', which the lecturer spells." },
+        { "n": 37, "answers": ["willpower", "will-power"], "evidence": "line 6", "explanation": "Willpower is described as 'one of the least effective strategies of all'." },
+        { "n": 38, "answers": ["television", "TV"], "evidence": "line 7", "explanation": "Students with a habit of watching television found it easier to change after the move. Exercise is mentioned only as a similar pattern." },
+        { "n": 39, "answers": ["opportunity"], "evidence": "line 7", "explanation": "Psychologists call this 'a window of opportunity'." },
+        { "n": 40, "answers": ["response", "action"], "evidence": "line 8", "explanation": "'You keep the cue but replace the response.'" }
+      ]
+    }
+  ]
+}

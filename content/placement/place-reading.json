@@ -1,0 +1,108 @@
+{
+  "id": "place-reading",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "Placement Test: Reading",
+  "difficulty": 2,
+  "minutes": 6,
+  "tags": ["placement", "science", "nature"],
+  "unlisted": true,
+  "passage": {
+    "title": "Birds with Accents",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Anyone who has travelled widely knows that people in different regions speak the same language with different accents. It may be surprising to learn that many birds do the same. Songbirds of a single species often sing noticeably different versions of their song depending on where they live, and researchers who record them can sometimes tell which valley or town a bird comes from simply by listening. The differences may be small to the human ear, such as an extra note or a slightly longer pause, but they are consistent enough to be measured by computer."
+      },
+      {
+        "label": "B",
+        "text": "These regional differences exist because songbirds, unlike most other animals, learn their songs. A young male listens to the adult birds around him during his first few months of life and gradually practises until his own song matches theirs. If a chick is raised in isolation and never hears an adult, it produces only a simple, poorly formed song. Small copying errors, passed from one generation to the next, slowly create local dialects, in much the same way that human accents develop."
+      },
+      {
+        "label": "C",
+        "text": "Dialects can change surprisingly quickly. In one long-term study of sparrows in North America, a new ending to the species' song first appeared in a small western population. Within about twenty years it had spread across thousands of kilometres, replacing the older version almost completely. Researchers believe that young birds spending the winter in mixed flocks picked up the new ending and carried it home in spring."
+      },
+      {
+        "label": "D",
+        "text": "Dialects may matter for breeding. In several species, females respond more strongly to males that sing the local version of the song, perhaps because it suggests that a male is well adapted to local conditions. A male that arrives from far away with an unfamiliar song may therefore find it harder to attract a mate. For conservation workers who move birds to new areas to protect them, this can be an unexpected problem, since the relocated birds may struggle to breed with the local population."
+      },
+      {
+        "label": "E",
+        "text": "Human activity is now affecting bird song too. In noisy cities, some birds sing at a higher pitch than their relatives in the countryside, which helps their songs to be heard above the low rumble of traffic. Scientists are still debating whether these changes are learnt or inherited, but they show that bird song, like human speech, is constantly shaped by the environment in which it is used."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "tfng",
+      "variant": "tfng",
+      "category": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        { "n": 1, "statement": "Researchers can sometimes identify where a bird lives from its song.", "answer": "TRUE", "evidence": "A", "explanation": "Researchers 'can sometimes tell which valley or town a bird comes from simply by listening'." },
+        { "n": 2, "statement": "Most animals learn their calls in the same way as songbirds.", "answer": "FALSE", "evidence": "B", "explanation": "Songbirds, 'unlike most other animals, learn their songs'." },
+        { "n": 3, "statement": "Female songbirds sing more complex songs than males.", "answer": "NOT GIVEN", "evidence": "D", "explanation": "The passage describes how females respond to male songs but never compares the songs of males and females." },
+        { "n": 4, "statement": "Some city birds sing at a higher pitch than birds in rural areas.", "answer": "TRUE", "evidence": "E", "explanation": "'some birds sing at a higher pitch than their relatives in the countryside'." }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "n": 5,
+          "prompt": "What happens to a young songbird that never hears an adult sing?",
+          "options": [
+            { "key": "A", "text": "It does not sing at all." },
+            { "key": "B", "text": "It produces a basic and imperfect song." },
+            { "key": "C", "text": "It copies the songs of other species." },
+            { "key": "D", "text": "It develops a new dialect of its own." }
+          ],
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "Such a chick 'produces only a simple, poorly formed song'."
+        },
+        {
+          "n": 6,
+          "prompt": "How do researchers explain the rapid spread of the new sparrow song?",
+          "options": [
+            { "key": "A", "text": "Older birds stopped singing the original version." },
+            { "key": "B", "text": "The new song was easier to learn." },
+            { "key": "C", "text": "Young birds heard it while spending winter with other groups." },
+            { "key": "D", "text": "Sparrows moved permanently to new areas." }
+          ],
+          "answer": "C",
+          "evidence": "C",
+          "explanation": "Young birds 'spending the winter in mixed flocks picked up the new ending and carried it home'."
+        },
+        {
+          "n": 7,
+          "prompt": "Why might a male with an unfamiliar song have difficulty breeding?",
+          "options": [
+            { "key": "A", "text": "Females prefer males that sing the local version." },
+            { "key": "B", "text": "Other males attack birds with strange songs." },
+            { "key": "C", "text": "His song cannot be heard over long distances." },
+            { "key": "D", "text": "He is usually less healthy than local birds." }
+          ],
+          "answer": "A",
+          "evidence": "D",
+          "explanation": "Females 'respond more strongly to males that sing the local version of the song'."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "sentence_completion",
+      "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "questions": [
+        { "n": 8, "prompt": "Local dialects develop because of small {{8}} that pass between generations.", "answers": ["copying errors", "errors"], "evidence": "B", "explanation": "'Small copying errors, passed from one generation to the next, slowly create local dialects'." },
+        { "n": 9, "prompt": "The new sparrow song replaced the older version in about {{9}} years.", "answers": ["twenty", "20"], "evidence": "C", "explanation": "'Within about twenty years it had spread across thousands of kilometres'." },
+        { "n": 10, "prompt": "Birds in cities may need to be heard above the noise of {{10}}.", "answers": ["traffic"], "evidence": "E", "explanation": "Higher songs can 'be heard above the low rumble of traffic'." }
+      ]
+    }
+  ]
+}

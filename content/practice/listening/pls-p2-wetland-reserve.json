@@ -1,0 +1,281 @@
+{
+  "id": "pls-p2-wetland-reserve",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 2,
+  "title": "A Guided Visit to a Wetland Reserve",
+  "difficulty": 2,
+  "minutes": 9,
+  "tags": [
+    "nature",
+    "tourism",
+    "map"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Good morning, everyone, and welcome to Marshgate Wetland Reserve. My name's Callum, and I'm one of the rangers here. Before you set off, I'll give you a bit of background and then explain where everything is on the map you've been given."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "First, a little history. A lot of visitors assume this place has always been marshland. It's true that the land around the edges was farmed for centuries, but the site itself, where the lake is now, was actually a gravel quarry. Digging stopped in the nineteen nineties, the pits filled with water, and the wildlife moved in on its own."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "We've had quite a few changes recently. The café opened three years ago and has been very popular. And next year, if the funding comes through, we're hoping to build an education centre for school groups. But the big news this season is our floating boardwalk, which only opened in March. It lets you walk right out over the water, and I'd really recommend it."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Now, a few requests. Some nature reserves let you bring dogs as long as they're on a lead, and people are sometimes surprised that we don't. But because so many birds nest on the ground here, dogs aren't allowed anywhere on the reserve, I'm afraid. The only exception is assistance dogs."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Many of you will be hoping to see our otters. People tend to come early in the morning for them, and you might be lucky, but in fact our cameras show they're most active in the late evening, just as it gets dark. In the middle of the day you'll hardly ever see them, as they're asleep in the banks."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Right, let's look at the map. You're standing in the car park, in the bottom left-hand corner. From here, the main path heads straight north."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "As you start walking up the path, the first building on your left is the café. You can't miss it, it has a big glass front. The building directly opposite it, on the right of the path, is our office, which isn't open to the public."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Keep going north and the path turns right and joins the lake path, which goes in a big loop all the way round the Main Lake. When you reach that junction, if you turn right and walk a few metres south along the shore, you'll come to the pond-dipping platform. That's where children can try catching small water creatures with a net. It's a favourite with families."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "If you go the other way, north, you'll see the woodland on your left. The children's woodland trail starts from there, on the edge of the trees, just west of the lake path. There's a wooden owl sign marking the beginning."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Carry on round the top of the lake and, about halfway along the northern side, you'll find Kingfisher Hide. It's on the far side of the path from the water, raised up a little, and it looks south across the lake towards the island. That's the best spot on the reserve for birdwatching."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "As the path curves round to the east, it comes very close to the River Mardle. Right where the river bends, in the north-east corner of the map, is the otter viewing point. There's a bench and a little screen with gaps to look through. Remember, late evening is best."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "On the south-eastern side of the lake, between the lake path and the river, you may notice some posts in the ground. There used to be a viewing screen there, but it was damaged in a storm and has been taken away, so there's nothing to see at the moment."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Finally, the floating boardwalk. A lot of people expect to find it in the woodland, for some reason, but it's actually down in the south-east. Take the short path that goes south from the lake path and it leads you out across the reed beds. The boardwalk itself is right in the middle of the reeds."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "male",
+        "accent": "en-AU",
+        "text": "Toilets are in the café, and there's a first-aid kit in every hide. If you have any questions, just ask one of the rangers in green jackets. Enjoy your visit."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Before it became a nature reserve, the site of the lake was",
+          "options": [
+            {
+              "key": "A",
+              "text": "a gravel quarry."
+            },
+            {
+              "key": "B",
+              "text": "farmland."
+            },
+            {
+              "key": "C",
+              "text": "a natural marsh."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 2",
+          "explanation": "Farming took place around the edges, but the lake itself was a gravel quarry."
+        },
+        {
+          "n": 2,
+          "prompt": "What is new at the reserve this season?",
+          "options": [
+            {
+              "key": "A",
+              "text": "a café"
+            },
+            {
+              "key": "B",
+              "text": "a floating boardwalk"
+            },
+            {
+              "key": "C",
+              "text": "an education centre"
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 3",
+          "explanation": "The café is three years old and the education centre is only planned; the boardwalk opened in March."
+        },
+        {
+          "n": 3,
+          "prompt": "What does the guide say about dogs?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They must be kept on a lead."
+            },
+            {
+              "key": "B",
+              "text": "Only assistance dogs are allowed."
+            },
+            {
+              "key": "C",
+              "text": "They may only use the main paths."
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 4",
+          "explanation": "Dogs are banned because of ground-nesting birds, except assistance dogs."
+        },
+        {
+          "n": 4,
+          "prompt": "When are visitors most likely to see otters?",
+          "options": [
+            {
+              "key": "A",
+              "text": "early in the morning"
+            },
+            {
+              "key": "B",
+              "text": "in the middle of the day"
+            },
+            {
+              "key": "C",
+              "text": "in the late evening"
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 5",
+          "explanation": "People come early, but cameras show otters are most active in the late evening."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "map_labelling",
+      "instructions": "Label the map below. Write the correct letter, A–H, next to Questions 5–10.",
+      "image": "pls-map-wetland-reserve.svg",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        },
+        {
+          "key": "E",
+          "text": "E"
+        },
+        {
+          "key": "F",
+          "text": "F"
+        },
+        {
+          "key": "G",
+          "text": "G"
+        },
+        {
+          "key": "H",
+          "text": "H"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 5,
+          "prompt": "Café",
+          "answer": "A",
+          "evidence": "line 7",
+          "explanation": "It is the first building on the left (west) of the path north from the car park; B opposite is the office."
+        },
+        {
+          "n": 6,
+          "prompt": "Pond-dipping platform",
+          "answer": "H",
+          "evidence": "line 8",
+          "explanation": "Turn right at the junction and walk a few metres south along the western shore."
+        },
+        {
+          "n": 7,
+          "prompt": "Kingfisher Hide",
+          "answer": "D",
+          "evidence": "line 10",
+          "explanation": "Halfway along the northern side, on the far side of the path, looking south to the island."
+        },
+        {
+          "n": 8,
+          "prompt": "Floating boardwalk",
+          "answer": "G",
+          "evidence": "line 13",
+          "explanation": "Not in the woodland: it is in the middle of the reed beds in the south-east."
+        },
+        {
+          "n": 9,
+          "prompt": "Otter viewing point",
+          "answer": "E",
+          "evidence": "line 11",
+          "explanation": "Where the river bends in the north-east corner."
+        },
+        {
+          "n": 10,
+          "prompt": "Start of the children's woodland trail",
+          "answer": "C",
+          "evidence": "line 9",
+          "explanation": "On the edge of the woodland, west of the lake path, to the north of the junction."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "gram-articles",
+  "kind": "question_set",
+  "skill": "grammar",
+  "module": "both",
+  "title": "Articles: a, an, the or no article",
+  "difficulty": 2,
+  "minutes": 12,
+  "tags": ["grammar", "articles"],
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "grammar",
+      "instructions": "Choose the correct option to complete each sentence. A dash (–) means no article.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "______ unemployment is one of the most serious problems facing young people today.",
+          "options": [
+            { "key": "A", "text": "The" },
+            { "key": "B", "text": "An" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "C",
+          "explanation": "Abstract uncountable nouns used in a general sense take no article."
+        },
+        {
+          "n": 2,
+          "prompt": "The chart compares the incomes of households in ______ United States and Canada.",
+          "options": [
+            { "key": "A", "text": "the" },
+            { "key": "B", "text": "a" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "A",
+          "explanation": "Country names that include a word like 'States', 'Kingdom' or 'Republic' take 'the'. 'Canada' takes no article."
+        },
+        {
+          "n": 3,
+          "prompt": "It took her ______ hour to finish the report.",
+          "options": [
+            { "key": "A", "text": "a" },
+            { "key": "B", "text": "an" },
+            { "key": "C", "text": "the" }
+          ],
+          "answer": "B",
+          "explanation": "The choice between a and an depends on sound. 'Hour' begins with a vowel sound because the h is silent."
+        },
+        {
+          "n": 4,
+          "prompt": "She is studying at ______ university in Melbourne.",
+          "options": [
+            { "key": "A", "text": "an" },
+            { "key": "B", "text": "a" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "B",
+          "explanation": "'University' begins with a 'y' consonant sound (/juː/), so 'a' is used."
+        },
+        {
+          "n": 5,
+          "prompt": "______ elderly often need more support from health services.",
+          "options": [
+            { "key": "A", "text": "The" },
+            { "key": "B", "text": "An" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "A",
+          "explanation": "'The' + adjective refers to a whole group of people: the elderly, the poor, the young."
+        },
+        {
+          "n": 6,
+          "prompt": "Electricity consumption reached ______ highest level in December.",
+          "options": [
+            { "key": "A", "text": "a" },
+            { "key": "B", "text": "its" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "B",
+          "explanation": "Superlatives need a determiner such as 'the' or a possessive: its highest level. A superlative cannot stand alone or take 'a'."
+        },
+        {
+          "n": 7,
+          "prompt": "I bought a laptop and a printer, but ______ printer stopped working after a week.",
+          "options": [
+            { "key": "A", "text": "a" },
+            { "key": "B", "text": "the" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "B",
+          "explanation": "The printer has already been mentioned, so the second reference uses 'the'."
+        },
+        {
+          "n": 8,
+          "prompt": "Many people believe that ______ smartphone has changed the way we communicate.",
+          "options": [
+            { "key": "A", "text": "the" },
+            { "key": "B", "text": "a" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "A",
+          "explanation": "'The' + singular noun can refer to an invention or type of thing in general: the smartphone, the bicycle."
+        },
+        {
+          "n": 9,
+          "prompt": "My brother works as ______ engineer in a car factory.",
+          "options": [
+            { "key": "A", "text": "an" },
+            { "key": "B", "text": "the" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "A",
+          "explanation": "Jobs take a/an in English: She is a doctor; he works as an engineer."
+        },
+        {
+          "n": 10,
+          "prompt": "Children usually go to ______ school at the age of five or six.",
+          "options": [
+            { "key": "A", "text": "the" },
+            { "key": "B", "text": "a" },
+            { "key": "C", "text": "–" }
+          ],
+          "answer": "C",
+          "explanation": "School, hospital, prison and university take no article when we mean their main purpose (going to study, not visiting the building)."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "grammar",
+      "instructions": "Write the missing article (a, an or the). Write ONE WORD ONLY.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "questions": [
+        { "n": 11, "prompt": "Mount Everest is {{11}} highest mountain in the world.", "answers": ["the"], "explanation": "Superlatives take 'the'." },
+        { "n": 12, "prompt": "There was {{12}} unexpected drop in sales in March.", "answers": ["an"], "explanation": "A singular countable noun mentioned for the first time takes a/an, and 'unexpected' begins with a vowel sound." },
+        { "n": 13, "prompt": "The river flows into {{13}} Pacific Ocean.", "answers": ["the"], "explanation": "Oceans, seas and rivers take 'the'." }
+      ]
+    }
+  ]
+}

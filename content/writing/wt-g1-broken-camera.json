@@ -1,0 +1,34 @@
+{
+  "id": "wt-g1-broken-camera",
+  "kind": "writing_task",
+  "module": "general",
+  "task": 1,
+  "taskType": "letter_informal",
+  "title": "Apologising to a friend for a damaged camera",
+  "difficulty": 1,
+  "prompt": "A friend lent you their camera for a trip, and it was damaged while you were using it.\n\nWrite a letter to your friend. In your letter\n\n- explain how the camera was damaged\n- apologise and say how you feel about what happened\n- tell your friend what you will do to put things right\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear ...,",
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "An informal letter should sound like you talking to a friend: contractions, phrasal verbs and a warm opening and closing ('Love', 'Take care', 'Speak soon').",
+    "Tell the story of the accident briefly but vividly. One or two concrete details are better than a long description.",
+    "Offer a specific solution (paying for repair, buying a replacement) rather than a vague promise."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "Dear Sam,\n\nHow are you? I'm back from my trip to the mountains and I had a great time. Thank you again for lending me your camera. Unfortunately I have a bad news.\n\nOn the third day we went to a waterfall and I was taking photos on the rocks. The rocks were very wet and I slipped. I didn't fall badly but the camera hit a rock and the lens is broken. The camera still turns on but the photos are not clear.\n\nI'm really sorry about this. I feel very bad because I know this camera is very important for you and you use it for your photography hobby. I should be more careful.\n\nI took the camera to a repair shop yesterday and they said they can repair the lens for about 120 dollars. I will pay for all of it of course. If they can't repair it, I will buy you a new lens.\n\nAgain I'm really sorry. Let's meet next week and I will show you my photos.\n\nBest wishes,\nMaya",
+      "commentary": "Task Achievement: all three bullet points are covered and the informal tone is mostly appropriate, but each point is handled briefly and the feelings section is quite general. Coherence and Cohesion: clear paragraphs follow the bullet points, though linking is simple and 'very' is overused. Lexical Resource: adequate everyday vocabulary ('slipped', 'repair shop'), with limited idiomatic language for an informal letter. Grammatical Range and Accuracy: a reasonable mix of past tenses, but with errors such as 'a bad news', 'important for you' and 'I should be more careful' (for 'should have been'). Band 6."
+    },
+    {
+      "band": 7,
+      "text": "Dear Sam,\n\nI hope you're doing well! I got back from the mountains on Sunday, and I'm afraid I've got some bad news about your camera.\n\nOn the third day, we hiked up to a waterfall, and I climbed onto some rocks to get a better shot. They were much more slippery than they looked, and I lost my footing. I managed not to hurt myself, but the camera smashed against a rock. It still switches on, but the lens is cracked and every photo comes out blurry.\n\nI feel absolutely terrible about it. I know how much that camera means to you, and you trusted me with it. Looking back, I shouldn't have climbed up there with it around my neck.\n\nI've already taken it to a repair shop near my office, and they reckon they can replace the lens for about $120 within a week. I'll cover the full cost, obviously, and if it turns out it can't be fixed, I'll buy you a new one.\n\nOnce again, I'm so sorry. Can I take you out for dinner next weekend to make it up to you?\n\nLots of love,\nMaya",
+      "commentary": "Task Achievement: all bullet points are clearly addressed and extended, with a consistently friendly tone. Coherence and Cohesion: well organised, with natural sequencing ('On the third day', 'Looking back', 'Once again'). Lexical Resource: good use of informal and idiomatic language ('lost my footing', 'they reckon', 'make it up to you') with accurate collocations. Grammatical Range and Accuracy: a range of structures, including 'shouldn't have + past participle' and conditionals, with few errors. The letter is effective, though the apology could be more personal to reach band 8."
+    },
+    {
+      "band": 8,
+      "text": "Dear Sam,\n\nI've been putting off writing this, which says a lot about how guilty I feel, so I'll get straight to the point: I'm really sorry, but your camera got damaged on my trip.\n\nIt happened on day three. We'd hiked up to a waterfall, and in my eagerness to get the perfect shot I scrambled onto a ledge that turned out to be covered in moss. My foot went from under me, and although I came away with nothing worse than a bruised knee, the camera swung round and slammed into the rock. It still powers up, but the lens has a crack right across it, so everything comes out hazy.\n\nI can't tell you how bad I feel. You've had that camera since university and you didn't think twice about lending it to me, which makes this even worse. I should have put it safely in my bag before climbing anywhere.\n\nThe good news is that the repair shop round the corner from my flat says the lens can be replaced for around $120, and they'll have it ready by next Friday. I'm paying for that, no arguments! And if, for any reason, the repair doesn't work, I'll replace the lens with a new one of the same model.\n\nLet me drop it round once it's fixed, and I'll bring a very large cake as a peace offering.\n\nLove,\nMaya",
+      "commentary": "Task Achievement: all bullet points are fully developed, and the tone is warm, natural and perfectly suited to a close friend, with humour that softens the apology. Coherence and Cohesion: the narrative flows smoothly and ideas are linked naturally ('It happened on day three', 'The good news is that'). Lexical Resource: a wide range of idiomatic, precise language ('putting off', 'scrambled onto a ledge', 'my foot went from under me', 'peace offering'). Grammatical Range and Accuracy: flexible use of narrative tenses, including the past perfect, and modal perfects, with complete control. Only an occasional long sentence slightly slows the reading."
+    }
+  ]
+}

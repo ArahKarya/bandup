@@ -1,0 +1,51 @@
+{
+  "id": "sp-p2-crowded-place",
+  "kind": "speaking_task",
+  "part": 2,
+  "topic": "A crowded place",
+  "difficulty": 2,
+  "cueCard": {
+    "prompt": "Describe a crowded place you have been to.",
+    "bullets": [
+      "where it was",
+      "when you went there",
+      "why it was so crowded",
+      "what you did there"
+    ],
+    "closing": "and explain how you felt about being in that place."
+  },
+  "questions": [
+    "Do you usually avoid crowded places?"
+  ],
+  "tips": [
+    "A market, station, festival, stadium or shopping centre on a public holiday all work well.",
+    "Give a reason for the crowd (a holiday, a sale, a concert); it helps you move naturally from description to explanation.",
+    "Feelings can be mixed. Saying you found it both exciting and exhausting lets you use contrast language."
+  ],
+  "usefulPhrases": [
+    "It was absolutely packed.",
+    "You could barely move.",
+    "It was shoulder to shoulder.",
+    "The atmosphere was electric.",
+    "We had to queue for what felt like hours.",
+    "I found it a bit overwhelming at first.",
+    "On balance, I'm glad I went."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "I want to describe a train station in Jakarta, it is the main station in the city. I went there last year, before the Eid holiday, because I want to go back to my hometown.\n\nIt was very crowded because before Eid many people go back to their hometown, we call it mudik. So all the people are going at the same time, and the station is full of people with many bags and boxes. Some people bring their children and also their grandmother.\n\nWhat I did there, first I must print my ticket, but the queue was very long, maybe one hour. After that I wait for my train in the waiting room, but there is no chair, so I sit on the floor. I bought some snack and water because the train was late about forty minutes.\n\nHow I feel? I feel tired and a little bit stressed, because it was very hot and crowded. But also I feel happy because I can go home and meet my family. So it was a mix feeling.",
+      "commentary": "Fluency & Coherence: the candidate covers every bullet and keeps going, but the organisation is predictable, with rhetorical cues ('What I did there', 'How I feel?') used to move on. Lexical Resource: adequate vocabulary for the topic and a cultural term explained ('mudik'), though limited range ('very crowded', 'many') and some errors ('a mix feeling'). Grammatical Range & Accuracy: present and past forms are frequently mixed ('I want to go back', 'I wait', 'I sit') and plurals are missed, but meaning remains clear. Pronunciation: the short clause units suggest generally clear but somewhat segmented delivery, with limited chunking of longer ideas."
+    },
+    {
+      "band": 7,
+      "text": "I'm going to talk about the main railway station in Jakarta, which I went through last year just before Eid.\n\nThe reason it was so crowded is that every year, just before the holiday, millions of people leave the capital to go back to their home villages. We call it mudik, and it's basically one huge migration over a few days. So the station was absolutely packed, with whole families sitting on suitcases, cardboard boxes full of gifts and, in one case, a man carrying a live chicken in a basket.\n\nMy train was in the late afternoon, but I got there three hours early because I knew what it would be like. Even so, I had to queue for almost an hour just to get through the ticket check. After that, all the seats in the waiting area were taken, so I ended up sitting on my bag next to a family from Central Java. We actually got chatting and they shared some of their snacks with me while we waited, which was really kind.\n\nAs for how I felt, it was a mixture of things. Physically, it was exhausting, because it was hot and noisy and you could barely move. But there was also a sort of festive atmosphere; everyone was in a good mood because they were going home. So although I wouldn't choose to be in a crowd like that, I didn't mind it as much as I'd expected.",
+      "commentary": "Fluency & Coherence: the response is extended and well structured, with clear signposting ('The reason it was so crowded is', 'As for how I felt'). Lexical Resource: a wide enough range to add colour and detail ('one huge migration', 'absolutely packed', 'got chatting', 'festive atmosphere'). Grammatical Range & Accuracy: a range of complex sentences, including concession ('Even so', 'although I wouldn't choose') and past perfect, mostly accurate. Pronunciation: the humorous aside about the live chicken implies a speaker who varies pace and intonation for effect, with natural chunking throughout, though not quite with the sophistication of band 8."
+    },
+    {
+      "band": 8,
+      "text": "The most crowded place I've ever been is Jakarta's main railway station two days before Eid, at the height of what we call mudik, the annual exodus when something like twenty million people leave the cities to spend the holiday in their home towns.\n\nI'd been warned about it, so I turned up a good three hours before my train, but even that felt optimistic. The concourse was a solid wall of people: grandparents perched on suitcases, toddlers asleep on rolled-up mats, and towers of cardboard boxes stuffed with gifts for relatives. At one point I found myself standing behind a man cradling a live rooster, which nobody else seemed to find remotely unusual.\n\nThe queue for the ticket check alone took the best part of an hour, and once I was through, there wasn't a seat to be had, so I camped out on my rucksack beside a family heading to Central Java. Within ten minutes the grandmother had pressed a bag of fried tempeh on me and was quizzing me about whether I was married yet, which says a lot about the mood in there.\n\nAnd that's really what stuck with me. On paper, it should have been miserable: it was stifling, deafening and frankly a little claustrophobic. Yet there was this collective sense of anticipation, everyone heading towards the people they'd been missing, that made it feel more like a festival than a transport hub. I wouldn't go out of my way to repeat it, but I'm glad I experienced it once.",
+      "commentary": "Fluency & Coherence: the talk is effortless, fully extended and cohesive, with an evaluative conclusion that ties the anecdote together. Lexical Resource: precise, idiomatic and evocative vocabulary ('annual exodus', 'a solid wall of people', 'the best part of an hour', 'stifling, deafening'), with humour used naturally. Grammatical Range & Accuracy: complex structures including appositives, participle clauses and modal perfects ('should have been miserable') are used flexibly and without error. Pronunciation: the build-up of descriptive lists and the contrast 'On paper... Yet...' imply skilful control of rhythm, pausing and stress to maintain the listener's interest."
+    }
+  ]
+}

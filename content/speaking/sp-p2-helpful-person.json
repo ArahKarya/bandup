@@ -1,0 +1,51 @@
+{
+  "id": "sp-p2-helpful-person",
+  "kind": "speaking_task",
+  "part": 2,
+  "topic": "A person who helped you",
+  "difficulty": 2,
+  "cueCard": {
+    "prompt": "Describe a time when someone helped you with a problem.",
+    "bullets": [
+      "who the person was",
+      "what the problem was",
+      "how they helped you"
+    ],
+    "closing": "and explain how you felt about the help you received."
+  },
+  "questions": [
+    "Do you often ask other people for help?",
+    "Have you ever helped a stranger?"
+  ],
+  "tips": [
+    "Choose a real, specific event. A small, concrete story is easier to describe for two minutes than a vague 'my mother always helps me'.",
+    "Tell it as a story: set the scene, describe the problem, then the turning point, then your feelings. Past simple and past continuous will carry most of it.",
+    "Spend time on the final 'explain' point; it is where you can show more abstract vocabulary about gratitude and relief."
+  ],
+  "usefulPhrases": [
+    "I'd like to talk about a time when...",
+    "I was in a bit of a fix because...",
+    "Out of nowhere, ...",
+    "She went out of her way to...",
+    "It was a huge weight off my shoulders.",
+    "Looking back, what struck me most was...",
+    "I'll never forget how..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "I want to talk about my neighbour, her name is Bu Sari. She is around fifty years old and she live next to my house since I was child.\n\nThe problem was about two years ago, when I was preparing for the university entrance test. I was very stressed because I was weak in mathematics, and the test is very important for my future. My parents cannot help me because they are not good in maths also, and the tutor is very expensive.\n\nSo Bu Sari, she is a retired maths teacher, she offer to help me. Every evening, um, I go to her house after dinner and she teach me for one or two hours. She give me many exercises and she explain again and again when I don't understand. She never get angry, she is very patient.\n\nAnd finally I passed the test and I got into the university that I want. I felt very happy and very thankful to her. I bring her some cake and flowers to say thank you. I think without her help maybe I cannot pass the test. So I felt very grateful, and, um, I also learn that, er, neighbours can be like family.",
+      "commentary": "Fluency & Coherence: the story is told in a logical order and covers all bullet points, but relies on 'and', 'so' and 'finally', with some fillers ('um', 'er'). Lexical Resource: adequate for the topic ('entrance test', 'retired', 'patient', 'grateful') but limited in range and occasionally repetitive ('very' throughout). Grammatical Range & Accuracy: frequent tense errors, especially missing past forms ('she offer', 'I go', 'I bring') and present perfect ('she live... since'), although meaning is always clear. Pronunciation: the topic-fronting ('So Bu Sari, she is...') and short clauses suggest the speaker pauses frequently between ideas, so delivery is understandable but not smoothly chunked."
+    },
+    {
+      "band": 7,
+      "text": "I'd like to talk about my neighbour, Bu Sari, who's lived next door to us for as long as I can remember. She's a retired maths teacher in her late fifties.\n\nThe problem came up about two years ago, when I was getting ready for the university entrance exam. Maths had always been my weakest subject, and I was getting really anxious because I needed a high score to get into the engineering programme I wanted. My parents couldn't help much, and private tutoring was way too expensive for us at the time.\n\nOne evening Bu Sari overheard me complaining to my mum, and the next day she just knocked on our door and offered to coach me for free. For about three months I went round to her house almost every night after dinner. What I appreciated most was her method: instead of just giving me answers, she made me explain my thinking out loud, so she could see exactly where I was going wrong.\n\nIn the end I passed comfortably and got onto the course. I felt enormously grateful, and also a bit embarrassed that I'd never really got to know her before. Since then we've become quite close, and I still pop round to see her whenever I'm home from university. It taught me that help sometimes comes from people you'd least expect.",
+      "commentary": "Fluency & Coherence: the candidate speaks at length with a clear narrative structure and appropriate linking ('One evening', 'In the end', 'Since then'). Lexical Resource: good range with some idiomatic usage ('for as long as I can remember', 'pop round', 'where I was going wrong'). Grammatical Range & Accuracy: a mix of past simple, past continuous, past perfect and a cleft sentence ('What I appreciated most was') with very few errors. Pronunciation: phrases such as 'instead of just giving me answers' suggest well-formed chunks and stress on key contrasts, although the ending is a little formulaic, which may flatten intonation."
+    },
+    {
+      "band": 8,
+      "text": "The person who springs to mind is our next-door neighbour, Bu Sari, a retired maths teacher who's been part of the furniture on our street for as long as I can remember, though, oddly enough, I'd barely spoken to her until this happened.\n\nIt was during the run-up to my university entrance exams. Maths had always been my Achilles heel, and I needed a fairly high score to get onto the engineering course I'd set my heart on. Tutoring centres were well beyond what my family could stretch to, and I'd more or less resigned myself to applying for something less competitive.\n\nThen one evening she must have overheard me venting to my mother through the kitchen window, because the following morning she turned up on our doorstep and offered to coach me, no strings attached. For the next three months I spent most evenings at her dining table. Her approach was what made the difference: rather than walking me through solutions, she'd make me talk through my reasoning aloud, so she could pinpoint exactly where my logic was falling apart. It was humbling at first, but my confidence grew week by week.\n\nWhen the results came out, I'd passed with room to spare. Beyond the obvious relief, I remember feeling slightly ashamed that I'd lived beside this remarkably generous woman for years without really knowing her. So it was a turning point in two senses: it got me onto my course, and it taught me not to underestimate the people right on my doorstep.",
+      "commentary": "Fluency & Coherence: a fully developed, coherent narrative with a reflective conclusion; ideas are linked naturally and the speaker never seems to search for words. Lexical Resource: wide, precise and idiomatic ('part of the furniture', 'Achilles heel', 'set my heart on', 'no strings attached', 'with room to spare') used naturally and appropriately. Grammatical Range & Accuracy: complex structures handled flexibly, including modal deduction ('she must have overheard'), past perfect and participle clauses, with no noticeable errors. Pronunciation: the parenthetical asides ('though, oddly enough,') imply confident control of pausing and intonation, and the balanced closing contrast suggests effective use of stress."
+    }
+  ]
+}

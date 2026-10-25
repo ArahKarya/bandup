@@ -1,0 +1,200 @@
+{
+  "id": "place-grammar",
+  "kind": "question_set",
+  "skill": "grammar",
+  "module": "both",
+  "title": "Placement Test: Grammar",
+  "difficulty": 2,
+  "minutes": 5,
+  "tags": ["placement", "grammar"],
+  "unlisted": true,
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "grammar",
+      "instructions": "Choose the correct option to complete each sentence. The questions get harder as you go.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "My brother ______ in a bank in the city centre.",
+          "options": [
+            { "key": "A", "text": "work" },
+            { "key": "B", "text": "works" },
+            { "key": "C", "text": "working" },
+            { "key": "D", "text": "is work" }
+          ],
+          "answer": "B",
+          "explanation": "A2. Present simple with he/she/it adds -s: works."
+        },
+        {
+          "n": 2,
+          "prompt": "We ______ to the beach last weekend.",
+          "options": [
+            { "key": "A", "text": "go" },
+            { "key": "B", "text": "have gone" },
+            { "key": "C", "text": "went" },
+            { "key": "D", "text": "were go" }
+          ],
+          "answer": "C",
+          "explanation": "A2. 'Last weekend' is a finished past time, so the past simple 'went' is used."
+        },
+        {
+          "n": 3,
+          "prompt": "There isn't ______ milk left in the fridge.",
+          "options": [
+            { "key": "A", "text": "many" },
+            { "key": "B", "text": "any" },
+            { "key": "C", "text": "some" },
+            { "key": "D", "text": "a" }
+          ],
+          "answer": "B",
+          "explanation": "A2. 'Any' is used in negative sentences with uncountable nouns."
+        },
+        {
+          "n": 4,
+          "prompt": "This exercise is ______ than the last one.",
+          "options": [
+            { "key": "A", "text": "more easy" },
+            { "key": "B", "text": "easyer" },
+            { "key": "C", "text": "easier" },
+            { "key": "D", "text": "most easy" }
+          ],
+          "answer": "C",
+          "explanation": "A2. Two-syllable adjectives ending in -y change to -ier: easier."
+        },
+        {
+          "n": 5,
+          "prompt": "I ______ in this city since 2019.",
+          "options": [
+            { "key": "A", "text": "live" },
+            { "key": "B", "text": "am living" },
+            { "key": "C", "text": "lived" },
+            { "key": "D", "text": "have lived" }
+          ],
+          "answer": "D",
+          "explanation": "B1. 'Since' + a past point up to now takes the present perfect."
+        },
+        {
+          "n": 6,
+          "prompt": "If it ______ tomorrow, we will cancel the picnic.",
+          "options": [
+            { "key": "A", "text": "rains" },
+            { "key": "B", "text": "will rain" },
+            { "key": "C", "text": "rained" },
+            { "key": "D", "text": "would rain" }
+          ],
+          "answer": "A",
+          "explanation": "B1. First conditional: if + present simple, will + verb."
+        },
+        {
+          "n": 7,
+          "prompt": "She was cooking dinner when the phone ______.",
+          "options": [
+            { "key": "A", "text": "was ringing" },
+            { "key": "B", "text": "rang" },
+            { "key": "C", "text": "rings" },
+            { "key": "D", "text": "has rung" }
+          ],
+          "answer": "B",
+          "explanation": "B1. A short action (past simple) interrupts a longer one (past continuous)."
+        },
+        {
+          "n": 8,
+          "prompt": "The man ______ car was stolen called the police.",
+          "options": [
+            { "key": "A", "text": "who" },
+            { "key": "B", "text": "which" },
+            { "key": "C", "text": "whose" },
+            { "key": "D", "text": "that" }
+          ],
+          "answer": "C",
+          "explanation": "B1. 'Whose' shows possession: the man's car."
+        },
+        {
+          "n": 9,
+          "prompt": "This bridge ______ in 1932 by a team of local engineers.",
+          "options": [
+            { "key": "A", "text": "built" },
+            { "key": "B", "text": "was built" },
+            { "key": "C", "text": "has built" },
+            { "key": "D", "text": "was building" }
+          ],
+          "answer": "B",
+          "explanation": "B1. The bridge receives the action ('by a team ...'), so the past simple passive is needed: was + past participle."
+        },
+        {
+          "n": 10,
+          "prompt": "I'm not used to ______ up so early.",
+          "options": [
+            { "key": "A", "text": "get" },
+            { "key": "B", "text": "getting" },
+            { "key": "C", "text": "got" },
+            { "key": "D", "text": "have got" }
+          ],
+          "answer": "B",
+          "explanation": "B2. In 'be used to', 'to' is a preposition, so it is followed by an -ing form."
+        },
+        {
+          "n": 11,
+          "prompt": "If I had known about the traffic, I ______ earlier.",
+          "options": [
+            { "key": "A", "text": "would leave" },
+            { "key": "B", "text": "had left" },
+            { "key": "C", "text": "would have left" },
+            { "key": "D", "text": "will leave" }
+          ],
+          "answer": "C",
+          "explanation": "B2. Third conditional: if + past perfect, would have + past participle."
+        },
+        {
+          "n": 12,
+          "prompt": "______ the heavy rain, the match went ahead as planned.",
+          "options": [
+            { "key": "A", "text": "Although" },
+            { "key": "B", "text": "Despite" },
+            { "key": "C", "text": "Even though" },
+            { "key": "D", "text": "However" }
+          ],
+          "answer": "B",
+          "explanation": "B2. 'Despite' is followed by a noun phrase. 'Although' and 'even though' need a clause with a verb."
+        },
+        {
+          "n": 13,
+          "prompt": "By the time we arrived at the cinema, the film ______.",
+          "options": [
+            { "key": "A", "text": "already started" },
+            { "key": "B", "text": "has already started" },
+            { "key": "C", "text": "had already started" },
+            { "key": "D", "text": "was already starting" }
+          ],
+          "answer": "C",
+          "explanation": "B2. The past perfect shows that one past event happened before another (arrived)."
+        },
+        {
+          "n": 14,
+          "prompt": "Not until the results were published ______ how serious the problem was.",
+          "options": [
+            { "key": "A", "text": "people realised" },
+            { "key": "B", "text": "did people realise" },
+            { "key": "C", "text": "people did realise" },
+            { "key": "D", "text": "realised people" }
+          ],
+          "answer": "B",
+          "explanation": "C1. After a negative expression such as 'Not until ...' at the start of a sentence, the subject and auxiliary are inverted: did people realise."
+        },
+        {
+          "n": 15,
+          "prompt": "It is essential that every applicant ______ a copy of their passport.",
+          "options": [
+            { "key": "A", "text": "submits to" },
+            { "key": "B", "text": "submit" },
+            { "key": "C", "text": "will submit" },
+            { "key": "D", "text": "submitting" }
+          ],
+          "answer": "B",
+          "explanation": "C1. After 'It is essential/vital/important that ...', formal English uses the subjunctive: the base form of the verb, with no -s."
+        }
+      ]
+    }
+  ]
+}

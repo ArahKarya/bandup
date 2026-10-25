@@ -1,0 +1,27 @@
+{
+  "id": "mock-academic-2",
+  "kind": "mock_test",
+  "module": "academic",
+  "title": "Academic Mock Test 2",
+  "description": "A complete Academic IELTS test: hiring bicycles, a festival radio preview, a student food-waste survey and a lecture on bird migration; reading on refrigeration, microplastics in soil and AI exam marking; a rainwater process diagram and an essay on learning skills; speaking on handwriting and waiting.",
+  "listening": [
+    "m2-l1",
+    "m2-l2",
+    "m2-l3",
+    "m2-l4"
+  ],
+  "reading": [
+    "m2-r1",
+    "m2-r2",
+    "m2-r3"
+  ],
+  "writing": [
+    "m2-w1",
+    "m2-w2"
+  ],
+  "speaking": [
+    "m2-s1",
+    "m2-s2",
+    "m2-s3"
+  ]
+}

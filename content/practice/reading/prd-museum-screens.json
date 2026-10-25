@@ -1,0 +1,143 @@
+{
+  "id": "prd-museum-screens",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "Looking at Art Through a Screen",
+  "difficulty": 3,
+  "minutes": 20,
+  "tags": ["arts", "technology", "culture"],
+  "passage": {
+    "title": "Looking at Art Through a Screen",
+    "subtitle": "Museums are embracing digital technology. Are visitors seeing more, or less?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Walk into almost any major art museum today and you will see visitors standing in front of famous paintings with their phones raised, photographing a work they could find online in far higher resolution within seconds. Curators once regarded such behaviour with irritation, and many galleries banned cameras outright. In the past fifteen years, however, most have reversed their policies. Photography is now widely permitted, and museums compete to offer interactive screens, audio guides delivered through apps and immersive rooms in which images are projected across walls and floors."
+      },
+      {
+        "label": "B",
+        "text": "The reasons for this change are partly financial. Many museums depend on visitor numbers to justify public funding, and younger audiences, who have grown up with screens, are less likely to visit a gallery that feels silent and restrictive. Images shared on social media also act as free advertising: a single striking photograph of an installation can attract thousands of new visitors. For institutions whose budgets have been squeezed, this is not a trivial consideration."
+      },
+      {
+        "label": "C",
+        "text": "Yet there are reasons to wonder what visitors actually take away. Studies of museum behaviour have consistently found that people spend remarkably little time in front of individual works, often less than thirty seconds, and the arrival of the camera phone does not appear to have increased this figure. In one experiment, participants on a guided tour were asked to photograph some objects and simply observe others. The following day, they remembered fewer details about the objects they had photographed, as if the act of taking the picture had allowed them to hand responsibility for remembering to the device. Psychologists sometimes describe this as cognitive offloading."
+      },
+      {
+        "label": "D",
+        "text": "Interestingly, the same research suggests that the effect depends on how the camera is used. When participants were told to zoom in on a particular detail of an object before photographing it, their memory of that detail, and even of the object as a whole, was as good as if they had not used a camera at all. The difference seems to lie in attention. A photograph taken in passing replaces looking; a photograph taken deliberately can be a form of looking."
+      },
+      {
+        "label": "E",
+        "text": "Immersive exhibitions raise a different question. In these shows, which have proved enormously popular, the works of a well-known painter are enlarged, animated and set to music in a darkened hall. Supporters argue that they introduce art to people who would never enter a traditional gallery, and that some of those visitors go on to seek out original works. Critics reply that the experience has more in common with entertainment than with art appreciation, since the texture of the paint, the scale chosen by the artist and the effect of natural light are all lost. There is, as yet, little reliable evidence about whether immersive shows really lead audiences towards the originals."
+      },
+      {
+        "label": "F",
+        "text": "Some museums have tried to steer a middle course. A number of galleries now run 'slow looking' sessions, in which small groups spend an hour in front of a single painting, guided by questions rather than information. Participants frequently report noticing features they had overlooked on many previous visits. Others have designed apps that, instead of supplying facts, prompt visitors to look for particular colours or shapes and then put the phone away. The aim is to use technology to direct attention towards the object rather than away from it."
+      },
+      {
+        "label": "G",
+        "text": "Ultimately, the screen is neither the enemy of art nor its saviour. It is a tool, and like any tool its value depends on the purpose it serves. A museum that measures success purely by attendance or online engagement may achieve impressive numbers without ever giving its visitors the experience of truly seeing a work. The more difficult and more valuable task is to help people look more carefully, whether or not a phone is in their hand."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_sentence_endings",
+      "instructions": "Complete each sentence with the correct ending, A–I, below.",
+      "options": [
+        { "key": "A", "text": "can attract large numbers of new visitors at no cost." },
+        { "key": "B", "text": "has not led people to spend longer looking at each work." },
+        { "key": "C", "text": "may weaken people's memory of what they have seen." },
+        { "key": "D", "text": "need not harm memory if it involves close attention." },
+        { "key": "E", "text": "remove important physical qualities of the original works." },
+        { "key": "F", "text": "help visitors notice things they had previously missed." },
+        { "key": "G", "text": "were introduced to protect paintings from damage." },
+        { "key": "H", "text": "have been proven to increase visits to traditional galleries." },
+        { "key": "I", "text": "is the best way for a museum to judge its success." }
+      ],
+      "allowReuse": false,
+      "questions": [
+        { "n": 1, "prompt": "A single photograph posted on social media", "answer": "A", "evidence": "B", "explanation": "A striking photograph 'can attract thousands of new visitors' and acts as 'free advertising'." },
+        { "n": 2, "prompt": "The widespread use of camera phones in galleries", "answer": "B", "evidence": "C", "explanation": "The arrival of the camera phone 'does not appear to have increased' the time spent in front of works." },
+        { "n": 3, "prompt": "Photographing an object without thinking about it", "answer": "C", "evidence": "C", "explanation": "Participants remembered fewer details about objects they had photographed." },
+        { "n": 4, "prompt": "Taking a photograph of a carefully chosen detail", "answer": "D", "evidence": "D", "explanation": "Zooming in on a detail left memory 'as good as if they had not used a camera at all'." },
+        { "n": 5, "prompt": "According to critics, immersive exhibitions", "answer": "E", "evidence": "E", "explanation": "Critics say 'the texture of the paint, the scale ... and the effect of natural light are all lost'." },
+        { "n": 6, "prompt": "Slow looking sessions often", "answer": "F", "evidence": "F", "explanation": "Participants 'report noticing features they had overlooked on many previous visits'." }
+      ]
+    },
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "n": 7,
+          "prompt": "According to paragraph A, how have most museums changed in the past fifteen years?",
+          "options": [
+            { "key": "A", "text": "They have started charging visitors for photographs." },
+            { "key": "B", "text": "They have removed famous paintings from display." },
+            { "key": "C", "text": "They have begun to allow photography." },
+            { "key": "D", "text": "They have replaced audio guides with printed material." }
+          ],
+          "answer": "C",
+          "evidence": "A",
+          "explanation": "Most museums 'have reversed their policies. Photography is now widely permitted.'"
+        },
+        {
+          "n": 8,
+          "prompt": "What does the writer suggest about the financial reasons described in paragraph B?",
+          "options": [
+            { "key": "A", "text": "They are an important factor for many museums." },
+            { "key": "B", "text": "They are less important than artistic reasons." },
+            { "key": "C", "text": "They mainly affect private museums." },
+            { "key": "D", "text": "They have been exaggerated by critics." }
+          ],
+          "answer": "A",
+          "evidence": "B",
+          "explanation": "For museums with squeezed budgets, 'this is not a trivial consideration'."
+        },
+        {
+          "n": 9,
+          "prompt": "The term 'cognitive offloading' in paragraph C refers to",
+          "options": [
+            { "key": "A", "text": "visitors becoming tired after looking at many objects." },
+            { "key": "B", "text": "people relying on a device to remember for them." },
+            { "key": "C", "text": "guides giving visitors too much information." },
+            { "key": "D", "text": "museums storing images of their collections online." }
+          ],
+          "answer": "B",
+          "evidence": "C",
+          "explanation": "Taking the picture allowed people 'to hand responsibility for remembering to the device'."
+        },
+        {
+          "n": 10,
+          "prompt": "What does the writer say about the evidence on immersive exhibitions?",
+          "options": [
+            { "key": "A", "text": "It shows they are more popular with older visitors." },
+            { "key": "B", "text": "It proves that they damage interest in original art." },
+            { "key": "C", "text": "It supports the views of their critics." },
+            { "key": "D", "text": "It is not yet sufficient to reach a conclusion." }
+          ],
+          "answer": "D",
+          "evidence": "E",
+          "explanation": "'There is, as yet, little reliable evidence about whether immersive shows really lead audiences towards the originals.'"
+        },
+        {
+          "n": 11,
+          "prompt": "What is the writer's main conclusion?",
+          "options": [
+            { "key": "A", "text": "Museums should ban phones to protect the visitor experience." },
+            { "key": "B", "text": "Technology is useful only if it helps people look more closely." },
+            { "key": "C", "text": "Online engagement is the most reliable sign of a museum's success." },
+            { "key": "D", "text": "Immersive exhibitions will eventually replace traditional galleries." }
+          ],
+          "answer": "B",
+          "evidence": "G",
+          "explanation": "The screen is 'a tool', and the valuable task is 'to help people look more carefully'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "pls-p4-sleep-and-memory",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 4,
+  "title": "Sleep and Memory",
+  "difficulty": 3,
+  "minutes": 11,
+  "tags": [
+    "psychology",
+    "science",
+    "lecture"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Morning, everyone. Today we're turning to one of the most active areas in cognitive psychology: the relationship between sleep and memory. I'll begin with a little history, then look at some key experiments, then at what happens in the brain, and I'll finish with some practical advice, which, given that exams are coming up, you may find useful."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "For most of the twentieth century, sleep wasn't thought to be very interesting. Some researchers believed it existed mainly to save energy, but the dominant view was simpler than that. Sleep was seen as a passive state, a period when the brain more or less switched off and rested. The idea that memories might actually fade during sleep was proposed too, but it never gained much support."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "That view began to change with experiments like this one. Participants learned a list of word pairs, for example 'ocean' and 'chair', and were then tested twelve hours later. Half of them learned in the morning and stayed awake all day; the other half learned in the evening and slept. When they were tested, the sleep group remembered significantly more of the word pairs. Interestingly, they weren't any faster at answering, and when both groups were given new pairs to learn, there was no difference in how quickly they learned them. The benefit was specifically in recall."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Animal studies have helped to explain why. Researchers recorded the activity of individual brain cells in rats as they ran through a maze. Then they recorded the same cells while the rats slept. Remarkably, the cells fired in the same sequence as during the maze run, as if the brain was replaying the experience. This doesn't tell us whether rats dream, and it says nothing about how much sleep they need compared with us, but it does strongly suggest that the sleeping brain rehearses what it has learned."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "What about naps? People often ask me if they're worthwhile. The evidence suggests that even a short nap, of twenty to thirty minutes, can improve recall of material learned earlier that day. Longer naps that include deep sleep may help more, but they can leave you feeling groggy, and they're certainly not the only kind that works."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "So, let's look at what's happening in the brain. Sleep is divided into stages. The deepest stage is called slow-wave sleep. During this stage, it appears that new memories, which are first stored in a small structure called the hippocampus, are gradually transferred to the cortex, where they can be stored for the long term. You can think of the hippocampus as a kind of temporary inbox."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "During lighter stages of sleep, we also see what are called sleep spindles. These are brief bursts of activity, lasting only a second or two, and people who produce more of them tend to perform better on memory tests the next day."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Then there's REM sleep, the stage in which most vivid dreaming happens. Its role is less clear, but there's growing evidence that REM sleep is particularly important for emotional memories. It may help us keep the content of an upsetting experience while reducing the strong feelings attached to it."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "What happens when we don't sleep? In one study, people who had been kept awake all night were asked to learn new material the next day. Compared with a rested group, their ability to form new memories was reduced by up to forty per cent. So staying up all night before an exam is about the worst thing you can do."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Which brings me to the practical advice. First, rather than cramming everything into one long session, spread your revision over several days. Psychologists call this spaced practice, or sometimes distributed practice, and it gives your brain several nights of sleep to consolidate the material."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Second, protect the quality of your sleep. Many students know that caffeine late in the day is a bad idea. Fewer realise that alcohol is just as harmful. It might help you fall asleep, but it greatly reduces the amount of deep sleep you get later in the night, which is exactly when memories are being consolidated."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "In next week's lecture, we'll look at what happens to memory in people with sleep disorders, such as insomnia. Thanks, everyone."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "For most of the twentieth century, the dominant view was that sleep was",
+          "options": [
+            {
+              "key": "A",
+              "text": "a passive state of rest."
+            },
+            {
+              "key": "B",
+              "text": "mainly a way of saving energy."
+            },
+            {
+              "key": "C",
+              "text": "a time when memories fade."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 2",
+          "explanation": "Energy-saving was held by some, and memory fading never gained support; the dominant view was a passive rest state."
+        },
+        {
+          "n": 2,
+          "prompt": "In the word-pair experiment, participants who slept",
+          "options": [
+            {
+              "key": "A",
+              "text": "recalled more word pairs."
+            },
+            {
+              "key": "B",
+              "text": "learned new pairs more quickly."
+            },
+            {
+              "key": "C",
+              "text": "answered the test more quickly."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 3",
+          "explanation": "They were not faster and did not learn new pairs more quickly; the benefit was in recall."
+        },
+        {
+          "n": 3,
+          "prompt": "The lecturer describes the study of rats in a maze to show that",
+          "options": [
+            {
+              "key": "A",
+              "text": "the brain may replay experiences during sleep."
+            },
+            {
+              "key": "B",
+              "text": "rats need more sleep than humans."
+            },
+            {
+              "key": "C",
+              "text": "animals dream about recent events."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 4",
+          "explanation": "She says it says nothing about dreaming or sleep need, but suggests the brain rehearses what it learned."
+        },
+        {
+          "n": 4,
+          "prompt": "What does the lecturer say about naps?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They have little effect on memory."
+            },
+            {
+              "key": "B",
+              "text": "Even short naps can improve recall."
+            },
+            {
+              "key": "C",
+              "text": "Only naps that include deep sleep are helpful."
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 5",
+          "explanation": "A 20–30 minute nap can improve recall; longer naps are not the only kind that works."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Sleep and memory: what happens in the brain**\n\n- Slow-wave sleep: new memories move from the {{5}} to the cortex\n- Sleep {{6}}: short bursts of activity linked to better memory\n- REM sleep: may be important for {{7}} memories\n- After a night without sleep, ability to form new memories falls by up to {{8}}%\n\n**Advice for students**\n- Use {{9}} practice: spread revision over several days\n- Avoid caffeine and {{10}}, which reduce deep sleep",
+      "questions": [
+        {
+          "n": 5,
+          "answers": [
+            "hippocampus"
+          ],
+          "evidence": "line 6",
+          "explanation": "Memories are first stored in the hippocampus, then transferred to the cortex."
+        },
+        {
+          "n": 6,
+          "answers": [
+            "spindles",
+            "spindle"
+          ],
+          "evidence": "line 7",
+          "explanation": "Sleep spindles are brief bursts lasting a second or two."
+        },
+        {
+          "n": 7,
+          "answers": [
+            "emotional"
+          ],
+          "evidence": "line 8",
+          "explanation": "REM sleep seems particularly important for emotional memories."
+        },
+        {
+          "n": 8,
+          "answers": [
+            "40",
+            "forty"
+          ],
+          "evidence": "line 9",
+          "explanation": "The ability was reduced by up to forty per cent."
+        },
+        {
+          "n": 9,
+          "answers": [
+            "spaced",
+            "distributed"
+          ],
+          "evidence": "line 10",
+          "explanation": "This is called spaced, or distributed, practice."
+        },
+        {
+          "n": 10,
+          "answers": [
+            "alcohol"
+          ],
+          "evidence": "line 11",
+          "explanation": "Alcohol greatly reduces deep sleep later in the night."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "sp-p3-helping-others",
+  "kind": "speaking_task",
+  "part": 3,
+  "topic": "Helping others and community",
+  "difficulty": 3,
+  "questions": [
+    "Why do some people find it difficult to ask for help?",
+    "Are people today less willing to help strangers than in the past?",
+    "Should schools teach children to volunteer in their community?",
+    "Is it the government's responsibility or individuals' responsibility to help people in need?",
+    "How has technology changed the way people help each other?",
+    "Do you think people help others mainly for selfish reasons?"
+  ],
+  "tips": [
+    "Part 3 asks for opinions on society, not personal stories. Use 'people', 'society', 'in my country' and generalise, then support with a brief example.",
+    "Structure longer answers: opinion, reason, example, and if possible a qualification ('That said...').",
+    "It is fine to say a question is complicated, but then commit to a view so your answer has direction."
+  ],
+  "usefulPhrases": [
+    "I'd argue that...",
+    "It largely comes down to...",
+    "There's a lot of stigma attached to...",
+    "On the one hand..., but on the other...",
+    "That said, it's not entirely clear-cut.",
+    "A good case in point is...",
+    "It's a bit of a grey area.",
+    "Ultimately, I think..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Why do some people find it difficult to ask for help?]\nI think because they are shy or they feel embarrassed. Some people think if they ask for help, other people will think they are weak or they cannot do anything by themself. Especially men, in my country men usually don't want to ask help because they want to look strong.\n\n[Are people today less willing to help strangers than in the past?]\nYes, I think so. In the past people live in small village and everyone know each other, so they help each other. But now in big city, people are busy and they don't know their neighbour. Also, there is many crime, so people are afraid to help stranger because maybe it is a trick.\n\n[Should schools teach children to volunteer?]\nYes, I agree. Because children can learn to care about other people, not only about themselves. For example, the school can bring the students to clean the beach or visit old people house.",
+      "commentary": "Fluency & Coherence: the candidate gives relevant opinions with reasons and examples, but ideas are linked simply ('because', 'also', 'so') and development is limited. Lexical Resource: adequate for abstract discussion ('embarrassed', 'crime', 'a trick'), but range is narrow and some forms are wrong ('by themself', 'old people house'). Grammatical Range & Accuracy: conditional and comparative structures are attempted, but tense and agreement errors are frequent ('people live', 'everyone know', 'there is many crime'). Pronunciation: the 'I think' and 'Yes, I agree' openings suggest a set pattern; delivery is probably intelligible but flat, with limited chunking of complex ideas."
+    },
+    {
+      "band": 7,
+      "text": "[Why do some people find it difficult to ask for help?]\nI think it's largely about pride and how people want to be seen. In a lot of cultures, including mine, there's a sense that needing help means you've failed in some way, so people would rather struggle on their own. This is especially true for men, who are often brought up to believe they should be self-reliant.\n\n[Are people today less willing to help strangers than in the past?]\nTo some extent, yes, but I'm not sure it's because people are less kind. It's more that city life has made people more cautious. If you grew up in a village, the 'stranger' was usually someone's cousin, whereas in a big city you genuinely don't know who you're dealing with, and there are stories about scams that use fake emergencies. So people hesitate, even if they'd like to help.\n\n[How has technology changed the way people help each other?]\nIn many ways it's made helping much easier. Crowdfunding platforms mean someone with a medical emergency can raise money from thousands of people in a few days, which wasn't possible before. On the other hand, it can make helping a bit impersonal; clicking 'donate' isn't quite the same as actually being there for someone.",
+      "commentary": "Fluency & Coherence: answers are extended and logically developed, with qualifications ('To some extent, yes, but...') and contrast ('On the other hand'). Lexical Resource: a good range of abstract vocabulary ('self-reliant', 'cautious', 'crowdfunding', 'impersonal') used appropriately, with some collocational flexibility. Grammatical Range & Accuracy: complex sentences, conditionals and comparisons with 'whereas' are mostly accurate. Pronunciation: the use of hedging and the quoted term 'the stranger' suggest varied intonation and appropriate chunking, although sustained abstract argument is slightly less nuanced than at band 8."
+    },
+    {
+      "band": 8,
+      "text": "[Is it the government's responsibility or individuals' responsibility to help people in need?]\nI don't think it has to be one or the other. The state is really the only actor with the scale to provide a safety net, things like healthcare, unemployment support and disaster relief, and it would be unrealistic to leave that to goodwill. But there's a whole layer of need that bureaucracies are notoriously bad at spotting, like an elderly neighbour who's quietly become isolated. That's where individuals and community groups come in, because they're close enough to notice.\n\n[Do you think people help others mainly for selfish reasons?]\nThere's certainly an element of self-interest. People get a sense of satisfaction from helping, and some charitable giving is clearly about reputation. But I'm not convinced that makes it selfish in any meaningful sense. If a motive happens to make the helper feel good, that doesn't cancel out the benefit to the person being helped. And there are plenty of cases, anonymous donors, for instance, where it's hard to see what the giver gains at all.\n\n[Should schools teach children to volunteer in their community?]\nI'd support it, provided it isn't just a box-ticking exercise. Compulsory volunteering can backfire if students see it as a chore, so it works best when they have some say in the cause they choose.",
+      "commentary": "Fluency & Coherence: the candidate develops complex arguments fluently, balancing positions and drawing clear conclusions, with no evident searching for language. Lexical Resource: wide-ranging and precise ('safety net', 'notoriously bad at spotting', 'cancel out', 'box-ticking exercise', 'backfire') used naturally. Grammatical Range & Accuracy: sophisticated structures, such as conditional clauses with 'provided', embedded clauses and appositive examples, are produced accurately. Pronunciation: inserted examples ('anonymous donors, for instance,') and contrastive phrasing imply skilled control of pausing and intonation, so the argument would be easy to follow."
+    }
+  ]
+}

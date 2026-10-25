@@ -1,0 +1,71 @@
+{
+  "id": "prd-four-day-week",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "Testing the Four-Day Week",
+  "difficulty": 2,
+  "minutes": 20,
+  "tags": ["business", "work", "society"],
+  "passage": {
+    "title": "Testing the Four-Day Week",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The idea that people might work fewer hours for the same pay is not new. Economists in the early twentieth century predicted that rising productivity would eventually give workers a fifteen-hour week. That prediction has not come true, but interest in a shorter working week has grown sharply in recent years. In one national trial, seventy-two companies of various sizes agreed to reduce their employees' hours by around twenty per cent for six months without cutting salaries. In return, staff were expected to maintain the same level of output. A team of university researchers monitored the trial, using monthly questionnaires to measure employee wellbeing and collecting financial data from each firm."
+      },
+      {
+        "label": "B",
+        "text": "The way companies organised the shorter week varied considerably. At Brightline, a small design agency, the solution was straightforward: the whole office simply closed on Fridays. Clients were told in advance and an emergency phone line was staffed on a rota. The managing director admitted she had feared losing business, but in practice clients barely noticed. The most visible change was in absence; over the six months, staff took noticeably fewer sick days than in the same period of the previous year."
+      },
+      {
+        "label": "C",
+        "text": "For a business that must operate every day, closing one day a week was not an option. Harwell, a logistics company running a large warehouse, divided its workforce into two alternating teams so that the site remained open from Monday to Saturday while each employee worked four days. The early weeks were difficult. Productivity fell by about eight per cent during the first month as staff adjusted to new shift patterns and handovers between teams caused delays. To reduce wasted time, the company introduced a scheduling app that allowed workers to swap shifts and see which orders were waiting. By the end of the trial, output had returned to its previous level."
+      },
+      {
+        "label": "D",
+        "text": "Corvane, a software company, focused instead on the way time was used within the working day. Managers had long suspected that meetings consumed hours that could be spent on more productive work. During the trial, meetings were limited to thirty minutes and could only be called if an agenda had been circulated beforehand. Employees were also encouraged to set aside two-hour blocks in which they would not answer messages. Several engineers said this was the first time in years they had been able to concentrate on a single problem without interruption."
+      },
+      {
+        "label": "E",
+        "text": "Not every group of workers benefited equally. The researchers found that customer service staff found it hardest to adapt, because their workload depended on the number of calls and emails received rather than on how efficiently they worked. In several firms, these employees reported higher stress levels during the trial, since they had to deal with the same volume of enquiries in fewer hours. Some companies responded by recruiting additional part-time staff, which raised costs and reduced the financial benefit of the scheme."
+      },
+      {
+        "label": "F",
+        "text": "Overall, however, the results were encouraging for supporters of the idea. Revenue across the participating companies remained broadly stable, and the questionnaires showed clear falls in reported exhaustion. Staff turnover also dropped, which saved firms the considerable expense of recruiting and training replacements. At the end of the six months, around 90 per cent of the companies decided to continue with the shorter week, and a few made the change permanent. The researchers cautioned that firms which volunteer for such trials may be unusually well suited to them, so the findings may not apply equally to every industry."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "table_completion",
+      "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "template": "| Company | Type of business | How the shorter week was organised | Result |\n|---|---|---|---|\n| Brightline | {{1}} agency | The office closed on {{2}} | Staff took fewer {{3}} days |\n| Harwell | logistics | Workers were divided into {{4}} | Productivity fell by about {{5}} per cent in the first month |\n| Corvane | software | Meetings were limited to {{6}} minutes | Engineers could concentrate without interruption |",
+      "questions": [
+        { "n": 1, "answers": ["design"], "evidence": "B", "explanation": "Brightline is 'a small design agency'." },
+        { "n": 2, "answers": ["Fridays", "Friday"], "evidence": "B", "explanation": "'the whole office simply closed on Fridays'." },
+        { "n": 3, "answers": ["sick"], "evidence": "B", "explanation": "'staff took noticeably fewer sick days'." },
+        { "n": 4, "answers": ["alternating teams", "two teams", "teams"], "evidence": "C", "explanation": "Harwell 'divided its workforce into two alternating teams'." },
+        { "n": 5, "answers": ["8", "eight"], "evidence": "C", "explanation": "'Productivity fell by about eight per cent during the first month'." },
+        { "n": 6, "answers": ["30", "thirty"], "evidence": "D", "explanation": "'meetings were limited to thirty minutes'." }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "short_answer",
+      "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+      "maxWords": 3,
+      "allowNumber": true,
+      "questions": [
+        { "n": 7, "prompt": "How many companies took part in the national trial? {{7}}", "answers": ["72", "seventy-two", "seventy two"], "evidence": "A", "explanation": "'seventy-two companies of various sizes agreed to reduce their employees' hours'." },
+        { "n": 8, "prompt": "What did the researchers use to measure how employees felt? {{8}}", "answers": ["monthly questionnaires", "questionnaires"], "evidence": "A", "explanation": "The team used 'monthly questionnaires to measure employee wellbeing'." },
+        { "n": 9, "prompt": "What did Harwell introduce to reduce wasted time? {{9}}", "answers": ["a scheduling app", "scheduling app"], "evidence": "C", "explanation": "'the company introduced a scheduling app that allowed workers to swap shifts'." },
+        { "n": 10, "prompt": "Which group of workers found the change hardest? {{10}}", "answers": ["customer service staff", "customer service"], "evidence": "E", "explanation": "'customer service staff found it hardest to adapt'." },
+        { "n": 11, "prompt": "What percentage of companies decided to continue with the shorter week? {{11}}", "answers": ["90", "90%", "90 per cent", "90 percent", "ninety per cent", "ninety percent"], "evidence": "F", "explanation": "'around 90 per cent of the companies decided to continue with the shorter week'." }
+      ]
+    }
+  ]
+}

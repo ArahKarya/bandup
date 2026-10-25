@@ -1,0 +1,46 @@
+{
+  "id": "sp-p1-hometown",
+  "kind": "speaking_task",
+  "part": 1,
+  "topic": "Hometown",
+  "difficulty": 1,
+  "questions": [
+    "Where is your hometown?",
+    "What do you like most about your hometown?",
+    "Has your hometown changed much since you were a child?",
+    "Is your hometown a good place for young people to live?",
+    "Would you like to live there in the future?",
+    "What do visitors usually do in your hometown?"
+  ],
+  "tips": [
+    "Give a direct answer first, then add one reason and one example. Two to four sentences is enough in Part 1.",
+    "Avoid memorised descriptions of your city. Examiners notice rehearsed language and the change in rhythm.",
+    "When talking about change, contrast past and present tenses clearly: 'used to', 'these days', 'has become'."
+  ],
+  "usefulPhrases": [
+    "I'm originally from..., which is a fairly small town about two hours from...",
+    "What I appreciate most is...",
+    "It's changed almost beyond recognition.",
+    "There's not a great deal to do in the evenings, to be honest.",
+    "It's the kind of place where everyone knows everyone.",
+    "If I'm being realistic, I'd probably...",
+    "Most visitors tend to head straight for..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Where is your hometown?]\nMy hometown is Bandar Lampung, it is in the south of Sumatra island. It is a quite big city, near to the sea, and, um, it is the gate from Java to Sumatra.\n\n[What do you like most about your hometown?]\nI like the food very much. There are many food, like seafood and also the coffee, because Lampung is famous with coffee. And I like the beach also, the beach is very beautiful and not so expensive to go there.\n\n[Has your hometown changed much since you were a child?]\nYes, it change a lot. Before, there is not many mall and the road is small. Now there are many mall and the toll road is already built, so it is more easy to go to other city. But the traffic is more bad now, especially in the morning.",
+      "commentary": "Fluency & Coherence: answers are relevant and extended, but rely on simple linking ('and', 'also', 'but') and the same 'it is' pattern is repeated. Lexical Resource: adequate for familiar topics, with some useful items ('toll road', 'gate from Java to Sumatra'), but collocation errors such as 'famous with' and 'more bad' appear. Grammatical Range & Accuracy: mostly simple sentences; tense and plural errors ('it change', 'there is not many mall') are frequent though meaning stays clear. Pronunciation: the short, evenly segmented clauses and the filler 'um' suggest generally intelligible speech with limited use of chunking and stress for emphasis."
+    },
+    {
+      "band": 7,
+      "text": "[Where is your hometown?]\nI'm from Bandar Lampung, which is on the southern tip of Sumatra. It's a port city, so it's the first place you arrive if you take the ferry over from Java.\n\n[What do you like most about your hometown?]\nProbably the fact that you've got the sea and the hills so close together. You can be on a beach in the morning and up in the hills drinking local coffee by the afternoon. Lampung is actually one of the biggest coffee-growing regions in the country, so the coffee there is really good and surprisingly cheap.\n\n[Has your hometown changed much since you were a child?]\nQuite a lot, yes. When I was little it felt like a big town rather than a city, but over the last ten years or so they've built a toll road and several shopping centres, so it's become much busier. The downside is that the traffic has got noticeably worse, especially during the school run.",
+      "commentary": "Fluency & Coherence: answers are extended easily, with clear progression and natural discourse markers ('Probably the fact that', 'The downside is'). Lexical Resource: good range of less common, idiomatic items ('southern tip', 'the school run', 'coffee-growing regions') used appropriately. Grammatical Range & Accuracy: a mix of relative clauses, conditionals and present perfect ('it's become', 'has got noticeably worse') with only minor slips. Pronunciation: phrasing falls into natural chunks ('over the last ten years or so'), and contracted forms indicate connected speech, though contrastive stress is less evident than at higher bands."
+    },
+    {
+      "band": 8,
+      "text": "[What do you like most about your hometown?]\nI think it's the contrast. Bandar Lampung is squeezed between the sea and a ring of hills, so within half an hour you can go from a fishing harbour to a coffee plantation. And because the region grows so much robusta, a decent cup of coffee costs next to nothing, which I've only really come to appreciate since moving away.\n\n[Has your hometown changed much since you were a child?]\nAlmost beyond recognition, in some areas. The trans-Sumatra toll road has transformed it from a sleepy transit point into a proper commercial hub. That's been great for jobs, but the old waterfront where my grandfather used to buy fish has largely been swallowed up by development, which is a bit of a shame.\n\n[Is your hometown a good place for young people to live?]\nIt's getting there. A few years ago, anyone ambitious would have left for Jakarta straight after school, but now there are start-ups and a couple of decent universities, so people don't feel quite as obliged to leave.",
+      "commentary": "Fluency & Coherence: responses are fully developed, flowing logically with no sign of searching for language; each answer builds from a direct response to a nuanced point. Lexical Resource: precise and idiomatic vocabulary used naturally ('beyond recognition', 'swallowed up by development', 'next to nothing', 'sleepy transit point'). Grammatical Range & Accuracy: wide range, including past conditionals ('would have left'), passives and relative clauses, with no noticeable errors. Pronunciation: the rhythm of the transcript implies effective chunking and contrastive stress ('great for jobs, but...'), sustaining listener ease throughout."
+    }
+  ]
+}

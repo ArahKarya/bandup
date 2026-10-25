@@ -1,0 +1,131 @@
+{
+  "id": "g1-l2",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 2,
+  "title": "Volunteer Orientation at a Botanic Garden",
+  "difficulty": 2,
+  "minutes": 8,
+  "tags": ["volunteering", "community"],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "Good morning, everyone, and welcome to Ashford Botanic Gardens. My name's Helen Cartwright, and I coordinate the volunteer programme here. First of all, thank you for giving up your Saturday morning. We've got about forty-five minutes together, and after that my colleague Raj will take you on a tour of the glasshouses." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "So, a little background first. The gardens were created in 1874, originally as a private collection belonging to a local wool merchant. They stayed private for nearly fifty years, until 1921, when his family gave them to the town and the gates were opened to the public. The glasshouses you'll see later were rebuilt in 1947 after a storm destroyed the originals. These days we get around two hundred thousand visitors a year, and we have just eleven paid staff. So honestly, without our volunteers, and there are about a hundred and thirty of you now, we simply couldn't keep the place running." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "Now, some practical matters. Every volunteer gets an ID badge, which you must wear whenever you're on site. You'll collect yours today from the visitor centre. Some of the paperwork you were sent says the main office, but I'm afraid that's out of date. The office has moved, and badges are now handed out at the visitor centre." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "Parking. Lots of you have asked about this. Volunteers can't use the main visitor car park at weekends, because it fills up so quickly, but there's a small staff car park behind the plant nursery and you're very welcome to use that. It's free, but you do need to display a permit in your windscreen, and you'll get that with your badge. Of course, if you can come by bus, even better. The number thirty-four stops right at the north gate." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "Training. Everyone does a two-hour safety session in their first month. After that, what you do depends on the role you choose. Some roles need extra training, while others you can simply learn on the job. I'll come back to that in a moment." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "Hours. We ask for a minimum of one half-day shift every fortnight. A few people have asked whether they can do more, and yes, of course you can, but please don't sign up for more than three shifts a week. We've found that people get tired, and then the quality of the work goes down." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "Breaks. There's a volunteers' room in the old stable block, with a kettle and a fridge. And you'll get a twenty per cent discount in the café. People often ask about the gift shop too, but unfortunately the shop is run by a separate company, so the discount doesn't apply there." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "One last thing before we talk about roles. If you can't make a shift, please send a text to the volunteer phone rather than emailing me. Emails sent at the weekend often aren't read until the Monday, and by then it's too late to find someone to cover for you. The number's on the back of your handbook." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "Right, the roles. Let me go through each one, because I know some of you haven't decided yet. First, the garden maintenance team. This is our biggest group: weeding, planting, pruning and so on. It's physical work and you'll be outside in all weathers, so it isn't for everyone, but people love it. And you don't need any experience at all. The head gardener will show you everything." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "Then there are the tour guides. They lead groups of up to fifteen visitors around the main beds. Before they start, guides complete a course of four evening sessions on plant history and on speaking to groups, so it's quite a commitment at the beginning." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "The seed bank team works in our small laboratory, cleaning, sorting and labelling seeds that we exchange with other gardens around the world. It's quiet, detailed work, and very rewarding. But because it's indoors in quite a small space, there are only six places, and at the moment they're all taken. So if you're interested, you'd need to put your name on the waiting list." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "The family activities team runs craft sessions and nature trails for children during the school holidays. Because you're working with young people, you'll need a background check before you start. Don't worry, we organise it and we pay for it." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "And finally, the events team helps at our big occasions: the outdoor concerts, the summer lantern festival and so on. That role's a bit different, because the shifts are in the evening rather than during the day, so you'll often finish quite late." },
+      { "speaker": "Helen", "voice": "female", "accent": "en-NZ", "text": "OK. Any questions so far? No? Then let's take a five-minute break, and when we come back I'll hand out the sign-up sheets." }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 11,
+          "prompt": "The gardens were first opened to the public in",
+          "options": [
+            { "key": "A", "text": "1874." },
+            { "key": "B", "text": "1921." },
+            { "key": "C", "text": "1947." }
+          ],
+          "answer": "B",
+          "evidence": "line 2",
+          "explanation": "The gardens were created privately in 1874 and opened to the public in 1921; 1947 is when the glasshouses were rebuilt."
+        },
+        {
+          "n": 12,
+          "prompt": "Volunteers should collect their ID badge from",
+          "options": [
+            { "key": "A", "text": "the main office." },
+            { "key": "B", "text": "the visitor centre." },
+            { "key": "C", "text": "the plant nursery." }
+          ],
+          "answer": "B",
+          "evidence": "line 3",
+          "explanation": "Helen says the paperwork mentioning the main office is out of date; badges are now handed out at the visitor centre."
+        },
+        {
+          "n": 13,
+          "prompt": "What does Helen say about parking?",
+          "options": [
+            { "key": "A", "text": "Volunteers may use the main car park on weekdays only." },
+            { "key": "B", "text": "Volunteers can park free of charge in the staff car park." },
+            { "key": "C", "text": "Volunteers must buy a parking permit." }
+          ],
+          "answer": "B",
+          "evidence": "line 4",
+          "explanation": "The staff car park behind the nursery 'is free'; the permit is given with the badge, not bought. Weekday use of the main car park is never mentioned."
+        },
+        {
+          "n": 14,
+          "prompt": "What is the minimum amount of time volunteers are asked to give?",
+          "options": [
+            { "key": "A", "text": "one half-day every week" },
+            { "key": "B", "text": "one half-day every two weeks" },
+            { "key": "C", "text": "three shifts a week" }
+          ],
+          "answer": "B",
+          "evidence": "line 6",
+          "explanation": "'A minimum of one half-day shift every fortnight' (a fortnight is two weeks). Three shifts a week is the maximum."
+        },
+        {
+          "n": 15,
+          "prompt": "Volunteers receive a discount",
+          "options": [
+            { "key": "A", "text": "in the café only." },
+            { "key": "B", "text": "in the gift shop only." },
+            { "key": "C", "text": "in both the café and the gift shop." }
+          ],
+          "answer": "A",
+          "evidence": "line 7",
+          "explanation": "The 20% discount applies in the café; the gift shop is run by a separate company, so it does not apply there."
+        },
+        {
+          "n": 16,
+          "prompt": "If volunteers cannot attend a shift, they should",
+          "options": [
+            { "key": "A", "text": "email the coordinator." },
+            { "key": "B", "text": "send a text message." },
+            { "key": "C", "text": "find someone to replace them." }
+          ],
+          "answer": "B",
+          "evidence": "line 8",
+          "explanation": "'Please send a text to the volunteer phone rather than emailing me', because weekend emails are read too late."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "What does Helen say about each of the following volunteer roles? Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 17–20.",
+      "options": [
+        { "key": "A", "text": "has no places available at present" },
+        { "key": "B", "text": "requires a background check" },
+        { "key": "C", "text": "involves working in the evening" },
+        { "key": "D", "text": "needs no previous experience" },
+        { "key": "E", "text": "requires a series of training sessions" },
+        { "key": "F", "text": "is only available in summer" }
+      ],
+      "allowReuse": false,
+      "questions": [
+        { "n": 17, "prompt": "Garden maintenance", "answer": "D", "evidence": "line 9", "explanation": "'You don't need any experience at all. The head gardener will show you everything.'" },
+        { "n": 18, "prompt": "Tour guides", "answer": "E", "evidence": "line 10", "explanation": "Guides 'complete a course of four evening sessions' before they start. The sessions are in the evening, but the guiding itself is not, so C does not fit." },
+        { "n": 19, "prompt": "Seed bank", "answer": "A", "evidence": "line 11", "explanation": "All six places 'are all taken', so new volunteers must join a waiting list." },
+        { "n": 20, "prompt": "Family activities", "answer": "B", "evidence": "line 12", "explanation": "Working with children means 'you'll need a background check before you start'. The school holidays are not only in summer, so F does not fit." }
+      ]
+    }
+  ]
+}

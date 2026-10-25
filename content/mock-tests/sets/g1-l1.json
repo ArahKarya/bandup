@@ -1,0 +1,73 @@
+{
+  "id": "g1-l1",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 1,
+  "title": "Enquiring About a Flat to Rent",
+  "difficulty": 1,
+  "minutes": 7,
+  "tags": ["housing", "everyday"],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Good afternoon, Hartley Lettings, Fiona speaking. How can I help?" },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Oh, hi, yes. I saw an advert on your website for a one-bedroom flat, and I wanted to find out a bit more about it, and maybe arrange a viewing." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Of course. Do you happen to have the reference number? It's usually at the top of the listing." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Um, let me just look... yes, it's H L, then four oh seven. Sorry, no, four seven oh." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "H L four seven oh, lovely. That's the flat on Carlton Road, the one above the bakery. Before we go any further, can I take your name?" },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Sure. It's Marcus Delaney. That's D, E, L, A, N, E, Y." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Thanks, Marcus. And what's the best number to reach you on?" },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "My mobile is best. It's oh seven seven eight one, five five two, oh three nine." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Great, I've got that. So, what would you like to know about the flat?" },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Well, the advert said the rent was eight hundred and fifty pounds a month. Is that right? It seemed quite reasonable for the area." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Ah, that was the old price, actually. The landlord put it up last week, so it's now eight hundred and ninety-five a month. I'm sorry, the website hasn't been updated yet." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Oh, right. Does that include any bills?" },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Water is included, but you'd pay for electricity and the internet yourself. And council tax as well, of course." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "OK. And is it furnished?" },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "It's partly furnished. There's a sofa, a bed and a wardrobe, but no desk or dining table, so you might need to bring your own." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "That's fine, I've got a desk. What about the deposit? How much is that?" },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "The deposit is equal to five weeks' rent. It's held in a government protection scheme, so you get it back at the end as long as there's no damage." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Five weeks. OK. And what's the minimum contract? I'm hoping to stay at least a year." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "The landlord asks for a minimum of six months, and after that it rolls on month by month. Or you can sign for twelve months from the start, if you'd prefer." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Twelve sounds better for me. Oh, I should mention, I cycle to work. Is there anywhere to keep a bike?" },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "There isn't a garage, I'm afraid, but there's a locked shed in the back garden that the tenants share. Most people keep their bikes in there." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Perfect. And how far is it from the station?" },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "It's about a ten-minute walk to Northgate station. That's N, O, R, T, H, G, A, T, E. And the number twelve bus stops right outside." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Great. So when would it be available?" },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "The current tenant moves out at the end of this month, so it would be free from the third of November. Actually, hang on... there's a note here. The landlord wants a few days to repaint the kitchen, so let's say the seventh of November, to be safe." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "The seventh is fine. Could I come and see it before then?" },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Certainly. I've got Thursday at half past five, or Saturday morning at ten." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Thursday's tricky, I don't finish work till six. Saturday at ten would be ideal." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Saturday at ten it is. Just so you know, we'll also need a reference, either from your current landlord or from your employer, before you can sign anything." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "My employer would be easier, I think. I've only been renting from my current landlord for a few months, so he doesn't really know me." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "That's no problem. Shall I email you the application form? What's your email address?" },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "It's marcus dot d at fastmail dot com. Hmm, no, actually, use my work one. It's m dot delaney at brightwave dot co dot uk." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "Lovely, I'll send it this afternoon. And when you arrive on Saturday, the entrance is at the side of the bakery, not the front. Look for a blue door." },
+      { "speaker": "Marcus", "voice": "male", "accent": "en-AU", "text": "Blue door, got it. Thanks very much, Fiona." },
+      { "speaker": "Agent", "voice": "female", "accent": "en-GB", "text": "You're welcome, Marcus. See you on Saturday." }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "form_completion",
+      "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "maxWords": 1,
+      "allowNumber": true,
+      "template": "**Hartley Lettings: rental enquiry**\n\nExample: Reference number: HL470\n\n- Location of flat: {{1}} Road (above a bakery)\n- Caller's name: Marcus {{2}}\n- Rent: £{{3}} per month\n- Bills included in rent: {{4}} only\n- Deposit: {{5}} weeks' rent\n- Bicycle storage: in a shared {{6}} in the back garden\n- Nearest station: {{7}} (10-minute walk)\n- Available from: {{8}} November\n- Viewing arranged for: {{9}} at 10 a.m.\n- Reference to be provided by: his {{10}}",
+      "questions": [
+        { "n": 1, "answers": ["Carlton"], "evidence": "line 5", "explanation": "The agent identifies the listing as 'the flat on Carlton Road, the one above the bakery'." },
+        { "n": 2, "answers": ["Delaney"], "evidence": "line 6", "explanation": "Marcus spells his surname: D-E-L-A-N-E-Y." },
+        { "n": 3, "answers": ["895"], "evidence": "line 11", "explanation": "The advert said 850, but the agent corrects this: the landlord raised the rent to 895 a month. 850 is a distractor." },
+        { "n": 4, "answers": ["water"], "evidence": "line 13", "explanation": "'Water is included'; electricity, internet and council tax are paid separately." },
+        { "n": 5, "answers": ["5", "five"], "evidence": "line 17", "explanation": "'The deposit is equal to five weeks' rent.'" },
+        { "n": 6, "answers": ["shed"], "evidence": "line 21", "explanation": "There is no garage (distractor), but there is 'a locked shed in the back garden that the tenants share'." },
+        { "n": 7, "answers": ["Northgate"], "evidence": "line 23", "explanation": "The agent names and spells Northgate station, a ten-minute walk away." },
+        { "n": 8, "answers": ["7", "7th", "seventh"], "evidence": "line 25", "explanation": "The agent first says the third, then corrects it to the seventh because the kitchen needs repainting." },
+        { "n": 9, "answers": ["Saturday"], "evidence": "line 28", "explanation": "Thursday at 5.30 is rejected because Marcus works until six; he chooses Saturday at ten." },
+        { "n": 10, "answers": ["employer"], "evidence": "line 30", "explanation": "The reference can come from the landlord or the employer; Marcus says his employer would be easier." }
+      ]
+    }
+  ]
+}

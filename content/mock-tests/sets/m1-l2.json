@@ -1,0 +1,288 @@
+{
+  "id": "m1-l2",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 2,
+  "title": "A Visit to the Harbourside Maritime Museum",
+  "difficulty": 2,
+  "minutes": 8,
+  "tags": [
+    "mock",
+    "everyday",
+    "map"
+  ],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Kia ora, and good morning, everyone. Welcome to the Harbourside Maritime Museum. My name's Rachel, and I'm one of the volunteer guides here. Before you head off and explore, I'd like to give you a quick introduction to the building and tell you where to find things, because the layout can be a little confusing the first time."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Let's start with a bit of history. A lot of visitors assume that this building was once a warehouse, since it's right on the waterfront and it's got those enormous doors facing the harbour. And there were warehouses all along this stretch of the quay, that's true. But this particular building was put up in 1874 as the customs house. This is where ships' captains came to declare their cargo and pay duties before anything could be unloaded. It only became a museum in the 1980s, when the port moved further down the coast."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Now, a few practical things. We run free guided tours, which last about forty-five minutes. Until last year they ran every hour, but we simply don't have enough volunteers for that anymore, so there are now two a day, one at eleven and one at two o'clock. They leave from the reception desk. At weekends we also have special family tours, but you need to book those in advance, and they do carry a small charge."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Photography. You're very welcome to take pictures anywhere in the museum, and please do share them. What we do ask is that you don't use a flash, anywhere in the building. Some of the paintings and old charts are extremely sensitive to light. As for touching things, in most of the galleries the objects are behind glass, but in some areas there are handling collections that you're actively encouraged to pick up and examine. And if you'd like a coffee or a snack, you can take it into the atrium, there are benches there, but not into the galleries themselves."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Our temporary exhibition this month is all about the harbour pilots, the local sailors who guided big ships safely through the sandbanks at the mouth of the harbour. It's got some wonderful old logbooks and photographs. Some of you might have heard that we were doing an exhibition on whaling. That was actually last year. And next spring we're planning one on women in the shipbuilding industry, so do come back for that."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Right, let's look at the plan you were given at the door. You'll see that we're standing at the main entrance, on the south side of the building. The harbour is behind the building, to the north."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "As you come in through the main entrance, the room immediately on your left, before you reach the reception desk, is the cloakroom. Please leave large bags and umbrellas there. It's free, and there are lockers if you'd prefer."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Directly opposite the cloakroom, on the right as you come in, is the gift shop. You'll pass it again on your way out, of course, which is no accident!"
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Walk past reception and you'll come into the atrium. That's the big open space with the model ship in the middle. The model's about six metres long, and it took a team of volunteers four years to build. On the left-hand side of the atrium you'll see the staircase up to the first floor."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Next to the stairs, through the doorway on the west side of the atrium, is the children's discovery zone. That's the room with the dressing-up costumes and the knot-tying station. It's very popular, so it can get noisy around lunchtime."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Now, if you go straight ahead across the atrium, through the wide opening at the back, you'll find yourself in the shipwreck gallery. It's the room in the middle of the north side, with windows looking right out over the harbour, which is rather appropriate. It holds the objects recovered by divers from the wrecks along this coast."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "In the north-east corner of the building, that's the top right on your plan, is the lighthouse lens room. This is the one with the huge glass lens from the old Cape Hollis lighthouse. You get to it through the navigation gallery. Some of you may remember that the café used to be in that corner room, years ago, but it was moved when the lens arrived."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "So where is the café now? Well, it's actually outside. Go into the navigation gallery, which is the room on the east side of the atrium, and you'll see glass doors in the far wall. Those lead out onto the terrace, and the café is the little building on the terrace. On a sunny day it's the best spot in the museum."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "And just so you're not confused, the room in the north-west corner is our research library. It's open to the public on Thursday afternoons only, so you'll probably find the door locked today."
+      },
+      {
+        "speaker": "Guide",
+        "voice": "female",
+        "accent": "en-NZ",
+        "text": "Okay, I think that's everything. If you're joining the eleven o'clock tour, we'll be meeting back here at reception in about ten minutes. Otherwise, enjoy your visit."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Questions 11–14. Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 11,
+          "prompt": "What was the museum building originally used as?",
+          "options": [
+            {
+              "key": "A",
+              "text": "a customs house"
+            },
+            {
+              "key": "B",
+              "text": "a warehouse"
+            },
+            {
+              "key": "C",
+              "text": "a ferry terminal"
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 2",
+          "explanation": "Visitors assume it was a warehouse, but it was built in 1874 as the customs house."
+        },
+        {
+          "n": 12,
+          "prompt": "How often do the free guided tours run now?",
+          "options": [
+            {
+              "key": "A",
+              "text": "every hour"
+            },
+            {
+              "key": "B",
+              "text": "twice a day"
+            },
+            {
+              "key": "C",
+              "text": "only at weekends"
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 3",
+          "explanation": "Hourly tours stopped last year; there are now two a day, at 11 and 2."
+        },
+        {
+          "n": 13,
+          "prompt": "What are visitors asked not to do?",
+          "options": [
+            {
+              "key": "A",
+              "text": "use a flash when taking photographs"
+            },
+            {
+              "key": "B",
+              "text": "touch any of the objects"
+            },
+            {
+              "key": "C",
+              "text": "eat or drink in the atrium"
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 4",
+          "explanation": "Flash is banned throughout. Some objects may be handled, and food is allowed in the atrium."
+        },
+        {
+          "n": 14,
+          "prompt": "The temporary exhibition this month is about",
+          "options": [
+            {
+              "key": "A",
+              "text": "women in shipbuilding."
+            },
+            {
+              "key": "B",
+              "text": "the harbour pilots."
+            },
+            {
+              "key": "C",
+              "text": "the history of whaling."
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 5",
+          "explanation": "Whaling was last year's exhibition and women in shipbuilding is planned for next spring."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "map_labelling",
+      "instructions": "Questions 15–20. Label the plan of the museum's ground floor below. Write the correct letter, A–H, next to each place.",
+      "image": "m1-map.svg",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "C"
+        },
+        {
+          "key": "D",
+          "text": "D"
+        },
+        {
+          "key": "E",
+          "text": "E"
+        },
+        {
+          "key": "F",
+          "text": "F"
+        },
+        {
+          "key": "G",
+          "text": "G"
+        },
+        {
+          "key": "H",
+          "text": "H"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 15,
+          "prompt": "Cloakroom",
+          "answer": "F",
+          "evidence": "line 7",
+          "explanation": "Coming in from the south, the room on the left before reception is F."
+        },
+        {
+          "n": 16,
+          "prompt": "Gift shop",
+          "answer": "G",
+          "evidence": "line 8",
+          "explanation": "The gift shop is opposite the cloakroom, on the right as you enter: G."
+        },
+        {
+          "n": 17,
+          "prompt": "Children's discovery zone",
+          "answer": "D",
+          "evidence": "line 10",
+          "explanation": "It is next to the stairs, through the west doorway of the atrium: D."
+        },
+        {
+          "n": 18,
+          "prompt": "Shipwreck gallery",
+          "answer": "B",
+          "evidence": "line 11",
+          "explanation": "Straight ahead across the atrium, the middle room on the north side: B."
+        },
+        {
+          "n": 19,
+          "prompt": "Lighthouse lens room",
+          "answer": "C",
+          "evidence": "line 12",
+          "explanation": "It is in the north-east (top right) corner: C."
+        },
+        {
+          "n": 20,
+          "prompt": "Café",
+          "answer": "H",
+          "evidence": "line 13",
+          "explanation": "The café used to be in C but is now the small building on the terrace, reached through E: H."
+        }
+      ]
+    }
+  ]
+}

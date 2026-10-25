@@ -1,0 +1,128 @@
+{
+  "id": "gram-tenses-trends",
+  "kind": "question_set",
+  "skill": "grammar",
+  "module": "both",
+  "title": "Tenses for Describing Trends (Task 1)",
+  "difficulty": 2,
+  "minutes": 12,
+  "tags": ["grammar", "tenses", "writing task 1"],
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "grammar",
+      "instructions": "Choose the correct option to complete each sentence.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Between 2005 and 2015, the number of cinema visits ______ steadily.",
+          "options": [
+            { "key": "A", "text": "has fallen" },
+            { "key": "B", "text": "fell" },
+            { "key": "C", "text": "is falling" },
+            { "key": "D", "text": "falls" }
+          ],
+          "answer": "B",
+          "explanation": "A finished period in the past (2005–2015) takes the past simple. The present perfect cannot be used with a completed past time frame."
+        },
+        {
+          "n": 2,
+          "prompt": "Since 2018, the price of electricity ______ by almost 40 per cent.",
+          "options": [
+            { "key": "A", "text": "rose" },
+            { "key": "B", "text": "was rising" },
+            { "key": "C", "text": "has risen" },
+            { "key": "D", "text": "had risen" }
+          ],
+          "answer": "C",
+          "explanation": "'Since' + a past point up to now takes the present perfect."
+        },
+        {
+          "n": 3,
+          "prompt": "By 2010, car ownership ______ its highest point and then began to decline.",
+          "options": [
+            { "key": "A", "text": "had reached" },
+            { "key": "B", "text": "has reached" },
+            { "key": "C", "text": "reaches" },
+            { "key": "D", "text": "will reach" }
+          ],
+          "answer": "A",
+          "explanation": "'By' + a past year describes something completed before that time, so the past perfect is used."
+        },
+        {
+          "n": 4,
+          "prompt": "According to the forecast, the population of the city ______ 2 million by 2040.",
+          "options": [
+            { "key": "A", "text": "reached" },
+            { "key": "B", "text": "will have reached" },
+            { "key": "C", "text": "has reached" },
+            { "key": "D", "text": "had reached" }
+          ],
+          "answer": "B",
+          "explanation": "'By' + a future year takes the future perfect: will have + past participle."
+        },
+        {
+          "n": 5,
+          "prompt": "The figure for online sales is expected ______ further over the next decade.",
+          "options": [
+            { "key": "A", "text": "increasing" },
+            { "key": "B", "text": "increase" },
+            { "key": "C", "text": "to increase" },
+            { "key": "D", "text": "increased" }
+          ],
+          "answer": "C",
+          "explanation": "'be expected' is followed by the to-infinitive: is expected to increase."
+        },
+        {
+          "n": 6,
+          "prompt": "In 1990, only 12 per cent of households ______ a computer.",
+          "options": [
+            { "key": "A", "text": "have owned" },
+            { "key": "B", "text": "owned" },
+            { "key": "C", "text": "own" },
+            { "key": "D", "text": "were owning" }
+          ],
+          "answer": "B",
+          "explanation": "A single past year takes the past simple. 'Own' is a state verb, so it is not normally used in the continuous form."
+        },
+        {
+          "n": 7,
+          "prompt": "The table shows how much water ______ in four countries in 2022.",
+          "options": [
+            { "key": "A", "text": "is consumed" },
+            { "key": "B", "text": "has been consumed" },
+            { "key": "C", "text": "was consumed" },
+            { "key": "D", "text": "will be consumed" }
+          ],
+          "answer": "C",
+          "explanation": "The verb 'shows' is present because the table exists now, but the data refers to 2022, so the past passive is needed."
+        },
+        {
+          "n": 8,
+          "prompt": "Unemployment remained stable for five years before it ______ sharply in 2009.",
+          "options": [
+            { "key": "A", "text": "has jumped" },
+            { "key": "B", "text": "jumps" },
+            { "key": "C", "text": "had jumped" },
+            { "key": "D", "text": "jumped" }
+          ],
+          "answer": "D",
+          "explanation": "A sequence of past events in chronological order uses the past simple."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "grammar",
+      "instructions": "Complete each sentence with the correct form of the verb in brackets. Write NO MORE THAN THREE WORDS.",
+      "maxWords": 3,
+      "allowNumber": false,
+      "questions": [
+        { "n": 9, "prompt": "Over the last ten years, the number of electric cars {{9}} (grow) dramatically.", "answers": ["has grown", "has been growing"], "explanation": "'Over the last ten years' links the past to the present, so the present perfect is used." },
+        { "n": 10, "prompt": "In 2000, spending on health care {{10}} (stand) at $300 per person.", "answers": ["stood"], "explanation": "'Stand at' is a common Task 1 verb for a value at one past time. Its past simple is irregular: stood." },
+        { "n": 11, "prompt": "By the end of the period shown, rail use {{11}} (overtake) bus use.", "answers": ["had overtaken"], "explanation": "'By the end of the period' (in the past) takes the past perfect." },
+        { "n": 12, "prompt": "Coal production {{12}} (predict) to fall to almost zero by 2050.", "answers": ["is predicted", "has been predicted"], "explanation": "Predictions in the passive: subject + is predicted + to-infinitive." }
+      ]
+    }
+  ]
+}

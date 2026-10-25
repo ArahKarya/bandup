@@ -1,0 +1,48 @@
+{
+  "id": "wt-a1-museum-visitors",
+  "kind": "writing_task",
+  "module": "academic",
+  "task": 1,
+  "taskType": "table",
+  "title": "Visitors to four city museums",
+  "difficulty": 2,
+  "prompt": "The table below shows the number of visitors to four museums in one city in 2010, 2015, 2020 and 2025.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+  "charts": [
+    {
+      "type": "table",
+      "title": "Annual visitors (thousands)",
+      "unit": "thousands",
+      "categories": ["2010", "2015", "2020", "2025"],
+      "series": [
+        { "name": "Science Museum", "values": [820, 910, 310, 1050] },
+        { "name": "Art Gallery", "values": [640, 600, 220, 580] },
+        { "name": "History Museum", "values": [450, 520, 180, 690] },
+        { "name": "Maritime Museum", "values": [210, 230, 90, 260] }
+      ]
+    }
+  ],
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "Tables have no visual trend, so scan rows and columns first to find the biggest, smallest and fastest-changing items.",
+    "The sharp fall in 2020 affected every museum, so mention it once in the overview instead of repeating it four times.",
+    "Compare the 2010 and 2025 figures to show which museums grew and which declined over the whole period."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "The table gives information about how many people visited four museums in a city in 2010, 2015, 2020 and 2025.\n\nOverall, the Science Museum had the most visitors and the Maritime Museum had the least. In 2020 all of the museums had less visitors.\n\nThe Science Museum had 820 thousand visitors in 2010 and it increased to 910 thousand in 2015. In 2020 it was only 310 thousand but in 2025 it went up to 1050 thousand, which is the highest number in the table.\n\nThe Art Gallery had 640 thousand visitors in 2010 and this number went down to 600 thousand in 2015. It also dropped in 2020 to 220 thousand and then it was 580 thousand in 2025. So the Art Gallery is the only museum which had less visitors in 2025 than 2010.\n\nThe History Museum started with 450 thousand and the Maritime Museum with 210 thousand. Both of them increased in 2015 and dropped in 2020. In 2025 the History Museum had 690 thousand and the Maritime Museum had 260 thousand.\n\nIn general, most museums became more popular except the Art Gallery.",
+      "commentary": "Task Achievement: the main features are covered with accurate figures and an overview is present, but the History Museum's strong growth, the clearest trend in the table, is not highlighted, and the body lists numbers year by year instead of comparing museums. Coherence and Cohesion: clear paragraphs, but linking is repetitive ('and then', 'also') and the last museum paragraph is crowded. Lexical Resource: adequate but repetitive ('visitors', 'thousand'), with 'less visitors' instead of 'fewer'. Grammatical Range and Accuracy: mostly simple and compound sentences, generally accurate but with little variety. Band 6."
+    },
+    {
+      "band": 7,
+      "text": "The table presents annual visitor numbers for four museums in a city at five-year intervals between 2010 and 2025.\n\nOverall, the Science Museum was consistently the most visited and the Maritime Museum the least. Every museum experienced a dramatic drop in 2020, but three of the four had recovered to above their 2010 levels by 2025, the exception being the Art Gallery.\n\nThe Science Museum attracted 820,000 visitors in 2010, rising to 910,000 in 2015. Although numbers fell to just 310,000 in 2020, they rebounded strongly to over a million in 2025. The History Museum showed the most impressive growth over the period as a whole: its visitors increased from 450,000 to 690,000, a rise of more than 50%.\n\nThe Maritime Museum followed a similar but much smaller pattern, growing from 210,000 to 260,000 overall despite falling to 90,000 in 2020.\n\nThe Art Gallery, on the other hand, lost visitors even before 2020, dropping from 640,000 to 600,000 between 2010 and 2015. After the 2020 low of 220,000, it recovered to 580,000, which was still below its starting figure. As a result, it was overtaken by the History Museum by 2025.",
+      "commentary": "Task Achievement: a clear overview covers the ranking, the 2020 drop and the one exception; key features are well selected, including the percentage growth of the History Museum. Coherence and Cohesion: museums are grouped logically by trend, and progression is clear ('on the other hand', 'As a result'). Lexical Resource: a good range ('rebounded strongly', 'attracted', 'overtaken') and figures are written in a variety of ways. Grammatical Range and Accuracy: complex sentences with concessive clauses and participle phrases, used accurately. The very short Maritime paragraph and some limited comparisons between museums keep this at band 7."
+    },
+    {
+      "band": 8,
+      "text": "The table sets out the number of people who visited four museums in one city in 2010, 2015, 2020 and 2025.\n\nThe Science Museum led throughout, while the Maritime Museum remained by far the least visited. All four suffered a severe slump in 2020, with attendance falling to roughly a third of 2015 levels, yet by 2025 every institution except the Art Gallery had surpassed its 2010 total.\n\nThe Science Museum's figures illustrate the general pattern most clearly. Having climbed from 820,000 to 910,000 between 2010 and 2015, attendance plunged to 310,000 in 2020 before surging to 1.05 million, the only figure in the table above the million mark. The History Museum, though smaller, achieved the strongest growth: its visitor numbers rose by just over half across the period, from 450,000 to 690,000, enabling it to overtake the Art Gallery. The Maritime Museum's growth was more modest, with numbers edging up from 210,000 to 260,000.\n\nThe Art Gallery was the outlier. It was the only museum whose attendance declined before 2020, slipping to 600,000, and its post-2020 recovery, to 580,000, left it some 60,000 visitors short of where it had started. Having been the second most popular museum in 2010, it had fallen to third place by 2025.",
+      "commentary": "Task Achievement: the overview identifies the key features precisely, including the scale of the 2020 slump, and the body groups information around the general pattern and the outlier, with accurate calculations. Coherence and Cohesion: very well organised, using one museum as a model of the general trend, and cohesion is flexible and unobtrusive. Lexical Resource: sophisticated, accurate vocabulary ('slump', 'surpassed', 'surging', 'the outlier', 'edging up'). Grammatical Range and Accuracy: a wide range of structures, including perfect participle clauses ('Having climbed...') and 'whose' relative clauses, with full control. Only occasional over-length sentences prevent a higher score."
+    }
+  ]
+}

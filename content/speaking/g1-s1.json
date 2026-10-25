@@ -1,0 +1,46 @@
+{
+  "id": "g1-s1",
+  "kind": "speaking_task",
+  "part": 1,
+  "topic": "Your neighbourhood",
+  "difficulty": 1,
+  "unlisted": true,
+  "questions": [
+    "Can you describe the neighbourhood where you live?",
+    "How long have you lived there?",
+    "What do you like most about your neighbourhood?",
+    "Is there anything you would like to change about it?",
+    "How well do you know your neighbours?"
+  ],
+  "tips": [
+    "Aim for two to four sentences per answer: a direct answer, then a reason or an example.",
+    "Use present perfect for duration ('I've lived there for six years'), a very common Part 1 structure.",
+    "Do not memorise answers. Examiners notice rehearsed speech, and it lowers your Fluency score.",
+    "If you do not have a strong opinion, say so naturally and explain why. Any honest answer can score well."
+  ],
+  "usefulPhrases": [
+    "It's a fairly quiet, mostly residential area...",
+    "I've been living there for about...",
+    "What I like most is the fact that...",
+    "If I could change one thing, it would probably be...",
+    "We're on friendly terms, but we don't really socialise.",
+    "To be honest, I only know them by sight."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "Q: Can you describe the neighbourhood where you live?\nA: Yes. My neighbourhood is in the east of the city. It is quite quiet and there are many houses and some small shops. There is also a park near my house.\n\nQ: How long have you lived there?\nA: I live there since 2018, so about six years. Before that I was living with my grandparents in another city.\n\nQ: What do you like most about your neighbourhood?\nA: I like the park the most, because I can go jogging there in the morning. It is very... um, green, and the air is fresh. Also it is near to my work.\n\nQ: How well do you know your neighbours?\nA: Not very well. I know the family next door, we say hello, but other neighbours I don't know them because everybody is busy.",
+      "commentary": "Fluency and Coherence: willing to speak at length, with some hesitation ('very... um, green') and simple linking ('also', 'because'). Lexical Resource: enough vocabulary for familiar topics but mostly basic ('quiet', 'many houses', 'green'); some attempt at paraphrase. Grammatical Range and Accuracy: mainly simple sentences with noticeable errors ('I live there since 2018', 'near to my work', 'other neighbours I don't know them'), though meaning is always clear. Pronunciation: assumed generally clear with limited use of stress and intonation for emphasis. Overall Band 6."
+    },
+    {
+      "band": 7,
+      "text": "Q: Can you describe the neighbourhood where you live?\nA: Sure. It's a mostly residential area on the eastern edge of the city, so it's quite peaceful, especially compared with the centre. There's a row of small shops at the end of my street and a fairly big park just five minutes away.\n\nQ: How long have you lived there?\nA: I've been living there for about six years now. I moved in when I started my first job, and I've never really felt the need to move.\n\nQ: What do you like most about your neighbourhood?\nA: Definitely the park. I go running there most mornings before work, and at weekends it's full of families having picnics, so it has a really nice atmosphere.\n\nQ: How well do you know your neighbours?\nA: Reasonably well, actually. I'm on friendly terms with the couple next door; we look after each other's plants when one of us is away. But I'd say I only know most of the others by sight.",
+      "commentary": "Fluency and Coherence: speaks at length without noticeable effort, with answers extended by reasons and examples and linked naturally ('so', 'especially compared with', 'But I'd say'). Lexical Resource: flexible and idiomatic in places ('on friendly terms', 'know... by sight', 'never really felt the need'), with good collocations. Grammatical Range and Accuracy: a mix of tenses, including present perfect continuous, used accurately, with complex sentences that are mostly error-free. Pronunciation: assumed clear, with appropriate stress on key words such as 'Definitely'. To reach Band 8 the speaker would need a wider range of less common vocabulary and more varied structures."
+    },
+    {
+      "band": 8,
+      "text": "Q: Can you describe the neighbourhood where you live?\nA: It's a leafy, largely residential suburb on the eastern fringe of the city. It's the kind of place where nothing much happens, which, to be honest, suits me perfectly. We've got a handful of independent shops, a bakery that's always got a queue on Saturday mornings, and a park that's big enough to get properly lost in.\n\nQ: How long have you lived there?\nA: Coming up to six years now. I originally moved there as a stopgap, assuming I'd find somewhere more central, but it grew on me and I've stayed put ever since.\n\nQ: Is there anything you would like to change about it?\nA: If I'm being picky, the bus service. It's fine during the day, but after about nine in the evening the buses only come every forty minutes, which makes going out in town a bit of a hassle unless you drive.\n\nQ: How well do you know your neighbours?\nA: Better than I expected to, actually. There's a residents' group that organises a street party every summer, and that's broken the ice with quite a few people I'd otherwise only nod to.",
+      "commentary": "Fluency and Coherence: fluent and natural, with answers developed effortlessly and only content-related pauses. Lexical Resource: a wide, idiomatic range used precisely ('stopgap', 'it grew on me', 'stayed put', 'If I'm being picky', 'broken the ice'), occasionally slightly informal but always appropriate for the conversation. Grammatical Range and Accuracy: a wide range of structures (relative clauses, conditionals, participle clauses such as 'assuming I'd find'), with errors rare. Pronunciation: assumed easy to understand, with natural rhythm and intonation. Not Band 9 because a couple of answers lean on ready-made idioms rather than showing full flexibility."
+    }
+  ]
+}

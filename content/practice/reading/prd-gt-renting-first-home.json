@@ -1,0 +1,74 @@
+{
+  "id": "prd-gt-renting-first-home",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "general",
+  "title": "Renting Your First Home",
+  "difficulty": 1,
+  "minutes": 15,
+  "tags": ["everyday life", "housing"],
+  "passage": {
+    "title": "Renting Your First Home: A Short Guide",
+    "subtitle": "Advice from the Westford Tenants' Advice Service",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Before you start looking at properties, work out how much you can realistically afford. A common rule is that rent should take up no more than a third of your monthly income after tax. Remember that rent is only part of the cost. You will probably also have to pay for electricity, gas, water, internet and local council tax, and these bills can add a significant amount each month, particularly in winter. It is worth asking the current tenants or the agent how much these usually cost, so that there are no unpleasant surprises later."
+      },
+      {
+        "label": "B",
+        "text": "When you view a property, take your time and look carefully. Turn on the taps and the shower to check the water pressure, open windows to make sure they close properly, and look for signs of damp, such as black marks on ceilings or a musty smell. Check that there are working smoke alarms on every floor. It is a good idea to visit at different times of day, if possible, to find out how noisy the street is in the evening or during the morning rush hour. Take photographs so that you can compare properties afterwards."
+      },
+      {
+        "label": "C",
+        "text": "Before you move in, you will be asked to sign a tenancy agreement. This is a legal contract, so read it carefully and do not sign anything you do not understand. Check how long the tenancy lasts, how much notice you must give if you want to leave, and whether you are allowed to keep pets or redecorate. If anything has been promised verbally, such as a new fridge or fresh paint, ask for it to be added to the agreement in writing."
+      },
+      {
+        "label": "D",
+        "text": "Most landlords ask for a deposit, which is usually equal to four or five weeks' rent. By law, your landlord must place this money in a government-approved deposit protection scheme within thirty days and tell you which scheme has been used. On the day you move in, go through the inventory, which is a list describing the condition of each room and its contents. Note any damage, however small, and take dated photos. This record will help you if there is a disagreement about how much of the deposit should be returned when you leave."
+      },
+      {
+        "label": "E",
+        "text": "Once you are living in the property, report any repairs to your landlord or agent promptly, preferably by email, so that there is a record. Your landlord is responsible for major repairs such as the heating, the plumbing and the structure of the building, while you are expected to look after the property and deal with small tasks like changing light bulbs. If a serious problem is not fixed within a reasonable time, contact our advice service, which offers free appointments every weekday."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_headings",
+      "instructions": "The text has five sections, A–E. Choose the correct heading for each section from the list of headings below. There are more headings than sections.",
+      "options": [
+        { "key": "i", "text": "Protecting the money you pay in advance" },
+        { "key": "ii", "text": "Finding a flatmate you can trust" },
+        { "key": "iii", "text": "Calculating your budget" },
+        { "key": "iv", "text": "Understanding the contract" },
+        { "key": "v", "text": "Who fixes what" },
+        { "key": "vi", "text": "What to check when you visit" },
+        { "key": "vii", "text": "How to complain about noisy neighbours" }
+      ],
+      "allowReuse": false,
+      "questions": [
+        { "n": 1, "prompt": "Section A", "answer": "iii", "evidence": "A", "explanation": "Section A is about working out how much you can afford, including bills." },
+        { "n": 2, "prompt": "Section B", "answer": "vi", "evidence": "B", "explanation": "Section B lists checks to make when viewing a property." },
+        { "n": 3, "prompt": "Section C", "answer": "iv", "evidence": "C", "explanation": "Section C explains how to read the tenancy agreement, a legal contract." },
+        { "n": 4, "prompt": "Section D", "answer": "i", "evidence": "D", "explanation": "Section D is about the deposit and how it must be protected." },
+        { "n": 5, "prompt": "Section E", "answer": "v", "evidence": "E", "explanation": "Section E explains which repairs are the landlord's job and which are the tenant's." }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "sentence_completion",
+      "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the text for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "questions": [
+        { "n": 6, "prompt": "Rent should not be more than {{6}} of your income after tax.", "answers": ["a third", "one third", "third", "1/3"], "evidence": "A", "explanation": "'rent should take up no more than a third of your monthly income after tax'." },
+        { "n": 7, "prompt": "Black marks on ceilings may be a sign of {{7}}.", "answers": ["damp"], "evidence": "B", "explanation": "'look for signs of damp, such as black marks on ceilings'." },
+        { "n": 8, "prompt": "Anything the landlord promises verbally should be added to the agreement {{8}}.", "answers": ["in writing"], "evidence": "C", "explanation": "'ask for it to be added to the agreement in writing'." },
+        { "n": 9, "prompt": "The landlord must protect the deposit within {{9}} days.", "answers": ["30", "thirty"], "evidence": "D", "explanation": "The money must go into a scheme 'within thirty days'." },
+        { "n": 10, "prompt": "Tenants should report repairs, ideally by {{10}}, so that there is a record.", "answers": ["email", "e-mail"], "evidence": "E", "explanation": "'report any repairs ... preferably by email, so that there is a record'." }
+      ]
+    }
+  ]
+}

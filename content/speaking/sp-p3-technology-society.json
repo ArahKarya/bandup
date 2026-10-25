@@ -1,0 +1,46 @@
+{
+  "id": "sp-p3-technology-society",
+  "kind": "speaking_task",
+  "part": 3,
+  "topic": "Technology and society",
+  "difficulty": 3,
+  "questions": [
+    "Why do some older people find it difficult to use new technology?",
+    "Do you think apps and websites have made people's lives simpler or more complicated?",
+    "Should governments provide public services mainly through apps and websites?",
+    "How might technology change the way people work in the next twenty years?",
+    "Is it a problem that a few large companies control so much of the technology we use?",
+    "Do you think young people rely too much on technology?"
+  ],
+  "tips": [
+    "Avoid one-sided answers. Show that you can weigh benefits and drawbacks and reach a conclusion.",
+    "Speculating about the future is common in Part 3: use 'is likely to', 'could well', 'I can imagine a situation where...'.",
+    "Explain abstract ideas with one concrete example; it keeps your answer clear and adds length naturally."
+  ],
+  "usefulPhrases": [
+    "It's a double-edged sword.",
+    "It depends to a large extent on...",
+    "There's a risk that...",
+    "It's likely that, in the long run, ...",
+    "I can imagine a situation where...",
+    "That's not to say that...",
+    "The flip side is..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Why do some older people find it difficult to use new technology?]\nI think because when they are young there is no smartphone or computer, so they are not familiar. And the technology is change very fast, so when they already learn one app, then there is new update and they must learn again. Also sometimes the letters in the phone is too small for them.\n\n[Should governments provide public services mainly through apps?]\nIn my opinion it is good, because it is more fast and people don't need to queue in the office. For example now in my country we can pay tax online. But not all people have smartphone or internet, especially in the village, so the government must also keep the office for them.\n\n[Do you think young people rely too much on technology?]\nYes, I think young people use technology too much. They cannot do anything without their phone, for example they cannot read map or remember phone number. It is not good because if there is no internet they will have problem.",
+      "commentary": "Fluency & Coherence: answers are relevant and give reasons and examples, but development is fairly basic and links rely on 'and', 'also', 'so'. Lexical Resource: sufficient for the topic ('update', 'familiar', 'queue') but used with limited flexibility and some errors ('more fast'). Grammatical Range & Accuracy: a mix of simple and complex sentences, including a first conditional, but there are regular errors in tense and agreement ('technology is change', 'the letters... is'). Pronunciation: the answers show a regular 'I think because...' pattern, implying a speaker who is understandable but uses a limited range of intonation and chunking."
+    },
+    {
+      "band": 7,
+      "text": "[Why do some older people find it difficult to use new technology?]\nPartly it's a matter of familiarity. Younger people grew up with touchscreens, so a lot of the conventions, like swiping or tapping an icon with three dots, feel obvious to them, but they aren't obvious at all if you learned on typewriters. There's also the speed of change; just as someone gets used to an app, it updates and the layout changes completely, which can be really discouraging.\n\n[Should governments provide public services mainly through apps and websites?]\nI think it makes sense for most services, as long as there's still an alternative. Online systems are faster and cheaper to run, and they cut down on paperwork. But in countries like mine, a significant number of people in rural areas don't have a reliable connection, so if everything moved online, they'd effectively be shut out of basic services.\n\n[How might technology change the way people work in the next twenty years?]\nI expect a lot more routine office work will be automated, things like data entry or scheduling. That could free people up to do more creative or interpersonal work, although it's also likely that some jobs will disappear, and not everyone will find it easy to retrain.",
+      "commentary": "Fluency & Coherence: the candidate speaks fluently and develops each answer logically, with appropriate hedging ('Partly', 'as long as', 'although'). Lexical Resource: good range of topic-specific and abstract vocabulary ('conventions', 'automated', 'shut out of', 'retrain') with mostly accurate collocation. Grammatical Range & Accuracy: conditionals, relative clauses and future forms are used flexibly with few errors. Pronunciation: the example about swiping and three dots suggests the speaker uses pauses and stress to highlight key information, although the delivery may lack the full expressive range of band 8."
+    },
+    {
+      "band": 8,
+      "text": "[Do you think apps and websites have made people's lives simpler or more complicated?]\nBoth, in rather different ways. At the level of individual tasks, life is undeniably simpler: booking a train or transferring money takes seconds rather than an afternoon. But collectively, all these tools have created a new kind of overhead. Everyone now juggles dozens of accounts, passwords and notifications, and the sheer volume of choice can be paralysing. So I'd say we've traded a small number of big hassles for a constant stream of tiny ones.\n\n[Is it a problem that a few large companies control so much of the technology we use?]\nI think it is, mainly because of the lack of accountability. When a handful of firms own the platforms where people get their news, do their shopping and talk to their families, their design decisions effectively become public policy, yet nobody voted for them. That's not to say these companies are inherently malicious, but concentration of that kind tends to stifle competition, and ultimately it's consumers who pay for that, either in price or in privacy.\n\n[Do you think young people rely too much on technology?]\nI'm wary of blaming young people specifically. They've simply adapted to the world adults built for them, and adults are often just as glued to their screens.",
+      "commentary": "Fluency & Coherence: answers are sophisticated, balanced and coherently argued, with a memorable summarising point ('traded a small number of big hassles for a constant stream of tiny ones'). Lexical Resource: precise, abstract vocabulary used with ease ('overhead', 'paralysing', 'accountability', 'stifle competition', 'inherently malicious'). Grammatical Range & Accuracy: a wide range of complex structures, including cleft sentences ('it's consumers who pay') and contrastive clauses, all accurate. Pronunciation: the balanced, rhetorical structures imply confident control of rhythm and contrastive stress, with ideas chunked so the listener can follow easily."
+    }
+  ]
+}

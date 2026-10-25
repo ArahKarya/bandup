@@ -1,0 +1,140 @@
+{
+  "id": "gram-comparatives-quantity",
+  "kind": "question_set",
+  "skill": "grammar",
+  "module": "both",
+  "title": "Comparatives and the Language of Quantity",
+  "difficulty": 2,
+  "minutes": 12,
+  "tags": ["grammar", "comparatives", "writing task 1"],
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "grammar",
+      "instructions": "Choose the correct option to complete each sentence.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "There were ______ cars on the road in 2020 than in 2019.",
+          "options": [
+            { "key": "A", "text": "less" },
+            { "key": "B", "text": "fewer" },
+            { "key": "C", "text": "little" },
+            { "key": "D", "text": "lower" }
+          ],
+          "answer": "B",
+          "explanation": "'Fewer' is used with plural countable nouns (cars). 'Less' is used with uncountable nouns."
+        },
+        {
+          "n": 2,
+          "prompt": "The ______ of people who cycle to work has doubled.",
+          "options": [
+            { "key": "A", "text": "amount" },
+            { "key": "B", "text": "number" },
+            { "key": "C", "text": "quantity" },
+            { "key": "D", "text": "level" }
+          ],
+          "answer": "B",
+          "explanation": "Use 'the number of' with countable nouns such as people, and 'the amount of' with uncountable nouns such as water or money."
+        },
+        {
+          "n": 3,
+          "prompt": "Spending on food was ______ higher in Japan than in Brazil.",
+          "options": [
+            { "key": "A", "text": "very" },
+            { "key": "B", "text": "much" },
+            { "key": "C", "text": "more" },
+            { "key": "D", "text": "most" }
+          ],
+          "answer": "B",
+          "explanation": "To make a comparative stronger, use much, far or considerably, not 'very'."
+        },
+        {
+          "n": 4,
+          "prompt": "Rail travel is twice ______ popular as air travel in this region.",
+          "options": [
+            { "key": "A", "text": "more" },
+            { "key": "B", "text": "so" },
+            { "key": "C", "text": "as" },
+            { "key": "D", "text": "than" }
+          ],
+          "answer": "C",
+          "explanation": "Multiples use the pattern twice / three times as + adjective + as."
+        },
+        {
+          "n": 5,
+          "prompt": "The ______ amount of rainfall was recorded in July.",
+          "options": [
+            { "key": "A", "text": "most low" },
+            { "key": "B", "text": "lowest" },
+            { "key": "C", "text": "lower" },
+            { "key": "D", "text": "less" }
+          ],
+          "answer": "B",
+          "explanation": "One-syllable adjectives form the superlative with -est: the lowest."
+        },
+        {
+          "n": 6,
+          "prompt": "Only ______ students chose to study philosophy, so the course was cancelled.",
+          "options": [
+            { "key": "A", "text": "a few" },
+            { "key": "B", "text": "a little" },
+            { "key": "C", "text": "much" },
+            { "key": "D", "text": "a great deal of" }
+          ],
+          "answer": "A",
+          "explanation": "'A few' goes with plural countable nouns. 'A little', 'much' and 'a great deal of' go with uncountable nouns."
+        },
+        {
+          "n": 7,
+          "prompt": "The more people use public transport, ______ traffic there will be.",
+          "options": [
+            { "key": "A", "text": "the less" },
+            { "key": "B", "text": "less" },
+            { "key": "C", "text": "the fewer" },
+            { "key": "D", "text": "fewer" }
+          ],
+          "answer": "A",
+          "explanation": "The double comparative is 'the more ..., the less ...'. 'Traffic' is uncountable, so 'less' is correct."
+        },
+        {
+          "n": 8,
+          "prompt": "Exactly half of the respondents preferred online shopping. In other words, ______ of them did.",
+          "options": [
+            { "key": "A", "text": "a quarter" },
+            { "key": "B", "text": "50 per cent" },
+            { "key": "C", "text": "the majority" },
+            { "key": "D", "text": "a minority" }
+          ],
+          "answer": "B",
+          "explanation": "Half equals 50 per cent. 'The majority' means more than half, and 'a minority' means less than half."
+        },
+        {
+          "n": 9,
+          "prompt": "Coffee consumption in Finland is ______ in Italy.",
+          "options": [
+            { "key": "A", "text": "higher than that" },
+            { "key": "B", "text": "higher than" },
+            { "key": "C", "text": "more high than that" },
+            { "key": "D", "text": "highest than" }
+          ],
+          "answer": "A",
+          "explanation": "When comparing like with like, repeat the noun with 'that' (singular) or 'those' (plural): consumption in Finland vs. consumption (that) in Italy."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "grammar",
+      "instructions": "Complete each sentence with ONE WORD ONLY.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "questions": [
+        { "n": 10, "prompt": "Prices in 2024 were almost the same {{10}} in 2023.", "answers": ["as"], "explanation": "The pattern is 'the same as'." },
+        { "n": 11, "prompt": "The figure for women was slightly lower {{11}} the figure for men.", "answers": ["than"], "explanation": "Comparatives are followed by 'than'." },
+        { "n": 12, "prompt": "There was very {{12}} change in the number of visitors between May and June.", "answers": ["little"], "explanation": "'Change' is uncountable here, and 'very little' means almost none." },
+        { "n": 13, "prompt": "Sales in the north were not {{13}} high as sales in the south.", "answers": ["as", "so"], "explanation": "The negative comparison is 'not as/so + adjective + as'." }
+      ]
+    }
+  ]
+}

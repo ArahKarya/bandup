@@ -1,0 +1,47 @@
+{
+  "id": "m1-s1",
+  "kind": "speaking_task",
+  "part": 1,
+  "topic": "Where you live and music",
+  "difficulty": 1,
+  "unlisted": true,
+  "questions": [
+    "Let's talk about where you live. Do you live in a house or an apartment?",
+    "What do you like most about your neighbourhood?",
+    "Is there anything you would like to change about the area where you live?",
+    "Now let's talk about music. What kind of music do you usually listen to?",
+    "Did you learn to play a musical instrument when you were a child?",
+    "Do you prefer listening to music alone or with other people?"
+  ],
+  "tips": [
+    "Give a direct answer first, then add one reason or example. Two to four sentences is enough.",
+    "Use natural fillers such as 'actually' or 'to be honest' instead of long silences.",
+    "When asked about childhood (Q5), use past forms and 'used to' accurately.",
+    "Do not memorise answers. Examiners notice rehearsed speech and it can lower your score."
+  ],
+  "usefulPhrases": [
+    "It's within walking distance of...",
+    "If I could change one thing, I'd...",
+    "It depends on my mood, really.",
+    "I kept it up for a while, but...",
+    "Looking back, I wish I had...",
+    "There's something about... that I really love."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "Q1: I live in an apartment with my family. It is on the fifth floor, it is not very big but it is comfortable for us.\nQ2: I like that it is near to everything. There is a supermarket and a market and also my school is not far, so I can walk. And the neighbours are friendly, they always say hello.\nQ3: Maybe the traffic. In the morning there is very much traffic and it is noisy, so I want more, um, more bus or maybe a train so people don't use car so much.\nQ4: I listen to pop music usually, and sometimes Korean music, K-pop. I listen when I go to school, in the bus, with my earphone.\nQ5: Yes, I learned piano when I was young, maybe eight years old. But I stopped after two years because I didn't like practise every day. Now I forget everything.\nQ6: Alone, I think. Because I can choose the song what I like. But sometimes with my friends in the car it is fun also.",
+      "commentary": "Band 6 overall.\nFluency and Coherence (6): Answers every question with some extension, and is willing to speak at length. There is some hesitation ('um') and linking is limited to 'and', 'but', 'so', 'because'.\nLexical Resource (6): Enough vocabulary to discuss familiar topics, but with little precision and some errors ('very much traffic', 'more bus', 'earphone').\nGrammatical Range and Accuracy (6): Mostly simple sentences with some complex ones ('because I didn't like...'). Frequent errors ('near to everything', 'didn't like practise', 'the song what I like', 'Now I forget everything') do not usually cause misunderstanding.\nPronunciation (6, from transcript only): Assumed generally clear. In a live test, word stress and intonation would decide between 6 and 7."
+    },
+    {
+      "band": 7,
+      "text": "Q1: I live in an apartment, actually, on the fifth floor of a fairly new building near the city centre. It's not huge, but it's got a balcony, which is nice in the evenings.\nQ2: Probably how convenient it is. Pretty much everything I need is within walking distance, the shops, a couple of cafés, even a small park. And there's quite a strong sense of community. People actually know each other's names, which is unusual in a city.\nQ3: I'd say the traffic. During rush hour the main road gets completely jammed and it's really noisy, so if I could change one thing, I'd make it more pedestrian-friendly, maybe with more cycle lanes.\nQ4: It depends on my mood, really. Most of the time I listen to indie pop, but when I'm studying I tend to put on instrumental stuff, like lo-fi, because songs with lyrics distract me.\nQ5: I did, yes. My parents sent me to piano lessons when I was about eight. I kept it up for a couple of years, but to be honest I found the practice quite boring, so I gave it up. I sort of regret that now.\nQ6: Mostly alone, because it's a bit of a personal thing for me. But I do love going to live concerts with friends. There's something about a crowd singing along that you just can't get with headphones.",
+      "commentary": "Band 7 overall.\nFluency and Coherence (7): Speaks at length without noticeable effort, extending each answer naturally with reasons and examples. Discourse markers ('actually', 'to be honest', 'It depends on my mood, really') are used flexibly.\nLexical Resource (7): Uses some less common and idiomatic vocabulary ('within walking distance', 'sense of community', 'completely jammed', 'pedestrian-friendly', 'kept it up', 'gave it up') with awareness of collocation.\nGrammatical Range and Accuracy (7): A range of complex structures (second conditional, relative clauses, 'There's something about... that...') with frequent error-free sentences.\nPronunciation (7, from transcript only): Assumed clear, with features such as chunking and contractions. Band 8 would need more precise and varied vocabulary and fully natural delivery."
+    },
+    {
+      "band": 8,
+      "text": "Q1: An apartment. It's a fifth-floor flat in one of those converted warehouses near the old port, so it's got high ceilings and enormous windows, which more than makes up for the fact that it's on the small side.\nQ2: The character of the place, I think. It's an area that used to be quite run-down, but over the last few years it's been revived without losing its identity. You've still got the old family-run bakeries alongside the new coffee places, and on weekend mornings there's a real buzz in the streets.\nQ3: If I'm honest, the parking situation drives me mad. The streets weren't designed for cars, so they're constantly clogged. I'd love to see the council turn a couple of them into pedestrian zones. It'd make the whole area far more pleasant.\nQ4: I'm quite eclectic, actually. I go through phases. At the moment I'm really into jazz, which I'd never have expected a few years ago, but I'll happily listen to anything from folk to electronic music depending on what I'm doing.\nQ5: I had piano lessons for a few years as a kid, though I can't say I was ever particularly dedicated. I used to dread the weekly lesson because I hadn't practised. Looking back, I wish someone had made me stick with it.\nQ6: It really depends. For everyday listening, on my commute for example, it's very much a solitary thing. But music is one of those experiences that's genuinely enhanced by sharing it, so a gig with friends is hard to beat.",
+      "commentary": "Band 8 overall.\nFluency and Coherence (8): Fluent and well-developed answers with only content-related hesitation. Ideas are extended coherently and appropriately for Part 1 without becoming over-long.\nLexical Resource (8): Wide resource used readily and flexibly, including idiomatic language ('more than makes up for', 'run-down', 'a real buzz', 'drives me mad', 'clogged', 'go through phases', 'eclectic', 'hard to beat') with only rare imprecision.\nGrammatical Range and Accuracy (8): Wide range of structures used naturally (present perfect passive 'it's been revived', 'I'd never have expected', 'I wish someone had made me'), with errors rare and non-systematic.\nPronunciation (8, from transcript only): Assumed easy to understand with natural rhythm. Band 9 would require completely effortless precision throughout."
+    }
+  ]
+}

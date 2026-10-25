@@ -1,0 +1,205 @@
+{
+  "id": "m2-r1",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "part": 1,
+  "title": "Keeping Cool: A Short History of Refrigeration",
+  "difficulty": 1,
+  "minutes": 20,
+  "tags": [
+    "mock",
+    "history",
+    "technology"
+  ],
+  "unlisted": true,
+  "passage": {
+    "title": "Keeping Cool: A Short History of Refrigeration",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For most of human history, keeping food from spoiling meant changing it. Meat and fish were salted, smoked or dried; fruit was turned into preserves; milk became cheese. Cold was understood to slow decay, but it could rarely be produced on demand. Some societies found ways around this. In ancient Persia, tall domed structures stored ice through the desert summer, and wealthy households in China, Rome and later Europe built ice houses: insulated pits or underground rooms packed with straw, where blocks cut from frozen ponds in winter could last for months. Such buildings were expensive to construct and to fill, however, and the ice they held was a luxury, used to chill drinks and desserts for the rich rather than to protect the everyday food supply. For ordinary people, fresh meat and milk had to be eaten within a day or two of being produced."
+      },
+      {
+        "label": "B",
+        "text": "The first person to turn natural ice into a mass commodity was a Boston businessman named Frederic Tudor. In 1806 he sent a shipload of ice from New England to the Caribbean island of Martinique, convinced that people in hot climates would pay well for it. The venture was a disaster: much of the cargo melted, and buyers had little idea what to do with what remained. Tudor lost a considerable sum and later spent time in a debtors' prison. Yet he persisted, experimenting with sawdust as insulation and building ice stores at the ports he supplied. By the 1830s his ships were carrying ice as far as Calcutta, a voyage of around four months, and the 'Ice King', as he became known, had made a fortune. Other merchants followed, and by the middle of the nineteenth century, cutting ice from lakes was a major industry that employed thousands of workers every winter."
+      },
+      {
+        "label": "C",
+        "text": "Meanwhile, scientists had begun to understand how cold might be created artificially. The key lies in evaporation: when a liquid turns into a gas, it absorbs heat from its surroundings, which is why wet skin feels cool in a breeze. In 1755 the Scottish physician William Cullen used a pump to lower the pressure above a container of ether, causing it to boil rapidly and cool so sharply that a small amount of ice formed. Cullen, however, regarded his demonstration as a contribution to knowledge rather than as the basis for a machine, and he made no attempt to develop it further. Nearly eighty years later, in 1834, Jacob Perkins, an American inventor living in London, patented a closed system in which the same vapour was repeatedly compressed and allowed to expand, so that none of it was lost. This vapour-compression cycle is essentially the one used in refrigerators today, but Perkins's machine attracted little interest and was never produced commercially."
+      },
+      {
+        "label": "D",
+        "text": "It was industry, not households, that created the first real demand for mechanical refrigeration. Brewers were among the earliest customers. The lager-style beers that became fashionable in the nineteenth century had to be fermented and stored at low temperatures, and breweries that depended on natural ice were at the mercy of mild winters. Machines freed them from the weather and allowed them to brew all year round. Meatpackers soon followed, and refrigeration also transformed international trade. In 1882 a sailing ship, the Dunedin, fitted with a steam-powered freezing plant, carried around five thousand frozen sheep carcasses from New Zealand to London. The voyage took more than three months, yet the meat arrived in excellent condition and sold at a profit. Within a few decades, refrigerated ships were carrying meat, butter and fruit across the world, and countries far from the cities of Europe could build their economies on exporting food."
+      },
+      {
+        "label": "E",
+        "text": "Domestic refrigerators began to appear in wealthier homes in the 1910s and 1920s, but they came with a serious drawback. To produce cold, they relied on chemicals such as ammonia, sulfur dioxide and methyl chloride, all of which are toxic. A leak could poison an entire household, and during the 1920s a number of deaths were blamed on faulty refrigerators. Many families preferred to keep using an old-fashioned icebox. The solution came in 1930, when a team led by the chemist Thomas Midgley presented a new class of compounds, chlorofluorocarbons, or CFCs. They were neither flammable nor poisonous, and Midgley famously demonstrated their safety by inhaling a lungful and using it to blow out a candle. With this obstacle removed, sales of home refrigerators rose rapidly, and by the 1950s a fridge was regarded as standard equipment in most American homes."
+      },
+      {
+        "label": "F",
+        "text": "The effects of the refrigerator reached far beyond the kitchen. Because food could now be kept for a week or more, people shopped less often and bought more each time, which helped the large supermarket replace the small local grocer. Diets became more varied, as fresh fruit, vegetables and dairy products could be transported and stored throughout the year. Yet the technology also carried hidden costs. In the 1970s scientists discovered that CFCs released into the atmosphere were damaging the ozone layer, which protects the Earth from harmful ultraviolet radiation. Under the Montreal Protocol of 1987, CFCs were phased out and largely replaced by hydrofluorocarbons, or HFCs. These do not harm the ozone layer, but they turned out to be powerful greenhouse gases, and an international agreement signed in 2016 now requires their use to be steadily reduced. With demand for cooling growing fastest in the world's hottest countries, engineers are once again searching for a refrigerant that is safe both for people and for the planet."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_headings",
+      "instructions": "Reading Passage 1 has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below.",
+      "options": [
+        {
+          "key": "i",
+          "text": "The high price of the first household machines"
+        },
+        {
+          "key": "ii",
+          "text": "A business built on frozen water"
+        },
+        {
+          "key": "iii",
+          "text": "Commercial users lead the way"
+        },
+        {
+          "key": "iv",
+          "text": "Ancient and costly ways of keeping things cold"
+        },
+        {
+          "key": "v",
+          "text": "Government attempts to control the ice trade"
+        },
+        {
+          "key": "vi",
+          "text": "A scientific discovery left undeveloped"
+        },
+        {
+          "key": "vii",
+          "text": "The benefits and harms of a colder world"
+        },
+        {
+          "key": "viii",
+          "text": "A rivalry between two inventors"
+        },
+        {
+          "key": "ix",
+          "text": "Overcoming a danger in the home"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Paragraph A",
+          "answer": "iv",
+          "evidence": "A",
+          "explanation": "The paragraph describes early ice houses and stresses that they were expensive and a luxury for the rich."
+        },
+        {
+          "n": 2,
+          "prompt": "Paragraph B",
+          "answer": "ii",
+          "evidence": "B",
+          "explanation": "It tells how Tudor turned natural ice from lakes into a profitable industry."
+        },
+        {
+          "n": 3,
+          "prompt": "Paragraph C",
+          "answer": "vi",
+          "evidence": "C",
+          "explanation": "Cullen did not develop his demonstration and Perkins's machine was never produced. There is no rivalry between them (viii)."
+        },
+        {
+          "n": 4,
+          "prompt": "Paragraph D",
+          "answer": "iii",
+          "evidence": "D",
+          "explanation": "Brewers, meatpackers and shipping were the first to use refrigeration machines."
+        },
+        {
+          "n": 5,
+          "prompt": "Paragraph E",
+          "answer": "ix",
+          "evidence": "E",
+          "explanation": "The focus is the toxic early refrigerants and their replacement by safe CFCs. Price (i) is not discussed."
+        },
+        {
+          "n": 6,
+          "prompt": "Paragraph F",
+          "answer": "vii",
+          "evidence": "F",
+          "explanation": "It covers social benefits (supermarkets, varied diets) and environmental harm (ozone, greenhouse gases)."
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "variant": "tfng",
+      "category": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        {
+          "n": 7,
+          "statement": "Frederic Tudor was imprisoned for debt at one point in his career.",
+          "answer": "TRUE",
+          "evidence": "B",
+          "explanation": "After the failed first venture he 'spent time in a debtors' prison'."
+        },
+        {
+          "n": 8,
+          "statement": "Other inventors challenged Jacob Perkins's patent in court.",
+          "answer": "NOT GIVEN",
+          "evidence": "C",
+          "explanation": "The passage says his machine attracted little interest but says nothing about legal challenges."
+        },
+        {
+          "n": 9,
+          "statement": "Brewers were among the first businesses to buy refrigeration machines.",
+          "answer": "TRUE",
+          "evidence": "D",
+          "explanation": "This is stated directly at the start of paragraph D."
+        },
+        {
+          "n": 10,
+          "statement": "The Dunedin completed its voyage from New Zealand to London in under two months.",
+          "answer": "FALSE",
+          "evidence": "D",
+          "explanation": "The voyage took more than three months."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "table_completion",
+      "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "maxWords": 2,
+      "allowNumber": false,
+      "template": "**Refrigerants and their drawbacks**\n\n| Refrigerant | Drawback |\n|---|---|\n| Ammonia, sulfur dioxide, methyl chloride | A leak could {{11}} everyone in a home |\n| CFCs | Damaged the {{12}} layer |\n| HFCs | Are powerful {{13}} gases |",
+      "questions": [
+        {
+          "n": 11,
+          "answers": [
+            "poison"
+          ],
+          "evidence": "E",
+          "explanation": "'A leak could poison an entire household.'"
+        },
+        {
+          "n": 12,
+          "answers": [
+            "ozone"
+          ],
+          "evidence": "F",
+          "explanation": "CFCs were found to be damaging the ozone layer."
+        },
+        {
+          "n": 13,
+          "answers": [
+            "greenhouse"
+          ],
+          "evidence": "F",
+          "explanation": "HFCs do not harm the ozone layer but are powerful greenhouse gases."
+        }
+      ]
+    }
+  ]
+}

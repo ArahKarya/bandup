@@ -1,0 +1,140 @@
+{
+  "id": "gram-passive-processes",
+  "kind": "question_set",
+  "skill": "grammar",
+  "module": "both",
+  "title": "The Passive Voice for Describing Processes",
+  "difficulty": 2,
+  "minutes": 12,
+  "tags": ["grammar", "passive", "writing task 1"],
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "grammar",
+      "instructions": "Choose the correct option to complete each sentence about a process.",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "First, the tea leaves ______ by hand.",
+          "options": [
+            { "key": "A", "text": "pick" },
+            { "key": "B", "text": "are picked" },
+            { "key": "C", "text": "are picking" },
+            { "key": "D", "text": "picked" }
+          ],
+          "answer": "B",
+          "explanation": "Process descriptions use the present simple passive: am/is/are + past participle."
+        },
+        {
+          "n": 2,
+          "prompt": "The bottles ______ before they are refilled.",
+          "options": [
+            { "key": "A", "text": "are washed" },
+            { "key": "B", "text": "wash" },
+            { "key": "C", "text": "were washing" },
+            { "key": "D", "text": "is washed" }
+          ],
+          "answer": "A",
+          "explanation": "The subject 'bottles' is plural, so the passive uses 'are'."
+        },
+        {
+          "n": 3,
+          "prompt": "After the clay ______, it is placed in a kiln.",
+          "options": [
+            { "key": "A", "text": "has shaped" },
+            { "key": "B", "text": "is shaping" },
+            { "key": "C", "text": "has been shaped" },
+            { "key": "D", "text": "shapes" }
+          ],
+          "answer": "C",
+          "explanation": "The present perfect passive (has been + past participle) shows that one stage is complete before the next begins."
+        },
+        {
+          "n": 4,
+          "prompt": "The mixture is heated ______ a temperature of 200°C.",
+          "options": [
+            { "key": "A", "text": "at" },
+            { "key": "B", "text": "to" },
+            { "key": "C", "text": "in" },
+            { "key": "D", "text": "by" }
+          ],
+          "answer": "B",
+          "explanation": "Something is heated or cooled TO a temperature."
+        },
+        {
+          "n": 5,
+          "prompt": "The raw materials ______ to the factory by lorry.",
+          "options": [
+            { "key": "A", "text": "are transported" },
+            { "key": "B", "text": "transport" },
+            { "key": "C", "text": "are transporting" },
+            { "key": "D", "text": "transported" }
+          ],
+          "answer": "A",
+          "explanation": "The materials do not transport themselves; someone transports them, so the passive is needed."
+        },
+        {
+          "n": 6,
+          "prompt": "Which sentence is correct?",
+          "options": [
+            { "key": "A", "text": "The water is boiled by workers in a large tank." },
+            { "key": "B", "text": "The water is boiled in a large tank." },
+            { "key": "C", "text": "The water boils in a large tank by workers." },
+            { "key": "D", "text": "The water is boil in a large tank." }
+          ],
+          "answer": "B",
+          "explanation": "In process descriptions the agent ('by workers') is usually left out because it is obvious or unimportant."
+        },
+        {
+          "n": 7,
+          "prompt": "Once the grapes ______, the juice is stored in barrels.",
+          "options": [
+            { "key": "A", "text": "have crushed" },
+            { "key": "B", "text": "have been crushed" },
+            { "key": "C", "text": "are crushing" },
+            { "key": "D", "text": "crush" }
+          ],
+          "answer": "B",
+          "explanation": "'Once' + present perfect passive shows that the first stage is finished."
+        },
+        {
+          "n": 8,
+          "prompt": "The waste ______ into small pieces so that it can be recycled more easily.",
+          "options": [
+            { "key": "A", "text": "is cut" },
+            { "key": "B", "text": "is cutted" },
+            { "key": "C", "text": "cuts" },
+            { "key": "D", "text": "is cutting" }
+          ],
+          "answer": "A",
+          "explanation": "'Cut' is irregular: its past participle is 'cut', not 'cutted'."
+        },
+        {
+          "n": 9,
+          "prompt": "At the final stage, the packages ______ to supermarkets.",
+          "options": [
+            { "key": "A", "text": "deliver" },
+            { "key": "B", "text": "are delivering" },
+            { "key": "C", "text": "are delivered" },
+            { "key": "D", "text": "have delivered" }
+          ],
+          "answer": "C",
+          "explanation": "The packages receive the action, so the present simple passive is used."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "grammar",
+      "instructions": "Complete each sentence with the passive form of the verb in brackets. Write NO MORE THAN THREE WORDS.",
+      "maxWords": 3,
+      "allowNumber": false,
+      "questions": [
+        { "n": 10, "prompt": "The wool {{10}} (spin) into thread.", "answers": ["is spun"], "explanation": "Present simple passive with an irregular verb: spin → spun." },
+        { "n": 11, "prompt": "The finished bricks {{11}} (leave) to cool for 48 hours.", "answers": ["are left"], "explanation": "Plural subject + are + past participle (left)." },
+        { "n": 12, "prompt": "Next, the beans {{12}} (grind) into a fine powder.", "answers": ["are ground"], "explanation": "Grind → ground is an irregular past participle." },
+        { "n": 13, "prompt": "The sugar must {{13}} (dissolve) completely before the next step.", "answers": ["be dissolved"], "explanation": "After a modal verb, the passive is be + past participle." }
+      ]
+    }
+  ]
+}

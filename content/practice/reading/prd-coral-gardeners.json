@@ -1,0 +1,103 @@
+{
+  "id": "prd-coral-gardeners",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "The Coral Gardeners",
+  "difficulty": 3,
+  "minutes": 20,
+  "tags": ["environment", "science", "oceans"],
+  "passage": {
+    "title": "The Coral Gardeners",
+    "subtitle": "Can people rebuild the world's damaged reefs by hand?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Coral reefs cover a tiny fraction of the ocean floor, yet they shelter roughly a quarter of all known marine species. Over recent decades they have suffered repeated waves of bleaching, which occurs when water becomes unusually warm and corals expel the microscopic algae that live inside their tissues and supply most of their food. A bleached coral is not yet dead, but if high temperatures persist for several weeks it will starve. As bleaching events have grown more frequent, a new profession has emerged: the coral gardener, who grows young corals in underwater nurseries and plants them on damaged reefs."
+      },
+      {
+        "label": "B",
+        "text": "The basic technique is simple. Small fragments are snipped from healthy colonies and hung from frames shaped like underwater trees, where they grow quickly, free from the sediment and predators of the reef floor. After a year or so they are fixed to the reef with cement or cable ties. Marine biologist Dr Leilani Kahale, who has run nurseries for over a decade, believes the method works but warns that it is far too slow to match the scale of the damage. 'A team of divers might plant a few thousand corals in a season,' she says. 'A single bleaching event can kill millions.' Her group now experiments with seeding reefs from boats, scattering coral larvae over hundreds of square metres at once. She was also among the first to use microfragmentation, cutting coral into pieces barely a centimetre across, which, strangely, causes many species to grow far faster than they would as a single colony."
+      },
+      {
+        "label": "C",
+        "text": "Others worry less about speed than about what is being grown. Professor Tomás Ribeiro, a geneticist, points out that many nurseries take fragments from only a handful of parent colonies because they are easy to reach or grow well in captivity. The result can be a reef populated by near-identical clones. 'If one of those corals is vulnerable to a disease or a heatwave, they all are,' he explains. He argues that nurseries should deliberately collect material from many different colonies, even those that grow slowly."
+      },
+      {
+        "label": "D",
+        "text": "Dr Amara Osei, who studies reef ecology, takes a different view of priorities. In her experience, corals planted on reefs that still receive sewage, farm run-off or heavy fishing pressure tend to die within a few years, however carefully they were raised. She believes that restoration money is best spent at sites where those local threats have already been brought under control. Osei is also critical of the way success is reported. Many projects, she says, publish survival figures after six or twelve months, and few continue to check their corals for long enough to know whether they ever reproduce."
+      },
+      {
+        "label": "E",
+        "text": "A more ambitious approach is sometimes called assisted evolution. Dr Hiroshi Tanabe and his colleagues collect corals that survived recent bleaching events and breed them in laboratory tanks, gradually exposing the offspring to warmer water. The aim is not to make reefs immune to climate change, which Tanabe accepts is impossible, but to produce corals that can tolerate an extra degree or so of warming. 'We are trying to buy time,' he says, 'while the world reduces its emissions.' The work remains experimental, and some scientists fear that heat-tolerant corals might grow more slowly or be less able to cope with other stresses."
+      },
+      {
+        "label": "F",
+        "text": "Not everyone judges restoration purely by its ecological effect. Dr Ruth Calloway, a social scientist who has interviewed volunteers at reef projects in several countries, suggests that their greatest value may lie elsewhere. Visitors who spend a morning attaching corals to a frame, she has found, become far more interested in reef conservation and more willing to support it politically. In her opinion, the projects matter less for the corals they plant than for the public concern they generate."
+      },
+      {
+        "label": "G",
+        "text": "All of these researchers agree on one point. Gardening can help a reef recover from a single disaster, but no amount of planting will save reefs if the oceans keep warming. Restoration, in the words of one diver, is 'a bandage, not a cure'. The question is whether the bandage can hold long enough for the cure to arrive."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "Look at the following statements (Questions 1–7) and the list of researchers below. Match each statement with the correct researcher, A–E. NB You may use any letter more than once.",
+      "options": [
+        { "key": "A", "text": "Leilani Kahale" },
+        { "key": "B", "text": "Tomás Ribeiro" },
+        { "key": "C", "text": "Amara Osei" },
+        { "key": "D", "text": "Hiroshi Tanabe" },
+        { "key": "E", "text": "Ruth Calloway" }
+      ],
+      "allowReuse": true,
+      "questions": [
+        { "n": 1, "prompt": "Restoration should focus on places where pollution and overfishing have already been reduced.", "answer": "C", "evidence": "D", "explanation": "Osei believes money is 'best spent at sites where those local threats have already been brought under control'." },
+        { "n": 2, "prompt": "Nursery-grown corals may be too similar to one another genetically.", "answer": "B", "evidence": "C", "explanation": "Ribeiro warns that reefs can end up 'populated by near-identical clones'." },
+        { "n": 3, "prompt": "The main benefit of restoration projects may be the way they change people's attitudes.", "answer": "E", "evidence": "F", "explanation": "Calloway says projects matter more 'for the public concern they generate'." },
+        { "n": 4, "prompt": "Breeding corals that cope with warmer water could give reefs extra time.", "answer": "D", "evidence": "E", "explanation": "Tanabe breeds heat-tolerant corals: 'We are trying to buy time.'" },
+        { "n": 5, "prompt": "Planting corals by hand cannot keep pace with the losses caused by bleaching.", "answer": "A", "evidence": "B", "explanation": "Kahale says divers plant thousands while one bleaching event can kill millions." },
+        { "n": 6, "prompt": "Projects rarely monitor their corals for long enough.", "answer": "C", "evidence": "D", "explanation": "Osei says few projects check corals long enough to know whether they reproduce." },
+        { "n": 7, "prompt": "Cutting coral into very small pieces can make it grow more quickly.", "answer": "A", "evidence": "B", "explanation": "Kahale pioneered microfragmentation, which makes many species grow 'far faster'." }
+      ]
+    },
+    {
+      "type": "mcq_multi",
+      "category": "multiple_choice",
+      "instructions": "Choose TWO letters, A–E.",
+      "questions": [
+        {
+          "numbers": [8, 9],
+          "prompt": "Which TWO reasons does the writer give for growing young corals on nursery frames rather than on the reef?",
+          "options": [
+            { "key": "A", "text": "They are protected from sediment." },
+            { "key": "B", "text": "The water on the frames is cooler." },
+            { "key": "C", "text": "They are safe from predators." },
+            { "key": "D", "text": "They receive extra food from divers." },
+            { "key": "E", "text": "They can be moved to aquariums more easily." }
+          ],
+          "answers": ["A", "C"],
+          "evidence": "B",
+          "explanation": "Fragments grow 'free from the sediment and predators of the reef floor'. Temperature, feeding and aquariums are not mentioned."
+        },
+        {
+          "numbers": [10, 11],
+          "prompt": "Which TWO statements about assisted evolution are made in the passage?",
+          "options": [
+            { "key": "A", "text": "It uses corals that have already survived bleaching." },
+            { "key": "B", "text": "It could make reefs completely safe from climate change." },
+            { "key": "C", "text": "It has been tested successfully on many reefs." },
+            { "key": "D", "text": "Some scientists fear it may have unwanted side effects." },
+            { "key": "E", "text": "It is cheaper than traditional coral gardening." }
+          ],
+          "answers": ["A", "D"],
+          "evidence": "E",
+          "explanation": "Tanabe collects corals 'that survived recent bleaching events', and some scientists fear the corals 'might grow more slowly'. He says immunity is impossible and the work 'remains experimental'."
+        }
+      ]
+    }
+  ]
+}

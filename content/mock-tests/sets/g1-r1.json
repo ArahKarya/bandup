@@ -1,0 +1,67 @@
+{
+  "id": "g1-r1",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "general",
+  "part": 1,
+  "title": "Evening Courses and Pool Notice",
+  "difficulty": 1,
+  "minutes": 20,
+  "tags": ["everyday", "community", "leisure"],
+  "unlisted": true,
+  "passage": {
+    "title": "Westbridge Community Centre: Evening Courses and Pool Notice",
+    "subtitle": "Read the course adverts (A–E) and the notice from Hollins Park Leisure Pool.",
+    "paragraphs": [
+      { "label": "A", "text": "**Conversational Spanish for Travellers.** Tuesdays, 7.00–9.00 pm, 8 weeks, £95. No previous knowledge of Spanish is needed. The course concentrates on speaking in everyday situations such as ordering food, booking a room and asking for directions. The course book is included in the fee, and the tutor, who grew up in Valencia, will also share tips on local customs." },
+      { "label": "B", "text": "**Digital Photography: Beyond Auto.** Thursdays, 6.30–8.30 pm, 6 weeks, £120. Learn to take control of your camera and stop relying on automatic settings. Participants must bring their own camera with manual controls; unfortunately, mobile phones are not suitable. One session takes place outdoors on a Saturday morning by the river. The group is limited to ten people so that everyone receives individual attention." },
+      { "label": "C", "text": "**Practical Home Repairs.** Mondays, 7.00–9.00 pm, 10 weeks, £150 including all materials. Find out how to fix a dripping tap, put up shelves safely, do basic tiling and deal with common electrical faults. Protective gloves and goggles are provided. Participants who attend at least eight of the ten sessions will receive a certificate of completion." },
+      { "label": "D", "text": "**Cooking on a Budget.** Wednesdays, 6.00–8.00 pm, 5 weeks, £60, plus £5 per session to cover the cost of ingredients. Prepare tasty, nutritious meals for under £2 a portion. You take home everything you cook, in containers that we provide. All recipes are suitable for vegetarians. Please tell the tutor about any food allergies before the first session." },
+      { "label": "E", "text": "**Creative Writing: Short Stories.** Online by video call, Wednesdays, 8.00–9.30 pm, 8 weeks, £80. Each week you will write a short piece and receive feedback from the tutor and the rest of the group. In the final week, the stories are collected into a small printed book, and every participant receives a copy to keep." },
+      { "label": "Notice", "text": "**Hollins Park Leisure Pool: Summer Changes.** From 1 June to 31 August, the pool will open at 6.30 am on weekdays, half an hour earlier than usual, to meet demand from early-morning swimmers. Weekend opening times will not change." },
+      { "text": "The learner pool will be closed throughout June while it is retiled. Swimming lessons for children under eight will take place in the main pool instead, where a section will be roped off for them. Lesson times will remain the same." },
+      { "text": "Three lanes are normally available for lane swimming at all times. During the school holidays, however, only two lanes will be available between 10 am and 4 pm, because of family fun sessions." },
+      { "text": "Family fun sessions, with inflatables in the pool, run on Saturday afternoons and on every weekday afternoon during the school holidays. Children under eight must be accompanied in the water by an adult, and each adult may accompany a maximum of two children." },
+      { "text": "Monthly membership will rise from £32 to £35 on 1 July. Members who pay for a full year in advance before 30 June will be charged at the current rate. Please also note that the lockers now operate with tokens, available free from reception, instead of coins. A charge of £2 is made for lost tokens." }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_information",
+      "instructions": "Look at the five course adverts, A–E. For which course are the following statements true? Write the correct letter, A–E. NB You may use any letter more than once.",
+      "options": [
+        { "key": "A", "text": "Conversational Spanish for Travellers" },
+        { "key": "B", "text": "Digital Photography: Beyond Auto" },
+        { "key": "C", "text": "Practical Home Repairs" },
+        { "key": "D", "text": "Cooking on a Budget" },
+        { "key": "E", "text": "Creative Writing: Short Stories" }
+      ],
+      "allowReuse": true,
+      "questions": [
+        { "n": 1, "prompt": "This course can be followed without leaving home.", "answer": "E", "evidence": "E", "explanation": "The writing course is 'online by video call'." },
+        { "n": 2, "prompt": "Participants must supply their own equipment.", "answer": "B", "evidence": "B", "explanation": "Photography students 'must bring their own camera'. Repairs and cooking provide equipment and containers." },
+        { "n": 3, "prompt": "The price includes a book for the course.", "answer": "A", "evidence": "A", "explanation": "'The course book is included in the fee.' The book in E is a collection of stories given at the end, not a course book in the price list." },
+        { "n": 4, "prompt": "There is an extra charge every week.", "answer": "D", "evidence": "D", "explanation": "'Plus £5 per session to cover the cost of ingredients.'" },
+        { "n": 5, "prompt": "Participants are rewarded for regular attendance.", "answer": "C", "evidence": "C", "explanation": "Those who attend at least eight of ten sessions receive a certificate." },
+        { "n": 6, "prompt": "The number of participants is restricted.", "answer": "B", "evidence": "B", "explanation": "'The group is limited to ten people.'" },
+        { "n": 7, "prompt": "Participants are given a copy of work produced by the whole group.", "answer": "E", "evidence": "E", "explanation": "The stories are collected into a printed book and everyone receives a copy." }
+      ]
+    },
+    {
+      "type": "tfng",
+      "variant": "tfng",
+      "category": "true_false_not_given",
+      "instructions": "Read the notice from Hollins Park Leisure Pool. Do the following statements agree with the information given in the notice? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "questions": [
+        { "n": 8, "statement": "In summer, the pool will open earlier on weekdays than it does at other times of year.", "answer": "TRUE", "evidence": "Notice", "explanation": "It will open at 6.30 am, 'half an hour earlier than usual', from June to August." },
+        { "n": 9, "statement": "Weekend opening times will also be extended during the summer.", "answer": "FALSE", "evidence": "Notice", "explanation": "'Weekend opening times will not change.'" },
+        { "n": 10, "statement": "Swimming lessons for under-eights will be taught by different instructors in June.", "answer": "NOT GIVEN", "evidence": "Notice, paragraph 2", "explanation": "The lessons move to the main pool at the same times, but nothing is said about who teaches them." },
+        { "n": 11, "statement": "Fewer lanes are available for lane swimming during part of the day in the school holidays.", "answer": "TRUE", "evidence": "Notice, paragraph 3", "explanation": "Only two lanes instead of three are available between 10 am and 4 pm in the holidays." },
+        { "n": 12, "statement": "Family fun sessions attract more people than lane swimming.", "answer": "NOT GIVEN", "evidence": "Notice, paragraph 4", "explanation": "The notice describes when the sessions run but gives no information about how popular they are." },
+        { "n": 13, "statement": "One adult may take three children under eight into the water.", "answer": "FALSE", "evidence": "Notice, paragraph 4", "explanation": "Each adult may accompany 'a maximum of two children'." },
+        { "n": 14, "statement": "Members can avoid the price increase by paying for twelve months before a certain date.", "answer": "TRUE", "evidence": "Notice, paragraph 5", "explanation": "Members who pay for a full year before 30 June are charged at the current rate." }
+      ]
+    }
+  ]
+}

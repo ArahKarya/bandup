@@ -1,0 +1,35 @@
+{
+  "id": "wt-g1-unsafe-crossing",
+  "kind": "writing_task",
+  "module": "general",
+  "task": 1,
+  "taskType": "letter_formal",
+  "title": "Letter to the council about a dangerous road",
+  "difficulty": 2,
+  "prompt": "The road outside a primary school in your area has become dangerous for children and parents.\n\nWrite a letter to the local council. In your letter\n\n- describe the problem with the road\n- explain why it is a danger to people in the area\n- suggest what the council should do to improve the situation\n\nWrite at least 150 words.\n\nYou do NOT need to write any addresses.\n\nBegin your letter as follows:\n\nDear Sir or Madam,",
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "Open with your reason for writing in one clear sentence, then give one paragraph to each bullet point.",
+    "Keep the tone formal: no contractions, no slang, and polite request forms such as 'I would be grateful if...'.",
+    "Specific details (times of day, the name of the road, what happened last week) make the letter more convincing.",
+    "Close with 'Yours faithfully' after 'Dear Sir or Madam', followed by your full name."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "Dear Sir or Madam,\n\nI am writing to complain about the road in front of Greenfield Primary School on Mill Lane. I live near the school and my son study there.\n\nThe problem is that the cars drive very fast on this road. There is no crossing and no traffic lights. Also many parents park their cars on the pavement in the morning, so the children must walk on the road. Last month a boy was nearly hit by a car, it was very frightening.\n\nThis is very dangerous for the children because they are small and drivers can't see them. It is also dangerous for old people who live in the area because they walk slowly and they can't cross the road easily.\n\nI think the council should build a zebra crossing in front of the school. Also you should put speed bumps on the road and stop people parking on the pavement. Maybe a police officer can come in the morning.\n\nI hope you will do something soon.\n\nYours faithfully,\nDaniel Okafor",
+      "commentary": "Task Achievement: all three bullet points are addressed and the purpose is clear, but ideas are listed rather than developed, and the tone slips at times ('can't', 'Maybe'). Coherence and Cohesion: one paragraph per bullet with a logical sequence, but linking is limited ('Also' is repeated). Lexical Resource: adequate for the topic ('zebra crossing', 'speed bumps', 'pavement'), but repetitive ('dangerous', 'very'). Grammatical Range and Accuracy: mostly simple sentences, with errors such as 'my son study' and a comma splice, though they do not impede communication. Band 6."
+    },
+    {
+      "band": 7,
+      "text": "Dear Sir or Madam,\n\nI am writing to draw your attention to a serious safety problem on Mill Lane, directly outside Greenfield Primary School, where my son is a pupil.\n\nAlthough the road passes a school, it has no pedestrian crossing and the speed limit is 40 miles per hour. Many drivers use it as a shortcut to the motorway and travel well above this limit, especially between 8 and 9 a.m. In addition, because there are no parking restrictions, parents dropping off their children often leave their cars on the pavement, which forces pupils to walk in the road.\n\nThis situation puts young children at considerable risk, as they are difficult for drivers to see between parked vehicles. Just two weeks ago, a seven-year-old girl was almost struck by a van. Elderly residents, who also have to cross Mill Lane to reach the bus stop, are similarly affected.\n\nI would therefore like to suggest that the council install a zebra crossing outside the school gates and reduce the speed limit to 20 miles per hour. Painting yellow lines to prevent parking on the pavement would also make a significant difference.\n\nI would be grateful if you could consider these measures as a matter of urgency.\n\nYours faithfully,\nDaniel Okafor",
+      "commentary": "Task Achievement: all bullet points are covered and extended with relevant details; the formal tone is consistent and the purpose is clear. Coherence and Cohesion: well organised, with a good range of linking devices ('Although', 'In addition', 'therefore'). Lexical Resource: a good range of topic vocabulary ('parking restrictions', 'speed limit', 'struck by a van') and appropriate formal phrases ('draw your attention to'). Grammatical Range and Accuracy: a variety of complex structures, including relative clauses and the subjunctive 'suggest that the council install', with very few errors. The suggestions could be explained in a little more depth for band 8."
+    },
+    {
+      "band": 8,
+      "text": "Dear Sir or Madam,\n\nI am writing as a parent and long-standing resident to urge the council to address the increasingly hazardous conditions on Mill Lane outside Greenfield Primary School.\n\nDespite its proximity to a school, this stretch of road has neither a pedestrian crossing nor any traffic-calming measures, and the 40 mph limit is routinely ignored by drivers using the lane as a shortcut to the motorway. The problem is compounded at drop-off time, when the absence of parking restrictions leads parents to mount the pavement, leaving pupils with no option but to walk in the road.\n\nThe consequences could be grave. Small children are almost invisible to drivers when they emerge from between parked cars, and only a fortnight ago a seven-year-old girl escaped injury by inches when a delivery van swerved to avoid her. Older residents, many of whom rely on the bus stop opposite the school, face a similar ordeal every time they cross.\n\nIn my view, three relatively inexpensive steps would transform the situation: a zebra crossing at the school gates, a 20 mph limit enforced by speed humps, and double yellow lines to keep the pavement clear. I understand that budgets are limited, but I would argue that these measures would cost far less than dealing with the aftermath of a serious accident.\n\nI look forward to hearing what action the council intends to take.\n\nYours faithfully,\nDaniel Okafor",
+      "commentary": "Task Achievement: all bullet points are fully developed with vivid, relevant detail, and the tone is consistently formal yet persuasive, anticipating the council's likely objection on cost. Coherence and Cohesion: ideas are sequenced logically and cohesion is subtle ('The problem is compounded', 'The consequences could be grave'). Lexical Resource: wide and precise ('proximity', 'traffic-calming measures', 'routinely ignored', 'escaped injury by inches', 'aftermath'). Grammatical Range and Accuracy: a wide range of structures, including 'neither... nor', 'many of whom' and participle clauses, used with full control. The letter is a little longer than necessary, but this does not detract from it."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "wt-a1-recycling-rates",
+  "kind": "writing_task",
+  "module": "academic",
+  "task": 1,
+  "taskType": "line_graph",
+  "title": "Household recycling rates in three countries",
+  "difficulty": 1,
+  "prompt": "The graph below shows the percentage of household waste that was recycled in three countries between 2000 and 2025.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Household waste recycled, 2000–2025",
+      "unit": "%",
+      "xLabel": "Year",
+      "yLabel": "Percentage of household waste",
+      "categories": ["2000", "2005", "2010", "2015", "2020", "2025"],
+      "series": [
+        { "name": "Norland", "values": [12, 18, 27, 38, 45, 52] },
+        { "name": "Ventria", "values": [30, 33, 35, 36, 38, 39] },
+        { "name": "Marsallia", "values": [5, 6, 10, 19, 31, 44] }
+      ]
+    }
+  ],
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "Your overview should say that all three rates rose, and that Ventria went from the highest rate to the lowest.",
+    "Group the two fast risers (Norland and Marsallia) together and contrast them with Ventria's slow growth.",
+    "Mark the crossover points: Norland passed Ventria shortly before 2015 and Marsallia caught up with Ventria in the early 2020s.",
+    "Choose a few key figures. You do not need all eighteen numbers."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "The line graph shows the percentage of household waste which recycled in three countries, Norland, Ventria and Marsallia, from 2000 to 2025.\n\nOverall, the recycling rate increased in all three countries. Norland had the highest rate at the end of the period.\n\nIn 2000, Ventria recycled 30% of household waste, this was the highest of the three countries. After that it increased slowly and it reached 39% in 2025. So the increase of Ventria was only 9%.\n\nNorland started at 12% in 2000. Then it increased to 27% in 2010 and 38% in 2015. In 2025 it was 52%, which is the highest. Norland increased very fast in this period.\n\nMarsallia was the lowest country in 2000 with only 5%. It stayed nearly the same in 2005 at 6% but after that it increased very quickly to 19% in 2015 and 31% in 2020. Finally it reached 44% in 2025, more than Ventria.\n\nIn conclusion, Norland and Marsallia increased a lot but Ventria increased only a little.",
+      "commentary": "Task Achievement: all key features are covered with accurate data and there is an overview, but it misses the most striking point, that Ventria went from first to last, and the conclusion repeats the overview. Coherence and Cohesion: paragraphing is logical but linking is mechanical ('Then', 'After that', 'Finally') and 'it' is overused. Lexical Resource: adequate but repetitive ('increased' appears nine times); 'the lowest country' is imprecise and '9%' should be '9 percentage points'. Grammatical Range and Accuracy: mostly simple sentences, with errors such as 'waste which recycled' and a comma splice in paragraph three. Band 6."
+    },
+    {
+      "band": 7,
+      "text": "The line graph compares the proportion of household waste that was recycled in Norland, Ventria and Marsallia over a 25-year period starting in 2000.\n\nOverall, recycling rates rose in all three countries, but at very different speeds. Ventria, which had the highest rate in 2000, saw only modest growth and had been overtaken by both of the other countries by 2025.\n\nAt the start of the period, Ventria recycled 30% of its household waste, compared with 12% in Norland and just 5% in Marsallia. Over the next 25 years, however, Ventria's figure crept up by fewer than ten percentage points, finishing at 39%.\n\nNorland, by contrast, showed steady and substantial growth. Its rate more than doubled to 27% by 2010, overtook Ventria's shortly afterwards and continued climbing to reach 52% in 2025, the highest figure on the graph.\n\nMarsallia's pattern was different again. Its rate barely changed in the first five years, but from 2005 onwards it accelerated sharply, rising to 31% in 2020 and 44% in 2025. As a result, it ended the period ahead of Ventria, despite having started at less than a fifth of Ventria's level.",
+      "commentary": "Task Achievement: a clear overview identifies both the general upward trend and the reversal in Ventria's position, and key figures are well selected. Coherence and Cohesion: each body paragraph focuses on one country, and contrast is signalled effectively ('however', 'by contrast', 'As a result'). Lexical Resource: a good range of trend language ('crept up', 'accelerated sharply', 'overtook') with correct use of 'percentage points'. Grammatical Range and Accuracy: a mix of complex structures, including relative clauses and the past perfect, is used accurately. To reach band 8, the comparisons between countries could be integrated more closely rather than handled one country at a time."
+    },
+    {
+      "band": 8,
+      "text": "The graph tracks the share of household waste recycled in Norland, Ventria and Marsallia between 2000 and 2025.\n\nThe most notable feature is a reversal in rankings: although recycling rose in every country, Ventria began as the clear leader and ended in last place, while Norland and Marsallia, starting from much lower bases, achieved rapid and sustained growth.\n\nIn 2000, Ventria already recycled almost a third of its household waste (30%), well ahead of Norland (12%) and Marsallia, where the figure was a mere 5%. Ventria's rate then plateaued, edging up by only nine percentage points over the following quarter of a century to 39%.\n\nNorland's rise was the most consistent. Gaining roughly ten points every five years after 2005, it overtook Ventria in the mid-2010s and finished at 52%, the only country to recycle more than half of its household waste.\n\nMarsallia's trajectory was later but even steeper. After stagnating at around 5–6% until 2005, its rate climbed steeply in every subsequent interval, nearly doubling between 2010 and 2015, before reaching 44% in 2025. This late surge, which saw it climb thirteen points between 2020 and 2025 alone, was enough to lift it above Ventria during the final interval and narrow the gap with Norland to eight points.",
+      "commentary": "Task Achievement: the overview identifies the key insight, the reversal in rankings, and every body detail supports it; data is selected and interpreted skilfully (rates of change, gaps between countries). Coherence and Cohesion: information is sequenced logically, with cohesion achieved through reference and participle clauses rather than obvious connectors. Lexical Resource: precise, natural word choice ('plateaued', 'trajectory', 'late surge', 'from much lower bases'). Grammatical Range and Accuracy: a wide range of structures, including participle clauses and relative clauses with 'which saw', is used flexibly and with almost no errors. The only minor weakness is slightly dense phrasing in places."
+    }
+  ]
+}

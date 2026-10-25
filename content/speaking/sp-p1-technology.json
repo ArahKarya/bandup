@@ -1,0 +1,45 @@
+{
+  "id": "sp-p1-technology",
+  "kind": "speaking_task",
+  "part": 1,
+  "topic": "Technology in daily life",
+  "difficulty": 2,
+  "questions": [
+    "How often do you use your phone each day?",
+    "What do you mainly use the internet for?",
+    "Is there a piece of technology you couldn't live without?",
+    "Did you use computers much when you were at school?",
+    "Do you think you spend too much time on screens?"
+  ],
+  "tips": [
+    "Talk about your own habits rather than giving a general speech about technology; Part 1 is personal.",
+    "Use frequency expressions naturally: 'every now and then', 'pretty much constantly', 'first thing in the morning'.",
+    "A short honest admission ('Probably far too often') followed by a reason sounds more natural than a long list."
+  ],
+  "usefulPhrases": [
+    "Pretty much all day, if I'm honest.",
+    "It's the first thing I check in the morning.",
+    "I mostly use it for...",
+    "I'd be completely lost without...",
+    "We only had one computer lab for the whole school.",
+    "I've been trying to cut down on...",
+    "I try to set limits, but it doesn't always work."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[How often do you use your phone each day?]\nI use my phone very often, maybe more than six hours in a day. I use it for chatting with my friend, for social media and also for my work. Sometimes I use it also for watching video before sleeping.\n\n[Is there a piece of technology you couldn't live without?]\nI think my phone, because everything is in my phone. My bank account, my map, my photos, everything. If I lost my phone I will be very confused and I cannot do anything.\n\n[Do you think you spend too much time on screens?]\nYes, I think so. Because I work with computer and after that I use my phone, so my eyes are tired. I want to reduce it but it is difficult, because it is already become my habit.",
+      "commentary": "Fluency & Coherence: answers are relevant and reasonably extended, but rely on 'and also' and 'because' as the main linking devices, and 'phone' is repeated rather than referred to. Lexical Resource: adequate everyday vocabulary with limited precision ('very confused' rather than 'lost' or 'stuck'). Grammatical Range & Accuracy: an attempt at a conditional ('If I lost my phone I will') is inaccurate, and 'it is already become' shows confusion with the present perfect; however, communication is not impeded. Pronunciation: the listing of single nouns ('My bank account, my map, my photos') suggests reasonable chunking, though the overall delivery seems fairly monotonous."
+    },
+    {
+      "band": 7,
+      "text": "[How often do you use your phone each day?]\nPretty much constantly, if I'm honest. I checked my screen-time report last week and it was averaging about six hours a day, which was a bit of a shock. A lot of that is work messages, though, not just scrolling.\n\n[Is there a piece of technology you couldn't live without?]\nMy phone, without question. It's basically my wallet, my map and my photo album all in one. If I left it at home, I'd probably turn round and go back for it, even if I was already late.\n\n[Did you use computers much when you were at school?]\nNot really. We had one computer lab for the whole school and we only got about an hour a week there, mostly learning how to type and use spreadsheets. It's completely different for kids nowadays.",
+      "commentary": "Fluency & Coherence: the candidate speaks at length with natural discourse markers ('if I'm honest', 'though', 'Not really') and clear sequencing. Lexical Resource: uses topic vocabulary flexibly and with some idiomatic flair ('screen-time report', 'a bit of a shock', 'all in one'). Grammatical Range & Accuracy: second conditionals and past simple narratives are handled accurately, with complex sentences produced confidently. Pronunciation: the transcript implies effective chunking and some use of contrast ('work messages, though, not just scrolling'), although features such as emphatic stress are only occasionally signalled."
+    },
+    {
+      "band": 8,
+      "text": "[Is there a piece of technology you couldn't live without?]\nI'd love to say no, but realistically it's my phone. It's quietly absorbed so many other objects, my wallet, my camera, even my house keys now that our building uses a digital lock, that losing it would be less an inconvenience than a minor crisis.\n\n[Do you think you spend too much time on screens?]\nUndoubtedly. What worries me isn't so much the total hours, because a lot of that is unavoidable for work, but the mindless checking in between. I've started leaving my phone in another room when I read, and it's made a surprising difference to how well I can concentrate.\n\n[Did you use computers much when you were at school?]\nHardly at all. Computer lessons were a once-a-week novelty, and the machines were so slow you'd spend half the lesson waiting for them to start up.",
+      "commentary": "Fluency & Coherence: answers flow naturally and are developed with nuance, such as distinguishing total hours from 'mindless checking'. Lexical Resource: sophisticated, precise language ('quietly absorbed', 'less an inconvenience than a minor crisis', 'a once-a-week novelty') used with complete naturalness. Grammatical Range & Accuracy: complex structures, including an embedded list inside a result clause and a pseudo-cleft ('What worries me isn't so much...'), are controlled accurately. Pronunciation: the parenthetical insertion and contrastive phrasing imply skilful use of pausing and intonation to guide the listener, with speech that would be easy to follow."
+    }
+  ]
+}

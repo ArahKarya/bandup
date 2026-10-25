@@ -1,0 +1,52 @@
+{
+  "id": "m1-s2",
+  "kind": "speaking_task",
+  "part": 2,
+  "topic": "A place where people go to relax",
+  "difficulty": 2,
+  "unlisted": true,
+  "cueCard": {
+    "prompt": "Describe a public place in your town or city where people go to relax.",
+    "bullets": [
+      "where it is and what it looks like",
+      "what kind of people go there",
+      "what you usually do there"
+    ],
+    "closing": "and explain why people find this place relaxing."
+  },
+  "questions": [
+    "Do you think this place will change in the future?",
+    "Do you prefer to relax alone or with others?"
+  ],
+  "tips": [
+    "Use the minute of preparation to note one or two keywords per bullet, not full sentences.",
+    "Spend the most time on the 'explain' part. It is where you can show your best vocabulary and reasoning.",
+    "Describe sensory details (sounds, smells, views) to make the description vivid.",
+    "Keep talking until the examiner stops you. If you run out, add an example or a personal memory."
+  ],
+  "usefulPhrases": [
+    "The place I'd like to describe is...",
+    "It's tucked away behind...",
+    "What makes it special is...",
+    "You get all sorts of people there, from... to...",
+    "I'd put it down to a combination of things.",
+    "There's something calming about..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "I want to talk about a park in my city, it is called Central Park, but it is not so famous like the one in New York. It is near my house, maybe fifteen minutes by walking.\n\nUsually I go there in the evening after school or in the weekend. There is a big lake in the middle and many trees, and there is a path around the lake so people can jogging or walking. Also there are some small shops which sell food and drink, like ice cream and coffee.\n\nMany kinds of people go there. Old people do exercise in the morning, like tai chi, and families bring their children to play in the playground. Young people like me, we sit on the grass and talk with friends or take photos.\n\nWhen I am there I usually walk around the lake with my friend and we talk about many things, about school, about our problems. Sometimes I just sit and listen music.\n\nI think people find it relaxing because it is very green and quiet. In my city there is a lot of buildings and traffic, so when you go to the park you feel, um, you feel like you are not in the city anymore. The air is more fresh also. So for me it is a very important place, and I hope the government will keep it and not build anything there.",
+      "commentary": "Band 6 overall.\nFluency and Coherence (6): Covers all the bullet points in order and speaks for close to the full two minutes. Organisation follows the cue card closely, with simple linking ('Also', 'So'); there is some repetition and hesitation.\nLexical Resource (6): Sufficient vocabulary to describe the place ('path', 'playground', 'tai chi'), but with limited precision and errors of word choice ('fifteen minutes by walking', 'more fresh').\nGrammatical Range and Accuracy (6): Mix of simple and complex sentences with relative clauses, but frequent errors ('so famous like', 'can jogging', 'listen music', 'there is a lot of buildings').\nPronunciation (6, from transcript only): Assumed generally intelligible."
+    },
+    {
+      "band": 7,
+      "text": "I'd like to talk about a riverside park in my home town called Willow Bank. It's a long, narrow strip of green that runs along the river for about two kilometres, and it's only about ten minutes from where I live.\n\nWhat makes it special is the variety. At one end there's a fairly formal area with flower beds and benches, and at the other end it's much wilder, with long grass and lots of birds. There's also a small café in an old boathouse, which is always busy on weekends.\n\nAll sorts of people use it. Early in the morning you'll see runners and people walking their dogs, and later on it fills up with families and groups of students. In the summer, there are often free concerts on Sunday afternoons, which attract quite big crowds.\n\nPersonally, I tend to go there when I need a break from studying. I usually just walk along the river with my headphones on, or I sit on one of the benches near the water and watch the rowing boats go past.\n\nAs for why people find it relaxing, I think it's mainly because of the water. There's something calming about watching a river flow, and the sound of it blocks out the traffic noise from the city. It also feels very open, which is a nice contrast to the crowded streets. So for a lot of people, including me, it's a place to slow down and clear their heads.",
+      "commentary": "Band 7 overall.\nFluency and Coherence (7): Speaks at length and covers all prompts with a clear structure ('What makes it special...', 'As for why...'). Ideas are developed with relevant detail.\nLexical Resource (7): Uses less common vocabulary and collocations ('a long, narrow strip of green', 'fills up with', 'block out the traffic noise', 'clear their heads') with good flexibility.\nGrammatical Range and Accuracy (7): A range of complex structures (relative clauses, 'There's something calming about...') with good control and only minor slips.\nPronunciation (7, from transcript only): Assumed clear. Band 8 would need more sophisticated, precise language and a more personal, vivid treatment of the final point."
+    },
+    {
+      "band": 8,
+      "text": "The place I'd like to describe is a little walled garden tucked away behind the public library in the old part of my city. Most tourists walk straight past it, because the entrance is just a narrow gate in a stone wall, but locals know it as a kind of secret refuge.\n\nIt's not big, maybe the size of a couple of tennis courts, but it's beautifully looked after. There's a fountain in the centre, gravel paths lined with lavender and roses, and a few old fruit trees that must be well over a hundred years old. The walls are so high that the noise of the city simply fades away the moment you step inside.\n\nThe people who go there are a real mix. You get office workers eating their lunch on the benches, elderly residents who come every day to read the paper, and students from the library who need ten minutes away from their books, which is usually where I fit in.\n\nWhat people do there is, well, very little, and I think that's the point. Nobody's exercising or rushing anywhere. People just sit, read, chat quietly or close their eyes in the sun.\n\nAs for why it's so relaxing, I'd put it down to a combination of things. Partly it's the enclosure: the walls make you feel protected, almost cut off from everyday life. Partly it's the sensory side of it, the scent of the lavender and the sound of running water. But I think it's also because there's an unspoken agreement among everyone there to keep it peaceful. It's one of the few places in the city where being still feels completely natural rather than strange.",
+      "commentary": "Band 8 overall.\nFluency and Coherence (8): Fluent, well-paced extended talk with a sophisticated structure; the final bullet is developed into a layered explanation ('Partly... Partly... But I think it's also...').\nLexical Resource (8): Wide, precise and idiomatic vocabulary ('tucked away', 'secret refuge', 'fades away', 'I'd put it down to', 'an unspoken agreement') used skilfully.\nGrammatical Range and Accuracy (8): Wide range of structures (modal of deduction 'must be well over a hundred years old', 'so high that...', cleft sentences) with errors rare.\nPronunciation (8, from transcript only): Assumed effortless to follow. A Band 9 answer would sustain this with complete naturalness and no hesitation at all."
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "m2-r3",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "part": 3,
+  "title": "Should Machines Mark Our Exams?",
+  "difficulty": 3,
+  "minutes": 20,
+  "tags": [
+    "mock",
+    "education",
+    "technology",
+    "argument"
+  ],
+  "unlisted": true,
+  "passage": {
+    "title": "Should Machines Mark Our Exams?",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few tasks in education are as tedious, or as consequential, as marking examinations. Every summer, armies of teachers spend weeks working through piles of scripts, often late at night and for modest pay, knowing that their judgements will help to decide which university a student attends or which job she is offered. It is hardly surprising, then, that the arrival of artificial intelligence systems capable of reading and evaluating extended writing has been greeted with enthusiasm in some quarters. If a machine can mark an essay in seconds, the argument goes, why should we continue to rely on exhausted humans? The question deserves a more careful answer than either its supporters or its opponents usually give it."
+      },
+      {
+        "label": "B",
+        "text": "The strongest case for automated marking rests on consistency. Human examiners are not the precision instruments we might wish them to be. Studies of marking reliability have repeatedly found that two experienced examiners, given the same essay, will often award it different grades, and that a single examiner may mark the same script differently depending on whether it is read early or late in the day, or immediately after a particularly strong or weak one. A well-designed algorithm suffers from none of these weaknesses. It does not become tired or hungry, and it applies its criteria identically to the first script and the ten-thousandth. Advocates are right to point this out, and those who defend human marking as though it were flawless do their own cause no favours."
+      },
+      {
+        "label": "C",
+        "text": "Consistency, however, is not the same as accuracy. A system that reliably applies the wrong standard is reliably wrong. Early automated scoring programs were notorious for rewarding length and vocabulary rather than thought: researchers showed that a long essay crammed with sophisticated words could achieve a high score even when its argument made no sense. Today's systems are far more advanced, and it would be unfair to judge them by the failings of their predecessors. Yet they still learn what a good answer looks like from essays that humans have already graded, which means that they inherit whatever biases those human markers had, and may apply them more uniformly than any individual ever could."
+      },
+      {
+        "label": "D",
+        "text": "There is also the question of what automated marking would do to teaching. Students and teachers are rational; they learn what the assessment rewards. If it became known that a particular system favoured certain structures or phrases, schools would soon be drilling pupils to produce them, just as they now teach to the demands of human examiners. The difference is that human examiners can be briefed, retrained and asked to explain their decisions, whereas the internal workings of a large AI model are opaque even to the engineers who built it. I find it difficult to accept that a student should receive a grade that nobody is able to justify."
+      },
+      {
+        "label": "E",
+        "text": "This point matters most for the unusual answer. The essays that truly test any marking system are not the competent, predictable ones, which humans and machines grade in much the same way, but the eccentric, ambitious or genuinely original ones. A student who challenges the premise of the question, or who builds an argument in an unconventional order, may be producing the best work in the room. An experienced examiner can recognise this, even if she does not agree with the conclusion. A system trained on many thousands of conventional answers is, almost by definition, likely to treat any departure from the norm as an error."
+      },
+      {
+        "label": "F",
+        "text": "None of this means that artificial intelligence has no place in assessment. On the contrary, I believe its most valuable role is one that its loudest champions rarely mention: as a check on human markers rather than a replacement for them. Many exam boards already require a sample of scripts to be marked twice. An AI system could act as a tireless second marker for every script, flagging those where its grade differs significantly from the human one, so that a senior examiner can take a closer look. This would combine the consistency of the machine with the judgement of the person, and would catch far more errors than current sampling methods ever could."
+      },
+      {
+        "label": "G",
+        "text": "It is sometimes objected that such a hybrid approach would be too expensive, and that the real attraction of automation is that it would allow exam boards to save money. That may well be true, but it is a poor reason to change the way young people's futures are decided. Marking is expensive because it matters. If savings must be found, they would be better found in the administration of examinations than in the judgement at their heart. Moreover, the cost of an unfair grade to the student who misses a university place as a result is never included in such calculations."
+      },
+      {
+        "label": "H",
+        "text": "The debate over machine marking is often presented as a contest between progress and tradition. It is better understood as a question of accountability. Whoever, or whatever, awards a grade must be able to explain it, and the student must be able to challenge it. For short factual answers and multiple-choice questions, where the correct response can be precisely defined, automated marking already works well, and there is no reason to resist it. For extended writing, where judgement is the whole point, the human examiner should remain in charge: assisted, but not replaced, by the machine."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "n": 27,
+          "prompt": "In paragraph A, the writer suggests that the debate about AI marking",
+          "options": [
+            {
+              "key": "A",
+              "text": "has mainly involved teachers."
+            },
+            {
+              "key": "B",
+              "text": "has usually been treated too simply."
+            },
+            {
+              "key": "C",
+              "text": "is chiefly about pay."
+            },
+            {
+              "key": "D",
+              "text": "has already been decided."
+            }
+          ],
+          "answer": "B",
+          "evidence": "A",
+          "explanation": "The question 'deserves a more careful answer than either its supporters or its opponents usually give it'."
+        },
+        {
+          "n": 28,
+          "prompt": "In paragraph B, the writer criticises people who",
+          "options": [
+            {
+              "key": "A",
+              "text": "mark scripts too quickly."
+            },
+            {
+              "key": "B",
+              "text": "claim that human marking has no faults."
+            },
+            {
+              "key": "C",
+              "text": "design algorithms badly."
+            },
+            {
+              "key": "D",
+              "text": "pay examiners too little."
+            }
+          ],
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "Those who defend human marking 'as though it were flawless do their own cause no favours'."
+        },
+        {
+          "n": 29,
+          "prompt": "What does the writer say about early automated scoring programs?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They could be fooled by long essays full of impressive words."
+            },
+            {
+              "key": "B",
+              "text": "They were more accurate than human examiners."
+            },
+            {
+              "key": "C",
+              "text": "They rejected every unusual answer."
+            },
+            {
+              "key": "D",
+              "text": "They were trained on very few essays."
+            }
+          ],
+          "answer": "A",
+          "evidence": "C",
+          "explanation": "A long essay crammed with sophisticated words could score highly even if it made no sense."
+        },
+        {
+          "n": 30,
+          "prompt": "According to the writer, the most valuable use of AI in assessment is to",
+          "options": [
+            {
+              "key": "A",
+              "text": "reduce administration costs."
+            },
+            {
+              "key": "B",
+              "text": "act as a second marker that checks human grades."
+            },
+            {
+              "key": "C",
+              "text": "train new examiners."
+            },
+            {
+              "key": "D",
+              "text": "mark the scripts of weaker students."
+            }
+          ],
+          "answer": "B",
+          "evidence": "F",
+          "explanation": "Its most valuable role is 'as a check on human markers', flagging scripts for a senior examiner."
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "variant": "ynng",
+      "category": "yes_no_not_given",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3? Write YES, NO or NOT GIVEN.",
+      "questions": [
+        {
+          "n": 31,
+          "statement": "Modern AI marking systems should not be judged by the weaknesses of earlier programs.",
+          "answer": "YES",
+          "evidence": "C",
+          "explanation": "The writer says it would be unfair to judge today's systems by their predecessors' failings."
+        },
+        {
+          "n": 32,
+          "statement": "AI marking systems are free from the biases of human markers.",
+          "answer": "NO",
+          "evidence": "C",
+          "explanation": "They learn from human-graded essays and so inherit human biases."
+        },
+        {
+          "n": 33,
+          "statement": "Teachers already adapt their lessons to what human examiners reward.",
+          "answer": "YES",
+          "evidence": "D",
+          "explanation": "The writer says schools 'now teach to the demands of human examiners'."
+        },
+        {
+          "n": 34,
+          "statement": "Most students would rather have their work marked by a machine.",
+          "answer": "NOT GIVEN",
+          "evidence": "D",
+          "explanation": "Students' preferences about who marks their work are never discussed."
+        },
+        {
+          "n": 35,
+          "statement": "Saving money is a sufficient reason to introduce automated marking.",
+          "answer": "NO",
+          "evidence": "G",
+          "explanation": "The writer calls cost saving 'a poor reason' to change how grades are decided."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_sentence_endings",
+      "instructions": "Complete each sentence with the correct ending, A–H, below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "catch more errors than checking only a sample of scripts."
+        },
+        {
+          "key": "B",
+          "text": "the length of the essays they were trained on."
+        },
+        {
+          "key": "C",
+          "text": "the time of day at which it is read."
+        },
+        {
+          "key": "D",
+          "text": "questions whose correct answer can be exactly specified."
+        },
+        {
+          "key": "E",
+          "text": "reduce the number of examiners that exam boards employ."
+        },
+        {
+          "key": "F",
+          "text": "a student may receive a grade that nobody can explain."
+        },
+        {
+          "key": "G",
+          "text": "those that are original or unconventional."
+        },
+        {
+          "key": "H",
+          "text": "be rejected by most exam boards."
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 36,
+          "prompt": "A human examiner may grade the same script differently depending on",
+          "answer": "C",
+          "evidence": "B",
+          "explanation": "Marks can vary depending on whether a script is read early or late in the day."
+        },
+        {
+          "n": 37,
+          "prompt": "Because the workings of large AI models are opaque,",
+          "answer": "F",
+          "evidence": "D",
+          "explanation": "The writer objects that a grade could be given that nobody can justify."
+        },
+        {
+          "n": 38,
+          "prompt": "The essays that most severely test a marking system are",
+          "answer": "G",
+          "evidence": "E",
+          "explanation": "Not the predictable essays but the eccentric, ambitious or original ones."
+        },
+        {
+          "n": 39,
+          "prompt": "Using AI to second-mark every script would",
+          "answer": "A",
+          "evidence": "F",
+          "explanation": "It would catch far more errors than current sampling methods."
+        },
+        {
+          "n": 40,
+          "prompt": "Automated marking is already suitable for",
+          "answer": "D",
+          "evidence": "H",
+          "explanation": "It works well for short factual and multiple-choice questions where the correct response can be precisely defined."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "m1-r2",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "part": 2,
+  "title": "What the Sleeping Brain Remembers",
+  "difficulty": 2,
+  "minutes": 20,
+  "tags": [
+    "mock",
+    "science",
+    "psychology",
+    "health"
+  ],
+  "unlisted": true,
+  "passage": {
+    "title": "What the Sleeping Brain Remembers",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For much of the twentieth century, scientists who studied memory regarded sleep as little more than a convenient pause. Early experiments had shown that people who learned a list of words and then slept remembered more of them than people who spent the same number of hours awake. The usual explanation was that sleep simply protected new memories from interference: while we are unconscious, no fresh information arrives to push out or confuse what we learned during the day. On this view, sleep did nothing to memories itself. It merely shut the door so that they would not be disturbed. Only towards the end of the century did researchers begin to suspect that this passive account was incomplete."
+      },
+      {
+        "label": "B",
+        "text": "The decisive evidence came from studies of animals. Dr Elena Marsh and her colleagues recorded the activity of individual nerve cells in the hippocampus, a small structure deep in the brain that is essential for forming new memories, while rats explored a maze. Particular cells fired whenever a rat passed through particular places, so that each run through the maze produced a distinctive sequence of signals. When the researchers continued recording after the rats had fallen asleep, they found the same sequences appearing again, as though the animals were rehearsing their journey. Strikingly, the replay ran many times faster than the original experience. Marsh proposed that sleep is a period of active processing, during which the hippocampus repeatedly 'plays back' the day's events to the outer layer of the brain, the cortex, where they can be stored for the long term."
+      },
+      {
+        "label": "C",
+        "text": "Sleep, however, is not a single state. Over the course of a night, the brain cycles through several stages, including deep or slow-wave sleep and rapid eye movement (REM) sleep, when most vivid dreaming occurs. A great deal of research has tried to establish which stage does what. Professor Kenji Oda focused on brief bursts of brain activity called sleep spindles, which occur mainly in lighter, non-REM sleep. His volunteers practised a sequence of finger movements on a keyboard before going to bed. The following morning, most performed faster and more accurately, even though they had not practised further, and the size of the improvement was closely related to the number of spindles each person had produced during the night. Oda concluded that spindles play a particular role in consolidating physical skills."
+      },
+      {
+        "label": "D",
+        "text": "If sleep replays memories, could that replay be guided from outside? Dr Ingrid Holm set out to test this idea. Her participants learned the locations of fifty objects on a computer screen, and each object was accompanied by a characteristic sound, such as a bell for a bicycle or a bark for a dog. While the participants were in deep sleep, half of the sounds were played again very quietly, too softly to wake them. The next day, they recalled the locations of the objects whose sounds had been replayed noticeably better than the others. When Holm repeated the experiment but played the sounds during REM sleep instead, there was no such benefit. The technique, sometimes called targeted memory reactivation, suggests that the timing of a cue during the night is crucial."
+      },
+      {
+        "label": "E",
+        "text": "It also appears that the sleeping brain does not treat all memories equally. In one study by Dr Samuel Adeyemi, two groups of volunteers learned the same material in the evening. One group was told that they would be tested on it the following day; the other was given no warning, although both groups were in fact tested. Among those who had stayed awake between learning and testing, the warning made little difference. Among those who had slept, however, the warned group did considerably better. Adeyemi argues that the brain 'tags' information it expects to need, and that sleep gives priority to these tagged memories."
+      },
+      {
+        "label": "F",
+        "text": "Findings like these have obvious practical implications. Students who stay up all night before an examination may be sacrificing exactly the processing that would help them recall what they have studied. Even a short daytime nap, if it includes some deep sleep, seems to improve memory for material learned beforehand. Researchers are also investigating whether the gradual decline in memory that many people experience as they grow older is partly linked to the reduction in deep sleep that accompanies ageing. Some scientists, though, warn against drawing conclusions too quickly. A number of headbands and smartphone applications are now marketed with claims that they can enhance deep sleep and therefore memory, but none of these products has yet been tested in properly controlled trials."
+      },
+      {
+        "label": "G",
+        "text": "Many questions remain. One of the most intriguing concerns forgetting. According to the synaptic homeostasis hypothesis, put forward by Dr Paul Renner, the connections between brain cells grow stronger throughout the waking day as we learn, and this cannot continue indefinitely, partly because maintaining strong connections consumes a great deal of energy. Sleep, Renner suggests, allows the brain to weaken connections across the board, so that only the strongest survive and space is made for new learning the next day. At first sight this seems to contradict the idea that sleep strengthens memories. Yet many researchers now believe that both processes occur together: by quietly discarding what is unimportant, the sleeping brain may make the memories that matter stand out more clearly."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_information",
+      "instructions": "Questions 14–17. Reading Passage 2 has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paragraph A"
+        },
+        {
+          "key": "B",
+          "text": "Paragraph B"
+        },
+        {
+          "key": "C",
+          "text": "Paragraph C"
+        },
+        {
+          "key": "D",
+          "text": "Paragraph D"
+        },
+        {
+          "key": "E",
+          "text": "Paragraph E"
+        },
+        {
+          "key": "F",
+          "text": "Paragraph F"
+        },
+        {
+          "key": "G",
+          "text": "Paragraph G"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 14,
+          "prompt": "a reference to products whose claims have not been properly checked",
+          "answer": "F",
+          "evidence": "F",
+          "explanation": "Headbands and apps claim to enhance deep sleep but have not been tested in controlled trials."
+        },
+        {
+          "n": 15,
+          "prompt": "a reason why the brain might need to weaken some connections",
+          "answer": "G",
+          "evidence": "G",
+          "explanation": "Maintaining strong connections consumes a lot of energy, so sleep weakens them across the board."
+        },
+        {
+          "n": 16,
+          "prompt": "an explanation that was later considered insufficient",
+          "answer": "A",
+          "evidence": "A",
+          "explanation": "The idea that sleep only protected memories from interference was later seen as incomplete."
+        },
+        {
+          "n": 17,
+          "prompt": "an example of past experience being repeated at a faster rate",
+          "answer": "B",
+          "evidence": "B",
+          "explanation": "The rats' maze sequences were replayed during sleep many times faster than the original."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "Questions 18–21. Look at the following findings and the list of researchers below. Match each finding with the correct researcher, A–E.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Elena Marsh"
+        },
+        {
+          "key": "B",
+          "text": "Kenji Oda"
+        },
+        {
+          "key": "C",
+          "text": "Ingrid Holm"
+        },
+        {
+          "key": "D",
+          "text": "Samuel Adeyemi"
+        },
+        {
+          "key": "E",
+          "text": "Paul Renner"
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 18,
+          "prompt": "A cue presented during sleep only helps memory if it is given at a particular stage.",
+          "answer": "C",
+          "evidence": "D",
+          "explanation": "Holm found sounds helped in deep sleep but had no benefit in REM sleep."
+        },
+        {
+          "n": 19,
+          "prompt": "What a person believes about the future can affect which memories sleep strengthens.",
+          "answer": "D",
+          "evidence": "E",
+          "explanation": "Adeyemi's warned group did better after sleep: the brain tags information it expects to need."
+        },
+        {
+          "n": 20,
+          "prompt": "A specific type of brain activity is related to improvement in a physical task.",
+          "answer": "B",
+          "evidence": "C",
+          "explanation": "Oda linked the number of sleep spindles to improvement in a finger-movement sequence."
+        },
+        {
+          "n": 21,
+          "prompt": "Brain cells repeat during sleep the patterns they produced while awake.",
+          "answer": "A",
+          "evidence": "B",
+          "explanation": "Marsh recorded the same firing sequences in sleeping rats as during maze runs."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "summary_completion",
+      "instructions": "Questions 22–24. Complete the summary using the list of words, A–G, below. Write the correct letter, A–G.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "wordBank": [
+        {
+          "key": "A",
+          "text": "locations"
+        },
+        {
+          "key": "B",
+          "text": "names"
+        },
+        {
+          "key": "C",
+          "text": "deep"
+        },
+        {
+          "key": "D",
+          "text": "light"
+        },
+        {
+          "key": "E",
+          "text": "REM"
+        },
+        {
+          "key": "F",
+          "text": "colours"
+        },
+        {
+          "key": "G",
+          "text": "waking"
+        }
+      ],
+      "template": "**Targeted memory reactivation**\n\nIn Holm's study, participants learned the {{22}} of objects shown on a screen, each paired with a sound. Some of the sounds were replayed while the participants were in {{23}} sleep, and memory for the matching objects improved. However, replaying the sounds during {{24}} sleep produced no improvement.",
+      "questions": [
+        {
+          "n": 22,
+          "answers": [
+            "A"
+          ],
+          "evidence": "D",
+          "explanation": "Participants learned the locations of fifty objects."
+        },
+        {
+          "n": 23,
+          "answers": [
+            "C"
+          ],
+          "evidence": "D",
+          "explanation": "The sounds were replayed during deep sleep."
+        },
+        {
+          "n": 24,
+          "answers": [
+            "E"
+          ],
+          "evidence": "D",
+          "explanation": "Playing the sounds during REM sleep gave no benefit."
+        }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "sentence_completion",
+      "instructions": "Questions 25–26. Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "maxWords": 2,
+      "allowNumber": false,
+      "questions": [
+        {
+          "n": 25,
+          "prompt": "Memory problems in older people may be partly connected with having less {{25}} .",
+          "answers": [
+            "deep sleep",
+            "slow-wave sleep"
+          ],
+          "evidence": "F",
+          "explanation": "Researchers are investigating whether memory decline is linked to the reduction in deep sleep that comes with ageing."
+        },
+        {
+          "n": 26,
+          "prompt": "Renner argues that strong connections between brain cells require a lot of {{26}} to maintain.",
+          "answers": [
+            "energy"
+          ],
+          "evidence": "G",
+          "explanation": "Maintaining strong connections consumes a great deal of energy."
+        }
+      ]
+    }
+  ]
+}

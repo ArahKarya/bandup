@@ -1,0 +1,313 @@
+{
+  "id": "pls-p3-food-waste-study",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 3,
+  "title": "Designing a Food Waste Study",
+  "difficulty": 3,
+  "minutes": 10,
+  "tags": [
+    "environment",
+    "research methods",
+    "flow chart"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "OK, Niall, we need to get the method section of our proposal finished today. Shall we go through the procedure step by step, so we can draw the flow chart?"
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Good idea. So, step one is recruiting participants. We said forty students from the halls of residence."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Right. In the pilot, we sent emails to everyone, and hardly anyone replied. Students just ignore university emails. Posters on the noticeboards weren't much better."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "But when we got the student union to advertise it on their social media pages, we had thirty volunteers in a day. So for the main study, we'll recruit through the student union."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Agreed. Then, step two, each participant records how much food they throw away. We talked about using a food diary, where they'd just estimate amounts."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "But estimates are useless. People always say they waste less than they really do. So we'll give each participant a digital scale and they'll weigh everything before it goes in the bin."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Yes. And then they enter the weights. Paper forms got lost in the pilot, didn't they?"
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Several did. So this time everyone types their figures straight into a shared spreadsheet online. We can check it every day and spot gaps."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Good. Then the recording period. Originally we said two weeks."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "But two weeks isn't long enough to capture a full shopping cycle. A lot of students only do a big shop every ten days or so. I think we should run it for three weeks, then hold the focus groups."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Three weeks it is. And in the focus groups we discuss why food is wasted. From the pilot, the biggest cause seemed to be buying in bulk. Students buy the big multipacks because they're cheaper, and then half of it goes off before they can eat it."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "That came up again and again. More than portion size or cooking skills, really."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "And the final step is comparing our figures with something. I'd suggested the national household survey, but that's about families, not students."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Right, so it'd be much more useful to compare with the records from the university's catering department. They weigh the waste from the dining halls every week, so we'd be comparing students cooking for themselves with students eating in the canteen."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Brilliant. OK, the next section is about what went wrong in the pilot. We should be honest about the problems."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Well, the scales worked perfectly, so that's not an issue. And the number of participants, ten, was fine for a pilot."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "The main problem was that people forgot to record their waste, especially at weekends. Some days were just blank."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "And the other big one was shared meals. When four flatmates cook a curry together and throw some away, whose waste is it? We couldn't divide it fairly between them."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "True. The questionnaire at the end was a bit long, but people still completed it, so I wouldn't call that a problem."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Fine. And finally, the recommendations section. We need to suggest two things the university could actually do."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "I was going to say cooking classes, but the university already runs those, and hardly anyone goes."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "What about a food-sharing app? Students could post food they won't finish, and someone else in the building can collect it. There are free platforms we could adapt."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Yes, I like that. And the other thing people mentioned in the pilot was that in shared fridges nobody knew whose food was whose, so things just sat there until they went off. If each student had their own labelled shelf, that would help a lot."
+      },
+      {
+        "speaker": "Niall",
+        "voice": "male",
+        "accent": "en-IE",
+        "text": "Definitely. Someone also suggested smaller fridges, but I think that would just annoy people. And discounts at the campus shop aren't really something we can recommend; that's a commercial decision."
+      },
+      {
+        "speaker": "Lucy",
+        "voice": "female",
+        "accent": "en-AU",
+        "text": "Agreed. So, the app and the labelled shelves. Let's write it up."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "flow_chart_completion",
+      "instructions": "Complete the flow chart below. Write NO MORE THAN TWO WORDS for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "template": "**Food waste study: procedure**\n\nRecruit 40 participants through the {{1}}\n\n↓\n\nParticipants weigh discarded food using a {{2}}\n\n↓\n\nWeights are entered in a shared {{3}}\n\n↓\n\nAfter {{4}} weeks, focus groups are held\n\n↓\n\nFocus groups discuss causes, e.g. buying food in {{5}}\n\n↓\n\nResults compared with data from the university's {{6}} department",
+      "questions": [
+        {
+          "n": 1,
+          "answers": [
+            "student union",
+            "students' union",
+            "students union"
+          ],
+          "evidence": "line 4",
+          "explanation": "Emails and posters failed; the student union's social media worked."
+        },
+        {
+          "n": 2,
+          "answers": [
+            "digital scale",
+            "scale",
+            "scales",
+            "digital scales"
+          ],
+          "evidence": "line 6",
+          "explanation": "A food diary relies on estimates, so they will use digital scales."
+        },
+        {
+          "n": 3,
+          "answers": [
+            "spreadsheet",
+            "online spreadsheet"
+          ],
+          "evidence": "line 8",
+          "explanation": "Paper forms got lost, so figures go into a shared spreadsheet."
+        },
+        {
+          "n": 4,
+          "answers": [
+            "3",
+            "three"
+          ],
+          "evidence": "line 10",
+          "explanation": "Two weeks was the original plan, changed to three to cover a shopping cycle."
+        },
+        {
+          "n": 5,
+          "answers": [
+            "bulk"
+          ],
+          "evidence": "line 11",
+          "explanation": "Buying multipacks in bulk was the biggest cause."
+        },
+        {
+          "n": 6,
+          "answers": [
+            "catering"
+          ],
+          "evidence": "line 14",
+          "explanation": "The national survey is about families; they will use the catering department's records."
+        }
+      ]
+    },
+    {
+      "type": "mcq_multi",
+      "category": "multiple_choice",
+      "instructions": "Choose TWO letters, A–E.",
+      "questions": [
+        {
+          "numbers": [
+            7,
+            8
+          ],
+          "prompt": "Which TWO problems occurred in the pilot study?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Participants did not always record their waste."
+            },
+            {
+              "key": "B",
+              "text": "The scales gave inaccurate readings."
+            },
+            {
+              "key": "C",
+              "text": "There were too few participants."
+            },
+            {
+              "key": "D",
+              "text": "Waste from shared meals was hard to assign."
+            },
+            {
+              "key": "E",
+              "text": "Participants did not finish the questionnaire."
+            }
+          ],
+          "answers": [
+            "A",
+            "D"
+          ],
+          "evidence": "lines 17, 18",
+          "explanation": "The scales worked, ten participants was enough and the questionnaire was completed. Forgetting to record and shared meals were the problems."
+        },
+        {
+          "numbers": [
+            9,
+            10
+          ],
+          "prompt": "Which TWO recommendations will the students make?",
+          "options": [
+            {
+              "key": "A",
+              "text": "cooking classes"
+            },
+            {
+              "key": "B",
+              "text": "smaller fridges"
+            },
+            {
+              "key": "C",
+              "text": "a food-sharing app"
+            },
+            {
+              "key": "D",
+              "text": "a labelled shelf for each student"
+            },
+            {
+              "key": "E",
+              "text": "discounts at the campus shop"
+            }
+          ],
+          "answers": [
+            "C",
+            "D"
+          ],
+          "evidence": "lines 22, 23",
+          "explanation": "Cooking classes already exist, smaller fridges would annoy people and discounts are a commercial decision."
+        }
+      ]
+    }
+  ]
+}

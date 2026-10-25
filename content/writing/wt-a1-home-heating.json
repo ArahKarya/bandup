@@ -1,0 +1,50 @@
+{
+  "id": "wt-a1-home-heating",
+  "kind": "writing_task",
+  "module": "academic",
+  "task": 1,
+  "taskType": "pie_chart",
+  "title": "Home heating sources in 2000 and 2025",
+  "difficulty": 2,
+  "prompt": "The pie charts below show the main sources of energy used to heat homes in one city in 2000 and 2025.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+  "charts": [
+    {
+      "type": "pie",
+      "title": "Home heating sources, 2000",
+      "unit": "%",
+      "categories": ["Gas", "Oil", "Electric heaters", "Wood", "Heat pumps"],
+      "series": [{ "name": "2000", "values": [48, 22, 15, 10, 5] }]
+    },
+    {
+      "type": "pie",
+      "title": "Home heating sources, 2025",
+      "unit": "%",
+      "categories": ["Gas", "Oil", "Electric heaters", "Wood", "Heat pumps"],
+      "series": [{ "name": "2025", "values": [35, 6, 21, 8, 30] }]
+    }
+  ],
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "With two pie charts, describe change over time: use past tenses and verbs such as 'rose', 'fell' and 'was overtaken'.",
+    "The overview should mention that gas stayed the largest source but heat pumps grew dramatically, mostly at the expense of oil.",
+    "Use fractions and proportions ('almost half', 'just under a third') to vary how you report percentages."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "The pie charts shows the energy sources for heating homes in a city in 2000 and 2025.\n\nOverall, gas was the main source in both years but heat pumps became much more popular.\n\nIn 2000 gas was 48% which is almost half. Oil was 22% and electric heaters was 15%. Wood was 10% and heat pumps were only 5%, it was the smallest. So in 2000 most of homes used gas and oil for heating, because these two was 70% together.\n\nIn 2025 there are many changes. Gas decreased to 35% but it was still the biggest. Heat pumps increased very much to 30%, so they were the second. Electric heaters also increased to 21%. However oil decreased a lot to only 6% and wood decreased a little to 8%. It means that oil was not popular anymore in 2025 and people changed to heat pumps and electric heaters.\n\nIn conclusion, gas was the most popular but people used more heat pumps and less oil in 2025.",
+      "commentary": "Task Achievement: the key changes are identified and the figures are accurate, but the response is under-developed and the 2000 paragraph simply lists numbers without comparison. Coherence and Cohesion: organisation by year is clear, but linking relies on basic devices and the conclusion repeats the overview. Lexical Resource: limited and repetitive ('increased', 'decreased'), and 'increased very much' is unnatural. Grammatical Range and Accuracy: frequent agreement errors ('The pie charts shows', 'electric heaters was'), a tense slip ('there are many changes'), 'most of homes' and a comma splice, though meaning is always clear. Band 6."
+    },
+    {
+      "band": 7,
+      "text": "The two pie charts compare the proportions of homes in one city heated by five different energy sources in 2000 and 2025.\n\nOverall, gas remained the most common source of home heating throughout the period, although its share fell. The most striking change was the rapid growth of heat pumps, while oil heating almost disappeared.\n\nIn 2000, almost half of all homes (48%) relied on gas. Oil was the second most common source at 22%, followed by electric heaters at 15% and wood at 10%. Heat pumps were used in just 5% of homes.\n\nBy 2025, the picture had changed considerably. Gas had dropped to 35%, but it was still the leading source. Heat pumps had risen sixfold to 30%, making them the second most popular option. Electric heaters also became more widespread, increasing to just over a fifth of homes (21%).\n\nMeanwhile, the share of homes using oil collapsed from 22% to only 6%, and wood declined slightly from 10% to 8%. Together, these two fuels accounted for just 14% of households in 2025, compared with almost a third in 2000.",
+      "commentary": "Task Achievement: a clear overview presents the main trends, and the figures are selected and compared well, including combined totals. Coherence and Cohesion: logical progression from 2000 to 2025, then to the declining sources, with cohesive devices used appropriately ('By 2025', 'Meanwhile', 'Together'). Lexical Resource: good variety ('relied on', 'risen sixfold', 'collapsed', 'widespread') with some use of fractions. Grammatical Range and Accuracy: a range of structures, including the past perfect and participle clauses ('making them...'), with good control. Some sentences follow a similar pattern, which keeps it from band 8."
+    },
+    {
+      "band": 8,
+      "text": "The pie charts show how homes in a particular city were heated in 2000 and 2025, broken down into five energy sources.\n\nThe overall picture is one of a shift away from fossil fuels towards electricity-based heating. Gas held on to its position as the single largest source, but heat pumps expanded dramatically, largely replacing oil, which shrank to a marginal role.\n\nAt the start of the period, gas heated almost half of all homes (48%), and oil a further 22%, meaning that these two fuels together served seven out of ten households. Electric heaters and wood made up 15% and 10% respectively, while heat pumps were a niche technology at only 5%.\n\nTwenty-five years later, the balance had shifted markedly. Heat pumps had grown sixfold to 30%, putting them within five percentage points of gas, whose share had contracted to just over a third (35%). Oil, by contrast, saw the steepest decline, losing almost three quarters of its share to finish at 6%. Electric heaters made moderate gains, rising to 21%, whereas wood remained a minor source, slipping only slightly to 8%.\n\nAs a result, electricity-based systems, heaters and heat pumps combined, warmed just over half of the city's homes in 2025, up from a fifth in 2000.",
+      "commentary": "Task Achievement: the overview identifies an insightful underlying trend (fossil fuels to electricity) and the body supports it with skilfully grouped data and accurate calculations. Coherence and Cohesion: ideas progress logically and cohesion is managed through reference and summarising phrases ('the balance had shifted markedly', 'As a result'). Lexical Resource: wide and precise ('marginal role', 'niche technology', 'contracted', 'made moderate gains'). Grammatical Range and Accuracy: a wide range of complex structures, including non-defining relative clauses with 'whose' and participle phrases, used accurately. One sentence in the final paragraph is slightly awkward because of the embedded list."
+    }
+  ]
+}

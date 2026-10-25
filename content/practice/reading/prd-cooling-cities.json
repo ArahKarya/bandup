@@ -1,0 +1,81 @@
+{
+  "id": "prd-cooling-cities",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "title": "Cooling the Concrete City",
+  "difficulty": 2,
+  "minutes": 20,
+  "tags": ["environment", "cities", "climate"],
+  "passage": {
+    "title": "Cooling the Concrete City",
+    "subtitle": "Why cities overheat, and what planners are doing about it",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "On a still summer evening, a thermometer in the centre of a large city can read several degrees higher than one in the fields an hour's drive away. Climate scientists call this the urban heat island, and its causes are well understood. Asphalt, brick and concrete absorb solar energy throughout the day and release it slowly after sunset, so the gap between town and country is usually smallest at noon and greatest during the night. Few trees and little open soil mean there is less moisture to evaporate and carry heat away. On top of this, cars, factories and air-conditioning units pump their own waste heat into the streets, adding to the warmth that the buildings have stored."
+      },
+      {
+        "label": "B",
+        "text": "For most residents, a warm evening is merely uncomfortable. For some, it is dangerous. Doctors who study heatwaves point out that the human body needs cooler nights to recover from the strain of a hot day, and in a heat island that relief never comes. The risk is not shared equally. Older people who live alone are especially vulnerable, particularly if their homes are on the top floors of apartment blocks, where heat rising from below collects under the roof. During severe heatwaves, emergency admissions in some cities have climbed sharply, and many of those affected had spent several consecutive nights in rooms that never cooled below 28 degrees."
+      },
+      {
+        "label": "C",
+        "text": "One of the simplest responses has been to change the colour of the city. So-called cool roofs are painted white or covered with reflective coatings that bounce sunlight back into the sky instead of absorbing it. Measurements on test buildings show that the surface of a treated roof can be as much as 30 degrees cooler than a conventional dark one on a sunny afternoon, and the rooms directly beneath often need far less air conditioning. Yet the effect at street level, where pedestrians actually walk, is considerably smaller. There is also a seasonal drawback: in places with cold winters, a reflective roof sends away some of the winter sunshine that would otherwise have warmed the building, slightly increasing heating bills."
+      },
+      {
+        "label": "D",
+        "text": "Trees offer a different kind of relief. They shade pavements and walls, and they release water vapour through their leaves, a process that draws heat from the surrounding air. Studies of large parks have found that their cooling influence can spread into neighbouring streets for several hundred metres, especially when a light breeze blows the cooler air outwards. However, trees are not an instant fix. A newly planted sapling may take twenty years to provide meaningful shade, and in dry regions it needs regular watering. Critics have also noticed that new planting tends to appear first in wealthier districts, whose residents are better organised at lobbying councils, while poorer and hotter neighbourhoods wait."
+      },
+      {
+        "label": "E",
+        "text": "Some planners are looking backwards for ideas. In many hot regions, older towns were built with narrow, winding lanes that stay in shadow for most of the day, thick walls that delay the passage of heat, and inner courtyards where a fountain or a single tree cools the air before it enters the house. These features were rarely the result of scientific study; they were refined over generations of trial and error. Modern districts, designed around wide roads for cars, have often abandoned them. Several European cities now protect open corridors of land that allow cool night air from surrounding hills to flow into the centre, and they restrict tall buildings that would block it."
+      },
+      {
+        "label": "F",
+        "text": "A persistent obstacle has been a lack of detailed information. Official weather stations are deliberately placed in open locations, often at airports on the edge of a city, so they reveal little about conditions in a particular square or housing estate. To fill this gap, a number of research groups have recruited volunteers to carry low-cost temperature sensors. In one project, cyclists fitted sensors to their handlebars and rode set routes at dusk. The resulting maps showed hot spots, such as car parks and treeless shopping streets, that were several degrees warmer than districts only a kilometre away, information that has since guided where new shade and planting are placed."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "matching",
+      "category": "matching_headings",
+      "instructions": "Reading Passage has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below. There are more headings than paragraphs.",
+      "options": [
+        { "key": "i", "text": "Why warm nights pose a particular threat" },
+        { "key": "ii", "text": "A measure that works better on top of buildings than below them" },
+        { "key": "iii", "text": "Lessons from older building traditions" },
+        { "key": "iv", "text": "How the phenomenon arises" },
+        { "key": "v", "text": "The rising cost of air conditioning" },
+        { "key": "vi", "text": "Members of the public filling gaps in the official record" },
+        { "key": "vii", "text": "A natural remedy that is unevenly shared" },
+        { "key": "viii", "text": "Why some cities stay cooler than the countryside" },
+        { "key": "ix", "text": "A government ban on dark roofing materials" }
+      ],
+      "allowReuse": false,
+      "questions": [
+        { "n": 1, "prompt": "Paragraph A", "answer": "iv", "evidence": "A", "explanation": "Paragraph A explains the causes: stored heat in building materials, little vegetation and waste heat from machines." },
+        { "n": 2, "prompt": "Paragraph B", "answer": "i", "evidence": "B", "explanation": "The paragraph focuses on health risks because the body cannot recover when nights stay hot." },
+        { "n": 3, "prompt": "Paragraph C", "answer": "ii", "evidence": "C", "explanation": "Cool roofs make the roof surface much cooler, but 'the effect at street level ... is considerably smaller'." },
+        { "n": 4, "prompt": "Paragraph D", "answer": "vii", "evidence": "D", "explanation": "Trees are a natural remedy, but planting 'tends to appear first in wealthier districts'." },
+        { "n": 5, "prompt": "Paragraph E", "answer": "iii", "evidence": "E", "explanation": "Planners study narrow lanes, thick walls and courtyards from older towns." },
+        { "n": 6, "prompt": "Paragraph F", "answer": "vi", "evidence": "F", "explanation": "Volunteers carry sensors because official weather stations give too little local detail." }
+      ]
+    },
+    {
+      "type": "tfng",
+      "variant": "tfng",
+      "category": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "questions": [
+        { "n": 7, "statement": "The temperature difference between a city and the countryside is usually greatest at night.", "answer": "TRUE", "evidence": "A", "explanation": "The gap is 'smallest at noon and greatest during the night'." },
+        { "n": 8, "statement": "During heatwaves, people living on the ground floor of apartment blocks face the highest risk.", "answer": "FALSE", "evidence": "B", "explanation": "The passage says the danger is greatest on the top floors, where heat collects under the roof." },
+        { "n": 9, "statement": "Cool roofs reduce the temperature at street level as much as on the roof itself.", "answer": "FALSE", "evidence": "C", "explanation": "The effect at street level is 'considerably smaller'." },
+        { "n": 10, "statement": "The cooling effect of a large park can reach streets outside the park.", "answer": "TRUE", "evidence": "D", "explanation": "The cooling influence 'can spread into neighbouring streets for several hundred metres'." },
+        { "n": 11, "statement": "Most official weather stations are located in the busiest parts of city centres.", "answer": "FALSE", "evidence": "F", "explanation": "They are placed in open locations, 'often at airports on the edge of a city'." },
+        { "n": 12, "statement": "The cyclists in the sensor project were paid for taking part.", "answer": "NOT GIVEN", "evidence": "F", "explanation": "The passage says volunteers took part but says nothing about payment." }
+      ]
+    }
+  ]
+}

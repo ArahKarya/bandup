@@ -1,0 +1,270 @@
+{
+  "id": "pls-p2-festival-volunteers",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 2,
+  "title": "Volunteering at an Arts Festival",
+  "difficulty": 2,
+  "minutes": 9,
+  "tags": [
+    "events",
+    "volunteering",
+    "matching"
+  ],
+  "audio": {
+    "script": [
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Hi, everyone, and thanks so much for coming along to this briefing. I'm Dana, and I coordinate the volunteers for the Harbourside Arts Festival. Over the next few minutes I'll explain what you get as a volunteer, what you need to do before the festival, and which team handles what on the day."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "So, first of all, what's in it for you? Apart from the fun, of course. Every volunteer gets a festival T-shirt to wear on shift. I should say that the T-shirts are lent to you, not given, so we do need them back at the end, washed please."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "What you do get to keep is a meal voucher for each shift you work. They're accepted at any of the food stalls, so you'll be eating very well."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Last year we also gave volunteers a free pass for a friend, but sadly our sponsor has changed and we can't offer that this year. And I know some of you have asked about travel. We can't cover bus or train fares, I'm afraid, though parking at the harbour is free if you show your badge."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "And finally, at the end of the festival, everybody receives a certificate signed by the festival director. Lots of students have told us that this really helps with job applications."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "OK, so what do you need to do before the festival starts? In previous years we ran a compulsory training evening. This year that's optional. It's on the twelfth if you'd like to come, but you don't have to."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "However, everyone must complete our online health and safety module. It takes about forty minutes, and you'll get the link by email tonight. We can't put you on a shift until you've done it."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Somebody asked about footwear. We do recommend strong shoes or boots, because the harbour can be wet, but you don't need to buy anything special."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "The other thing we need from you is a photo for your ID badge. Just a clear head-and-shoulders picture. Please send it to the volunteer office by the end of next week, otherwise we can't print your badge, and without a badge security won't let you in."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Oh, and on shifts, the minimum is two, not three as it says on the old website. Of course, you're welcome to do more."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Right, now the teams. There are three of them: the Welcome team, the Stage crew and the Family Zone team. Let me go through some of the main jobs, because they're not always where you'd expect."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "The Welcome team are at the main gates. Their most important job is checking wristbands as people arrive, to make sure everyone has a ticket."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Now, the craft tent is in the Family Zone, and you might think the Stage crew, who are used to heavy lifting, would put out the seating in there. But actually the Family Zone team set up all the benches and chairs in that tent themselves, first thing every morning."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Lost children. This is really important. You might imagine the Family Zone team would look after any children who get separated from their parents. But we have one central point for that, at the main gate, so it's the Welcome team who take care of lost children until the parents are found."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "The Stage crew, as you'd expect, deal with the stages. Between each act, they move the equipment on and off, the drums, amplifiers and so on, so that the next performer can start on time."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Face-painting is one of the most popular activities for kids, and that's run by the Family Zone team. We'll give you a short demonstration if you're nervous about it."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "And finally, the announcements over the loudspeakers, things like changes to the programme, are made from the sound desk, which is part of the Stage crew's area, so they're the ones who handle those."
+      },
+      {
+        "speaker": "Coordinator",
+        "voice": "female",
+        "accent": "en-CA",
+        "text": "Right, I'll hand out the sign-up sheets now, so you can tell me which team you'd prefer."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_multi",
+      "category": "multiple_choice",
+      "instructions": "Choose TWO letters, A–E.",
+      "questions": [
+        {
+          "numbers": [
+            1,
+            2
+          ],
+          "prompt": "Which TWO things will volunteers receive and keep?",
+          "options": [
+            {
+              "key": "A",
+              "text": "a festival T-shirt"
+            },
+            {
+              "key": "B",
+              "text": "a meal voucher for each shift"
+            },
+            {
+              "key": "C",
+              "text": "a free pass for a friend"
+            },
+            {
+              "key": "D",
+              "text": "travel expenses"
+            },
+            {
+              "key": "E",
+              "text": "a certificate"
+            }
+          ],
+          "answers": [
+            "B",
+            "E"
+          ],
+          "evidence": "lines 3, 5",
+          "explanation": "T-shirts must be returned, the friend's pass was last year only and fares are not covered. Meal vouchers and a certificate are kept."
+        },
+        {
+          "numbers": [
+            3,
+            4
+          ],
+          "prompt": "Which TWO things must volunteers do before the festival?",
+          "options": [
+            {
+              "key": "A",
+              "text": "attend a training evening"
+            },
+            {
+              "key": "B",
+              "text": "complete an online module"
+            },
+            {
+              "key": "C",
+              "text": "buy suitable boots"
+            },
+            {
+              "key": "D",
+              "text": "send a photograph"
+            },
+            {
+              "key": "E",
+              "text": "sign up for three shifts"
+            }
+          ],
+          "answers": [
+            "B",
+            "D"
+          ],
+          "evidence": "lines 7, 9",
+          "explanation": "Training is optional, boots are only recommended and the minimum is two shifts. The safety module and the badge photo are required."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "Which team is responsible for each of the following jobs? Choose the correct letter, A, B or C. You may use any letter more than once.",
+      "options": [
+        {
+          "key": "A",
+          "text": "the Welcome team"
+        },
+        {
+          "key": "B",
+          "text": "the Stage crew"
+        },
+        {
+          "key": "C",
+          "text": "the Family Zone team"
+        }
+      ],
+      "allowReuse": true,
+      "questions": [
+        {
+          "n": 5,
+          "prompt": "checking wristbands",
+          "answer": "A",
+          "evidence": "line 12",
+          "explanation": "The Welcome team check wristbands at the main gates."
+        },
+        {
+          "n": 6,
+          "prompt": "setting up seating in the craft tent",
+          "answer": "C",
+          "evidence": "line 13",
+          "explanation": "Not the Stage crew: the Family Zone team set up the benches and chairs."
+        },
+        {
+          "n": 7,
+          "prompt": "looking after lost children",
+          "answer": "A",
+          "evidence": "line 14",
+          "explanation": "The central point is at the main gate, run by the Welcome team."
+        },
+        {
+          "n": 8,
+          "prompt": "moving equipment between acts",
+          "answer": "B",
+          "evidence": "line 15",
+          "explanation": "The Stage crew move drums and amplifiers between performers."
+        },
+        {
+          "n": 9,
+          "prompt": "running face-painting",
+          "answer": "C",
+          "evidence": "line 16",
+          "explanation": "Face-painting is run by the Family Zone team."
+        },
+        {
+          "n": 10,
+          "prompt": "making loudspeaker announcements",
+          "answer": "B",
+          "evidence": "line 17",
+          "explanation": "Announcements come from the sound desk, which is in the Stage crew's area."
+        }
+      ]
+    }
+  ]
+}

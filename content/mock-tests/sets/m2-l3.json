@@ -1,0 +1,434 @@
+{
+  "id": "m2-l3",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 3,
+  "title": "Planning a Survey on Student Food Waste",
+  "difficulty": 2,
+  "minutes": 8,
+  "tags": [
+    "mock",
+    "academic",
+    "research",
+    "discussion"
+  ],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Come in, both of you, have a seat. So, you're here to talk about your survey project for the research methods module. Remind me what you've decided to look at."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "We're going to investigate food waste among students on campus: how much gets thrown away, and why."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Good. And what made you choose that? I don't think it was on the list of topics I gave out, was it?"
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "No, it wasn't. I suppose we thought there'd be loads of published research to build on, but actually there's very little about students specifically."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Really, though, it came from our own flat. There are six of us sharing a kitchen in Cedar Hall, and every Sunday the bin is just full of food: half loaves, vegetables nobody cooked. We started wondering whether that was typical."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "That's often the best starting point, something you've noticed yourselves. Now, I've read your proposal. Your research question at the moment is 'What are the causes of food waste in the UK?'"
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Yes. Is that a problem?"
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Well, it's not that it's impossible to measure, and I don't think anyone has done exactly what you're proposing. But it's far too wide for a six-week project. You'd need data from households, shops, farms... I'd narrow it right down to students at this university, and maybe one or two specific causes."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "That makes sense. We could focus on food that's bought but not eaten, and on meals in the canteen."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Good. Now, methods. You've suggested an online questionnaire."
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Yes, because it's quick to set up, and the university provides the software free, so there's no cost."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "And response rates for student surveys here are actually quite reasonable, so that's not my concern. My concern is that people are notoriously bad at reporting their own waste. They'll say they throw away a couple of slices of bread a week when it's really a whole bag. If you only ask people, your figures will almost certainly be too low."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "So we should actually weigh what's thrown away as well?"
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Exactly. Combine the questionnaire with some direct measurement and you'll have a much stronger study. And run a pilot first, with ten or so people."
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "What should we do with the pilot results? Do we include them in the final figures?"
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "No, keep them separate. The point of a pilot is to find out which questions are confusing or produce useless answers, so you can rewrite them before the main survey. And don't bother comparing them with national statistics or anything like that; it's far too small a sample."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Okay. Now, we wanted to ask about where to collect the waste data. We've got a few possible places."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Go on."
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "The first is the main university canteen. I spoke to the catering manager last week. She has to check with her director before we can start, but she was really keen, because they're trying to cut costs, and she'd love to know which dishes come back uneaten. If it means they can stop cooking food that nobody eats, it'll save them a lot of money."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "That's excellent. Will the exam period affect the results, though?"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "We wondered about that, but she said the number of meals served stays pretty steady right through the term, so it shouldn't make much difference."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Good. What else?"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Well, the obvious one for us is the kitchens in the student halls. We'd ask residents to put food waste into a separate bin, and we'd weigh it every evening."
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "We thought that might take too long, but it's only for one week, so actually it's manageable."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Have you asked the accommodation office?"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Yes, and that's the difficulty. They're worried about hygiene: bins of food sitting around all day, attracting flies and so on. They haven't said no, but they want a proper plan for how we'd store and clean everything."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "That's reasonable. Write them a clear procedure. Any others?"
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "The campus café in the library. The trouble is, it's tiny. It only serves a few dozen people a day, mostly coffee, so we wouldn't get enough data from it to say anything meaningful."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Probably one to leave out, then."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "And finally, the snack bar at the sports centre. Lewis works there part-time, and the manager's already said yes, so we can start as soon as we like."
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "Well, that's convenient. Just make sure you both take turns recording there, so the method's the same as everywhere else. Now, before you go, let's talk about the presentation at the end of term."
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "We were going to include photos of the bins and the waste. Would that be good?"
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "I'd be careful there. If any residents' names or faces appear, you'd have ethical issues, so I'd leave photos out altogether. What I would say is: practise the whole thing with a timer. Groups always run over, and you'll be stopped at ten minutes whether you've finished or not."
+      },
+      {
+        "speaker": "Priya",
+        "voice": "female",
+        "accent": "en-US",
+        "text": "Should we give out a handout?"
+      },
+      {
+        "speaker": "Dr Bennett",
+        "voice": "male",
+        "accent": "en-CA",
+        "text": "No need, the slides go online afterwards. But do finish with some practical recommendations, things the university could actually do. The examiners always look for that."
+      },
+      {
+        "speaker": "Lewis",
+        "voice": "male",
+        "accent": "en-GB",
+        "text": "Great, thanks. That's really helpful."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        {
+          "n": 21,
+          "prompt": "Why did the students choose food waste as their topic?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It was on the tutor's list of topics."
+            },
+            {
+              "key": "B",
+              "text": "There was a lot of previous research on it."
+            },
+            {
+              "key": "C",
+              "text": "They had noticed the problem where they live."
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 5",
+          "explanation": "Priya says the idea came from the waste in their shared kitchen. It was not on the list, and there is little research on students."
+        },
+        {
+          "n": 22,
+          "prompt": "What does the tutor think of the students' original research question?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It would be difficult to measure."
+            },
+            {
+              "key": "B",
+              "text": "It has already been studied."
+            },
+            {
+              "key": "C",
+              "text": "It covers too much."
+            }
+          ],
+          "answer": "C",
+          "evidence": "line 8",
+          "explanation": "He rejects the other two ideas and says the question is far too wide for a six-week project."
+        },
+        {
+          "n": 23,
+          "prompt": "According to the tutor, the main weakness of using only a questionnaire is that",
+          "options": [
+            {
+              "key": "A",
+              "text": "few students would respond."
+            },
+            {
+              "key": "B",
+              "text": "people underestimate how much they waste."
+            },
+            {
+              "key": "C",
+              "text": "the software would be expensive."
+            }
+          ],
+          "answer": "B",
+          "evidence": "line 12",
+          "explanation": "Response rates are reasonable and the software is free; the problem is that self-reported figures will be too low."
+        },
+        {
+          "n": 24,
+          "prompt": "The tutor says the results of the pilot study should be used to",
+          "options": [
+            {
+              "key": "A",
+              "text": "improve the questions."
+            },
+            {
+              "key": "B",
+              "text": "add to the final data."
+            },
+            {
+              "key": "C",
+              "text": "compare with national figures."
+            }
+          ],
+          "answer": "A",
+          "evidence": "line 16",
+          "explanation": "The pilot is for finding confusing questions to rewrite. It should be kept separate and is too small to compare nationally."
+        }
+      ]
+    },
+    {
+      "type": "mcq_multi",
+      "category": "multiple_choice",
+      "instructions": "Choose TWO letters, A–E.",
+      "questions": [
+        {
+          "numbers": [
+            25,
+            26
+          ],
+          "prompt": "Which TWO pieces of advice does the tutor give about the presentation?",
+          "options": [
+            {
+              "key": "A",
+              "text": "include photographs of the waste"
+            },
+            {
+              "key": "B",
+              "text": "rehearse it using a timer"
+            },
+            {
+              "key": "C",
+              "text": "prepare a handout"
+            },
+            {
+              "key": "D",
+              "text": "end with practical recommendations"
+            },
+            {
+              "key": "E",
+              "text": "use as little text on the slides as possible"
+            }
+          ],
+          "answers": [
+            "B",
+            "D"
+          ],
+          "evidence": "line 33",
+          "explanation": "He tells them to practise with a timer and to finish with recommendations. He advises against photos and says a handout is unnecessary; slide text is not discussed."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_features",
+      "instructions": "What comment is made about each place where data might be collected? Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Permission has already been given."
+        },
+        {
+          "key": "B",
+          "text": "It would not provide enough data."
+        },
+        {
+          "key": "C",
+          "text": "The time of year could affect the results."
+        },
+        {
+          "key": "D",
+          "text": "It could help the organisation save money."
+        },
+        {
+          "key": "E",
+          "text": "Collecting the data would take too long."
+        },
+        {
+          "key": "F",
+          "text": "There are concerns about hygiene."
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 27,
+          "prompt": "the main canteen",
+          "answer": "D",
+          "evidence": "line 19",
+          "explanation": "The manager wants to stop cooking uneaten dishes to cut costs. Permission is not yet final, and the exam period is said not to matter."
+        },
+        {
+          "n": 28,
+          "prompt": "kitchens in student halls",
+          "answer": "F",
+          "evidence": "line 26",
+          "explanation": "The accommodation office is worried about hygiene. The time needed is said to be manageable."
+        },
+        {
+          "n": 29,
+          "prompt": "the library café",
+          "answer": "B",
+          "evidence": "line 28",
+          "explanation": "It serves only a few dozen people a day, so there would not be enough data."
+        },
+        {
+          "n": 30,
+          "prompt": "the sports centre snack bar",
+          "answer": "A",
+          "evidence": "line 30",
+          "explanation": "The manager has already agreed, so they can start immediately."
+        }
+      ]
+    }
+  ]
+}

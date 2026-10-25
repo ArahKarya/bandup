@@ -1,0 +1,45 @@
+{
+  "id": "sp-p3-cities-crowds",
+  "kind": "speaking_task",
+  "part": 3,
+  "topic": "Cities and crowds",
+  "difficulty": 3,
+  "questions": [
+    "Why do so many people choose to live in big cities?",
+    "What problems does overcrowding cause in cities?",
+    "How can city planners reduce crowding on public transport?",
+    "Do you think people will move back to the countryside in the future?",
+    "Why do some people enjoy being in crowds, such as at concerts or festivals?"
+  ],
+  "tips": [
+    "For 'problems' and 'solutions' questions, name two or three specific points and expand one of them, rather than listing many briefly.",
+    "Use cause and effect language: 'This puts pressure on...', 'As a result...', 'which in turn...'.",
+    "Refer to cities you know, but keep the answer general rather than turning it into a personal story."
+  ],
+  "usefulPhrases": [
+    "The main draw is...",
+    "It puts a huge strain on...",
+    "which in turn leads to...",
+    "One practical solution would be to...",
+    "Remote working has changed the equation.",
+    "There's a certain energy in...",
+    "It's unlikely to be a mass movement, but..."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "[Why do so many people choose to live in big cities?]\nBecause in the big city there are many job and the salary is higher than in the village. Also there are many good university and hospital. So many young people move to the city to find better life.\n\n[What problems does overcrowding cause in cities?]\nThe first problem is traffic jam. In Jakarta, for example, the traffic is very bad, people can spend three or four hours in the road every day. The second problem is the housing is very expensive, so many people live in small house or in the slum area. And also pollution, because there is many cars and motorbikes.\n\n[How can city planners reduce crowding on public transport?]\nI think the government must build more train and bus, so people have more choice. And maybe the company can let the workers start at different time, so not everyone go to work at the same time.",
+      "commentary": "Fluency & Coherence: answers are relevant and organised with simple enumeration ('The first problem', 'The second problem'), but ideas are listed rather than explored. Lexical Resource: adequate for the topic ('traffic jam', 'slum area', 'pollution'), though limited in range and precision. Grammatical Range & Accuracy: plural and agreement errors are frequent ('many job', 'there is many cars', 'not everyone go'), but some complex sentences with 'so' and 'because' are attempted. Pronunciation: the enumerated structure suggests a predictable, segmented rhythm; the speech would be understandable but with limited intonational variety."
+    },
+    {
+      "band": 7,
+      "text": "[Why do so many people choose to live in big cities?]\nMainly for opportunities. Most of the well-paid jobs, the top universities and the specialist hospitals are concentrated in the capital, so if you want to get ahead, it often feels like there's no real alternative. There's also the lifestyle; young people in particular are attracted by the variety of entertainment and the feeling that things are happening.\n\n[What problems does overcrowding cause in cities?]\nThe most visible one is traffic. In Jakarta it's not unusual for people to spend three hours a day commuting, which obviously affects their health and their family life. Overcrowding also pushes up housing costs, so lower-income families are forced to live in informal settlements, often in areas that flood. And of course, all those vehicles create serious air pollution.\n\n[Do you think people will move back to the countryside in the future?]\nSome people might, especially now that remote working is more common. If you can do your job from anywhere with a decent internet connection, a cheaper and quieter life outside the city becomes quite attractive. But I don't think it'll be a huge movement, because most jobs still need people to be physically present.",
+      "commentary": "Fluency & Coherence: the candidate develops answers fluently, with logical links between causes and effects and a balanced prediction. Lexical Resource: a good range of relevant vocabulary ('get ahead', 'informal settlements', 'pushes up housing costs', 'remote working'), used accurately. Grammatical Range & Accuracy: passive forms, conditionals and complex noun phrases are used with good control and few errors. Pronunciation: the extended lists and qualifications ('But I don't think...') suggest effective chunking and stress, though the delivery is slightly less nuanced than the most sophisticated responses."
+    },
+    {
+      "band": 8,
+      "text": "[How can city planners reduce crowding on public transport?]\nBuilding more capacity is the obvious answer, but it's slow and expensive, so I think the quicker wins are about spreading demand. Most systems are only overwhelmed for a few hours a day, so if large employers and schools staggered their start times, even by thirty minutes, you'd flatten that peak considerably. Planners can also nudge behaviour through pricing, cheaper fares outside rush hour, for instance. And in the longer term, mixed-use neighbourhoods, where people can live, work and shop within walking distance, reduce the need to cross the city at all.\n\n[Why do some people enjoy being in crowds, such as at concerts or festivals?]\nI think it's about a shared emotional experience. When thousands of people are singing the same song, there's a sense of belonging that's hard to replicate on your own; you briefly feel part of something bigger than yourself. It's quite different from an ordinary crowd, like a packed train, where everyone's a stranger with a separate goal. At a festival, the crowd is the point.\n\n[Do you think people will move back to the countryside?]\nOnly at the margins. Remote work has made it viable for some professionals, but cities still have a powerful pull for anyone starting out.",
+      "commentary": "Fluency & Coherence: the candidate presents well-structured, nuanced arguments effortlessly, distinguishing short- and long-term solutions and different types of crowd. Lexical Resource: precise and sophisticated vocabulary ('spreading demand', 'flatten that peak', 'nudge behaviour', 'mixed-use neighbourhoods', 'at the margins') used naturally. Grammatical Range & Accuracy: a wide variety of complex structures, including conditionals, relative clauses and emphatic inversion of focus ('the crowd is the point'), all accurate. Pronunciation: the punchy closing line implies deliberate use of stress and rhythm, and the clear chunking of long sentences would sustain listener ease."
+    }
+  ]
+}

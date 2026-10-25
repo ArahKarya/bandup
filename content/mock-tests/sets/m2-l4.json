@@ -1,0 +1,162 @@
+{
+  "id": "m2-l4",
+  "kind": "question_set",
+  "skill": "listening",
+  "module": "both",
+  "part": 4,
+  "title": "Lecture: How and Why Birds Migrate",
+  "difficulty": 3,
+  "minutes": 8,
+  "tags": [
+    "mock",
+    "academic",
+    "biology",
+    "lecture"
+  ],
+  "unlisted": true,
+  "audio": {
+    "script": [
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Good morning, everyone. Today we're moving on from bird anatomy to one of the most remarkable things birds do, which is migrate. Roughly one in five of the world's bird species makes a regular seasonal journey, and some of those journeys are astonishing. The bar-tailed godwit, for instance, has been tracked flying non-stop from Alaska to New Zealand, a distance of more than eleven thousand kilometres, without once stopping to feed or rest. So this morning I want to look at four questions: why birds migrate, how they know when to go, how they prepare, and how they find their way. And I'll finish with some of the threats that migrating birds now face."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "So, why migrate at all? It's risky and exhausting. You might assume temperature is the main reason, that birds are simply escaping the cold. But in fact most birds cope with cold surprisingly well, provided they can eat enough. The real driver is food. In a northern winter, insects disappear, the ground freezes and seeds are buried under snow, so birds move to where food can still be found. And why come back north in spring, rather than staying in the tropics? Well, in the northern summer there's a short period when insects are hugely abundant, there's less competition than in the crowded tropics, and the longer days give parents more hours to gather food for their chicks."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Next, timing. How does a bird know it's time to leave? Temperature plays a part, and so does the availability of food, but the most reliable signal, and the main trigger for most species, is the change in day length. As the days shorten in autumn or lengthen in spring, this sets off hormonal changes inside the bird. Interestingly, this happens even in captivity. Researchers noticed long ago that caged birds of migratory species become extremely restless at exactly the time their wild relatives would be setting off. They hop around and flutter their wings, and they do this particularly at night, which makes sense, because many small songbirds migrate in the dark."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Then there's preparation, and this is where the physiology becomes quite extreme. In the weeks before departure, many birds go through a phase of intense eating. They lay down fat, which, gram for gram, is the most efficient fuel there is. Some small warblers nearly double their body weight in a matter of weeks. At the same time, some species do something that seems very odd: they shrink their digestive organs. The stomach and intestines get smaller, because they're heavy and won't be needed during a long flight, when the bird isn't eating anyway. Then, when the bird lands, they grow back again."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Now, navigation, which is probably the area that's attracted the most research. Birds seem to use several different systems. The first is the sun. Birds can use the position of the sun as a compass, as long as they allow for the fact that it moves across the sky during the day, and they have an internal clock that lets them do that. Night migrants, on the other hand, use the stars. In a well-known series of experiments in the 1960s, young birds were raised in a planetarium. It turned out that they weren't born knowing particular constellations. Instead, they learned where north was by watching the stars rotate around a fixed point in the sky. When the researchers made the artificial sky turn around a different star, the birds adjusted their sense of direction accordingly."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "The third system is the Earth's magnetic field. We've known for decades that birds can sense it, but how they do so is still being worked out. The leading theory at the moment is that special proteins in the bird's eye react to the magnetic field, and that the bird may actually see it, perhaps as a pattern of light and shade laid over its normal vision. It used to be thought that the sensor was in the beak, but the evidence for the eye is now much stronger. And finally, and this surprised many scientists, some seabirds appear to navigate by smell. Shearwaters, for example, seem to build up a kind of map of odours over the ocean, and when their sense of smell is temporarily blocked, they have real difficulty finding their way home."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Let me turn finally to threats. Migration has always been dangerous, but human activity is adding new risks. One is light pollution. Birds flying at night are attracted to and confused by brightly lit buildings, and many die in collisions with glass. Another is climate change, which can cause a mismatch in timing: if spring arrives earlier, the insects a bird depends on may have peaked before it arrives to breed. But the problem conservationists are most worried about is the loss of stopover sites. These are the places where birds land to rest and refuel on a long journey, such as wetlands and coastal mudflats. If one key stopover disappears, perhaps because it's drained for farming or building, a whole population may be unable to complete its journey, even if its breeding and wintering grounds are perfectly protected."
+      },
+      {
+        "speaker": "Lecturer",
+        "voice": "female",
+        "accent": "en-IE",
+        "text": "Next week we'll look at how researchers actually track migrating birds, from simple metal rings to tiny satellite tags. Please read chapter seven before then. Thank you."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+      "maxWords": 1,
+      "allowNumber": false,
+      "template": "**Bird migration**\n\n**Reasons for migrating**\n- The main driver is seasonal change in the supply of {{31}}, not temperature\n- In the northern summer, longer {{32}} give parents more time to feed chicks\n\n**Timing**\n- The main trigger is a change in day {{33}}, which causes hormonal changes\n- Caged migratory birds become restless, especially at {{34}}\n\n**Preparation**\n- Intense eating: some warblers almost double their body {{35}}\n- Some species shrink their digestive {{36}} before a long flight\n\n**Navigation**\n- Sun compass, corrected by an internal clock\n- Young night migrants learn where north is by watching the {{37}} rotate\n- Proteins in the {{38}} may allow birds to detect the magnetic field\n- Some seabirds, e.g. shearwaters, seem to navigate using {{39}}\n\n**Threats**\n- Light pollution and collisions with glass\n- Climate change causing timing mismatches\n- Biggest concern: the loss of {{40}} sites where birds rest and refuel",
+      "questions": [
+        {
+          "n": 31,
+          "answers": [
+            "food"
+          ],
+          "evidence": "line 2",
+          "explanation": "Temperature is rejected; the real driver is food."
+        },
+        {
+          "n": 32,
+          "answers": [
+            "days"
+          ],
+          "evidence": "line 2",
+          "explanation": "Longer days give parents more hours to gather food for their chicks."
+        },
+        {
+          "n": 33,
+          "answers": [
+            "length"
+          ],
+          "evidence": "line 3",
+          "explanation": "Temperature and food play a part, but the main trigger is the change in day length."
+        },
+        {
+          "n": 34,
+          "answers": [
+            "night"
+          ],
+          "evidence": "line 3",
+          "explanation": "Caged birds are restless particularly at night, when many songbirds migrate."
+        },
+        {
+          "n": 35,
+          "answers": [
+            "weight"
+          ],
+          "evidence": "line 4",
+          "explanation": "Some small warblers nearly double their body weight."
+        },
+        {
+          "n": 36,
+          "answers": [
+            "organs"
+          ],
+          "evidence": "line 4",
+          "explanation": "Some species shrink their digestive organs because they are heavy and not needed in flight."
+        },
+        {
+          "n": 37,
+          "answers": [
+            "stars"
+          ],
+          "evidence": "line 5",
+          "explanation": "In the planetarium experiments, young birds learned north by watching the stars rotate around a fixed point."
+        },
+        {
+          "n": 38,
+          "answers": [
+            "eye",
+            "eyes"
+          ],
+          "evidence": "line 6",
+          "explanation": "The leading theory places the sensor in the eye; the beak theory now has weaker evidence."
+        },
+        {
+          "n": 39,
+          "answers": [
+            "smell"
+          ],
+          "evidence": "line 6",
+          "explanation": "Shearwaters appear to navigate by smell, using a map of odours."
+        },
+        {
+          "n": 40,
+          "answers": [
+            "stopover"
+          ],
+          "evidence": "line 7",
+          "explanation": "Conservationists are most worried about the loss of stopover sites; light pollution and climate change are other threats."
+        }
+      ]
+    }
+  ]
+}

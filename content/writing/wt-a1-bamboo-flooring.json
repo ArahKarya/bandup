@@ -1,0 +1,46 @@
+{
+  "id": "wt-a1-bamboo-flooring",
+  "kind": "writing_task",
+  "module": "academic",
+  "task": 1,
+  "taskType": "process",
+  "title": "How bamboo flooring is made",
+  "difficulty": 2,
+  "prompt": "The diagram below shows the stages in the production of bamboo flooring.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+  "steps": [
+    "Mature bamboo stalks, four to six years old, are harvested by hand.",
+    "The stalks are cut into lengths of about two metres and split into thin strips.",
+    "A planing machine removes the hard outer skin from each strip.",
+    "The strips are boiled in water for several hours to remove natural sugars, which would otherwise attract insects.",
+    "The strips are dried in a kiln until their moisture content falls to around 8%.",
+    "The dried strips are coated with adhesive and pressed together under heat to form solid boards.",
+    "The boards are cut into planks, and tongue-and-groove joints are milled along the edges.",
+    "The planks are sanded and given several coats of protective finish.",
+    "Finished planks are inspected, packed and sent to retailers."
+  ],
+  "minWords": 150,
+  "minutes": 20,
+  "tips": [
+    "Use the passive voice for most stages ('the strips are boiled'), because the focus is on the material, not who does the work.",
+    "Your overview should state how many stages there are and where the process starts and ends (from harvesting bamboo to distributing finished planks).",
+    "Vary your sequencing language: 'once', 'after being', 'following this', 'at the next stage', 'finally'.",
+    "Group the stages into phases (preparing the strips, treating them, manufacturing planks) to avoid a mechanical list."
+  ],
+  "samples": [
+    {
+      "band": 6,
+      "text": "The diagram shows how bamboo flooring is made.\n\nOverall, there are nine stages in the process, from cutting bamboo to sending the planks to shops.\n\nFirst, bamboo stalks which are four to six years old are harvested by hand. Then, they are cut into two metres long and split into thin strips. After that, the outer skin is removed by a planing machine.\n\nNext, the strips are boil in water for several hours. This is to remove the sugar because the sugar can attract insects. Then the strips are dried in a kiln until the moisture is 8%.\n\nAfter that, the strips are covered with glue and pressed together with heat to make boards. Then the boards are cut into planks and the edges are cut to make joints. The planks are sanded and they are coated with protective finish several times.\n\nFinally, the planks are checked and packed and they are sent to shops.",
+      "commentary": "Task Achievement: all stages are covered and an overview is present, but the overview is minimal and there is no grouping of stages into phases. Coherence and Cohesion: the sequence is easy to follow, but sequencers are mechanical and repetitive ('Then', 'After that' each used several times). Lexical Resource: adequate, with some useful paraphrase ('glue', 'checked'), but errors such as 'cut into two metres long' and repetition of 'cut'. Grammatical Range and Accuracy: the passive is used throughout, but there are errors in form ('are boil') and sentences are mostly simple or joined with 'and'. The response is also close to the minimum length. Band 6."
+    },
+    {
+      "band": 7,
+      "text": "The diagram illustrates the process by which bamboo flooring is manufactured.\n\nOverall, there are nine stages, beginning with the harvesting of mature bamboo and ending with the distribution of finished planks. The process can be divided into three main phases: preparing bamboo strips, treating them, and turning them into floorboards.\n\nTo begin with, bamboo stalks that are between four and six years old are harvested by hand. They are then cut into sections of approximately two metres and split into thin strips, after which a planing machine removes the hard outer skin.\n\nAt the next stage, the strips are boiled for several hours in order to remove the natural sugars that would otherwise attract insects. Following this, they are dried in a kiln until their moisture content drops to about 8%.\n\nOnce dry, the strips are coated with adhesive and pressed together under heat to create solid boards. These boards are cut into planks, and tongue-and-groove joints are milled along their edges so that they can fit together. The planks are then sanded and treated with several layers of protective finish. Finally, they are inspected and packed before being delivered to retailers.",
+      "commentary": "Task Achievement: all stages are accurately described and the overview helpfully groups them into three phases. Coherence and Cohesion: clear paragraphing follows the phases, and a good range of sequencing devices is used ('after which', 'Following this', 'Once dry'). Lexical Resource: precise process vocabulary ('manufactured', 'moisture content', 'milled') with some effective paraphrasing. Grammatical Range and Accuracy: passive forms, relative clauses and purpose clauses ('in order to', 'so that') are used accurately. Although it is well organised, the body follows the diagram's wording quite closely in places, which keeps it at band 7."
+    },
+    {
+      "band": 8,
+      "text": "The diagram outlines how bamboo is converted into flooring, a nine-stage process that runs from the harvesting of the raw plant to the dispatch of finished planks to retailers.\n\nBroadly speaking, the procedure falls into three phases: the bamboo is first reduced to thin strips, these strips are then treated to make them durable, and finally they are reassembled and shaped into floorboards.\n\nThe process begins with the manual harvesting of stalks aged between four and six years. These are cut into two-metre lengths and split lengthways into narrow strips, whose tough outer skin is then stripped away by a planing machine.\n\nTreatment involves two steps. The strips are first boiled for several hours, which draws out the natural sugars that would otherwise make the material vulnerable to insects, and are then kiln-dried until only around 8% moisture remains.\n\nIn the manufacturing phase, the dried strips are coated in adhesive and bonded under heat and pressure into solid boards. After being cut into planks, these have tongue-and-groove joints milled along their edges, allowing them to interlock when laid. Sanding and several coats of protective finish follow, and the completed planks undergo a final inspection before being packed and shipped.",
+      "commentary": "Task Achievement: every stage is covered accurately, and the overview gives a clear, well-conceived summary of the three phases. Coherence and Cohesion: each paragraph corresponds to a phase and cohesion is achieved naturally through reference ('These', 'whose') and nominalisation rather than lists of sequencers. Lexical Resource: wide and precise vocabulary ('converted', 'draws out', 'bonded', 'interlock', 'dispatch'), with skilful paraphrasing of the diagram. Grammatical Range and Accuracy: a wide variety of structures, including non-defining relative clauses, participle clauses and causative 'have... milled', used accurately. A minor wording issue ('stripped away' after 'strips') is the only noticeable flaw."
+    }
+  ]
+}

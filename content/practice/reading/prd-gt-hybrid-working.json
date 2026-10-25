@@ -1,0 +1,72 @@
+{
+  "id": "prd-gt-hybrid-working",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "general",
+  "title": "Staff Guide to Hybrid Working",
+  "difficulty": 2,
+  "minutes": 17,
+  "tags": ["workplace", "business"],
+  "passage": {
+    "title": "Kestrel Insurance: Staff Guide to Hybrid Working",
+    "subtitle": "This guide applies to all office-based employees from 1 March.",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Who can work in a hybrid way? Following last year's staff survey, the company is introducing a hybrid working arrangement that allows eligible employees to divide their week between the office and home. You are eligible if you have completed your probation period and your role does not require you to be on site every day. Staff in reception, facilities and the post room are therefore not included in the scheme. If you are unsure whether your role qualifies, your line manager will be able to advise you."
+      },
+      {
+        "label": "B",
+        "text": "How many days must I spend in the office? All hybrid workers are expected to be in the office for a minimum of two days per week. Each team will choose one 'anchor day' on which every member attends, so that meetings, training and planning can take place face to face. Your second office day can be chosen freely, but it must be recorded in the online calendar by 5 pm on the Friday of the previous week. Requests to change an office day at short notice should be discussed with your manager."
+      },
+      {
+        "label": "C",
+        "text": "Booking a desk. Because fewer people will be in the building each day, permanent desks are being replaced with a shared system. Desks must be reserved using the DeskBook app, which can be downloaded from the staff intranet. Bookings can be made up to two weeks in advance. If you do not check in using the app within an hour of your booked start time, the desk will be released for others to use. Lockers are available on every floor for storing personal items overnight."
+      },
+      {
+        "label": "D",
+        "text": "Working from home. When working from home, you must be available during the company's core hours of 10 am to 3 pm and keep your status updated on the messaging system. You are responsible for making sure that your workspace is safe and that confidential documents cannot be seen by other members of your household. Customer information must never be printed at home. The company will provide a laptop, a headset and, on request, a second screen. Employees can also claim a one-off payment of £150 towards a desk or chair."
+      },
+      {
+        "label": "E",
+        "text": "Equipment and IT support. All company equipment remains the property of Kestrel Insurance and must be returned if you leave the organisation. Faults should be reported to the IT help desk, which is open from 8 am to 6 pm on weekdays. If your laptop cannot be repaired remotely, a courier will collect it and a replacement will normally be delivered within two working days. Please do not attempt to repair equipment yourself or take it to an outside repair shop."
+      },
+      {
+        "label": "F",
+        "text": "Reviewing the arrangement. Hybrid working is not a contractual right, and the arrangement will be reviewed after six months. Managers may ask an employee to return to full-time office working if their performance falls below the expected standard or if business needs change. Any employee who finds that hybrid working does not suit them may also request to return to the office full time. Feedback on the scheme can be submitted anonymously through the staff forum."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "tfng",
+      "variant": "tfng",
+      "category": "true_false_not_given",
+      "instructions": "Do the following statements agree with the information given in the text? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        { "n": 1, "statement": "Employees who are still on probation can join the hybrid working scheme.", "answer": "FALSE", "evidence": "A", "explanation": "You are eligible only 'if you have completed your probation period'." },
+        { "n": 2, "statement": "Reception staff are not eligible for hybrid working.", "answer": "TRUE", "evidence": "A", "explanation": "'Staff in reception, facilities and the post room are therefore not included'." },
+        { "n": 3, "statement": "Each employee can choose both of their office days.", "answer": "FALSE", "evidence": "B", "explanation": "One day is the team's 'anchor day'; only the second day can be chosen freely." },
+        { "n": 4, "statement": "Desks can be booked up to a month ahead.", "answer": "FALSE", "evidence": "C", "explanation": "'Bookings can be made up to two weeks in advance'." },
+        { "n": 5, "statement": "Most employees requested a second screen in the staff survey.", "answer": "NOT GIVEN", "evidence": "A, D", "explanation": "The survey is mentioned, but nothing is said about what employees requested in it." },
+        { "n": 6, "statement": "Staff may take broken laptops to a local repair shop if it is quicker.", "answer": "FALSE", "evidence": "E", "explanation": "Staff must not 'take it to an outside repair shop'." },
+        { "n": 7, "statement": "Employees can give feedback on the scheme without revealing their identity.", "answer": "TRUE", "evidence": "F", "explanation": "'Feedback on the scheme can be submitted anonymously'." }
+      ]
+    },
+    {
+      "type": "completion",
+      "category": "note_completion",
+      "instructions": "Complete the notes below. Choose NO MORE THAN TWO WORDS AND/OR A NUMBER from the text for each answer.",
+      "maxWords": 2,
+      "allowNumber": true,
+      "template": "**Hybrid working: key points**\n\n- Record second office day in the online calendar by 5 pm on {{8}}\n- Check in with DeskBook within {{9}} of start time, or lose the desk\n- Store personal items overnight in {{10}}\n- At home: be available during {{11}} (10 am – 3 pm)\n- One-off payment of £150 for a desk or {{12}}",
+      "questions": [
+        { "n": 8, "answers": ["Friday", "the Friday"], "evidence": "B", "explanation": "It must be recorded 'by 5 pm on the Friday of the previous week'." },
+        { "n": 9, "answers": ["an hour", "one hour", "1 hour"], "evidence": "C", "explanation": "'If you do not check in using the app within an hour of your booked start time'." },
+        { "n": 10, "answers": ["lockers"], "evidence": "C", "explanation": "'Lockers are available on every floor for storing personal items overnight'." },
+        { "n": 11, "answers": ["core hours"], "evidence": "D", "explanation": "'you must be available during the company's core hours of 10 am to 3 pm'." },
+        { "n": 12, "answers": ["chair", "a chair"], "evidence": "D", "explanation": "'a one-off payment of £150 towards a desk or chair'." }
+      ]
+    }
+  ]
+}

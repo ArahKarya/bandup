@@ -1,0 +1,284 @@
+{
+  "id": "m1-r3",
+  "kind": "question_set",
+  "skill": "reading",
+  "module": "academic",
+  "part": 3,
+  "title": "Is Urban Rewilding Living Up to Its Name?",
+  "difficulty": 3,
+  "minutes": 20,
+  "tags": [
+    "mock",
+    "environment",
+    "urban",
+    "opinion"
+  ],
+  "unlisted": true,
+  "passage": {
+    "title": "Is Urban Rewilding Living Up to Its Name?",
+    "subtitle": "A conservationist argues that wilder cities need clearer thinking and more honest claims.",
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Last summer a roundabout in a small market town became briefly famous. Its usual covering of closely cut grass had been replaced by a riot of poppies, cornflowers and ox-eye daisies, and photographs of it were shared many thousands of times under the heading 'rewilding in action'. It was undeniably pretty. But it was not rewilding. The flowers had been sown from commercial seed packets, they will be sown again next spring, and the whole display will be cut down and cleared away each autumn. It is gardening, and intensive gardening at that. I mention it not to sneer but because it captures a confusion that now runs through almost every conversation about wilder cities."
+      },
+      {
+        "label": "B",
+        "text": "The term 'rewilding' was coined to describe something very different. Its original advocates were concerned with large landscapes: whole valleys or mountain ranges in which natural processes, such as flooding, grazing by wild animals and the slow return of forest, would be allowed to operate again with as little human management as possible. The point was not to create a particular look, but to step back and let ecosystems organise themselves. Translating that idea to a city, where every square metre has an owner, was always going to involve compromise. The question is whether the compromise has gone so far that the word has lost its meaning."
+      },
+      {
+        "label": "C",
+        "text": "Part of the problem is that urban rewilding has been sold on promises it cannot keep. Supporters routinely claim that wilder verges and parks will reverse the decline of insects, cool overheated streets and soak up enough carbon to make a real difference to a city's emissions. Each of these benefits is real, but at the scale of a few hectares scattered across a city, each is also modest. Biodiversity figures are a particular difficulty. When an area of mown grass is left to grow, the number of species recorded in the first year or two often rises dramatically, as opportunistic plants and insects move in. Many of these early arrivals disappear again as the vegetation matures, and a more reliable picture usually takes a decade or more to emerge. Projects that publicise first-year counts are, whether they intend to or not, presenting a misleadingly rosy picture."
+      },
+      {
+        "label": "D",
+        "text": "None of this means that cities should abandon the idea. Some of the most successful schemes have been modest in ambition and honest in their claims. In the city of Tilbrook, a concrete channel that had carried a small river through a housing estate for fifty years was broken up and the river allowed to find its own course. It was slow and occasionally contentious, but it worked, and the reason, by common agreement, was that residents had been involved from the very beginning. They helped to choose the route, took part in planting days and, crucially, understood why the new riverbanks would look untidy for several years before they settled down."
+      },
+      {
+        "label": "E",
+        "text": "That question of untidiness is more important than it might appear. A fallen tree left to rot in a park is, for a beetle or a fungus, an extraordinarily rich habitat. To a passer-by, it can look like neglect. Councils that leave dead wood in place, or allow grass to grow long, without explaining what they are doing frequently receive complaints, and some have quietly gone back to mowing. A simple sign, or a neatly mown edge showing that the wildness is deliberate, can change the reaction entirely. Wildness in a city needs to be visibly intended."
+      },
+      {
+        "label": "F",
+        "text": "This brings me to the matter of motive. As budgets have shrunk, several local authorities have discovered that 'rewilding' a park costs considerably less than maintaining it. There is nothing wrong with saving money; a scheme that benefits wildlife and reduces costs is doing two good things at once. The difficulty arises when saving money is the only aim. Schemes of this kind tend to involve no planning, no monitoring and no explanation to the public, and the residents, faced with what looks like abandoned land, often turn against them within a season. When that happens, the cause of genuine rewilding suffers along with the reputation of the council."
+      },
+      {
+        "label": "G",
+        "text": "There is also a debate about which species should be welcomed. Some campaigners insist that only plants native to the region should be used in urban rewilding, and they regard any introduced species as a failure. I think this position is mistaken, at least when applied rigidly. City environments are already profoundly altered, and many non-native garden plants flower at times of year when native ones do not, providing pollinating insects with food they would otherwise lack. Excluding them on principle can leave bees and hoverflies with less to eat, not more. The same realism ought to apply to animals. Beavers released into the upper reaches of some urban streams have built dams that hold back water after heavy rain, measurably reducing flooding further downstream. Talk of returning wolves or lynx to the edges of large cities, by contrast, belongs in the realm of fantasy rather than policy."
+      },
+      {
+        "label": "H",
+        "text": "So what, in the end, is urban rewilding for? If it is judged chiefly by the number of species it adds, or the tonnes of carbon it stores, it will often disappoint. Its real value, I would argue, lies elsewhere: in giving people who live surrounded by concrete the chance to watch natural processes unfold, to see a meadow change through the seasons. A generation that grows up with that experience is more likely to support the large-scale conservation that the planet genuinely needs. That is a worthwhile goal, and it is better served by honesty about what wilder cities can and cannot do than by photographs of a roundabout full of poppies."
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq_single",
+      "category": "multiple_choice",
+      "instructions": "Questions 27–30. Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "n": 27,
+          "prompt": "Why does the writer describe the roundabout in paragraph A?",
+          "options": [
+            {
+              "key": "A",
+              "text": "to show how even small spaces can support wildlife"
+            },
+            {
+              "key": "B",
+              "text": "to give an example of a project wrongly described as rewilding"
+            },
+            {
+              "key": "C",
+              "text": "to criticise the amount of money towns spend on flowers"
+            },
+            {
+              "key": "D",
+              "text": "to explain why rewilding has become popular online"
+            }
+          ],
+          "answer": "B",
+          "evidence": "A",
+          "explanation": "The display was shared as 'rewilding in action', but the writer says it was not rewilding but intensive gardening, illustrating a common confusion."
+        },
+        {
+          "n": 28,
+          "prompt": "According to paragraph B, rewilding originally referred to",
+          "options": [
+            {
+              "key": "A",
+              "text": "creating attractive natural scenery in the countryside."
+            },
+            {
+              "key": "B",
+              "text": "protecting a small number of endangered animals."
+            },
+            {
+              "key": "C",
+              "text": "allowing natural processes to return across large areas."
+            },
+            {
+              "key": "D",
+              "text": "managing land in cooperation with its owners."
+            }
+          ],
+          "answer": "C",
+          "evidence": "B",
+          "explanation": "It meant letting processes such as flooding and grazing operate again across whole valleys or mountain ranges with little management; creating 'a particular look' was explicitly not the point."
+        },
+        {
+          "n": 29,
+          "prompt": "What point does the writer make about biodiversity figures in paragraph C?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They are usually deliberately exaggerated by project organisers."
+            },
+            {
+              "key": "B",
+              "text": "Early counts can give a falsely positive impression."
+            },
+            {
+              "key": "C",
+              "text": "They show that insects are declining despite rewilding."
+            },
+            {
+              "key": "D",
+              "text": "They are too difficult to collect in urban areas."
+            }
+          ],
+          "answer": "B",
+          "evidence": "C",
+          "explanation": "Species numbers often rise sharply at first and then fall, so first-year counts present a misleadingly rosy picture 'whether they intend to or not' (so not deliberate, ruling out A)."
+        },
+        {
+          "n": 30,
+          "prompt": "In the final paragraph, the writer argues that the main value of urban rewilding is that it",
+          "options": [
+            {
+              "key": "A",
+              "text": "stores significant amounts of carbon."
+            },
+            {
+              "key": "B",
+              "text": "adds many new species to cities."
+            },
+            {
+              "key": "C",
+              "text": "can replace large-scale conservation projects."
+            },
+            {
+              "key": "D",
+              "text": "lets city dwellers experience nature at first hand."
+            }
+          ],
+          "answer": "D",
+          "evidence": "H",
+          "explanation": "Its real value lies in giving people surrounded by concrete the chance to watch natural processes unfold. It supports, rather than replaces, large-scale conservation."
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "variant": "ynng",
+      "category": "yes_no_not_given",
+      "instructions": "Questions 31–35. Do the following statements agree with the claims of the writer in Reading Passage 3? Write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        {
+          "n": 31,
+          "statement": "The benefits of urban rewilding have often been overstated.",
+          "answer": "YES",
+          "evidence": "C",
+          "explanation": "The writer says it has been sold on promises it cannot keep and that each benefit is modest at city scale."
+        },
+        {
+          "n": 32,
+          "statement": "Urban rewilding schemes should use only plants that are native to the region.",
+          "answer": "NO",
+          "evidence": "G",
+          "explanation": "The writer calls this position mistaken when applied rigidly, because non-native plants can feed pollinators."
+        },
+        {
+          "n": 33,
+          "statement": "Most city residents would rather have formal parks than wild ones.",
+          "answer": "NOT GIVEN",
+          "evidence": "E",
+          "explanation": "The writer mentions complaints about untidiness, but never says what most residents prefer."
+        },
+        {
+          "n": 34,
+          "statement": "Plans to bring large predators to the outskirts of big cities are unrealistic.",
+          "answer": "YES",
+          "evidence": "G",
+          "explanation": "Returning wolves or lynx to city edges 'belongs in the realm of fantasy rather than policy'."
+        },
+        {
+          "n": 35,
+          "statement": "Councils are wrong to consider cost savings when deciding to rewild a park.",
+          "answer": "NO",
+          "evidence": "F",
+          "explanation": "The writer says there is nothing wrong with saving money; the problem is when it is the only aim."
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "category": "matching_sentence_endings",
+      "instructions": "Questions 36–40. Complete each sentence with the correct ending, A–H, below.",
+      "options": [
+        {
+          "key": "A",
+          "text": "was involved from the start of the planning process."
+        },
+        {
+          "key": "B",
+          "text": "may be seen as neglect unless the public is told it is deliberate."
+        },
+        {
+          "key": "C",
+          "text": "can reduce the amount of food available to pollinating insects."
+        },
+        {
+          "key": "D",
+          "text": "often lose the support of local people very quickly."
+        },
+        {
+          "key": "E",
+          "text": "have helped to lower the risk of flooding in other areas."
+        },
+        {
+          "key": "F",
+          "text": "have been banned in several countries."
+        },
+        {
+          "key": "G",
+          "text": "cost more than conventional landscaping."
+        },
+        {
+          "key": "H",
+          "text": "depend on national government funding."
+        }
+      ],
+      "allowReuse": false,
+      "questions": [
+        {
+          "n": 36,
+          "prompt": "The Tilbrook river project worked because the local community",
+          "answer": "A",
+          "evidence": "D",
+          "explanation": "By common agreement it worked because residents had been involved from the very beginning."
+        },
+        {
+          "n": 37,
+          "prompt": "Dead wood left lying in a park",
+          "answer": "B",
+          "evidence": "E",
+          "explanation": "It can look like neglect; a sign or mown edge showing it is deliberate changes the reaction."
+        },
+        {
+          "n": 38,
+          "prompt": "Strict rules allowing only native plants",
+          "answer": "C",
+          "evidence": "G",
+          "explanation": "Excluding non-native plants can leave bees and hoverflies with less to eat."
+        },
+        {
+          "n": 39,
+          "prompt": "Schemes introduced only to save money",
+          "answer": "D",
+          "evidence": "F",
+          "explanation": "Residents often turn against them within a season."
+        },
+        {
+          "n": 40,
+          "prompt": "Beavers in some urban streams",
+          "answer": "E",
+          "evidence": "G",
+          "explanation": "Their dams hold back water after heavy rain, reducing flooding further downstream."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+// BandUp — data model.
+//
+// Learning content is authored as files under content/ and copied into ContentItem by
+// `pnpm content:sync`; everything else is per-learner state. Content is referenced by its
+// string id so that re-syncing never breaks existing attempts.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum ExamModule {
+  academic
+  general
+}
+
+enum ContentKind {
+  lesson
+  vocab_deck
+  question_set
+  writing_task
+  speaking_task
+  mock_test
+}
+
+enum AttemptMode {
+  practice
+  mock
+  placement
+  /// Re-doing questions from the mistake notebook; updates mistakes, never the band timeline.
+  drill
+}
+
+enum AttemptStatus {
+  in_progress
+  submitted
+  abandoned
+}
+
+enum Skill {
+  listening
+  reading
+  writing
+  speaking
+  grammar
+}
+
+enum ScoreSource {
+  ai
+  self
+}
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String
+  /// scrypt digest, formatted `scrypt$N$r$p$salt$hash` — see lib/server/password.ts
+  passwordHash String
+  role         Role      @default(USER)
+  locale       String    @default("id")
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  sessions        Session[]
+  profile         Profile?
+  credential      ApiCredential?
+  lessonProgress  LessonProgress[]
+  vocabReviews    VocabReview[]
+  attempts        Attempt[]
+  questionResults QuestionResult[]
+  writing         WritingSubmission[]
+  speaking        SpeakingSubmission[]
+  skillScores     SkillScore[]
+  studyLogs       StudyLog[]
+  mistakes        MistakeItem[]
+  bookmarks       Bookmark[]
+  achievements    Achievement[]
+
+  @@map("users")
+}
+
+model Session {
+  /// Opaque random token; also the value of the session cookie.
+  id        String   @id
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+  @@map("sessions")
+}
+
+model Profile {
+  userId       String     @id
+  module       ExamModule @default(academic)
+  targetBand   Float      @default(6.5)
+  examDate     DateTime?  @db.Date
+  dailyMinutes Int        @default(45)
+  /// Days of week (0 = Sunday) the learner plans to study.
+  studyDays    Int[]      @default([1, 2, 3, 4, 5, 6])
+  /// Band estimated by the placement test.
+  startingBand Float?
+  onboardedAt  DateTime?
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("profiles")
+}
+
+/// A learner's own AI provider key, AES-256-GCM encrypted (lib/crypto/secret.ts).
+model ApiCredential {
+  userId     String   @id
+  provider   String
+  model      String
+  baseUrl    String?
+  ciphertext String
+  last4      String
+  /// Optional separate key/endpoint for speech transcription (Whisper-compatible).
+  transcribe Boolean  @default(false)
+  updatedAt  DateTime @updatedAt
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("api_credentials")
+}
+
+model ContentItem {
+  id         String      @id
+  kind       ContentKind
+  skill      String?
+  module     String?
+  title      String
+  /// Primary question category or task type, for filtering the library.
+  category   String?
+  difficulty Int         @default(1)
+  sortOrder  Int         @default(0)
+  unlisted   Boolean     @default(false)
+  published  Boolean     @default(true)
+  payload    Json
+  /// sha256 of the source file contents; sync skips unchanged items.
+  hash       String
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+
+  @@index([kind, published])
+  @@map("content_items")
+}
+
+model LessonProgress {
+  userId      String
+  lessonId    String
+  completedAt DateTime @default(now())
+  quizScore   Int?
+  quizMax     Int?
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, lessonId])
+  @@map("lesson_progress")
+}
+
+model VocabReview {
+  userId         String
+  wordId         String
+  deckId         String
+  ease           Float    @default(2.5)
+  interval       Int      @default(0)
+  reps           Int      @default(0)
+  lapses         Int      @default(0)
+  due            DateTime
+  lastReviewedAt DateTime @default(now())
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, wordId])
+  @@index([userId, due])
+  @@map("vocab_reviews")
+}
+
+/// One sitting of a question set, writing/speaking task, mock test or the placement test.
+model Attempt {
+  id          String        @id @default(cuid())
+  userId      String
+  mode        AttemptMode
+  contentId   String
+  contentKind ContentKind
+  status      AttemptStatus @default(in_progress)
+  /// Client state: answers, current section, remaining time per section. Autosaved.
+  state       Json          @default("{}")
+  /// Graded items per section, written on submit; drives the review screen.
+  result      Json?
+  /// Band per skill (and overall) when submitted.
+  bands       Json?
+  rawScore    Int?
+  maxScore    Int?
+  elapsedSec  Int           @default(0)
+  startedAt   DateTime      @default(now())
+  submittedAt DateTime?
+  updatedAt   DateTime      @updatedAt
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  questionResults QuestionResult[]
+  writing         WritingSubmission[]
+  speaking        SpeakingSubmission[]
+
+  @@index([userId, status])
+  @@index([userId, submittedAt])
+  @@map("attempts")
+}
+
+/// Per-question outcome, denormalised for the weakness heatmap.
+model QuestionResult {
+  id        String   @id @default(cuid())
+  attemptId String
+  userId    String
+  skill     Skill
+  category  String
+  correct   Boolean
+  createdAt DateTime @default(now())
+  attempt   Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, category])
+  @@map("question_results")
+}
+
+model WritingSubmission {
+  id          String       @id @default(cuid())
+  userId      String
+  attemptId   String?
+  taskId      String
+  task        Int
+  text        String
+  wordCount   Int
+  durationSec Int          @default(0)
+  createdAt   DateTime     @default(now())
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attempt     Attempt?     @relation(fields: [attemptId], references: [id], onDelete: SetNull)
+  scores      WritingScore[]
+
+  @@index([userId, createdAt])
+  @@map("writing_submissions")
+}
+
+model WritingScore {
+  id           String            @id @default(cuid())
+  submissionId String
+  source       ScoreSource
+  /// { ta, cc, lr, gra } on the 0–9 scale.
+  criteria     Json
+  band         Float
+  /// AI: strengths, improvements, corrections. Self: the learner's notes.
+  feedback     Json?
+  model        String?
+  createdAt    DateTime          @default(now())
+  submission   WritingSubmission @relation(fields: [submissionId], references: [id], onDelete: Cascade)
+
+  @@map("writing_scores")
+}
+
+model SpeakingSubmission {
+  id          String          @id @default(cuid())
+  userId      String
+  attemptId   String?
+  taskId      String
+  part        Int
+  /// Relative path under STORAGE_DIR, when the learner chose to keep the recording.
+  audioPath   String?
+  transcript  String          @default("")
+  durationSec Int             @default(0)
+  createdAt   DateTime        @default(now())
+  user        User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attempt     Attempt?        @relation(fields: [attemptId], references: [id], onDelete: SetNull)
+  scores      SpeakingScore[]
+
+  @@index([userId, createdAt])
+  @@map("speaking_submissions")
+}
+
+model SpeakingScore {
+  id           String             @id @default(cuid())
+  submissionId String
+  source       ScoreSource
+  /// { fc, lr, gra, p } on the 0–9 scale.
+  criteria     Json
+  band         Float
+  feedback     Json?
+  model        String?
+  createdAt    DateTime           @default(now())
+  submission   SpeakingSubmission @relation(fields: [submissionId], references: [id], onDelete: Cascade)
+
+  @@map("speaking_scores")
+}
+
+/// One band estimate for one skill at one moment — the progress chart's data points.
+model SkillScore {
+  id        String      @id @default(cuid())
+  userId    String
+  skill     Skill
+  band      Float
+  /// practice | mock | placement
+  source    AttemptMode
+  attemptId String?
+  /// Writing/Speaking practice: re-scoring a submission replaces its point instead of adding one.
+  submissionId String?
+  createdAt DateTime    @default(now())
+  user      User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, skill, createdAt])
+  @@index([submissionId])
+  @@map("skill_scores")
+}
+
+/// Minutes studied per user per day per activity, for streaks and time totals.
+model StudyLog {
+  userId   String
+  day      DateTime @db.Date
+  activity String
+  minutes  Int      @default(0)
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, day, activity])
+  @@map("study_logs")
+}
+
+/// A question the learner got wrong, kept until they get it right twice in a row.
+model MistakeItem {
+  id            String    @id @default(cuid())
+  userId        String
+  setId         String
+  n             Int
+  skill         Skill
+  category      String
+  /// The most recent wrong answer and the key, for the notebook view.
+  given         String
+  expected      String
+  attemptId     String?
+  /// Consecutive correct answers in drills; two means mastered.
+  correctStreak Int       @default(0)
+  mastered      Boolean   @default(false)
+  masteredAt    DateTime?
+  timesWrong    Int       @default(1)
+  lastDrilledAt DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, setId, n])
+  @@index([userId, mastered, updatedAt])
+  @@map("mistake_items")
+}
+
+/// A starred question, lesson or word.
+model Bookmark {
+  id        String   @id @default(cuid())
+  userId    String
+  /// question | lesson | word
+  kind      String
+  /// question: "<setId>#<n>", lesson: lesson id, word: word id
+  refId     String
+  note      String?
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, kind, refId])
+  @@index([userId, createdAt])
+  @@map("bookmarks")
+}
+
+/// An unlocked achievement; the rules live in lib/achievements/rules.ts.
+model Achievement {
+  userId   String
+  key      String
+  earnedAt DateTime @default(now())
+  /// Shown once as a toast, then marked seen.
+  seen     Boolean  @default(false)
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, key])
+  @@map("achievements")
+}

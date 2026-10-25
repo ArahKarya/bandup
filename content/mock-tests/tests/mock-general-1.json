@@ -1,0 +1,11 @@
+{
+  "id": "mock-general-1",
+  "kind": "mock_test",
+  "module": "general",
+  "title": "General Training Mock Test 1",
+  "description": "A full General Training test. Listening: renting a flat, a volunteer orientation, a tutorial on a community energy presentation, and a lecture on the psychology of habits. Reading: evening course adverts and a pool notice, workplace leave and first aid information, and a feature on Europe's night trains. Writing: a formal letter about a bag left on a coach and an essay on falling volunteer numbers. Speaking: neighbourhoods, helping a stranger, and community life.",
+  "listening": ["g1-l1", "g1-l2", "g1-l3", "g1-l4"],
+  "reading": ["g1-r1", "g1-r2", "g1-r3"],
+  "writing": ["g1-w1", "g1-w2"],
+  "speaking": ["g1-s1", "g1-s2", "g1-s3"]
+}
