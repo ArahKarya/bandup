@@ -12,6 +12,12 @@ import { WritingPrompt } from "@/components/runner/writing-prompt";
 import { AiAssessButton, SelfAssessForm } from "@/components/assess/assessment-forms";
 import { ScorePanel } from "@/components/assess/score-panel";
 import { SampleAnswers } from "@/components/assess/sample-answers";
+import { AnalysisPanel } from "@/components/assist/analysis-panel";
+import { InlineCorrections } from "@/components/assist/inline-corrections";
+import { analyzeWriting } from "@/lib/writing/analyze";
+import { correctionsFromFeedback } from "@/lib/writing/segments";
+import { writingContext } from "@/lib/writing/task-kind";
+import { ChartNoAxesColumn, PenLine } from "lucide-react";
 import { Alert, Card, LinkButton, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Writing feedback" };
@@ -31,12 +37,20 @@ export default async function WritingSubmissionPage({ params }: PageProps<"/writ
   const profile = await getProfile(user.id);
   const hasKey = Boolean(await db.apiCredential.findUnique({ where: { userId: user.id }, select: { userId: true } }));
 
+  // Inline marks come from the newest AI score that has corrections; the list stays in its panel.
+  const corrections = sub.scores
+    .filter((s) => s.source === "ai")
+    .map((s) => correctionsFromFeedback(s.feedback))
+    .find((c) => c.length > 0) ?? [];
+  const analysis = analyzeWriting(sub.text, writingContext(task));
+
   const criteriaLabels: Record<string, string> = t.writing.criteria;
   const panelLabels = { strengths: t.writing.strengths, improvements: t.writing.improvements, corrections: t.writing.corrections, ai: "AI", self: t.writing.selfAssess };
 
   return (
     <div className="mx-auto max-w-6xl">
       <PageHeader
+        icon={<PenLine size={20} aria-hidden="true" />}
         title={`${t.writing.task} ${task.task}: ${task.title}`}
         actions={
           <>
@@ -53,7 +67,18 @@ export default async function WritingSubmissionPage({ params }: PageProps<"/writ
               {sub.wordCount} {t.runner.words}
               {sub.wordCount < task.minWords && <span className="text-warning"> · {t.writing.tooShort}</span>}
             </p>
-            <div className="whitespace-pre-line font-serif leading-relaxed">{sub.text || "—"}</div>
+            {corrections.length > 0 ? (
+              <InlineCorrections text={sub.text} corrections={corrections} labels={t.assist.feedback} />
+            ) : (
+              <div className="whitespace-pre-line font-serif leading-relaxed">{sub.text || "—"}</div>
+            )}
+          </Card>
+          <Card className="p-5">
+            <h3 className="mb-3 flex items-center gap-2 font-semibold">
+              <ChartNoAxesColumn size={17} className="text-writing" aria-hidden="true" />
+              {t.assist.analysis.title}
+            </h3>
+            <AnalysisPanel analysis={analysis} text={sub.text} labels={t.assist} />
           </Card>
         </div>
 
@@ -89,6 +114,7 @@ export default async function WritingSubmissionPage({ params }: PageProps<"/writ
             <SelfAssessForm
               submissionId={sub.id}
               rubric={WRITING_RUBRIC}
+              initial={(sub.scores.find((x) => x.source === "self")?.criteria as Record<string, number> | undefined) ?? undefined}
               criteriaLabels={criteriaLabels}
               action={selfScoreWritingAction}
               labels={{ title: t.writing.selfAssess, save: t.writing.saveScore, notes: t.writing.improvements, saved: t.settings.saved }}

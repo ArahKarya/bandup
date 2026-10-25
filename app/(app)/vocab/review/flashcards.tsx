@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState, useSyncExternalStore, useTransition, 
 import { reviewWordAction } from "@/app/actions/vocab";
 import { Alert, Badge, Button, Card, ProgressBar } from "@/components/ui";
 import type { Grade } from "@/lib/srs/sm2";
+import { nextIntervalLabel } from "@/lib/srs/format";
 
 export interface FlashcardItem {
   deckId: string;
@@ -16,6 +17,8 @@ export interface FlashcardItem {
   example: string;
   collocations: string[];
   synonyms: string[];
+  /** Spaced-repetition state of a card already seen; absent for a new word. */
+  srs?: { ease: number; interval: number; reps: number; lapses: number };
 }
 
 export interface FlashcardLabels {
@@ -117,17 +120,25 @@ export function Flashcards({ items, labels, doneSlot }: Props) {
       </div>
       {failed && <Alert tone="danger">{labels.error}</Alert>}
 
-      <Card className="p-6 sm:p-8">
+      <Card key={`${card.wordId}-${queue.length}`} className="animate-rise relative overflow-hidden p-6 sm:p-10">
+        <span className="absolute top-0 right-0 left-0 h-1 bg-accent" aria-hidden="true" />
         <CardFront card={card} canSpeak={canSpeak} listenLabel={labels.listen} />
-        {flipped && <CardBack card={card} labels={labels} />}
+        {flipped && (
+          <div className="animate-rise">
+            <CardBack card={card} labels={labels} />
+          </div>
+        )}
       </Card>
 
       {flipped ? (
         <div className="grid grid-cols-2 gap-2 sm:grid-cols-4" role="group" aria-label="Grade">
           {GRADES.map((g, i) => (
-            <Button key={g} variant={GRADE_VARIANT[g]} size="lg" onClick={() => grade(g)} aria-keyshortcuts={String(i + 1)}>
-              {labels.grades[g]}
-              <kbd className="text-xs opacity-70">{i + 1}</kbd>
+            <Button key={g} variant={GRADE_VARIANT[g]} size="lg" onClick={() => grade(g)} aria-keyshortcuts={String(i + 1)} className="h-auto flex-col gap-0 py-2">
+              <span className="flex items-center gap-2">
+                {labels.grades[g]}
+                <kbd className="text-xs opacity-70">{i + 1}</kbd>
+              </span>
+              <span className="text-xs font-normal opacity-80 tabular-nums">{nextIntervalLabel(card, g)}</span>
             </Button>
           ))}
         </div>

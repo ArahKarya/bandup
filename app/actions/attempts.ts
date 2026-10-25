@@ -7,6 +7,7 @@ import { requireLearner } from "@/lib/server/auth";
 import { getContent } from "@/lib/server/content";
 import { advanceAttempt, currentSectionKind, findOwnAttempt, openAttempt, saveAttempt, PLACEMENT_ID } from "@/lib/server/attempts";
 import { parseState } from "@/lib/attempt/sections";
+import { awardAchievements } from "@/lib/server/achievements";
 
 const contentId = z.string().regex(/^[a-z0-9-]{1,80}$/);
 
@@ -37,6 +38,8 @@ const payload = z.object({
   section: z.number().int().min(0).max(10),
   answers: z.record(z.string(), z.unknown()).optional(),
   essays: z.record(z.string(), z.unknown()).optional(),
+  annotations: z.record(z.string(), z.unknown()).optional(),
+  flags: z.record(z.string(), z.unknown()).optional(),
 });
 
 export interface SaveResult {
@@ -70,6 +73,7 @@ export async function advanceAttemptAction(input: unknown): Promise<{ ok: boolea
   if (!attempt) return { ok: false };
   // Idempotent: a repeat for a section that already closed is a no-op and the page simply refreshes.
   await advanceAttempt(attempt.id, parsed.data.section, parsed.data);
+  await awardAchievements(user.id);
   revalidatePath(`/attempt/${attempt.id}`);
   revalidatePath("/dashboard");
   return { ok: true };
@@ -83,6 +87,7 @@ export async function finishAttemptAction(form: FormData): Promise<void> {
   // Only the untimed Speaking section can be finished this way; earlier sections close through the runner.
   if ((await currentSectionKind(attempt)) === "speaking") {
     await advanceAttempt(attempt.id, parseState(attempt.state).section, {});
+    await awardAchievements(user.id);
   }
   redirect(`/attempt/${attempt.id}`);
 }

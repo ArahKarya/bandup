@@ -10,6 +10,7 @@ import { hit } from "@/lib/server/rate-limit";
 import { countWords } from "@/lib/content/check";
 import { ProviderError } from "@/lib/ai/providers";
 import { aiScoreSpeaking, aiScoreWriting, logStudy, selfScoreSpeaking, selfScoreWriting } from "@/lib/server/assess";
+import { awardAchievements } from "@/lib/server/achievements";
 
 export interface AssessState {
   ok?: boolean;
@@ -57,6 +58,7 @@ export async function selfScoreWritingAction(_: AssessState, form: FormData): Pr
   const parsed = writingCriteria.safeParse(Object.fromEntries(["ta", "cc", "lr", "gra"].map((k) => [k, form.get(k)])));
   if (!parsed.success) return { error: "Choose a band for each criterion." };
   await selfScoreWriting(user.id, submissionId, parsed.data, String(form.get("notes") ?? "").slice(0, 2000));
+  await awardAchievements(user.id);
   revalidatePath(`/writing/${submissionId}`);
   return { ok: true };
 }
@@ -67,6 +69,7 @@ export async function selfScoreSpeakingAction(_: AssessState, form: FormData): P
   const parsed = speakingCriteria.safeParse(Object.fromEntries(["fc", "lr", "gra", "p"].map((k) => [k, form.get(k)])));
   if (!parsed.success) return { error: "Choose a band for each criterion." };
   await selfScoreSpeaking(user.id, submissionId, parsed.data, String(form.get("notes") ?? "").slice(0, 2000));
+  await awardAchievements(user.id);
   revalidatePath(`/speaking/${submissionId}`);
   return { ok: true };
 }
@@ -89,6 +92,7 @@ export async function aiScoreWritingAction(_: AssessState, form: FormData): Prom
   } catch (e) {
     return { error: aiError(e) };
   }
+  await awardAchievements(user.id);
   revalidatePath(`/writing/${submissionId}`);
   return { ok: true };
 }
@@ -102,6 +106,7 @@ export async function aiScoreSpeakingAction(_: AssessState, form: FormData): Pro
   } catch (e) {
     return { error: aiError(e) };
   }
+  await awardAchievements(user.id);
   revalidatePath(`/speaking/${submissionId}`);
   return { ok: true };
 }

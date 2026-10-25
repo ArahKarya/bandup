@@ -6,6 +6,10 @@ import { accuracyTone, categoryStats, weakestCategories } from "@/lib/stats/accu
 import { activityHref, activityLabel, phaseOf, planDayFor } from "@/lib/stats/plan-view";
 import { checkRoleChange } from "@/lib/stats/role-rules";
 import { buildStudyPlan, type PlanActivity } from "@/lib/plan/study-plan";
+import * as heatmapLib from "@/lib/stats/heatmap";
+import * as trendsLib from "@/lib/stats/trends";
+import * as recapLib from "@/lib/stats/recap";
+import * as icsLib from "@/lib/stats/ics";
 
 const TODAY = new Date("2026-01-07T15:30:00Z"); // a Wednesday
 const day = (iso: string) => new Date(`${iso}T00:00:00Z`);
@@ -200,5 +204,130 @@ describe("role changes", () => {
     expect(checkRoleChange({ ...base, targetId: "a", currentRole: "ADMIN", nextRole: "USER" })).toBe("self");
     expect(checkRoleChange({ ...base, adminCount: 1, currentRole: "ADMIN", nextRole: "USER" })).toBe("last_admin");
     expect(checkRoleChange({ ...base, currentRole: "USER", nextRole: "USER" })).toBe("unchanged");
+  });
+});
+
+describe("activity heatmap", () => {
+  const { buildHeatmap, heatLevel, minutesOn } = heatmapLib;
+
+  it("scales intensity to the learner's daily goal", () => {
+    expect(heatLevel(0, 45)).toBe(0);
+    expect(heatLevel(10, 45)).toBe(1);
+    expect(heatLevel(30, 45)).toBe(2);
+    expect(heatLevel(50, 45)).toBe(3);
+    expect(heatLevel(90, 45)).toBe(4);
+    expect(heatLevel(5, 0)).toBe(4);
+  });
+
+  it("lays out 16 Monday-first weeks ending with the current week and sums activities per day", () => {
+    const entries = [
+      { day: day("2026-01-07"), minutes: 20 },
+      { day: day("2026-01-07"), minutes: 25 },
+      { day: day("2026-01-05"), minutes: 10 },
+    ];
+    const map = buildHeatmap(entries, TODAY, 45);
+    expect(map.weeks).toHaveLength(16);
+    expect(map.weeks.every((w) => w.length === 7)).toBe(true);
+    const last = map.weeks[15];
+    expect(last[0].date).toBe("2026-01-05");
+    expect(last[2]).toMatchObject({ date: "2026-01-07", minutes: 45, level: 3, future: false });
+    expect(last[3].future).toBe(true);
+    expect(map.weeks[0][0].date).toBe("2025-09-22");
+    expect(map).toMatchObject({ totalMinutes: 55, activeDays: 2 });
+    expect(minutesOn(entries, TODAY)).toBe(45);
+  });
+});
+
+describe("band trends and weekly recap", () => {
+  const { bandsAsOf, daysSince, meanBandChange, skillTrends } = trendsLib;
+  const points = [
+    { skill: "reading", band: 5.5, createdAt: new Date("2025-12-01T10:00:00Z") },
+    { skill: "reading", band: 6.5, createdAt: new Date("2026-01-06T10:00:00Z") },
+    { skill: "writing", band: 6, createdAt: new Date("2026-01-06T10:00:00Z") },
+  ];
+
+  it("compares each skill with its estimate two weeks ago", () => {
+    expect(bandsAsOf(points, new Date("2025-12-31T00:00:00Z"), 1)).toEqual({ reading: 5.5 });
+    const trends = skillTrends(points, TODAY, 14, 1);
+    expect(trends).toEqual({ listening: null, reading: 1, writing: null, speaking: null });
+  });
+
+  it("averages band change over shared skills only", () => {
+    expect(meanBandChange({ reading: 5.5, writing: 6 }, { reading: 6.5, writing: 6, listening: 7 })).toBe(0.5);
+    expect(meanBandChange({}, { reading: 6 })).toBeNull();
+  });
+
+  it("counts whole days since a date", () => {
+    expect(daysSince(day("2025-12-24"), TODAY)).toBe(14);
+    expect(daysSince(null, TODAY)).toBeNull();
+  });
+
+  it("recaps a week against the one before", () => {
+    const recap = recapLib.weeklyRecap({
+      weekStart: day("2026-01-08"),
+      study: [
+        { day: day("2026-01-06"), minutes: 30 },
+        { day: day("2026-01-07"), minutes: 20 },
+        { day: day("2025-12-30"), minutes: 60 },
+      ],
+      submittedAt: [day("2026-01-06"), day("2026-01-07"), day("2025-12-29")],
+      answers: new Map([
+        ["2026-01-05", { correct: 8, answered: 10 }],
+        ["2025-12-29", { correct: 3, answered: 6 }],
+      ]),
+      bandPoints: points,
+    });
+    expect(recap).toEqual({
+      weekStart: "2026-01-05",
+      minutes: 50,
+      minutesDelta: -10,
+      sets: 2,
+      setsDelta: 1,
+      accuracy: 0.8,
+      accuracyDelta: 30,
+      // Reading moves 5.5 → 6.0 (mean of the last scores); Writing has no earlier score.
+      bandChange: 0.5,
+    });
+    expect(recapLib.isRecapDay(day("2026-01-05"))).toBe(true);
+    expect(recapLib.isRecapDay(TODAY)).toBe(false);
+  });
+
+  it("leaves accuracy empty for a week without answers", () => {
+    const recap = recapLib.weeklyRecap({ weekStart: TODAY, study: [], submittedAt: [], answers: new Map(), bandPoints: [] });
+    expect(recap).toMatchObject({ accuracy: null, accuracyDelta: null, bandChange: null, minutes: 0 });
+  });
+});
+
+describe("iCalendar export", () => {
+  const { buildIcs, escapeText, foldLine, zonedTime } = icsLib;
+
+  it("converts a local wall-clock time to UTC", () => {
+    expect(zonedTime("2026-01-07", 19, 0, "Asia/Jakarta").toISOString()).toBe("2026-01-07T12:00:00.000Z");
+    // New York is UTC−5 in January and UTC−4 in July.
+    expect(zonedTime("2026-01-07", 19, 0, "America/New_York").toISOString()).toBe("2026-01-08T00:00:00.000Z");
+    expect(zonedTime("2026-07-07", 19, 0, "America/New_York").toISOString()).toBe("2026-07-07T23:00:00.000Z");
+  });
+
+  it("escapes text and folds long lines at 75 octets", () => {
+    expect(escapeText("a,b;c\\d\ne")).toBe("a\\,b\\;c\\\\d\\ne");
+    const folded = foldLine(`DESCRIPTION:${"x".repeat(200)}`);
+    expect(folded.split("\r\n ").every((l) => new TextEncoder().encode(l).length <= 75)).toBe(true);
+    expect(folded.replace(/\r\n /g, "")).toBe(`DESCRIPTION:${"x".repeat(200)}`);
+  });
+
+  it("writes one event per entry with UTC times and an alarm", () => {
+    const ics = buildIcs(
+      [{ uid: "2026-01-07-u@bandup", start: new Date("2026-01-07T12:00:00Z"), minutes: 45, summary: "Study, 45 min", description: "• Reading\n• Vocab", url: "https://x.test/plan" }],
+      "BandUp",
+      new Date("2026-01-01T00:00:00Z"),
+    );
+    expect(ics.startsWith("BEGIN:VCALENDAR\r\n")).toBe(true);
+    expect(ics.endsWith("END:VCALENDAR\r\n")).toBe(true);
+    expect(ics).toContain("DTSTART:20260107T120000Z");
+    expect(ics).toContain("DTEND:20260107T124500Z");
+    expect(ics).toContain("SUMMARY:Study\\, 45 min");
+    expect(ics).toContain("DESCRIPTION:• Reading\\n• Vocab");
+    expect(ics.match(/BEGIN:VEVENT/g)).toHaveLength(1);
+    expect(ics).toContain("TRIGGER:-PT15M");
   });
 });

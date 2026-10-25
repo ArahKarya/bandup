@@ -29,6 +29,10 @@ export function profileFormLabels(t: Dictionary, save: string) {
     dailyMinutes: t.onboarding.dailyMinutes,
     studyDays: t.onboarding.studyDays,
     days: t.days,
+    academicDesc: t.onboarding.academicDesc,
+    generalDesc: t.onboarding.generalDesc,
+    bandNames: t.onboarding.bandNames,
+    minutesHint: t.onboarding.minutesHint,
     save,
     saved: t.settings.saved,
   };

@@ -7,7 +7,14 @@ import type { AnswerMap, GradedItem } from "@/lib/scoring/grade";
  */
 
 export type Section =
-  | { kind: "sets"; skill: "listening" | "reading" | "grammar"; setIds: string[]; minutes: number }
+  | {
+      kind: "sets";
+      skill: "listening" | "reading" | "grammar";
+      setIds: string[];
+      minutes: number;
+      /** Drill attempts: only these question numbers of each set are asked. */
+      drill?: Record<string, number[]>;
+    }
   | { kind: "writing"; taskIds: string[]; minutes: number }
   | { kind: "speaking"; taskIds: string[] };
 
@@ -19,6 +26,26 @@ export interface AttemptState {
   sectionStartedAt: string | null;
   answers: Record<string, AnswerMap>;
   essays: Record<string, string>;
+  /** Highlights and notes in passages, per set. */
+  annotations: Record<string, Annotation[]>;
+  /** Questions flagged "review later", per set. */
+  flags: Record<string, number[]>;
+  /** Drill attempts: the questions being re-done, per set (fixed when the drill starts). */
+  drill: Record<string, number[]>;
+}
+
+/**
+ * A highlight or note on a passage paragraph (reading) or script line (listening), by
+ * character offsets within that block's text.
+ */
+export interface Annotation {
+  id: string;
+  /** Paragraph or script-line index. */
+  block: number;
+  start: number;
+  end: number;
+  kind: "hl" | "note";
+  note?: string;
 }
 
 export interface SetResult {
@@ -65,8 +92,14 @@ export function practiceSections(set: QuestionSet): Section[] {
   return [{ kind: "sets", skill: set.skill, setIds: [set.id], minutes: set.minutes }];
 }
 
+/** A drill: one untimed section over the chosen questions of one or more sets. */
+export function drillSections(drill: Record<string, number[]>, skill: "listening" | "reading" | "grammar"): Section[] {
+  const count = Object.values(drill).reduce((n, nums) => n + nums.length, 0);
+  return [{ kind: "sets", skill, setIds: Object.keys(drill), minutes: Math.max(5, Math.ceil(count * 1.5)), drill }];
+}
+
 export function emptyState(): AttemptState {
-  return { section: 0, deadline: null, sectionStartedAt: null, answers: {}, essays: {} };
+  return { section: 0, deadline: null, sectionStartedAt: null, answers: {}, essays: {}, annotations: {}, flags: {}, drill: {} };
 }
 
 /** Reads stored JSON defensively — an old or hand-edited row must not crash the runner. */
@@ -80,6 +113,9 @@ export function parseState(raw: unknown): AttemptState {
     sectionStartedAt: typeof r.sectionStartedAt === "string" ? r.sectionStartedAt : null,
     answers: r.answers && typeof r.answers === "object" ? r.answers : {},
     essays: r.essays && typeof r.essays === "object" ? r.essays : {},
+    annotations: r.annotations && typeof r.annotations === "object" ? r.annotations : {},
+    flags: r.flags && typeof r.flags === "object" ? r.flags : {},
+    drill: r.drill && typeof r.drill === "object" ? r.drill : {},
   };
 }
 

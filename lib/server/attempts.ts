@@ -5,15 +5,19 @@ import { getContent } from "./content";
 import type { Attempt, Prisma, Skill } from "@/generated/prisma/client";
 
 type Tx = Prisma.TransactionClient;
-import { gradeSet, type AnswerMap } from "@/lib/scoring/grade";
+import { gradeSet } from "@/lib/scoring/grade";
 import { listeningBand, readingBand, roundOverall, scaledBand } from "@/lib/scoring/band";
 import { countWords } from "@/lib/content/check";
+import { buildDrillSet } from "@/lib/content/drill";
+import { MAX_ESSAY_CHARS, sanitizeAnnotations, sanitizeAnswers, sanitizeFlags } from "@/lib/attempt/sanitize";
 import { calendarToday } from "@/lib/stats/dates";
 import {
   PLACEMENT_ID,
   PLACEMENT_SECTIONS,
   deadlineFrom,
   isExpired,
+  drillSections,
+  emptyState,
   mockSections,
   parseState,
   practiceSections,
@@ -24,8 +28,14 @@ import {
 } from "@/lib/attempt/sections";
 
 /** The ordered sections of an attempt, rebuilt from its content. */
-export async function sectionsOf(attempt: Pick<Attempt, "mode" | "contentId">): Promise<Section[]> {
+export async function sectionsOf(attempt: Pick<Attempt, "mode" | "contentId"> & { state?: unknown }): Promise<Section[]> {
   if (attempt.mode === "placement") return PLACEMENT_SECTIONS;
+  if (attempt.mode === "drill") {
+    const drill = parseState(attempt.state).drill;
+    const first = Object.keys(drill)[0];
+    const set = first ? await getContent("question_set", first) : null;
+    return drillSections(drill, set?.skill ?? "reading");
+  }
   if (attempt.mode === "mock") {
     const mock = await getContent("mock_test", attempt.contentId);
     if (!mock) throw new Error(`Mock test ${attempt.contentId} is not available`);
@@ -59,47 +69,38 @@ export async function openAttempt(
   // Practice timers are advisory; only mock and placement sections close on their own.
   const strict = mode !== "practice";
   const state: AttemptState = {
-    section: 0,
+    ...emptyState(),
     deadline: strict && first.kind !== "speaking" ? deadlineFrom(now, first.minutes) : null,
     sectionStartedAt: now.toISOString(),
-    answers: {},
-    essays: {},
   };
   return db.attempt.create({
     data: { userId, mode, contentId, contentKind, state: state as unknown as Prisma.InputJsonValue },
   });
 }
 
-const MAX_ESSAY_CHARS = 20_000;
-const MAX_ANSWER_CHARS = 200;
-
-/** Keeps only plausible answers: question-number keys, short strings or short string arrays. */
-export function sanitizeAnswers(raw: unknown): AnswerMap {
-  if (!raw || typeof raw !== "object") return {};
-  const out: AnswerMap = {};
-  for (const [k, v] of Object.entries(raw as Record<string, unknown>)) {
-    if (!/^\d{1,3}$/.test(k)) continue;
-    if (typeof v === "string") out[k] = v.slice(0, MAX_ANSWER_CHARS);
-    else if (Array.isArray(v)) out[k] = v.filter((x): x is string => typeof x === "string").slice(0, 5).map((x) => x.slice(0, 8));
-  }
-  return out;
-}
+type SectionInput = {
+  answers?: Record<string, unknown>;
+  essays?: Record<string, unknown>;
+  annotations?: Record<string, unknown>;
+  flags?: Record<string, unknown>;
+};
 
 /**
- * Merges client answers for the current section into the stored state, key by key, so two
- * tabs on the same section cannot wipe each other's answers.
+ * Merges client input for the current section into the stored state. Answers merge key by
+ * key, so two tabs on the same section cannot wipe each other's answers; annotations and
+ * flags are replaced per set (the client always sends the whole list for a set).
  */
-export function mergeSectionInput(
-  state: AttemptState,
-  section: Section,
-  input: { answers?: Record<string, unknown>; essays?: Record<string, unknown> },
-): AttemptState {
+export function mergeSectionInput(state: AttemptState, section: Section, input: SectionInput): AttemptState {
   if (section.kind === "sets") {
     const answers = { ...state.answers };
+    const annotations = { ...state.annotations };
+    const flags = { ...state.flags };
     for (const id of section.setIds) {
       if (input.answers && id in input.answers) answers[id] = { ...answers[id], ...sanitizeAnswers(input.answers[id]) };
+      if (input.annotations && id in input.annotations) annotations[id] = sanitizeAnnotations(input.annotations[id]);
+      if (input.flags && id in input.flags) flags[id] = sanitizeFlags(input.flags[id]);
     }
-    return { ...state, answers };
+    return { ...state, answers, annotations, flags };
   }
   if (section.kind === "writing") {
     const essays = { ...state.essays };
@@ -117,8 +118,9 @@ async function gradeSection(section: Section, state: AttemptState, examModule: "
 
   const sets = [];
   for (const id of section.setIds) {
-    const set = await getContent("question_set", id);
-    if (!set) continue;
+    const full = await getContent("question_set", id);
+    if (!full) continue;
+    const set = section.drill?.[id] ? buildDrillSet(full, section.drill[id]) : full;
     const graded = gradeSet(set, state.answers[id] ?? {});
     sets.push({ setId: id, title: set.title, ...graded });
   }
@@ -133,8 +135,48 @@ async function gradeSection(section: Section, state: AttemptState, examModule: "
   return { skill: section.skill, raw, max, band, sets };
 }
 
+/**
+ * Keeps the mistake notebook current. A wrong *answered* question is added (or its streak
+ * reset); a blank one is not, so skipping a set does not flood the notebook. A correct
+ * answer to a question already in the notebook counts towards mastering it (two in a row).
+ */
+async function recordMistakes(tx: Tx, attempt: Attempt, result: SectionResult): Promise<void> {
+  const userId = attempt.userId;
+  const skill = result.skill as Skill;
+  const now = new Date();
+  const drilling = attempt.mode === "drill";
+  for (const set of result.sets) {
+    const wrong = set.items.filter((i) => !i.correct && i.given.trim() !== "");
+    const right = set.items.filter((i) => i.correct).map((i) => i.n);
+    for (const item of wrong) {
+      await tx.mistakeItem.upsert({
+        where: { userId_setId_n: { userId, setId: set.setId, n: item.n } },
+        create: { userId, setId: set.setId, n: item.n, skill, category: item.category, given: item.given, expected: item.expected, attemptId: attempt.id },
+        update: {
+          given: item.given,
+          expected: item.expected,
+          attemptId: attempt.id,
+          correctStreak: 0,
+          mastered: false,
+          masteredAt: null,
+          timesWrong: { increment: 1 },
+          ...(drilling ? { lastDrilledAt: now } : {}),
+        },
+      });
+    }
+    if (right.length) {
+      const where = { userId, setId: set.setId, n: { in: right }, mastered: false };
+      await tx.mistakeItem.updateMany({ where, data: { correctStreak: { increment: 1 }, ...(drilling ? { lastDrilledAt: now } : {}) } });
+      await tx.mistakeItem.updateMany({ where: { ...where, correctStreak: { gte: 2 } }, data: { mastered: true, masteredAt: now } });
+    }
+  }
+}
+
 async function recordSectionOutcome(tx: Tx, attempt: Attempt, result: SectionResult): Promise<void> {
   if (result.sets.length === 0) return;
+  await recordMistakes(tx, attempt, result);
+  // Drills re-ask known mistakes; counting them would skew accuracy and the band timeline.
+  if (attempt.mode === "drill") return;
   const skill = result.skill as Skill;
   const userId = attempt.userId;
   await tx.questionResult.createMany({
@@ -190,8 +232,6 @@ function sectionMinutesSpent(state: AttemptState, section: Section, now: Date): 
   return Math.min((now.getTime() - opened) / 60_000, limit);
 }
 
-type SectionInput = { answers?: Record<string, unknown>; essays?: Record<string, unknown> };
-
 async function advanceLocked(tx: Tx, attempt: Attempt, input: SectionInput): Promise<Attempt> {
   const sections = await sectionsOf(attempt);
   const current = parseState(attempt.state);
@@ -201,6 +241,8 @@ async function advanceLocked(tx: Tx, attempt: Attempt, input: SectionInput): Pro
   const profile = await tx.profile.findUnique({ where: { userId: attempt.userId } });
 
   const graded = await gradeSection(section, state, profile?.module ?? "academic");
+  // A drill reports a score but no band: it is a handful of known-hard questions.
+  if (attempt.mode === "drill") graded.band = null;
   await recordSectionOutcome(tx, attempt, graded);
   await createEssays(tx, attempt, section, state);
 
@@ -298,6 +340,24 @@ export async function currentSectionKind(attempt: Attempt): Promise<Section["kin
   if (attempt.status !== "in_progress") return null;
   const sections = await sectionsOf(attempt);
   return sections[parseState(attempt.state).section]?.kind ?? null;
+}
+
+/**
+ * Starts a drill over specific questions (from the mistake notebook or "retry wrong
+ * answers"). Any unfinished drill is abandoned: a drill is always about the current list.
+ */
+export async function openDrillAttempt(userId: string, items: { setId: string; n: number }[]): Promise<Attempt | null> {
+  const drill: Record<string, number[]> = {};
+  for (const { setId, n } of items.slice(0, 40)) drill[setId] = [...new Set([...(drill[setId] ?? []), n])].sort((a, b) => a - b);
+  // Only sets that still exist; a removed set cannot be drilled.
+  for (const id of Object.keys(drill)) if (!(await getContent("question_set", id))) delete drill[id];
+  if (Object.keys(drill).length === 0) return null;
+
+  await db.attempt.updateMany({ where: { userId, mode: "drill", status: "in_progress" }, data: { status: "abandoned" } });
+  const state: AttemptState = { ...emptyState(), drill, sectionStartedAt: new Date().toISOString() };
+  return db.attempt.create({
+    data: { userId, mode: "drill", contentId: "drill", contentKind: "question_set", state: state as unknown as Prisma.InputJsonValue },
+  });
 }
 
 export { PLACEMENT_ID };

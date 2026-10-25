@@ -27,7 +27,7 @@ export function AuthForm({ mode, action, labels }: AuthFormProps) {
 
   return (
     <form action={formAction} className="flex flex-col gap-4">
-      <h1 className="text-xl font-semibold">{labels.title}</h1>
+      <h1 className="mb-2 text-2xl font-semibold tracking-tight">{labels.title}</h1>
       {state.error && <Alert tone="danger">{state.error}</Alert>}
       {mode === "register" && (
         <Field label={labels.name} htmlFor="name">

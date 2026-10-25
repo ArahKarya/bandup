@@ -1,5 +1,6 @@
 "use client";
 
+import { createContext, useContext } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { ReactNode } from "react";
@@ -21,6 +22,19 @@ export interface GroupProps {
 }
 
 const BLANK = /\{\{(\d+)\}\}/g;
+
+/**
+ * Extension points so features can decorate questions without editing this file: the
+ * runner adds a flag toggle, the review screen a bookmark star and clickable evidence.
+ */
+export interface QuestionExtras {
+  /** Rendered under each question number (n is the first number of a "choose TWO" item). */
+  actions?: (n: number) => ReactNode;
+  /** Makes "Where to find it" clickable, e.g. to scroll to the paragraph. */
+  onEvidence?: (evidence: string, n: number) => void;
+}
+
+export const QuestionExtrasContext = createContext<QuestionExtras>({});
 
 export function QuestionGroupView(props: GroupProps) {
   const { group } = props;
@@ -64,6 +78,21 @@ function GroupBody(props: GroupProps) {
 type Of<T extends QuestionGroup["type"]> = Extract<QuestionGroup, { type: T }>;
 
 function Num({ n, item }: { n: number | string; item?: GradedItem }) {
+  const { actions } = useContext(QuestionExtrasContext);
+  const first = typeof n === "number" ? n : Number.parseInt(n, 10);
+  const extra = actions?.(first);
+  if (extra) {
+    return (
+      <span className="flex shrink-0 flex-col items-center gap-1">
+        <NumBadge n={n} item={item} />
+        {extra}
+      </span>
+    );
+  }
+  return <NumBadge n={n} item={item} />;
+}
+
+function NumBadge({ n, item }: { n: number | string; item?: GradedItem }) {
   const tone = item ? (item.correct ? "border-success bg-success-soft text-success" : "border-danger bg-danger-soft text-danger") : "border-border bg-surface-2";
   return <span className={`inline-flex h-7 min-w-7 shrink-0 items-center justify-center rounded border px-1 text-sm font-semibold tabular-nums ${tone}`}>{n}</span>;
 }
@@ -79,11 +108,7 @@ function Feedback({ item, labels }: { item?: GradedItem; labels: GroupProps["lab
         </p>
       )}
       {item.explanation && <p className="mt-1">{item.explanation}</p>}
-      {item.evidence && (
-        <p className="mt-1 text-xs text-muted">
-          {labels.evidence}: {item.evidence}
-        </p>
-      )}
+      {item.evidence && <Evidence item={item} label={labels.evidence} />}
     </div>
   );
 }
@@ -111,6 +136,19 @@ function Choice({
       <span>{children}</span>
     </label>
   );
+}
+
+function Evidence({ item, label, inline = false }: { item: GradedItem; label: string; inline?: boolean }) {
+  const { onEvidence } = useContext(QuestionExtrasContext);
+  const text = `${label}: ${item.evidence}`;
+  const body = onEvidence ? (
+    <button type="button" onClick={() => onEvidence(item.evidence!, item.n)} className="text-accent underline decoration-dotted underline-offset-2 hover:decoration-solid">
+      {text}
+    </button>
+  ) : (
+    text
+  );
+  return inline ? <>{body}</> : <p className="mt-1 text-xs text-muted">{body}</p>;
 }
 
 function McqSingle({ group, answers, onAnswer, results, labels }: GroupProps & { group: Of<"mcq_single"> }) {
@@ -290,13 +328,31 @@ function Matching({ group, answers, onAnswer, results, labels }: GroupProps & { 
   );
 }
 
-function Blank({ n, value, onAnswer, item, wordBank }: { n: number; value: string; onAnswer?: GroupProps["onAnswer"]; item?: GradedItem; wordBank?: { key: string }[] }) {
+function Blank({
+  n,
+  value,
+  onAnswer,
+  item,
+  wordBank,
+  withActions = false,
+}: {
+  n: number;
+  value: string;
+  onAnswer?: GroupProps["onAnswer"];
+  item?: GradedItem;
+  wordBank?: { key: string }[];
+  /** Template blanks have no number badge, so they carry the question actions themselves. */
+  withActions?: boolean;
+}) {
+  const { actions } = useContext(QuestionExtrasContext);
+  const extra = withActions ? actions?.(n) : null;
   const tone = item ? (item.correct ? "border-success bg-success-soft" : "border-danger bg-danger-soft") : "border-border bg-surface";
   if (wordBank) {
     return (
       <span className="mx-0.5 inline-flex items-center gap-1 align-middle" id={`q-${n}`}>
         <strong className="text-xs text-muted">{n}</strong>
         <LetterSelect n={n} options={wordBank} value={value} onAnswer={onAnswer} item={item} />
+        {extra}
       </span>
     );
   }
@@ -315,6 +371,7 @@ function Blank({ n, value, onAnswer, item, wordBank }: { n: number; value: strin
         className={`h-8 w-36 rounded border px-2 text-sm ${tone}`}
       />
       {item && !item.correct && <span className="text-xs font-medium text-success">({item.expected})</span>}
+      {extra}
     </span>
   );
 }
@@ -332,8 +389,28 @@ function withBlanks(text: string, render: (n: number) => ReactNode): ReactNode[]
   return parts;
 }
 
+/** Renders the blank for question n; provided per group so the markdown renderer can stay static. */
+const BlankContext = createContext<(n: number) => ReactNode>(() => null);
+
+/**
+ * Module-level (stable) renderer for inline code in templates. An inline arrow here would be a
+ * new component type on every render, so React would remount every blank — and the input
+ * being typed in would lose focus.
+ */
+function TemplateCode({ children }: { children?: ReactNode }) {
+  const render = useContext(BlankContext);
+  const m = /^__BLANK_(\d+)__$/.exec(String(children));
+  return m ? <>{render(Number(m[1]))}</> : <code>{children}</code>;
+}
+
+const MARKDOWN_COMPONENTS = { code: TemplateCode };
+const REMARK_PLUGINS = [remarkGfm];
+
 function Completion({ group, answers, onAnswer, results, labels }: GroupProps & { group: Of<"completion"> }) {
-  const blank = (n: number) => <Blank n={n} value={String(answers[n] ?? "")} onAnswer={onAnswer} item={results?.get(n)} wordBank={group.wordBank} />;
+  const blank = (n: number, withActions = false) => (
+    <Blank n={n} value={String(answers[n] ?? "")} onAnswer={onAnswer} item={results?.get(n)} wordBank={group.wordBank} withActions={withActions} />
+  );
+  const templateBlank = (n: number) => blank(n, true);
   const explained = group.questions.map((q) => results?.get(q.n)).filter((i): i is GradedItem => Boolean(i?.explanation || i?.evidence));
 
   return (
@@ -341,25 +418,19 @@ function Completion({ group, answers, onAnswer, results, labels }: GroupProps & 
       {group.wordBank && <OptionsBox options={group.wordBank} />}
       {group.template ? (
         <div className="prose-content rounded border border-border bg-surface p-4">
-          <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            components={{
-              // Blanks are turned into inline code before parsing so they survive inside tables and lists.
-              code: ({ children }) => {
-                const m = /^__BLANK_(\d+)__$/.exec(String(children));
-                return m ? blank(Number(m[1])) : <code>{children}</code>;
-              },
-            }}
-          >
-            {group.template.replace(BLANK, (_, n: string) => `\`__BLANK_${n}__\``)}
-          </ReactMarkdown>
+          {/* Blanks are turned into inline code before parsing so they survive inside tables and lists. */}
+          <BlankContext.Provider value={templateBlank}>
+            <ReactMarkdown remarkPlugins={REMARK_PLUGINS} components={MARKDOWN_COMPONENTS}>
+              {group.template.replace(BLANK, (_, n: string) => `\`__BLANK_${n}__\``)}
+            </ReactMarkdown>
+          </BlankContext.Provider>
         </div>
       ) : (
         <ol className="flex flex-col gap-3">
           {group.questions.map((q) => (
             <li key={q.n} className="flex gap-3 leading-9">
               <Num n={q.n} item={results?.get(q.n)} />
-              <p className="flex-1">{withBlanks(q.prompt ?? `{{${q.n}}}`, blank)}</p>
+              <p className="flex-1">{withBlanks(q.prompt ?? `{{${q.n}}}`, (n) => blank(n))}</p>
             </li>
           ))}
         </ol>
@@ -370,7 +441,13 @@ function Completion({ group, answers, onAnswer, results, labels }: GroupProps & 
             <li key={item.n} className="text-sm">
               <strong>{item.n}.</strong> <span className={item.correct ? "text-success" : "text-danger"}>{item.expected}</span>
               {item.explanation && <> — {item.explanation}</>}
-              {item.evidence && <span className="text-xs text-muted"> ({labels.evidence}: {item.evidence})</span>}
+              {item.evidence && (
+                <span className="text-xs text-muted">
+                  {" ("}
+                  <Evidence item={item} label={labels.evidence} inline />
+                  {")"}
+                </span>
+              )}
             </li>
           ))}
         </ul>

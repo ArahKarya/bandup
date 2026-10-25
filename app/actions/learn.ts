@@ -6,6 +6,7 @@ import { requireLearner } from "@/lib/server/auth";
 import { getContent } from "@/lib/server/content";
 import { db } from "@/lib/server/db";
 import { logStudy } from "@/lib/server/attempts";
+import { awardAchievements } from "@/lib/server/achievements";
 import type { Lesson } from "@/lib/content/schema";
 
 const input = z.object({
@@ -48,6 +49,7 @@ export async function completeLessonAction(raw: unknown): Promise<CompleteLesson
 
   // Study time is credited once per lesson, so re-reading cannot inflate the log.
   if (!existing) await logStudy(user.id, "lesson", lesson.minutes);
+  await awardAchievements(user.id);
 
   revalidatePath("/learn");
   revalidatePath(`/learn/${lesson.id}`);

@@ -11,7 +11,7 @@ export async function newLearner(page: Page, baseURL: string | undefined): Promi
   await page.getByRole("button", { name: "Create account" }).click();
   await expect(page).toHaveURL(/\/onboarding$/);
 
-  await page.getByLabel("Target overall band").selectOption("7");
+  await page.getByRole("radio", { name: "7.0" }).check({ force: true });
   await page.getByRole("button", { name: "Save and continue" }).click();
   await expect(page).toHaveURL(/\/onboarding\/placement$/);
   return email;

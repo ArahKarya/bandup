@@ -13,6 +13,9 @@ import { AiAssessButton, SelfAssessForm } from "@/components/assess/assessment-f
 import { TranscriptForm } from "@/components/assess/transcript-form";
 import { ScorePanel } from "@/components/assess/score-panel";
 import { SampleAnswers } from "@/components/assess/sample-answers";
+import { SpeakingMetricsPanel } from "@/components/assist/speaking-metrics";
+import { speakingMetrics } from "@/lib/speaking/metrics";
+import { Mic } from "lucide-react";
 import { Alert, Card, LinkButton, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Speaking feedback" };
@@ -29,10 +32,12 @@ export default async function SpeakingSubmissionPage({ params }: PageProps<"/spe
   const profile = await getProfile(user.id);
   const hasKey = Boolean(await db.apiCredential.findUnique({ where: { userId: user.id }, select: { userId: true } }));
   const criteriaLabels: Record<string, string> = t.speaking.criteria;
+  const metrics = speakingMetrics(sub.transcript, sub.durationSec);
 
   return (
     <div className="mx-auto max-w-6xl">
       <PageHeader
+        icon={<Mic size={20} aria-hidden="true" />}
         title={`${t.speaking.part} ${task.part}: ${task.topic}`}
         actions={
           <>
@@ -48,6 +53,7 @@ export default async function SpeakingSubmissionPage({ params }: PageProps<"/spe
           <Card className="p-5">
             <TranscriptForm submissionId={sub.id} initial={sub.transcript} action={updateTranscriptAction} labels={{ title: t.speaking.transcript, hint: t.speaking.transcriptHint, save: t.common.save, saved: t.settings.saved }} />
           </Card>
+          <SpeakingMetricsPanel metrics={metrics} labels={t.assist.speaking} />
         </div>
         <div className="flex flex-col gap-4">
           {sub.scores.map((s) => (
@@ -63,7 +69,8 @@ export default async function SpeakingSubmissionPage({ params }: PageProps<"/spe
             )}
           </Card>
           <Card className="p-5">
-            <SelfAssessForm submissionId={sub.id} rubric={SPEAKING_RUBRIC} criteriaLabels={criteriaLabels} action={selfScoreSpeakingAction}
+            <SelfAssessForm submissionId={sub.id} rubric={SPEAKING_RUBRIC}
+              initial={(sub.scores.find((x) => x.source === "self")?.criteria as Record<string, number> | undefined) ?? undefined} criteriaLabels={criteriaLabels} action={selfScoreSpeakingAction}
               labels={{ title: t.writing.selfAssess, save: t.writing.saveScore, notes: t.writing.improvements, saved: t.settings.saved }} />
           </Card>
           <SampleAnswers samples={task.samples} title={t.writing.samples} />

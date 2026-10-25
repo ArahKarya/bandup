@@ -5,10 +5,14 @@ import { db } from "./db";
 import { getProfile } from "./profile";
 import { buildStudyPlan, type StudyPlan } from "@/lib/plan/study-plan";
 import { PLACEMENT_ID } from "@/lib/attempt/sections";
-import { addDays, calendarToday, startOfUtcDay, startOfUtcWeek } from "@/lib/stats/dates";
+import { APP_TIMEZONE, addDays, calendarToday, isoDay, startOfUtcDay, startOfUtcWeek } from "@/lib/stats/dates";
 import { bandTimeline, estimatedOverall, latestBands, type SkillBands, type TimelineRow } from "@/lib/stats/bands";
 import { categoryStats, type CategoryStats } from "@/lib/stats/accuracy";
-import { computeStreak, minutesThisWeek, weeklyMinutes, type WeekMinutes } from "@/lib/stats/study-time";
+import { computeStreak, minutesThisWeek, weeklyMinutes, type StudyEntry, type WeekMinutes } from "@/lib/stats/study-time";
+import { HEATMAP_WEEKS } from "@/lib/stats/heatmap";
+import { weeklyRecap, type WeeklyRecap } from "@/lib/stats/recap";
+import { zonedTime } from "@/lib/stats/ics";
+import type { BandPoint } from "@/lib/stats/bands";
 import type { AttemptMode, ContentKind } from "@/generated/prisma/client";
 
 /**
@@ -39,13 +43,17 @@ export const getLatestBands = cache(async (userId: string, window = SMOOTHING_WI
   return latestBands(perSkill.flat(), window);
 });
 
-export async function getBandTimeline(userId: string): Promise<TimelineRow[]> {
-  const rows = await db.skillScore.findMany({
+/** Every test-skill score, oldest first: the band chart, trend arrows and recap read it. */
+export const getBandPoints = cache(async (userId: string): Promise<BandPoint[]> =>
+  db.skillScore.findMany({
     where: { userId, skill: { not: "grammar" } },
     orderBy: { createdAt: "asc" },
     select: { skill: true, band: true, createdAt: true },
-  });
-  return bandTimeline(rows);
+  }),
+);
+
+export async function getBandTimeline(userId: string): Promise<TimelineRow[]> {
+  return bandTimeline(await getBandPoints(userId));
 }
 
 export const getCategoryStats = cache(async (userId: string, today: Date = calendarToday()): Promise<CategoryStats> => {
@@ -90,6 +98,8 @@ export interface AttemptSummary {
   maxScore: number | null;
   /** Overall band if the attempt has one, else the single skill band. */
   band: number | null;
+  /** The content's skill; null for mocks and the placement test, which span several. */
+  skill: string | null;
   submittedAt: Date;
 }
 
@@ -100,24 +110,31 @@ export async function getRecentAttempts(userId: string, limit = 8): Promise<Atte
     take: limit,
     select: { id: true, mode: true, contentId: true, contentKind: true, rawScore: true, maxScore: true, bands: true, submittedAt: true },
   });
-  const titles = await titlesFor(rows.map((r) => r.contentId));
+  const meta = await contentMetaFor(rows.map((r) => r.contentId));
   return rows.map((r) => ({
     id: r.id,
     mode: r.mode,
     contentKind: r.contentKind,
-    title: r.contentId === PLACEMENT_ID ? null : (titles.get(r.contentId) ?? r.contentId),
+    title: r.contentId === PLACEMENT_ID ? null : (meta.get(r.contentId)?.title ?? r.contentId),
     rawScore: r.rawScore,
     maxScore: r.maxScore,
     band: headlineBand(r.bands),
+    skill: r.mode === "mock" || r.contentId === PLACEMENT_ID ? null : (meta.get(r.contentId)?.skill ?? null),
     submittedAt: r.submittedAt ?? new Date(0),
   }));
 }
 
+/** Title and skill for content ids, including unpublished items so history keeps its labels. */
+async function contentMetaFor(ids: readonly string[]): Promise<Map<string, { title: string; skill: string | null }>> {
+  if (ids.length === 0) return new Map();
+  const rows = await db.contentItem.findMany({ where: { id: { in: [...new Set(ids)] } }, select: { id: true, title: true, skill: true } });
+  return new Map(rows.map((r) => [r.id, { title: r.title, skill: r.skill }]));
+}
+
 /** Titles for content ids, including unpublished items so history keeps its labels. */
 export async function titlesFor(ids: readonly string[]): Promise<Map<string, string>> {
-  if (ids.length === 0) return new Map();
-  const rows = await db.contentItem.findMany({ where: { id: { in: [...new Set(ids)] } }, select: { id: true, title: true } });
-  return new Map(rows.map((r) => [r.id, r.title]));
+  const meta = await contentMetaFor(ids);
+  return new Map([...meta.entries()].map(([id, m]) => [id, m.title]));
 }
 
 /** `bands` is free-form JSON: `{ overall?, listening?, reading?, ... }`. */
@@ -215,5 +232,111 @@ export async function getAdminStats(now: Date = new Date()): Promise<AdminStats>
     attemptsWeek,
     submissions: writing + speaking,
     submissionsWeek: writingWeek + speakingWeek,
+  };
+}
+
+/** Study minutes per calendar day over the heatmap window (also feeds the recap and today's goal). */
+export const getDailyMinutes = cache(async (userId: string, today: Date = calendarToday()): Promise<StudyEntry[]> => {
+  const since = addDays(startOfUtcWeek(today), -7 * (HEATMAP_WEEKS - 1));
+  const rows = await db.studyLog.groupBy({ by: ["day"], where: { userId, day: { gte: since } }, _sum: { minutes: true } });
+  return rows.map((r) => ({ day: r.day, minutes: r._sum.minutes ?? 0 }));
+});
+
+/** The real instant a calendar-day label starts at in the app's time zone. */
+const dayStartInstant = (label: Date): Date => zonedTime(isoDay(label), 0, 0, APP_TIMEZONE);
+
+async function weekAnswers(userId: string, weekStart: Date): Promise<{ correct: number; answered: number }> {
+  const rows = await db.questionResult.groupBy({
+    by: ["correct"],
+    where: { userId, createdAt: { gte: dayStartInstant(weekStart), lt: dayStartInstant(addDays(weekStart, 7)) } },
+    _count: { _all: true },
+  });
+  const correct = rows.find((r) => r.correct)?._count._all ?? 0;
+  return { correct, answered: rows.reduce((n, r) => n + r._count._all, 0) };
+}
+
+/** Recap of the week starting `weekStart` (a Monday label) against the week before. */
+export async function getWeeklyRecap(userId: string, weekStart: Date, study: readonly StudyEntry[]): Promise<WeeklyRecap> {
+  const start = startOfUtcWeek(weekStart);
+  const prev = addDays(start, -7);
+  const [attempts, now, before, bandPoints] = await Promise.all([
+    db.attempt.findMany({
+      where: {
+        userId,
+        status: "submitted",
+        mode: { in: ["practice", "drill", "mock"] },
+        submittedAt: { gte: dayStartInstant(prev), lt: dayStartInstant(addDays(start, 7)) },
+      },
+      select: { submittedAt: true },
+    }),
+    weekAnswers(userId, start),
+    weekAnswers(userId, prev),
+    getBandPoints(userId),
+  ]);
+  return weeklyRecap({
+    weekStart: start,
+    study,
+    // Compare as calendar labels, like StudyLog days, so a late-evening set lands on the right week.
+    submittedAt: attempts.flatMap((a) => (a.submittedAt ? [calendarToday(a.submittedAt)] : [])),
+    answers: new Map([
+      [isoDay(start), now],
+      [isoDay(prev), before],
+    ]),
+    bandPoints,
+  });
+}
+
+export interface NextStepFacts {
+  openAttempt: { id: string; mode: AttemptMode; title: string | null } | null;
+  openMistakes: number;
+  lastMockAt: Date | null;
+  submittedSets: number;
+  nextLesson: { id: string; title: string; skill: string | null } | null;
+  /** Most-answered skill per question category, for colouring focus areas. */
+  categorySkills: Map<string, string>;
+}
+
+/** An in-progress attempt untouched for longer than this is not worth resuming. */
+const RESUME_DAYS = 14;
+
+/** The facts `recommendNext` needs beyond the stats the dashboard already loads. */
+export async function getNextStepFacts(userId: string, modules: string[], now: Date = new Date()): Promise<NextStepFacts> {
+  const [open, openMistakes, lastMock, submittedSets, done, categorySkills] = await Promise.all([
+    db.attempt.findFirst({
+      where: { userId, status: "in_progress", updatedAt: { gte: addDays(now, -RESUME_DAYS) } },
+      orderBy: { updatedAt: "desc" },
+      select: { id: true, mode: true, contentId: true },
+    }),
+    db.mistakeItem.count({ where: { userId, mastered: false } }),
+    db.attempt.findFirst({ where: { userId, mode: "mock", status: "submitted" }, orderBy: { submittedAt: "desc" }, select: { submittedAt: true } }),
+    db.attempt.count({ where: { userId, status: "submitted", mode: { in: ["practice", "mock"] } } }),
+    db.lessonProgress.findMany({ where: { userId }, select: { lessonId: true } }),
+    db.questionResult.groupBy({ by: ["category", "skill"], where: { userId }, _count: { _all: true } }),
+  ]);
+  const [nextLesson, titles] = await Promise.all([
+    db.contentItem.findFirst({
+      // Lessons are usually module-neutral (no module), so only a module set for the other exam excludes one.
+      where: {
+        kind: "lesson",
+        published: true,
+        unlisted: false,
+        OR: [{ module: null }, { module: { in: modules } }],
+        id: { notIn: done.map((d) => d.lessonId) },
+      },
+      orderBy: [{ sortOrder: "asc" }, { difficulty: "asc" }, { title: "asc" }],
+      select: { id: true, title: true, skill: true },
+    }),
+    open && open.contentId !== PLACEMENT_ID ? titlesFor([open.contentId]) : Promise.resolve(new Map<string, string>()),
+  ]);
+  const bestSkill = [...categorySkills]
+    .sort((a, b) => b._count._all - a._count._all)
+    .reduce((acc, r) => (acc.has(r.category) ? acc : new Map(acc).set(r.category, r.skill)), new Map<string, string>());
+  return {
+    openAttempt: open ? { id: open.id, mode: open.mode, title: titles.get(open.contentId) ?? null } : null,
+    openMistakes,
+    lastMockAt: lastMock?.submittedAt ?? null,
+    submittedSets,
+    nextLesson,
+    categorySkills: bestSkill,
   };
 }

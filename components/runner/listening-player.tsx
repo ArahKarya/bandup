@@ -1,12 +1,22 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { Pause, Play, RotateCcw } from "lucide-react";
 import type { QuestionSet } from "@/lib/content/schema";
+import type { Annotation } from "@/lib/attempt/sections";
+import type { ExamLabels } from "@/lib/i18n/messages/exam";
 import { assetUrl } from "@/lib/content/assets";
+import { fill } from "@/lib/exam/text";
 import { Button } from "@/components/ui";
+import { Annotatable } from "./annotatable";
+import { StrictListening } from "./listening-strict";
+import { Transcript } from "./transcript";
+import { useSpeechScript } from "./use-speech-script";
+
+export { Transcript } from "./transcript";
+export { pickVoice } from "./use-speech-script";
 
 type Audio = NonNullable<QuestionSet["audio"]>;
-type Line = Audio["script"][number];
 
 export interface PlayerLabels {
   play: string;
@@ -19,168 +29,119 @@ export interface PlayerLabels {
 
 interface Props {
   audio: Audio;
-  /** Exam conditions: one play-through, no pause, no transcript. */
+  /** Exam conditions: preview time, one play-through, no pause, no transcript. */
   strict: boolean;
   labels: PlayerLabels;
+  exam: ExamLabels;
+  setId: string;
+  partLabel: string;
+  range: { from: number; to: number } | null;
+  annotations: readonly Annotation[];
+  onAnnotationsChange: (next: Annotation[]) => void;
 }
 
-/** Common female voice names across macOS, Windows, Chrome and Android. */
-const FEMALE = /female|woman|samantha|karen|moira|tessa|fiona|victoria|serena|kate|susan|zira|hazel|libby|sonia|natasha|catherine|aria|jenny|google uk english female|veena|allison|ava|nicky/i;
-const MALE = /male|man|daniel|alex|fred|oliver|arthur|george|james|lee|tom|david|mark|ryan|guy|william|rishi|aaron|google uk english male/i;
+const SPEEDS = [0.8, 0.9, 1, 1.1, 1.2] as const;
 
-/** Picks a voice for a line: matching accent first, then gender, then any English voice. */
-export function pickVoice(voices: SpeechSynthesisVoice[], line: Pick<Line, "accent" | "voice">): SpeechSynthesisVoice | undefined {
-  const english = voices.filter((v) => v.lang.toLowerCase().startsWith("en"));
-  const sameAccent = english.filter((v) => v.lang.replace("_", "-").toLowerCase() === line.accent.toLowerCase());
-  const gendered = (list: SpeechSynthesisVoice[]) =>
-    list.find((v) => (line.voice === "female" ? FEMALE.test(v.name) && !/\bmale\b/i.test(v.name) : MALE.test(v.name) && !FEMALE.test(v.name)));
-  return gendered(sameAccent) ?? sameAccent[0] ?? gendered(english) ?? english[0];
+export function ListeningPlayer(props: Props) {
+  if (props.strict) return <StrictListening audio={props.audio} partLabel={props.partLabel} range={props.range} labels={props.exam} />;
+  return <PracticePlayer {...props} />;
 }
 
-function useVoices(): SpeechSynthesisVoice[] {
-  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
-  useEffect(() => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    const load = () => setVoices(window.speechSynthesis.getVoices());
-    load();
-    window.speechSynthesis.addEventListener("voiceschanged", load);
-    return () => window.speechSynthesis.removeEventListener("voiceschanged", load);
-  }, []);
-  return voices;
-}
-
-export function ListeningPlayer({ audio, strict, labels }: Props) {
-  if (audio.src) return <RecordedPlayer src={assetUrl(audio.src)} strict={strict} />;
-  return <SpeechPlayer script={audio.script} strict={strict} labels={labels} />;
-}
-
-function RecordedPlayer({ src, strict }: { src: string; strict: boolean }) {
-  // Native controls in practice; in strict mode only a play button, no scrubbing.
-  const ref = useRef<HTMLAudioElement>(null);
-  const [started, setStarted] = useState(false);
-  if (!strict) return <audio controls src={src} className="w-full" />;
+function SpeedSelect({ value, onChange, label }: { value: number; onChange: (v: number) => void; label: string }) {
   return (
-    <div>
-      <audio ref={ref} src={src} />
-      <Button type="button" disabled={started} onClick={() => { setStarted(true); void ref.current?.play(); }}>
-        ▶
-      </Button>
-    </div>
+    <label className="flex items-center gap-1.5 text-sm text-muted">
+      {label}
+      <select
+        value={value}
+        onChange={(e) => onChange(Number(e.target.value))}
+        className="h-8 rounded border border-border bg-surface px-1.5 text-sm text-fg focus:border-accent focus:outline-none"
+      >
+        {SPEEDS.map((s) => (
+          <option key={s} value={s}>
+            {s.toFixed(1)}×
+          </option>
+        ))}
+      </select>
+    </label>
   );
 }
 
-function SpeechPlayer({ script, strict, labels }: { script: Line[]; strict: boolean; labels: PlayerLabels }) {
-  const voices = useVoices();
-  const [current, setCurrent] = useState<number | null>(null);
-  const [playing, setPlaying] = useState(false);
-  const [finished, setFinished] = useState(false);
+function PracticePlayer({ audio, labels, exam, setId, annotations, onAnnotationsChange }: Props) {
+  const [speed, setSpeed] = useState(1);
   const [showTranscript, setShowTranscript] = useState(false);
-  const cancelled = useRef(false);
-  const supported = typeof window !== "undefined" && "speechSynthesis" in window;
+  const speech = useSpeechScript(audio.script, speed);
+  const audioEl = useRef<HTMLAudioElement>(null);
 
-  useEffect(() => () => {
-    cancelled.current = true;
-    if (supported) window.speechSynthesis.cancel();
-  }, [supported]);
+  useEffect(() => {
+    if (audioEl.current) audioEl.current.playbackRate = speed;
+  }, [speed]);
 
-  const speakFrom = useCallback(
-    (index: number) => {
-      if (!supported) return;
-      const synth = window.speechSynthesis;
-      synth.cancel();
-      cancelled.current = false;
+  const useSpeech = !audio.src;
+  const noVoice = useSpeech && !speech.hasVoice;
 
-      const speak = (i: number) => {
-        if (cancelled.current) return;
-        if (i >= script.length) {
-          setPlaying(false);
-          setCurrent(null);
-          setFinished(true);
-          return;
-        }
-        const line = script[i];
-        const u = new SpeechSynthesisUtterance(line.text);
-        const voice = pickVoice(voices, line);
-        if (voice) u.voice = voice;
-        u.lang = voice?.lang ?? line.accent;
-        u.rate = 0.95;
-        // Different speakers sharing one voice are told apart by pitch.
-        u.pitch = line.voice === "female" ? 1.1 : 0.9;
-        u.onend = () => window.setTimeout(() => speak(i + 1), 350);
-        u.onerror = () => speak(i + 1);
-        setCurrent(i);
-        synth.speak(u);
-      };
-
-      setPlaying(true);
-      speak(index);
-    },
-    [script, supported, voices],
+  const transcript = (
+    <Annotatable annotations={annotations} onChange={onAnnotationsChange} labels={exam}>
+      {(renderText) => (
+        <Transcript
+          script={audio.script}
+          current={useSpeech ? speech.current : null}
+          setId={setId}
+          renderText={renderText}
+          onJump={useSpeech && !noVoice ? (i) => speech.speakFrom(i) : undefined}
+          playLabel={(n) => fill(exam.playFromLine, { n })}
+        />
+      )}
+    </Annotatable>
   );
 
-  const pause = () => {
-    cancelled.current = true;
-    window.speechSynthesis.cancel();
-    setPlaying(false);
-  };
-
-  if (!supported || (voices.length > 0 && !voices.some((v) => v.lang.startsWith("en")))) {
+  if (noVoice) {
     return (
       <div className="flex flex-col gap-3">
         <p className="text-sm text-warning">{labels.noVoice}</p>
-        <Transcript script={script} current={null} />
+        {transcript}
       </div>
     );
   }
 
+  const shown = speech.current ?? (speech.finished ? audio.script.length - 1 : -1);
   return (
     <div className="flex flex-col gap-3">
       <div className="flex flex-wrap items-center gap-3">
-        {playing ? (
-          !strict && (
-            <Button type="button" variant="secondary" onClick={pause}>
-              ❚❚ {labels.pause}
-            </Button>
-          )
+        {audio.src ? (
+          <audio ref={audioEl} controls src={assetUrl(audio.src)} className="min-w-0 flex-1" onPlay={(e) => (e.currentTarget.playbackRate = speed)} />
+        ) : speech.playing ? (
+          <Button type="button" variant="secondary" onClick={speech.pause}>
+            <Pause size={16} aria-hidden="true" />
+            {labels.pause}
+          </Button>
         ) : (
-          <Button type="button" disabled={strict && (finished || current !== null)} onClick={() => speakFrom(current ?? 0)}>
-            ▶ {labels.play}
+          <Button type="button" onClick={() => speech.speakFrom(speech.current ?? 0)}>
+            <Play size={16} aria-hidden="true" />
+            {labels.play}
           </Button>
         )}
-        {!strict && !playing && current !== null && (
-          <Button type="button" variant="ghost" onClick={() => speakFrom(0)}>
-            ↺
+        {useSpeech && !speech.playing && speech.current !== null && (
+          <Button type="button" variant="ghost" onClick={() => speech.speakFrom(0)} aria-label="Restart">
+            <RotateCcw size={16} aria-hidden="true" />
           </Button>
         )}
-        <span className="text-sm tabular-nums text-muted">
-          {current !== null ? current + 1 : finished ? script.length : 0} / {script.length}
-        </span>
-        {!strict && (
-          <button type="button" className="ml-auto text-sm text-accent hover:underline" onClick={() => setShowTranscript((s) => !s)}>
-            {showTranscript ? labels.hideTranscript : labels.transcript}
-          </button>
+        {useSpeech && (
+          <span className="text-sm tabular-nums text-muted">
+            {shown + 1} / {audio.script.length}
+          </span>
         )}
+        <SpeedSelect value={speed} onChange={setSpeed} label={exam.speed} />
+        <button type="button" className="ml-auto text-sm text-accent hover:underline" aria-expanded={showTranscript} onClick={() => setShowTranscript((s) => !s)}>
+          {showTranscript ? labels.hideTranscript : labels.transcript}
+        </button>
       </div>
-      <div className="h-1 w-full overflow-hidden rounded-sm bg-surface-2">
-        <div className="h-full bg-accent transition-all" style={{ width: `${(((current ?? (finished ? script.length : 0)) + (current !== null ? 1 : 0)) / script.length) * 100}%` }} />
-      </div>
-      {!strict && <p className="text-xs text-muted">{labels.replayNote}</p>}
-      {!strict && showTranscript && <Transcript script={script} current={current} onJump={(i) => speakFrom(i)} />}
+      {useSpeech && (
+        <div className="h-1 w-full overflow-hidden rounded-sm bg-surface-2" aria-hidden="true">
+          <div className="h-full bg-listening transition-all" style={{ width: `${((shown + 1) / audio.script.length) * 100}%` }} />
+        </div>
+      )}
+      <p className="text-xs text-muted">{labels.replayNote}</p>
+      {showTranscript && transcript}
     </div>
-  );
-}
-
-export function Transcript({ script, current, onJump }: { script: Line[]; current: number | null; onJump?: (i: number) => void }) {
-  return (
-    <ol className="max-h-80 overflow-y-auto rounded border border-border bg-surface p-3 text-sm">
-      {script.map((line, i) => (
-        <li key={i} className={`flex gap-2 rounded px-1 py-0.5 ${current === i ? "bg-accent-soft" : ""}`}>
-          <span className="w-6 shrink-0 text-right text-xs tabular-nums text-muted">{i + 1}</span>
-          <button type="button" disabled={!onJump} onClick={() => onJump?.(i)} className="text-left disabled:cursor-text">
-            <strong>{line.speaker}:</strong> {line.text}
-          </button>
-        </li>
-      ))}
-    </ol>
   );
 }

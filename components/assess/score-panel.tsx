@@ -1,4 +1,5 @@
 import { BandValue, Badge, Card } from "@/components/ui";
+import { correctionsFromFeedback } from "@/lib/writing/segments";
 
 /** Shows one stored score: band, criteria and (for AI) feedback. */
 
@@ -6,7 +7,6 @@ interface Feedback {
   summary?: string;
   strengths?: string[];
   improvements?: string[];
-  corrections?: { original: string; suggestion: string; note?: string }[];
   notes?: string;
 }
 
@@ -26,6 +26,7 @@ interface ScorePanelProps {
 
 export function ScorePanel(props: ScorePanelProps) {
   const f = props.feedback && typeof props.feedback === "object" ? (props.feedback as Feedback) : null;
+  const corrections = correctionsFromFeedback(props.feedback);
   const { labels } = props;
   return (
     <Card className="flex flex-col gap-4 p-5">
@@ -41,7 +42,8 @@ export function ScorePanel(props: ScorePanelProps) {
       </div>
 
       <dl className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-        {Object.entries(props.criteria).map(([k, v]) => (
+        {/* jsonb does not keep key order, so follow the rubric order of the labels. */}
+        {Object.keys(props.criteriaLabels).filter((k) => k in props.criteria).map((k) => [k, props.criteria[k]] as const).map(([k, v]) => (
           <div key={k} className="rounded bg-surface-2 p-2">
             <dt className="text-xs text-muted">{props.criteriaLabels[k] ?? k}</dt>
             <dd className="font-semibold tabular-nums">{Number(v).toFixed(1)}</dd>
@@ -53,11 +55,11 @@ export function ScorePanel(props: ScorePanelProps) {
       {f?.notes && <p className="whitespace-pre-line text-sm text-muted">{f.notes}</p>}
       {f?.strengths && f.strengths.length > 0 && <List title={labels.strengths} items={f.strengths} tone="text-success" />}
       {f?.improvements && f.improvements.length > 0 && <List title={labels.improvements} items={f.improvements} tone="text-warning" />}
-      {f?.corrections && f.corrections.length > 0 && (
+      {corrections.length > 0 && (
         <div>
           <h4 className="mb-2 text-sm font-semibold">{labels.corrections}</h4>
           <ul className="flex flex-col gap-2 text-sm">
-            {f.corrections.map((c, i) => (
+            {corrections.map((c, i) => (
               <li key={i} className="rounded border border-border p-2">
                 <span className="text-danger line-through">{c.original}</span> → <span className="font-medium text-success">{c.suggestion}</span>
                 {c.note && <p className="mt-1 text-xs text-muted">{c.note}</p>}

@@ -12,14 +12,18 @@ Indonesian and English.
 
 | Module | What it does |
 |---|---|
-| **Onboarding & placement** | Asks for your test type, target band, exam date and study days. A 15-minute placement test estimates your starting band. |
-| **Learn** | 30 strategy and grammar lessons, each with a quick quiz and links to matching practice. |
-| **Vocabulary** | 10 topic decks with 300 words, reviewed with SM-2 spaced repetition, Indonesian glosses and text-to-speech. |
-| **Practice** | Reading, Listening and Grammar sets covering every task type (TFNG/YNNG, matching headings/information/features/endings, all completion types, map and diagram labelling, MCQ), plus Writing Task 1/2 and Speaking Part 1–3. |
+| **Onboarding & placement** | You choose a test type, target band, exam date and study days, then take a 15-minute placement test that estimates your starting band. |
+| **Learn** | 30 strategy and grammar lessons, each with a quick check, progress per skill and an "up next" suggestion. |
+| **Vocabulary** | 10 topic decks with 300 words, reviewed with SM-2 spaced repetition. Grade buttons show when each card will come back, words have Indonesian glosses and text-to-speech, and there is a search across all words and meanings. |
+| **Practice** | Reading, Listening and Grammar sets covering every task type, plus Writing Task 1/2 and Speaking Part 1–3. Filter by skill, question type and status, and sort by a recommendation that favours your weak spots. |
+| **Exam experience** | A focus mode modelled on the computer-delivered test: highlights and notes on the passage, flag-for-review, a question palette, shortcuts, a resizable split view and display settings (size, contrast, font). Listening sections give preview time and play once. Speaking is run by an examiner who reads each question aloud. |
 | **Mock tests** | Full timed tests (2 Academic, 1 General Training) in exam order, with autosave and resume. Sections close themselves when time runs out. |
-| **Scoring** | Listening and Reading are marked automatically, with answer normalisation and word limits, and converted to a band. Writing and Speaking are scored per criterion, either by you using rubrics or by your own AI key. Overall bands use the official rounding rules. |
-| **Progress** | Band estimates over time, accuracy by question type, study time, streaks and history. |
-| **Study plan** | A weekly plan built from your target, exam date and weak areas, ending with mock tests. |
+| **Mistake notebook** | Every answered question you get wrong is saved with its explanation. You drill it until you answer it correctly twice in a row, can retry the wrong answers straight from any result, and can bookmark questions and lessons. |
+| **Writing & Speaking coach** | An essay planner, a live analysis panel (paragraphs, sentence length, linking words, repetition, a task checklist) and a phrase bank. AI corrections appear inline in your essay. Speaking gets fluency metrics: words per minute, fillers and lexical variety. |
+| **Scoring** | Listening and Reading are marked automatically, with answer normalisation and word limits, then converted to bands. Writing and Speaking are scored per criterion, either by self-assessment against rubrics or by your own AI key. Overall bands use the official rounding rules. |
+| **Dashboard & progress** | A band gauge against your target, a daily-goal ring, a "next best step" card, a 16-week activity heatmap, bands over time, accuracy by question type, weekly recaps and achievements. |
+| **Study plan** | A weekly plan built from your target, exam date and weak areas, ending with mock tests. You can export it to your calendar as `.ics`. |
+| **App** | Installable PWA, light and dark themes, Indonesian and English. |
 | **Admin** | User roles, content publishing and usage statistics. |
 
 Listening audio is read aloud by the browser's text-to-speech from the written script, with

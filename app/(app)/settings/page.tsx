@@ -6,6 +6,8 @@ import { db } from "@/lib/server/db";
 import { DEFAULT_MODELS } from "@/lib/ai/providers";
 import { ProfileForm } from "@/components/profile-form";
 import { CredentialForm, DeleteAccountForm, LocaleForm, PasswordForm } from "@/components/settings/settings-forms";
+import type { ReactNode } from "react";
+import { Bot, Globe, KeyRound, Settings, Target, UserRound } from "lucide-react";
 import { Card, PageHeader } from "@/components/ui";
 
 export const metadata: Metadata = { title: "Settings" };
@@ -16,18 +18,37 @@ export default async function SettingsPage() {
   const cred = await db.apiCredential.findUnique({ where: { userId: user.id }, select: { provider: true, model: true, baseUrl: true, last4: true } });
 
   return (
-    <div className="mx-auto flex max-w-3xl flex-col gap-6">
-      <PageHeader title={t.settings.title} />
+    <div className="mx-auto max-w-5xl">
+      <PageHeader title={t.settings.title} icon={<Settings size={20} aria-hidden="true" />} />
+      <div className="grid gap-8 lg:grid-cols-[200px_1fr]">
+        <nav className="hidden lg:block" aria-label={t.settings.title}>
+          <ul className="sticky top-8 flex flex-col gap-0.5 text-sm">
+            {[
+              ["profile", t.settings.profile],
+              ["language", t.settings.language],
+              ["ai", t.settings.ai],
+              ["password", t.settings.password],
+              ["account", t.settings.account],
+            ].map(([id, label]) => (
+              <li key={id}>
+                <a href={`#${id}`} className="block rounded px-3 py-1.5 text-muted hover:bg-surface-2 hover:text-fg">
+                  {label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <div className="flex min-w-0 flex-col gap-6">
 
-      <Section title={t.settings.profile}>
+      <Section id="profile" icon={<Target size={18} />} title={t.settings.profile}>
         <ProfileForm values={await profileFormValues(user.id)} labels={profileFormLabels(t, t.settings.save)} />
       </Section>
 
-      <Section title={t.settings.language}>
+      <Section id="language" icon={<Globe size={18} />} title={t.settings.language}>
         <LocaleForm locale={locale} labels={{ language: t.settings.language }} />
       </Section>
 
-      <Section title={t.settings.ai} sub={t.settings.aiBody}>
+      <Section id="ai" icon={<Bot size={18} />} title={t.settings.ai} sub={t.settings.aiBody}>
         <CredentialForm
           current={cred}
           defaults={DEFAULT_MODELS}
@@ -35,24 +56,31 @@ export default async function SettingsPage() {
         />
       </Section>
 
-      <Section title={t.settings.password}>
+      <Section id="password" icon={<KeyRound size={18} />} title={t.settings.password}>
         <PasswordForm labels={{ current: t.settings.currentPassword, next: t.settings.newPassword, save: t.settings.save, saved: t.settings.saved }} />
       </Section>
 
-      <Section title={t.settings.account}>
+      <Section id="account" icon={<UserRound size={18} />} title={t.settings.account}>
         <div className="flex flex-col gap-6">
           <a href="/api/export" className="text-sm font-medium text-accent hover:underline">{t.settings.dataExport} (JSON)</a>
           <DeleteAccountForm labels={{ title: t.settings.deleteAccount, password: t.settings.currentPassword }} />
         </div>
       </Section>
+        </div>
+      </div>
     </div>
   );
 }
 
-function Section({ title, sub, children }: { title: string; sub?: string; children: React.ReactNode }) {
+function Section({ id, icon, title, sub, children }: { id: string; icon: ReactNode; title: string; sub?: string; children: ReactNode }) {
   return (
-    <Card className="p-6">
-      <h2 className="font-semibold">{title}</h2>
+    <Card className="scroll-mt-8 p-6" id={id}>
+      <h2 className="flex items-center gap-2 font-semibold">
+        <span className="text-accent" aria-hidden="true">
+          {icon}
+        </span>
+        {title}
+      </h2>
       {sub && <p className="mt-1 text-sm text-muted">{sub}</p>}
       <div className="mt-4">{children}</div>
     </Card>

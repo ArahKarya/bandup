@@ -12,10 +12,10 @@ export const tooltipStyle = {
 
 /** Fixed skill → colour mapping, so a skill keeps its colour whichever skills have data. */
 export const SKILL_COLORS = {
-  listening: "var(--chart-1)",
-  reading: "var(--chart-2)",
-  writing: "var(--chart-3)",
-  speaking: "var(--chart-4)",
+  listening: "var(--listening)",
+  reading: "var(--reading)",
+  writing: "var(--writing)",
+  speaking: "var(--speaking)",
 } as const;
 
 export const TONE_COLORS = {
